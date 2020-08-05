@@ -10,7 +10,7 @@ biens divers:
 biens divers . textile: 
   icônes: 👗
   formule:  0.5 * montant  
-  unité: kgCO2e/€
+  unité: kgCO2e
 biens divers . textile . montant: 
   question: Combien dépensez-vous par an en textiles acheté neuf ?
   description: Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
@@ -21,18 +21,18 @@ biens divers . textile . montant:
 biens divers . électroménager: 
   icônes: 👗
   formule: 1 * montant  
-  unité: kgCO2e/€
+  unité: kgCO2e
 
 biens divers . électroménager . montant: 
   question: Combien dépensez-vous par an en électroménager acheté neuf ? 
   description: Nous excluons du calcul la récupération et l'occasion.
   unité: €/an
-  par défaut: 500
+  par défaut: 1000
 
 biens divers . autres produits: 
   icônes: 👗
   formule: 0.055 * montant  
-  unité: kgCO2e/€
+  unité: kgCO2e
 
 biens divers . autres produits . montant: 
   question: Combien dépensez-vous par an en produits manufacturés neufs (mobilier, livres, etc.) ? 
@@ -45,7 +45,7 @@ biens divers . autres produits . montant:
     De même, un tabouret en plastique pourrait très bien avoir 5 fois plus d'empreinte qu'un tabouret artisanal en bois massif (le bois capte du CO2 pendant sa croissance), et pourtant ce dernier est susceptible de coûter 2 fois plus cher.
 
   note: Cette catégorie est assez vague, il faudrait au moins donner plus d'exemples.
-  par défaut: 100
+  par défaut: 2000
 
 
 
