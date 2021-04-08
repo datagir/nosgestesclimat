@@ -106,7 +106,30 @@ logement . remplacer fioul par bois:
 logement . remplacer fioul par bois . alternative: 
   formule: fioul . consommation * bois . facteur d'émission . granulés
 
- 
+logement . mutualisation:
+  titres: Prendre un ou plusieurs colocataire
+  effort: conséquent
+  icônes: 🏠🙆
+  formule: logement . impact majoré / (habitants + place libre)
+  description: |
+    Vivre à plusieurs permet de réduire l'empreinte carbone de son poste logement. Même si cette dernière sera un peu plus élevée avec un ou plusieurs colocataires,
+    de très nombreux impacts seront en réalité mutualisés (éclairage, chauffage, cuisson, etc.). Cela permet au final de réduire son empreinte carbone individuelle. 
+
+logement . place libre:
+  question: Combien de chambres libres avez-vous dans votre logement ? 
+  par défaut: 0 jours
+  unité: jours
+  suggestions: 
+    1: 1
+    2: 2
+    3: 3
+
+logement . impact majoré:
+  formule: logement . impact + (logement . électricité * 15% * place libre)
+  note: |
+      Dans une première approche on considère une augmentation de la consommation d'électricité de 15 % par nouveau colocataire. Ces 15 % représentent une  
+      appoximation de l'augmentation de la consommation d'électricité spécifique. Il n'est pas considéré d'augmentation du poste chauffage 
+
 logement . climatisation:
 
 logement . climatisation . réduction:
