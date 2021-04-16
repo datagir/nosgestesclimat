@@ -106,7 +106,6 @@ logement . remplacer fioul par bois:
 logement . remplacer fioul par bois . alternative: 
   formule: fioul . consommation * bois . facteur d'émission . granulés
 
- 
 logement . climatisation:
 
 logement . climatisation . réduction:
