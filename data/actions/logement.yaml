@@ -8,6 +8,7 @@ logement . baisse 1 degré:
     Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
     
     Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
+  applicable si: température > 19
   formule: gains 1 degré * empreinte chauffage
   note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
 
@@ -19,6 +20,28 @@ logement . baisse 1 degré . gains 1 degré:
     Nous retenons l'estimation donnée dans le [guide ADEME](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie) "40 trucs pour économiser l'eau et l'énergie".
   note: |
     Où est la source pour ces 7% ? Peut-on décliner ce chiffre pour chaque type d'énergie (bois, gaz, etc.) ? Quelle est la sensibilité de ce chiffre au type de logement, son isolation, etc. ?
+
+logement . baisse 2 degrés:
+  titre: Réduire mon chauffage de 2 degrés
+  icônes: 🏠🌡
+  description: |
+    Le logement et en particulier son chauffage (au fioul ou au gaz) a un impact sur le climat important.
+
+    Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
+    
+    Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
+  applicable si: température > 20
+  formule: gains 2 degrés * empreinte chauffage
+  note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
+
+logement . baisse 2 degrés . gains 2 degrés:
+  formule: 14%
+  description: |
+    C'est la baisse estimée de dépense d'énergie quand on baisse la température de notre foyer chauffé de 2°C dans la gamme de température usuelle (autour de 20°).
+
+    Nous retenons l'estimation donnée dans le [guide ADEME](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie) "40 trucs pour économiser l'eau et l'énergie".
+  note: |
+    Où est la source pour ces 7% (x2) ? Peut-on décliner ce chiffre pour chaque type d'énergie (bois, gaz, etc.) ? Quelle est la sensibilité de ce chiffre au type de logement, son isolation, etc. ?
 
 logement . empreinte chauffage:
   formule:
@@ -45,6 +68,213 @@ logement . part chauffage . bois:
   formule: 82.4 / 82.8
 logement . part chauffage . fioul:
   formule: 37.8 / 43.3
+  
+logement . température:
+  question: A quelle température chauffez-vous votre logement ?
+  icônes: 🌡
+  par défaut: 20
+  unité: degré
+  
+# Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé
+
+logement . électricité . reduction2°:
+  titre: J'enfile un pull plutôt que de tourner le thermostat (19°C) 
+  icônes: 🏠🌡
+  applicable si: température > 20
+  formule: (logement . électricité . consommation2° - logement . électricité . consommation) * logement . électricité . intensité carbone
+  description: |
+    Baisser le chauffage d’1°C dans son logement c’est 7% d’économie d’énergie.
+  
+logement . électricité . consommation2°: 
+  formule: logement . électricité . consommation * 66% * 14% 
+  # 66% = conso spécifique dédié au chauffage (Ademe) et 14% = 2*7% = économie d'énergie générée par une baisse 1°C
+  # Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé   
+
+# Chauffage Fioul # (A proposer à un utilisateur qui se chauffe au fioul)
+logement . fioul . reduction1°:
+  titre: Je chauffe mon logement de manière raisonnable (20°C)
+  icônes: 🏠🌡
+  applicable si: température > 19
+  formule: (logement . fioul . consommation1° - logement . fioul . consommation) * logement . fioul . intensité carbone
+  description: |
+    Baisser le chauffage d’1°C dans son logement c’est 7% d’économie d’énergie.
+  
+  logement . fioul . consommation1°: 
+  formule: logement . fioul . consommation * 66% * 7% 
+  # 66% = conso spécifique dédié au chauffage (Ademe) et 7% = économie d'énergie générée par une baisse 1°C
+  # Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé
+
+logement . fioul . reduction2°:
+  titre: J'enfile un pull plutôt que de tourner le thermostat (19°C) 
+  icônes: 🏠🌡
+  applicable si: température > 20
+  formule: (logement . fioul . consommation2° - logement . fioul . consommation) * logement . fioul . intensité carbone
+  description: |
+    Baisser le chauffage d’1°C dans son logement c’est 7% d’économie d’énergie.
+  
+  logement . fioul . consommation2°: 
+  formule: logement . fioul . consommation * 66% * 14% 
+  # 66% = conso spécifique dédié au chauffage (Ademe) et 14% = 2*7% = économie d'énergie générée par une baisse 1°C
+  # Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé   
+
+# Chauffage Gaz # (A proposer à un utilisateur qui se chauffe au gaz)
+logement . gaz . reduction1°:
+  titre: Je chauffe mon logement de manière raisonnable (20°C)
+  icônes: 🏠🌡
+  applicable si: température > 19
+  formule: (logement . gaz . consommation1° - logement . gaz . consommation) * logement . gaz . intensité carbone
+  description: |
+    Baisser le chauffage d’1°C dans son logement c’est 7% d’économie d’énergie.
+  
+  logement . gaz . consommation1°: 
+  formule: logement . gaz . consommation * 66% * 7% 
+  # 66% = conso spécifique dédié au chauffage (Ademe) et 7% = économie d'énergie générée par une baisse 1°C
+  # Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé
+
+logement . gaz . reduction2°:
+  titre: J'enfile un pull plutôt que de tourner le thermostat (19°C) 
+  icônes: 🏠🌡
+  applicable si: température > 20
+  formule: (logement . gaz . consommation2° - logement . gaz . consommation) * logement . gaz . intensité carbone
+  description: |
+    Baisser le chauffage d’1°C dans son logement c’est 7% d’économie d’énergie.
+  
+  logement . gaz . consommation2°: 
+  formule: logement . gaz . consommation * 66% * 14% 
+  # 66% = conso spécifique dédié au chauffage (Ademe) et 14% = 2*7% = économie d'énergie générée par une baisse 1°C
+  # Mettre histogramme qui compare les réduction GES associées à -1°C, -2°C. Voir le fichier Excel de calcul sur le drive partagé     
+
+### Changement chaudière ###
+
+logement . PAC . facteur d'émission:
+  formule:  0.045
+  unité: kgCO2e/kWh
+
+logement . fioul . chaudierebois: 
+  titres: Propriétaire d'une chaudière fioul je la remplace par une chaudière bois
+  icônes: 🛢🌳
+  formule: logement . fioul - (logement . fioul . consommation * logement . bois . facteur d'émission)
+  # Mettre histogramme qui compare les émissions GES par kWh en fonction du type de chauffage. Voir le fichier Excel de calcul sur le drive partagé
+  titres: Infos clefs
+  description: |
+    66 % de consommation énergétique d’un foyer est dédiée au chauffage, 11 % à l’eau chaude sanitaire
+    
+# A décliner pour les 3 autres cas : fioul --> PAC ; gaz --> bois ; gaz --> PAC
+logement . fioul . PAC: 
+logement . gaz . chaudierebois: 
+logement . gaz . PAC: 
+
+
+### Rénovation Energétique ###
+
+logement . propriétaire:
+  question: Etes-vous propriétaire de votre logement ?
+  icônes: 🏠
+  par défaut: non
+  
+logement . rénovation énergétique:
+  titre: J'améliore la performance énergétique de mon logement
+  icônes: 🏠👷‍
+  formule: logement . empreinte chauffage * gain rénovation
+  description: |
+    La rénovation énergétique de son logement permet de très forte économie d'énergie mais aussi financière qui plus est si vous vivez dans un logement mal isolé
+    voire une passoire énergétique c'est à dire un logement aux étiquettes énergétiques de classe F ou G (on en trouve plus de 7 millions en France)
+    Néanmoins, la rénovation énergétique de son longement est investissement souvent conséqent mais sachez qu'il existe de nombreuses aides à votre dispostion
+    Plus d'infos ici : https://www.faire.gouv.fr/ 
+  
+logement . gain rénovation:
+  formule: 39%
+  note: gain énergétique moyen après rénovation (source ANAH)
+
+logement . renovation énergétique BBC:
+  titre: J'améliore la performance énergétique de mon logement (labellisation BBC)
+  icônes: 🏠👷‍
+  formule: logement . empreinte chauffage * gain rénovation BBC
+  description: |
+    Une rénovation labellisé Batiment Basse Consommation (BBC) peut permettre de réduire jusqu’à 70 % la consommation d’énergie de son logement. Ce type de 
+    rénovation permet également, sur le long terme, de forte économie financière qui plus est si vous vivez dans un logement mal isolé voire une passoire énergétique
+    c'est à dire un logement aux étiquettes énergétiques de classe F ou G (on en trouve plus de 7 millions en France)
+    Néanmoins, la rénovation énergétique de son longement est investissement souvent conséqent mais sachez qu'il existe de nombreuses aides à votre dispostion
+    Plus d'infos ici : https://www.faire.gouv.fr/ 
+  
+logement . gain rénovation BBC:
+  formule: 70%
+  note: gain énergétique maximal atteinte après une rénovation BBC (source)
+
+### Eclairage ### 
+logement . éclairage LED:
+  titre: J'installe des ampoules LED dans mon logement
+  icônes: 🏠💡
+  formule: empreinte éclairage * gains LED
+  description: |
+    Les lampes LED consomment très peu d’électricité et ont une très longue durée de vie (jusqu’à 40 000 heures) ce qui compensent leur prix plus élevé à l'achat.
+    Pour faire le bon choix en matière d'éclairage, aidez-vous de l'étiquette énergétique et n'hésitez pas à consulter ce petit guide :
+    https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-choisir-son-eclairage.pdf
+      
+logement . gains LED:
+  formule: 80%
+  note: réduction de consommation induite par une LED (vis à vis d'une ampoule normale)
+  https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-reduire-facture-electricite.pdf
+
+logement . empreinte éclairage:
+  formule: électricité * part éclairage
+
+logement . part éclairage:
+  formule: 5.6%
+  note: coeff 5.6 tiré de p3 https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-reduire-facture-electricite.pdf depuis les données RTE
+
+### Sèche linge ### 
+
+#prérequis : que l'utilisateur soit propriétaire --> envisager de créer une question post-calculateur : "Etes vous propriétaire de votre logement"  
+
+logement . électricité . sechelinge:
+  titres: Privilégier l'étendoir au sèche-linge 
+  applicable si: sechelinge 
+  #quand on aura une sélection de l'électroménager à l'instar des équipements électroniques
+  effort: faible
+  icônes: 👔👗
+  formule: (400 * électricité . intensité carbone)
+  # 400 : Valeur arbitraire intermédiaire, sur la base des kWh annum donnés par différents constructeurs. Les valeurs vont de 300 à 500+ kWh annum --> j'ai choisi 400 kWh
+  description: |
+    Ne pas utiliser son sèche-linge pour faire sécher son linge c'est de l'énergie économisée. Cela permet aussi de préserver les habits qui durent ainsi plus longtemps
+
+### Mutualiser son logement ### 
+logement . mutualisation:
+  titres: Prendre un ou plusieurs colocataire
+  effort: conséquent
+  icônes: 🏠🙆
+  formule: logement . impact / (habitants + place libre)
+  description: |
+    Vivre à plusieurs permet de réduire l'empreinte carbone de son poste logement. Même si cette dernière sera un peu plus élevée avec un ou plusieurs colocataires,
+    de très nombreux impacts seront en réalité mutualisés (éclairage, chauffage, cuisson, etc.). Cela permet au final de réduire son empreinte carbone individuelle. 
+
+logement . mutualisation . place libre:
+  question: Avez-vous des chambres de libres dans votre logement ? Et si oui combien ? 
+  par défaut: 0 jours
+  unité: jours
+  suggestions: 
+    1: 1
+    2: 2
+    3: 3
+
+### Couvrir les casseroles lors de la cuisson ### 
+
+### Climatisation ### 
+
+#prérequis : que l'utilisateur possède une clim --> envisager de créer une question post-calculateur :
+#Etes vous propriétaire d'une climatisation ou prévoyez-vous d'en acheter une ?
+
+logement . électricité . climatisation:
+  titres: En période de forte chaleur je privilégie l'isolation active (humidification, ventilateur et volets fermés) à la climatisation
+  icônes: 🥵💧
+  formule: 13
+  unité: kgCO2e/kWh
+  # 13 : Calcul entre l'utilisation d'un ventilo et d'une petite clim (1000 W) 4h/j pendant 60 jours sur l'année
+  titres: Infos clefs
+  description: |
+    A définir
+
+  
 
 
 logement . éteindre appareils: 
