@@ -72,10 +72,23 @@ transport . éco-conduite:
     Guide de formation à l'éco-conduite ADEME-LaPoste: https://www.ademe.fr/sites/default/files/assets/documents/66885_guide_ecoconduite.pdf#page=8
     
 transport . boulot:
+transport . boulot . mode:
+  question: Quel mode de transport utilisez-vous pour vous rendre au travail ?
+  une possibilité: 
+      choix obligatoire: oui
+      possibilités:
+        - voiture
+        - 2 roues
+        - bus
+        - tram
+        - métro
+        - vélo/marche
+  
 transport . boulot . covoiturage:
   titre: Aller au travail en covoiturage
   effort: modéré
   applicable si: voiture . propriétaire
+  applicable si: mode = 'voiture' 
   non applicable si: voiture . km = 0
   icônes: 🚗👥
   formule: distance . année * voiture . empreinte au kilomètre * réduction covoiturage
@@ -150,6 +163,7 @@ transport . boulot . commun:
 
     > A titre d'exemple les bouchons représentent en Île-de-France par an et par personne [163 heures perdues](https://www.tomtom.com/en_gb/traffic-index/paris-traffic) soit environ 6 jours. 
 
+  applicable si: mode = 'voiture' 
   non applicable si: voiture . km = 0
   formule: boulot . distance . année * gain empreinte au km
 transport . boulot . commun . gain empreinte au km:
@@ -219,7 +233,7 @@ transport . tramway . empreinte:
   description: |
     Base Carbone consultée le 02/10/20 Tramway - 2019 - Île-de-France
 
-transport . boulot . télétravail: 
+transport . boulot . télétravail: # Dans un 2nd temps essayer de définir l'action télétravail pour les 2 roues (et bus éventuellement ?)
   titre: Faire du télétravail
   effort: conséquent
   icônes: 🏠💻
@@ -230,6 +244,7 @@ transport . boulot . télétravail:
 
     Dans ce calcul, nous ne prenons en compte que les jours télétravaillés qui évitent un déplacement en voiture individuelle.
   applicable si: compatible
+  applicable si: mode = 'voiture' 
   non applicable si: voiture . km = 0
   formule: empreinte jour voiture * jours télétravaillés * 47
 
@@ -254,8 +269,9 @@ transport . boulot . télétravail . compatible:
   question: Votre travail est-il totalement ou en partie compatible avec le télétravail ?
   par défaut: oui
 
-transport . voiture 5km: 
-  titre: Se passer de voiture pour moins de 5 km 
+transport . voiture 5km: # Dans un 2nd temps essayer de la rendre applicable pour un utilisateur faisant des trajets de moins de 5 km en 2 roues
+  titre: Se passer de voiture pour moins de 5 km
+  non applicable si: fréquence = 0
   icônes: 🚗🚲
   formule: distance totale * voiture . empreinte au kilomètre
   description: |
@@ -281,13 +297,12 @@ transport . voiture 5km . distance moyenne:
   unité: km
   description: Nous estimons simplement à 2,5km la moyenne de distance des trajets inférieurs à 5km.
 
-transport . voiture 5km . fréquence :
+transport . voiture 5km . fréquence:
   question: Combien de fois par semaine prenez-vous la voiture pour moins de 5km ?
   description: | 
     Je vais chercher mon pain à 2km en voiture, cela représente un trajet.
     Je vais au travail tous les jours du lundi au vendredi à 4km, c'est 5 trajets.
   par défaut: 14
-  unité: km
   suggestions: 
     2 fois par jour: 14
     1 fois par jour: 7
