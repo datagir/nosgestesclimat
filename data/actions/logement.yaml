@@ -8,7 +8,7 @@ logement . baisse 1 degré:
     Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
     
     Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
-  formule: gains 1 degré * empreinte chauffage
+  formule: (gains 1 degré * empreinte chauffage) / habitants
   note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
 
 logement . baisse 1 degré . gains 1 degré:
@@ -48,6 +48,8 @@ logement . part chauffage . fioul:
 
 
 logement . éteindre appareils: 
+  # Sous-estimé ? l'ADEME dit 80 euros/an dû à la veille. Soit avec 0.14 eur/kWh et le FE élec français ~ 30 kgC02e/an. A l'inverse ils surrestiment probablement (15 à 50 équip en veille)
+  # Réduire sa facture d’électricité, Juin 2019, ADEME (page 18)
   formule: empreinte du foyer / habitants
   effort: faible
   unité: kgCO2e
@@ -92,24 +94,12 @@ logement . mutualiser:
   icônes: 🏠👥
   inactive: oui
 
-logement . remplacer fioul par bois: 
-  titre: Remplacer ma chaudière au fioul par une chaudière bois
-  applicable si: fioul . chauffage au fioul
-  effort: conséquent
-  icônes: 🛢️🪵
-  formule: fioul - alternative
-  description: |
-    Les chaudières au fuel sont les plus polluantes. Les remplacer par des alternatives moins carbonnées comme ici le bois en granulés est un geste fort pour réduire votre empreinte carbone.
-  inactive: non
-  note: |
-    Nous considérons pour l'instant que le remplacement des kWh de fioul par la même quantité de kWh de bois est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
-
 logement . éclairage: oui
 logement . éclairage . LED:
   titre: Remplacer ses ampoules par des LED
   effort: faible
   icônes: 💡🔄
-  formule: consommation de l'éclairage - avec LED
+  formule: (consommation de l'éclairage - avec LED) / habitants
   description: |
     Remplacer les ampoules classiques par des ampoules basse consommation de type LED permet de diviser par 6 sa consommation électrique liée à l’éclairage. 
 
@@ -129,6 +119,19 @@ logement . éclairage . avec LED:
     6.43, c'est le rapport entre la conso annuelle de 10 ampoules 60W (450kWh) vs 10 LED équivalent 60 W (70kWh).
   références:
     Réduire sa facture d’électricité, Juin 2019, ADEME: https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-reduire-facture-electricite.pdf#page=7
+
+logement . remplacer fioul par bois: 
+  titre: Remplacer ma chaudière au fioul par une chaudière bois
+  applicable si: fioul . chauffage au fioul
+  applicable si: propriétaire
+  effort: conséquent
+  icônes: 🛢️🪵
+  formule: (fioul - alternative) / habitants
+  description: |
+    Les chaudières au fuel sont les plus polluantes. Les remplacer par des alternatives moins carbonnées comme ici le bois en granulés est un geste fort pour réduire votre empreinte carbone.
+  inactive: non
+  note: |
+    Nous considérons pour l'instant que le remplacement des kWh de fioul par la même quantité de kWh de bois est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
     
 logement . remplacer fioul par bois . alternative: 
   formule: fioul . consommation * bois . facteur d'émission . granulés
@@ -136,9 +139,10 @@ logement . remplacer fioul par bois . alternative:
 logement . remplacer gaz par PAC: 
   titre: Passer de chaudière gaz à pompe à chaleur
   applicable si: gaz . chauffage au gaz
+  applicable si: propriétaire
   effort: conséquent
   icônes: 🔥🔄
-  formule: gaz - pompe à chaleur
+  formule: (gaz - pompe à chaleur) / habitants
   description: |
     Les chaudières au gaz sont parmi les plus émissives de CO₂. Les remplacer par des alternatives moins carbonnées comme des pompes à chaleur est un geste fort pour réduire votre empreinte carbone.
 
@@ -167,20 +171,15 @@ logement . pompe à chaleur . coefficient COP:
     Guide EDF: https://particulier.edf.fr/fr/accueil/guide-energie/electricite/pompe-a-chaleur.html
     Pompe à chaleur ou radiateurs électriques ?: https://conseils-thermiques.org/contenu/pompe-a-chaleur-ou-radiateur-electrique.php
 
-
-logement . sèche-linge:
-  question: Utilisez-vous un sèche-linge ?
-  par défaut: logement . surface > 70 m2
-
 logement . séchage air libre:
   titre: Privilégier l'étendoir au sèche-linge 
-  applicable si: sèche-linge
+  applicable si: divers . électroménager . sèche-linge . présent
   #quand on aura une sélection de l'électroménager à l'instar des équipements électroniques, la question aura déjà été répondue
   effort: faible
   icônes: 💨👗
   description: |
     Faire sécher son linge à l'air libre c'est de l'énergie économisée et des habits préservés qui durent ainsi plus longtemps.
-  formule: 400 kWh * électricité . intensité carbone
+  formule: (400 kWh * électricité . intensité carbone) / habitants
   note: |
     400 kWh est une valeur choisie sur la base des kWh annuels donnés par différents constructeurs, les valeurs allant de 300 à 500+ kWh annum, 400 kWh a été retenu.
  
@@ -194,7 +193,7 @@ logement . climatisation . réduction:
 logement . rénovation énergétique:
   titre: Rénover mon logement
   icônes: 🏚️✨
-  formule: logement . empreinte chauffage * gain rénovation
+  formule: (logement . empreinte chauffage * gain rénovation) / habitants
   effort: conséquent
   applicable si: propriétaire
   inactive: non
@@ -214,7 +213,7 @@ logement . gain rénovation:
   références: 
     Programme "habiter mieux" de l'ANAH: https://www.anah.fr/actualites/detail/actualite/lanah-publie-un-premier-bilan-du-programme-habiter-mieux/?tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&cHash=26d00161febd159fcbca45d2032a56b3
 
-logement . propriétaire:
+logement . propriétaire: # A "remonter plus haut" dans le parcours utilisateur !
   question: Etes-vous propriétaire de votre logement ?
   par défaut: oui
  
@@ -222,7 +221,7 @@ logement . propriétaire:
 logement . rénovation énergétique BBC:
   titre: Rénover mon logement en BBC
   icônes: 🏠✨
-  formule: logement . empreinte chauffage * gain rénovation
+  formule: (logement . empreinte chauffage * gain rénovation) / habitants
   effort: conséquent
   applicable si: propriétaire
   description: |
