@@ -605,3 +605,26 @@ alimentation . déchets . facteur:
           alors: 0.6
         - sinon: 0.3
 
+
+alimentation . gaspillage alimentaire:
+  icônes: 🍲🚯
+  titre: Gaspillage alimentaire
+  unité: kgCO2e
+  formule:
+    variations:
+      - si: fréquence = 'souvent'
+         alors: 60
+       - si: fréquence = 'parfois'
+         alors: 45
+       - si: fréquence = 'jamais'
+         alors: 29
+
+alimentation . gaspi alimentaire . fréquence:
+  question: A quelle fréquence jetez-vous des aliments (qu'ils aient été cuisiné ou non) ?
+  par défaut: souvent
+  une possibilité: 
+      choix obligatoire: oui
+      possibilités: 
+        - souvent
+        - parfois
+        - jamais
