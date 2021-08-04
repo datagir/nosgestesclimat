@@ -1,3 +1,21 @@
+logement . température:
+  question: A quelle température chauffez-vous votre logement ?
+  icônes: 🌡
+  par défaut: 20
+  unité: degré
+
+logement . baisse 2 degré:
+  titre: Réduire mon chauffage de 2 degrés
+  icônes: 🏠🌡
+  description: |
+    Le logement et en particulier son chauffage (au fioul ou au gaz) a un impact sur le climat important.
+
+    Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
+    
+    Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
+  applicable si: température > 20
+  formule: logement . baisse 1 degré * 2
+
 logement . baisse 1 degré:
   titre: Réduire mon chauffage d'1 degré
   effort: modéré
@@ -8,8 +26,8 @@ logement . baisse 1 degré:
     Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
     
     Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
+  applicable si: température = 20
   formule: gains 1 degré * empreinte chauffage
-  note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
 
 logement . baisse 1 degré . gains 1 degré:
   formule: 7%
