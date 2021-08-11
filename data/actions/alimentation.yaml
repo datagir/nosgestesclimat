@@ -116,6 +116,7 @@ alimentation . viande faible empreinte . par semaine . nouveau régime . compens
 
 alimentation . manger local:
   non applicable si: local = 'toujours'
+  effort: faible
   titre: Manger essentiellement des produits locaux
   icônes: 🍅🇫🇷
   formule: (déjeuner et dîner - déjeuner et dîner local) * coefficient local
@@ -129,7 +130,7 @@ alimentation . manger local:
 alimentation . local:
   question: Vos aliments sont-ils d'origine locale ?
   note: |
-    Nous entendons par "locale" le fait que les aliments soient issus de la régions ou vous vivez ou de régions proches. Si vous manger "français" considérez votre alimentation
+    Nous entendons par "locale" le fait que les aliments soient issus de la région ou vous vivez ou de régions proches. Si vous manger "français" considérez votre alimentation
     comme "locale"
   par défaut: non
   une possibilité: 
