@@ -17,17 +17,185 @@ divers:
       - autres produits
 
 
+#divers . textile: 
+#  icônes: 👗👖
+#  formule: 0.5 * montant  
+#  unité: kgCO2e
+#divers . textile . montant: 
+#  question: Combien dépensez-vous par an en habits achetés neufs ?
+#  description: |
+#    Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
+#  source: Base Carbone, ratio monétaire (textile et habillement 600 kgCO2e / k€ HT) ; https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Ratio-monetaires
+#  unité: €/an
+#  par défaut: 1000 €/an
+ 
 divers . textile: 
-  icônes: 👗
-  formule: 0.5 * montant  
+  icônes: 👗👖
+  formule:
+    somme:
+    - t-shirt
+    - veste
+    - pantalon
+    - short
+    - sweat
+    - robe
+    - chemise
+    - pull
+    - chaussure
+    - manteau
   unité: kgCO2e
-divers . textile . montant: 
-  question: Combien dépensez-vous par an en habits achetés neufs ?
   description: |
-    Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
-  source: Base Carbone, ratio monétaire (textile et habillement 600 kgCO2e / k€ HT) ; https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Ratio-monetaires
-  unité: €/an
-  par défaut: 1000 €/an
+    Nous vous demandons de renseigner seulement les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
+
+divers . textile . t-shirt . empreinte:
+  icônes: 👕
+  formule: 5.35 # 5.35 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte des t-shirts en coton et en polyester de la Base Carbone
+
+divers . textile . t-shirt . nombre:
+  question: Nombre de t-shirt achetés sur une année
+  par défaut: 5
+  période: année
+  
+divers . textile . t-shirt:
+  formule: empreinte * nombre
+  unité: kgCO2e
+  
+divers . textile . veste . empreinte::
+  icônes: 🧥
+  formule: 31.5 # 31.5 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte entre une veste en simili-cuir et une veste imper-respirante (anorak) de la Base Carbone
+
+divers . textile . veste . nombre:
+  question: Nombre de vestes achetées sur une année
+  par défaut: 1
+  période: année
+  
+divers . textile . veste:
+  formule: empreinte * nombre
+  unité: kgCO2e  
+
+divers . textile . pantalon . empreinte::
+  icônes: 👖
+  formule: 23.2 # 23.2 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: empreinte d'un jean en coton de la Base Carbone
+
+divers . textile . pantalon . nombre:
+  question: Nombre de pantalons/jeans achetés sur une année
+  par défaut: 2
+  période: année
+  
+divers . textile . pantalon:
+  formule: empreinte * nombre
+  unité: kgCO2e  
+  
+divers . textile . short . empreinte::
+  icônes: 🩳
+  formule: 6.4 # 6.4 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: empreinte d'un short issu des données Base Impact (Textile, linge de maison, maroquinerie)
+
+divers . textile . short . nombre:
+  question: Nombre de shorts achetés sur une année
+  par défaut: 1
+  période: année
+  
+divers . textile . short:
+  formule: empreinte * nombre
+  unité: kgCO2e  
+
+divers . textile . sweat . empreinte::
+  icônes: 👕
+  formule: 27.4 # 27.4 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: empreinte d'un sweat de la Base Carbone
+
+divers . textile . sweat . nombre:
+  question: Nombre de sweats achetés sur une année
+  par défaut: 2
+  période: année
+  
+divers . textile . sweat:
+  formule: empreinte * nombre
+  unité: kgCO2e  
+
+divers . textile . robe . empreinte::
+  icônes: 👗
+  formule: 48.4 # 48.4 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte entre une robe en polyester et une en viscose de la Base Carbone
+
+divers . textile . robe . nombre:
+  question: Nombre de robes achetées sur une année
+  par défaut: 3
+  période: année
+  
+divers . textile . robe:
+  formule: empreinte * nombre
+  unité: kgCO2e    
+
+divers . textile . chemise . empreinte::
+  icônes: 👔
+  formule: 10.7 # 10.7 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte entre une chemise coton et une en viscose de la Base Carbone
+
+divers . textile . chemise . nombre:
+  question: Nombre de chemises achetées sur une année
+  par défaut: 2
+  période: année
+
+divers . textile . chemise:
+  formule: empreinte * nombre
+  unité: kgCO2e    
+
+divers . textile . pull . empreinte::
+  icônes: 👕
+  formule: 39.2 # 39.2 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte entre un pull acrylique et un pull en laine de la Base Carbone (le pull recyclé n'est pas pris en compte)
+
+divers . textile . pull . nombre:
+  question: Nombre de pull achetés sur une année
+  par défaut: 1
+  période: année
+
+divers . textile . pull:
+  formule: empreinte * nombre
+  unité: kgCO2e    
+
+divers . textile . chaussure . empreinte::
+  icônes: 👟
+  formule: 16.47 # 16.47 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: moyenne de l'empreinte entre des chaussures en cuir, en tissu et de sport de la Base Carbone
+
+divers . textile . chaussure . nombre:
+  question: Nombre de chaussures achetées sur une année
+  par défaut: 2
+  période: année
+  
+divers . textile . chaussure:
+  formule: empreinte * nombre
+  unité: kgCO2e    
+
+divers . textile . manteau . empreinte::
+  icônes: 🧥
+  formule: 85.8 # 85.8 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: empreinte d'un manteau de la Base Carbone
+
+divers . textile . manteau . nombre:
+  question: Nombre de manteau achetés sur une année
+  par défaut: 1
+  période: année
+  
+divers . textile . manteau:
+  formule: empreinte * nombre
+  unité: kgCO2e    
 
 divers . autres produits: 
   icônes: 📦
