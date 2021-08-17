@@ -38,12 +38,12 @@ divers . textile . t-shirt . nombre:
   question: Nombre de t-shirt achetés sur une année
   par défaut: 5
   période: année
-  
+
 divers . textile . t-shirt:
   formule: empreinte * nombre
   unité: kgCO2e
-  
-divers . textile . veste . empreinte::
+
+divers . textile . veste . empreinte:
   icônes: 🧥
   formule: 31.5 # 31.5 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -58,7 +58,7 @@ divers . textile . veste:
   formule: empreinte * nombre
   unité: kgCO2e  
 
-divers . textile . pantalon . empreinte::
+divers . textile . pantalon . empreinte:
   icônes: 👖
   formule: 23.2 # 23.2 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -73,7 +73,7 @@ divers . textile . pantalon:
   formule: empreinte * nombre
   unité: kgCO2e  
   
-divers . textile . short . empreinte::
+divers . textile . short . empreinte:
   icônes: 🩳
   formule: 6.4 # 6.4 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -88,7 +88,7 @@ divers . textile . short:
   formule: empreinte * nombre
   unité: kgCO2e  
 
-divers . textile . sweat . empreinte::
+divers . textile . sweat . empreinte:
   icônes: 👕
   formule: 27.4 # 27.4 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -103,7 +103,7 @@ divers . textile . sweat:
   formule: empreinte * nombre
   unité: kgCO2e  
 
-divers . textile . robe . empreinte::
+divers . textile . robe . empreinte:
   icônes: 👗
   formule: 48.4 # 48.4 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -118,7 +118,7 @@ divers . textile . robe:
   formule: empreinte * nombre
   unité: kgCO2e    
 
-divers . textile . chemise . empreinte::
+divers . textile . chemise . empreinte:
   icônes: 👔
   formule: 10.7 # 10.7 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -133,7 +133,7 @@ divers . textile . chemise:
   formule: empreinte * nombre
   unité: kgCO2e    
 
-divers . textile . pull . empreinte::
+divers . textile . pull . empreinte:
   icônes: 👕
   formule: 39.2 # 39.2 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -148,7 +148,7 @@ divers . textile . pull:
   formule: empreinte * nombre
   unité: kgCO2e    
 
-divers . textile . chaussure . empreinte::
+divers . textile . chaussure . empreinte:
   icônes: 👟
   formule: 16.47 # 16.47 / (durée * coefficient préservation)
   unité: kgCO2e
@@ -163,7 +163,7 @@ divers . textile . chaussure:
   formule: empreinte * nombre
   unité: kgCO2e    
 
-divers . textile . manteau . empreinte::
+divers . textile . manteau . empreinte:
   icônes: 🧥
   formule: 85.8 # 85.8 / (durée * coefficient préservation)
   unité: kgCO2e
