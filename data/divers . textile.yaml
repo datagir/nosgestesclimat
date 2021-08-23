@@ -180,7 +180,7 @@ divers . textile . manteau:
 
 
 divers . textile . petit article . empreinte:
-  formule: 15 # 85.8 / (durée * coefficient préservation)
+  formule: 5 # 85.8 / (durée * coefficient préservation)
   unité: kgCO2e
   note: Estimation grossière de l'empreinte d'un petit article générique.
 
@@ -194,7 +194,7 @@ divers . textile . petit article:
   icônes: 🔹
   formule: empreinte * nombre
   unité: kgCO2e    
-  description: Vêtement plutôt léger (sous-vêtements, t-shirt, chemise, par opposition à une veste).
+  description: Vêtement plutôt léger (chaussettes, sous-vêtements, etc. par opposition à un manteau).
 
 divers . textile . gros article . empreinte:
   formule: 40 # 85.8 / (durée * coefficient préservation)
@@ -211,4 +211,4 @@ divers . textile . gros article:
   icônes: 🔷
   formule: empreinte * nombre
   unité: kgCO2e    
-  description: Vêtement plutôt lourd (veste, jean, robe, pull, par opposition aux sous-vêtements).
+  description: Vêtement plutôt lourd (veste imperméable, costard, etc. par opposition aux sous-vêtements).
