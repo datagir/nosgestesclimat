@@ -29,7 +29,6 @@ divers . textile:
     Nous vous demandons de renseigner seulement les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
 
 divers . textile . t-shirt . empreinte:
-  icônes: 👕
   formule: 5.35 # 5.35 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte des t-shirts en coton et en polyester de la Base Carbone
@@ -40,11 +39,11 @@ divers . textile . t-shirt . nombre:
   période: année
 
 divers . textile . t-shirt:
+  icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e
 
 divers . textile . veste . empreinte:
-  icônes: 🧥
   formule: 31.5 # 31.5 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte entre une veste en simili-cuir et une veste imper-respirante (anorak) de la Base Carbone
@@ -55,11 +54,11 @@ divers . textile . veste . nombre:
   période: année
   
 divers . textile . veste:
+  icônes: 🧥
   formule: empreinte * nombre
   unité: kgCO2e  
 
 divers . textile . pantalon . empreinte:
-  icônes: 👖
   formule: 23.2 # 23.2 / (durée * coefficient préservation)
   unité: kgCO2e
   note: empreinte d'un jean en coton de la Base Carbone
@@ -70,11 +69,11 @@ divers . textile . pantalon . nombre:
   période: année
   
 divers . textile . pantalon:
+  icônes: 👖
   formule: empreinte * nombre
   unité: kgCO2e  
   
 divers . textile . short . empreinte:
-  icônes: 🩳
   formule: 6.4 # 6.4 / (durée * coefficient préservation)
   unité: kgCO2e
   note: empreinte d'un short issu des données Base Impact (Textile, linge de maison, maroquinerie)
@@ -85,11 +84,11 @@ divers . textile . short . nombre:
   période: année
   
 divers . textile . short:
+  icônes: 🩳
   formule: empreinte * nombre
   unité: kgCO2e  
 
 divers . textile . sweat . empreinte:
-  icônes: 👕
   formule: 27.4 # 27.4 / (durée * coefficient préservation)
   unité: kgCO2e
   note: empreinte d'un sweat de la Base Carbone
@@ -100,11 +99,11 @@ divers . textile . sweat . nombre:
   période: année
   
 divers . textile . sweat:
+  icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e  
 
 divers . textile . robe . empreinte:
-  icônes: 👗
   formule: 48.4 # 48.4 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte entre une robe en polyester et une en viscose de la Base Carbone
@@ -115,11 +114,11 @@ divers . textile . robe . nombre:
   période: année
   
 divers . textile . robe:
+  icônes: 👗
   formule: empreinte * nombre
   unité: kgCO2e    
 
 divers . textile . chemise . empreinte:
-  icônes: 👔
   formule: 10.7 # 10.7 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte entre une chemise coton et une en viscose de la Base Carbone
@@ -130,11 +129,11 @@ divers . textile . chemise . nombre:
   période: année
 
 divers . textile . chemise:
+  icônes: 👔
   formule: empreinte * nombre
   unité: kgCO2e    
 
 divers . textile . pull . empreinte:
-  icônes: 👕
   formule: 39.2 # 39.2 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte entre un pull acrylique et un pull en laine de la Base Carbone (le pull recyclé n'est pas pris en compte)
@@ -145,11 +144,11 @@ divers . textile . pull . nombre:
   période: année
 
 divers . textile . pull:
+  icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e    
 
 divers . textile . chaussure . empreinte:
-  icônes: 👟
   formule: 16.47 # 16.47 / (durée * coefficient préservation)
   unité: kgCO2e
   note: moyenne de l'empreinte entre des chaussures en cuir, en tissu et de sport de la Base Carbone
@@ -160,11 +159,11 @@ divers . textile . chaussure . nombre:
   période: année
   
 divers . textile . chaussure:
+  icônes: 👟
   formule: empreinte * nombre
   unité: kgCO2e    
 
 divers . textile . manteau . empreinte:
-  icônes: 🧥
   formule: 85.8 # 85.8 / (durée * coefficient préservation)
   unité: kgCO2e
   note: empreinte d'un manteau de la Base Carbone
@@ -175,5 +174,6 @@ divers . textile . manteau . nombre:
   période: année
   
 divers . textile . manteau:
+  icônes: 🧥
   formule: empreinte * nombre
   unité: kgCO2e    
