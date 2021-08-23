@@ -26,7 +26,9 @@ divers . textile:
     - manteau
   unité: kgCO2e
   description: |
-    Nous vous demandons de renseigner seulement les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
+    À vous de nous dire ce que vous avez mis dans vos sacs de shopping cette année, ou dans une année représentative si vous faites rarement les magasins.
+
+    Ne renseignez que les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion. 
 
 divers . textile . t-shirt . empreinte:
   formule: 5.35 # 5.35 / (durée * coefficient préservation)
