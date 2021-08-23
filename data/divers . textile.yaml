@@ -44,7 +44,7 @@ divers . textile . t-shirt . empreinte:
 
 divers . textile . t-shirt . nombre:
   question: Nombre de t-shirt achetés sur une année
-  par défaut: 5
+  par défaut: 4
   période: année
 
 divers . textile . t-shirt:
@@ -121,7 +121,7 @@ divers . textile . robe . empreinte:
 
 divers . textile . robe . nombre:
   question: Nombre de robes achetées sur une année
-  par défaut: 3
+  par défaut: 2
   période: année
   
 divers . textile . robe:
