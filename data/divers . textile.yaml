@@ -35,7 +35,10 @@ divers . textile:
     > Si vous achetez une veste tous 2 ans, arrondissez à `1`. Si vous achetez une veste tous les 3 ans, arrondissez à `0`.
 
     Ne renseignez que les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion. 
+  note: |
+    Les données sont toutes issues de la Base Carbone sauf le short qui vient des données de Base Impact (textile, linge de maison, maroquinerie) et les deux articles génériques qui sont des estimations grossières basées sur la visualisation du graphe des données de la documentation ADEME. 
 
+    Nous n'avons pas utilisé les données de Base Impact (sauf dans le cas du short) car même si les données correspondent à la moyenne de plusieurs produits, beaucoup ne proviennent que d'une seule entreprise.
 
 divers . textile . t-shirt . empreinte:
   formule: 5.35 # 5.35 / (durée * coefficient préservation)
