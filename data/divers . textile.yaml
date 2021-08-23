@@ -24,6 +24,8 @@ divers . textile:
     - pull
     - chaussure
     - manteau
+    - petit article
+    - gros article
   unité: kgCO2e
   références: 
     Base carbone ADEME: https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Coton_-synthetique_-autre
@@ -106,7 +108,7 @@ divers . textile . sweat . nombre:
   période: année
   
 divers . textile . sweat:
-  titre: Sweat en coton
+  titre: Sweat (en coton)
   note: La base carbone parle d'un "Sweat - (CO)", et la [documentation](https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Coton_-synthetique_-autre) ne mentionne qu'un "sweat en coton" dont l'empreinte est proche.
   icônes: 👕
   formule: empreinte * nombre
@@ -188,3 +190,38 @@ divers . textile . manteau:
   icônes: 🧥
   formule: empreinte * nombre
   unité: kgCO2e    
+
+
+divers . textile . petit article . empreinte:
+  formule: 15 # 85.8 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: Estimation grossière de l'empreinte d'un petit article générique.
+
+divers . textile . petit article . nombre:
+  question: Nombre de petits articles génériques achetés sur une année
+  par défaut: 1
+  période: année
+  
+divers . textile . petit article:
+  titre: Autre petit article
+  icônes: 🔹
+  formule: empreinte * nombre
+  unité: kgCO2e    
+  description: Vêtement plutôt léger (sous-vêtements, t-shirt, chemise, par opposition à une veste).
+
+divers . textile . gros article . empreinte:
+  formule: 40 # 85.8 / (durée * coefficient préservation)
+  unité: kgCO2e
+  note: Estimation grossière de l'empreinte d'un gros article générique.
+
+divers . textile . gros article . nombre:
+  question: Nombre de gros articles génériques achetés sur une année
+  par défaut: 1
+  période: année
+  
+divers . textile . gros article:
+  titre: Autre gros article
+  icônes: 🔷
+  formule: empreinte * nombre
+  unité: kgCO2e    
+  description: Vêtement plutôt lourd (veste, jean, robe, pull, par opposition aux sous-vêtements).
