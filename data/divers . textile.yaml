@@ -15,7 +15,6 @@ divers . textile:
   formule:
     somme:
     - t-shirt
-    - veste
     - pantalon
     - short
     - sweat
@@ -32,7 +31,7 @@ divers . textile:
   description: |
     À vous de nous dire ce que vous avez mis dans vos sacs de shopping cette année, ou dans une année représentative si vous faites rarement les magasins.
 
-    > Si vous achetez une veste tous 2 ans, arrondissez à `1`. Si vous achetez une veste tous les 3 ans, arrondissez à `0`.
+    > Si vous achetez un pull tous 2 ans, arrondissez à `1`. Si vous achetez un pull tous les 3 ans, arrondissez à `0`.
 
     Ne renseignez que les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion. 
   note: |
@@ -54,21 +53,6 @@ divers . textile . t-shirt:
   icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e
-
-divers . textile . veste . empreinte:
-  formule: 31.5 # 31.5 / (durée * coefficient préservation)
-  unité: kgCO2e
-  note: moyenne de l'empreinte entre une veste en simili-cuir et une veste imper-respirante (anorak) de la Base Carbone
-
-divers . textile . veste . nombre:
-  question: Nombre de vestes achetées sur une année
-  par défaut: 1
-  période: année
-  
-divers . textile . veste:
-  icônes: 🧥
-  formule: empreinte * nombre
-  unité: kgCO2e  
 
 divers . textile . pantalon . empreinte:
   formule: 23.2 # 23.2 / (durée * coefficient préservation)
