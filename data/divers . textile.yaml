@@ -25,10 +25,15 @@ divers . textile:
     - chaussure
     - manteau
   unité: kgCO2e
+  références: 
+    Base carbone ADEME: https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Coton_-synthetique_-autre
   description: |
     À vous de nous dire ce que vous avez mis dans vos sacs de shopping cette année, ou dans une année représentative si vous faites rarement les magasins.
 
+    > Si vous achetez une veste tous 2 ans, arrondissez à `1`. Si vous achetez une veste tous les 3 ans, arrondissez à `0`.
+
     Ne renseignez que les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion. 
+
 
 divers . textile . t-shirt . empreinte:
   formule: 5.35 # 5.35 / (durée * coefficient préservation)
@@ -101,6 +106,8 @@ divers . textile . sweat . nombre:
   période: année
   
 divers . textile . sweat:
+  titre: Sweat en coton
+  note: La base carbone parle d'un "Sweat - (CO)", et la [documentation](https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Coton_-synthetique_-autre) ne mentionne qu'un "sweat en coton" dont l'empreinte est proche.
   icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e  
@@ -146,6 +153,7 @@ divers . textile . pull . nombre:
   période: année
 
 divers . textile . pull:
+  titre: Pull (laine ou acrylique)
   icônes: 👕
   formule: empreinte * nombre
   unité: kgCO2e    
@@ -161,6 +169,7 @@ divers . textile . chaussure . nombre:
   période: année
   
 divers . textile . chaussure:
+  titre: Paire de chaussures
   icônes: 👟
   formule: empreinte * nombre
   unité: kgCO2e    
