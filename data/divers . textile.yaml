@@ -113,7 +113,7 @@ divers . textile . sweat . nombre:
 divers . textile . sweat:
   titre: Sweat (en coton)
   note: La base carbone parle d'un "Sweat - (CO)", et la [documentation](https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Coton_-synthetique_-autre) ne mentionne qu'un "sweat en coton" dont l'empreinte est proche.
-  icônes: 👕
+  icônes: 🧵
   formule: empreinte * nombre
   unité: kgCO2e  
 
@@ -159,7 +159,7 @@ divers . textile . pull . nombre:
 
 divers . textile . pull:
   titre: Pull (laine ou acrylique)
-  icônes: 👕
+  icônes: 🧶
   formule: empreinte * nombre
   unité: kgCO2e    
 
