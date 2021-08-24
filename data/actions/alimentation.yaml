@@ -114,6 +114,56 @@ alimentation . viande faible empreinte . par semaine . nouveau régime . compens
   description: On compense la suppression des plat viande 2 en plat viande 1.
 
 
+alimentation . manger local:
+  non applicable si: local = 'toujours'
+  effort: faible
+  titre: Manger essentiellement des produits locaux
+  icônes: 🍅🇫🇷
+  formule: (déjeuner et dîner - déjeuner et dîner local) * coefficient local
+  description: | 
+    L’alimentation locale permet en effet de réduire les distances de transports des produits que nous consommons. Cependant, meême si cela peut sembler contre intuitif l'alimentation
+    locale peut, en fonction des cas considérés, être défavorable en terme d'émissions de gaz à effet de serre. En effet, l'impact de la provenance de nos produits ne peut être 
+    résumé à une comparaison entre courte et longue distance. Les effets d’échelle, la centralisation des produits, l’efficacité des transports utilisés (ou à l'inverse la non 
+    efficacité) complexifient la chose d’un point de vue de la comptabilité carbone. Néanmoins, l'alimentation locale a bien d'autres impacts positifs avec en premier lieu le soutien
+    aux agriculteurs de nos régions !
+
+alimentation . local:
+  question: Vos aliments sont-ils d'origine locale ?
+  note: |
+    Nous entendons par "locale" le fait que les aliments soient issus de la région ou vous vivez ou de régions proches. Si vous manger "français" considérez votre alimentation
+    comme "locale"
+  par défaut: non
+  une possibilité: 
+      choix obligatoire: oui
+      possibilités:
+        - Non, je ne fais pas attention à leur provenance
+        - parfois
+        - toujours  
+
+alimentation . coefficient local:
+  formule:
+    variations:
+      - si: saison = 'Non, je ne fais pas attention à leur provenance'
+         alors: 1
+      - sinon: 0.5
+
+alimentation . plats local:
+  formule: 
+    somme:
+      - alimentation . plats . viande 1 / 1,01
+      - alimentation . plats . viande 2 / 1,04
+      - alimentation . plats . végétarien / 1,12
+      - alimentation . plats . végétalien / 1,17
+  note: |
+    Ces coefficients sont obtenus en reconstituant  les plats ADEME via les produits Agribalyse et en considérant une part de transport divisé par 2
+    Le ratio s'obtient en faisant le rapport du plat reconstitué / plat reconstitué  avec une part transport divisé par 2 
+    Ce ratio est ensuite appliqué aux  FE des plats moyens ADEME
+    
+alimentation . déjeuner et dîner local:
+  formule: par semaine * 52
+alimentation . déjeuner et dîner local . par semaine:
+  formule: plats local
+
 alimentation . gaspillage alimentaire:
   inactive: oui
   icônes: 🍲🚯
