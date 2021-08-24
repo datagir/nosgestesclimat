@@ -57,6 +57,7 @@ alimentation . réduire viande . par quatre . par semaine . nouveau régime . co
 
 alimentation . devenir végétarien:
   applicable si: nombre de plats viande > 0
+  applicable si: formule > 0
   formule: par semaine * 52
   icônes: 🥗🧀
   description: |
@@ -69,7 +70,7 @@ alimentation . devenir végétarien . par semaine:
   formule: plats - une semaine végétarienne
 
 alimentation . une semaine végétarienne:
-  formule: 14 * plats . végétarien . empreinte
+  formule: (8 * plats . végétarien . empreinte) + (6 * plats . végétalien . empreinte)
 
 
 alimentation . devenir végétalien:
