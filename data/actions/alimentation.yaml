@@ -113,21 +113,6 @@ alimentation . viande faible empreinte . par semaine . nouveau régime . compens
   formule: plats . viande 1 . empreinte * (plats . viande 2 . nombre)
   description: On compense la suppression des plat viande 2 en plat viande 1.
 
-
-alimentation . gaspillage alimentaire:
-  inactive: oui
-  icônes: 🍲🚯
-  titre: Réduire mon gaspillage alimentaire
-  note: Dans le document en référence, page 7 pour l'empreinte du gaspillage et page 36 pour la réduction moyenne.
-  références: 
-    - https://www.ademe.fr/operation-foyers-temoins-estimer-impacts-gaspillage-alimentaire-menages
-
-
-alimentation . déchets . action: 
-  titre: Passer au zéro déchet
-  icônes: 📦🚯
-  inactive: oui
-  
 alimentation . boisson . eau en bouteille . arrêter:
   applicable si: affirmatif
   titre: Arrêter l'eau en bouteille
@@ -144,18 +129,137 @@ alimentation . boisson . eau en bouteille . arrêter:
     gestion des déchets plastiques dans les [explication complètes](https://nosgestesclimat.fr/actions/plus/alimentation/d%C3%A9chets/vrac)
 
     Sources : [Écobilan de l’eau potable](http://esu-services.ch/fileadmin/download/jungbluth-2015-ecobilan-eau.pdf) et [Ministère de la Transition Ecologique p106](https://www.economie.gouv.fr/files/files/directions_services/cge/filieres-dechets-recyclage.pdf)
+ 
+
+#Il faudrait que l'utilisateur puisse cocher les gestes qu'il fait déjà pour adapter les propositions. On pourrait avoir une mosaique de choix à l'instar de ce qu'on fait pour les
+#équipements électroménager
+
+alimentation . déchets . geste . composter:
+  question: Compostez-vous vos bio-déchets (déchets de cuisine notmament) ?
+  par défaut: non
+
+alimentation . déchets . geste . vrac:
+  question: Faites-vous vos courses en vrac (ou en partie) ?
+  par défaut: non
+
+alimentation . déchets . geste . recyclage:
+  question: Triez-vous vos déchets ?
+  par défaut: non
+
+alimentation . déchets . geste . stop pub:
+  question: Avez-vous un autocollant "Stop Pub" sur votre boite ?
+  par défaut: non
+
+alimentation . gaspillage alimentaire:
+  inapplicable si: fréquence = 'jamais'
+  icônes: 🍲🚯
+  titre: Réduire mon gaspillage alimentaire
+  formule:
+    variations:
+      - si: fréquence = 'souvent'
+         alors: 31 #60 - 29
+       - si: fréquence = 'parfois'
+         alors: 16 #45 - 29
+  description: |
+    En France le gaspillage alimentaire moyen est évalué à 32 kg par personne et par an dont 7 kg d’aliments encore emballés ! Si l’on élargi l'échelle et que l'on considère
+    l’ensemble de la chaîne de valeur (c'est-à-dire du champ à l’assiette) c’est environ 10 millions de tonnes d'aliments qui sont gaspillées par an, soit 150 kg par habitant.
     
+    Réduire le gaspillage alimentaire est donc essentiel afin d'éviter de produire pour jeter !
+    
+    Vous trouverez des conseils et des pratiques utiles [ici](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture)
+    
+  note: Dans le document en référence, page 7 pour l'empreinte du gaspillage et page 36 pour la réduction moyenne.
+  références: 
+    - https://www.ademe.fr/operation-foyers-temoins-estimer-impacts-gaspillage-alimentaire-menages
+
+alimentation . déchets . zéro déchets: 
+  titre: Passer au zéro déchets
+  non applicable si: niveau d'engagement = 'affirmatif'
+  icônes: 📦🚯
+  effort: conséquent
+  formule: 
+    variations: 
+        - si: niveau d'engagement = 'pas du tout'
+          alors: base - (base * 0,3)
+        - si: niveau d'engagement = 'en partie'
+          alors: (base * 0,6) - (base * 0,3)
+  description: |
+    Même si la gestion des déchets est peu émittrice de gaz à effet de serre en France (3% des émissions nationales), réduire le volume de nos poubelles, c’est donc oeuvrer 
+    à la source pour préserver les ressources. Réutiliser et réparer plutôt que jeter et acheter sont donc des gestes fort pour éviter de consommer de la matière et générer 
+    des impacts superflus sur le climat car **le meilleur déchet est celui qu'on ne produit pas.**
+    Pour en savoir plus sur le mode de vie zéro déchet c'est [ici](https://www.zerowastefrance.org/demarche-zero-waste/) 
+  inactive: oui
+     
 alimentation . déchets . composter:
-  titre: Composter
+  titre: Composter ses déchets de cuisine
+  inapplicable si: geste . composter = 'oui'
+  effort: modéré
   icônes: 🐛🌱
+  formule: 16
+  unité: kgCO2e
+  Descrpition: |
+    Nos déchets putrescibles représentent pas moins de 83 kg/hab/an qui sont traités de manière classique en enfouissement ou en incinération alors qu'ils pourraient être compostés.
+    Vous pouvez même y gagner de l'argent si votre lieu de résidence a mis en place un tarification incitative pour les ménages produisant le moins de déchets.
+    Et le compostage de ses biodéchets n’est pas l'apanage des personnes disposant de jardins. En effet, en ville, il existe de nombreux lieux de compostage partagés tandis qu’en 
+    appartement, la solution des lombricomposteurs est tout aussi adaptée
+  
+  note: |
+    Source : Déchets - Chiffres clés 2019 ADEME
+    Nous considérons 83 kg/hab/an de déchets putrescibles passant d'un traitement à 24 % en enfouissement et 68 % en incinération à un traitement par un compostage domestique en bac
+    A savoir : seul 92 % des déchets putrescibles sont considérés car 8 % sont déjà traité par méthanisation
   inactive: oui
 
 alimentation . déchets . recyclage:
-  titre: Recycler mes déchets
+  titre: Participer activement au tri des déchets
+  inapplicable si: geste . recyclage = 'oui'
+  effort: faible
   icônes: 🗑️♻️
+  description: |
+    Le reclcylage est un geste important car celui-ci permet d'augmenter le gisement de déchets et donc la matière disponible pour confectionner de nouveaux produits qui n'a pas à
+    être produite ailleurs. Chaque tonne collecté favorise la réincorporation de la matière et limite ainsi les impacts de production de matière "neuve". 
+    Pour l’aluminium ce n’est pas moins de 95% d’énergie économisée par la confection d’une tonne d’aluminium à partir d’aluminium recyclé. 
+    Pour le plastique, réussir à en réincorporer 1 tonne dans la confection de nouveaux produits, c’est un gain de 3 tonnes de CO2eq soit presque l’équivalent de 15 500 km parcourus en voiture
+  
+  note: |
+    Source : Les filières de recyclage de déchets en France métropolitaine, Rapport à Madame la Ministre de la Transition écologique et solidaire, janvier 2020.
   inactive: oui
 
 alimentation . déchets . vrac:
   titre: Acheter en vrac
+  inapplicable si: geste . vrac = 'oui'
+  effort: faible
   icônes: ⚖️🌾
+  formule: 72
+  unité: kgCO2e
+  descritpion: |
+    Les emballages sont partout tout le temps. Ainsi 85% des emballages jetés par les ménages sont des emballages alimentaire. Même s'il ne représente qu'une faible partie de l'impact 
+    d'un produit, l'emballage plastique a un impact bien réel car c'est une matière dérivée du pétrole dont la collecte et le recyclage est très difficile à effectuer. 
+    Seul 6 % du plastique que l’on a utilisé finit réellement par être recyclé et servir à la confection de nouveaux produits plastiques et on estime que le “7e continent de 
+    plastique” flottant au large de l’Océan Pacifique contiendrait environ 80 000 tonnes de déchets plastique et s’étendrait sur une surface d’environ 1.6 millions de km2 
+    (soit plus de 3 fois la surface de la France métropolitaine) 
+    
+  note : |
+    Nous considérons les consommations journalières d'aliments de l'étude INCA 3 ramenées à l'année. Pour chaque groupe d'aliment nous faisons correspondre un aliment équivalent issu de la base de donnée Agribalyse
+    pour lequel nous considérons les impacts de l'emballage. L'impact de l'action porte ensuite sur les aliments que nous considérons achetable en vrac (céréales, légumes, légumineuses, etc.)
+    A savoir : le périmètre de la phase "emballage" prend en compte leur production et leur fin de vie.
+    
+    Source : Mieux manger, Moins gaspiller, Moins polluer, ADEME
+             https://assets.theoceancleanup.com/app/uploads/2019/04/Lebreton2018_SciRep.pdf
+             Les filières de recyclage de déchets en France métropolitaine, Rapport à Madame la Ministre de la Transition écologique et solidaire, janvier 2020.
   inactive: oui
+
+
+alimentation . déchets . stop pub:
+  titre: Mettre un stop pub sur sa boite aux lettres
+  inapplicable si: geste . stop pub = 'oui'
+  effort: faible
+  icônes: ⚖️🌾
+  formule: 10
+  unité: kgCO2e
+  descritpion: |
+    En moyenne chaque année c'est presque 14 kg de prospectus publicitaires par habitant qui sont déposés dans nos boites aux lettres. Coller un autocollant "Stop Pub" sur sa 
+    boite aux lettre c'est donc empêcher que ces volumes de déchets se retrouvent dans notre poubelle réduisant ainsi les émissions de gaz à effet de serre associées à leur gestion
+  
+  note: |
+    Source : https://librairie.ademe.fr/dechets-economie-circulaire/2520-etude-d-evaluation-des-gisements-d-evitement-des-potentiels-de-reduction-de-dechets-et-des-impacts-environnementaux-evites.html
+

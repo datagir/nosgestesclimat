@@ -554,18 +554,16 @@ alimentation . déchets:
   formule: facteur * base
 
 alimentation . déchets . base: 
-  formule: 193 * facteur carbone CO2
+  formule: 116 * facteur carbone CO2
   unité: kgCO2e
   note: | 
-    Attention : notre source est un article écrit en 2003, qui semble basé sur la composition de la poubelle d'un français mesurée en 1998. 
+    Attention : notre source est un article écrit en 2003, pour lequel nous avons remis à jour les quantités de déchets produits par les ménages (i.e. les Ordures Ménagères Résiduelles
+    où OMR) avec l'enquête MODECOM 2017. 
 
-    On y apprend aussi que ces déchets ont augmenté de 33% en 10 ans de 1980 à 1990. 
-
-    En attendant mieux, on peut donc considérer que cette empreinte est sous-estimée. 
-
-    Cependant, n'oublions pas l'existence du poste "service publics", qui pourrait bien inclure une part de déchets. Peut-être seulement leur fin de vie, à creuser.
   références: 
     - https://jancovici.com/changement-climatique/les-ges-et-nous/combien-de-gaz-a-effet-de-serre-dans-notre-poubelle/
+    - https://librairie.ademe.fr/dechets-economie-circulaire/4351-modecom-2017-campagne-nationale-de-caracterisation-des-dechets-menagers-et-assimiles.html (Tab. 8 page 29)
+    
 
 facteur carbone CO2: 
   formule: 44 / 12
