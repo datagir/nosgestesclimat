@@ -70,7 +70,38 @@ transport . éco-conduite:
     
   références: 
     Guide de formation à l'éco-conduite ADEME-LaPoste: https://www.ademe.fr/sites/default/files/assets/documents/66885_guide_ecoconduite.pdf#page=8
+
+transport . prendre des covoitureurs:
+  titre: Prendre des covoitureurs pour ces trajets en voiture
+  effort: modéré
+  applicable si: voiture . propriétaire
+  applicable si: voiture . km - boulot . distance . année > 0
+  non applicable si: voiture . km = 0
+  non applicable si: boulot . distance . année > 0,85 * voiture . km
+  non applicable si: voiture 5km . distance totale > 0,85 * voiture . km 
+  non applicable si: (boulot . distance . année  + voiture 5km . distance totale)  > 0,85 * voiture . km 
+  # Ces conditions sont là pour essayer d'appliquer "judicieusement" l'action c.a.d quand une portion signficative des km parcourus ne le sont pas pour aller au travail ou par des 
+  # trajets de - 5 km car il y a déjà des actions spécifiques pour cela (A DISCUTER !)
+  formule: voiture . loisir - voiture . loisir . 1 covoitureur supplémentaire    
+  icônes: 🚗👥
+  description: |
+    Prendre des covoitureurs lors de vos trajets longs (weekends et vacances notamment) permet de maximiser le taux de remplissage de son véhicule et ainsi transporter plus de monde
+    avec la même quantité d'énergie. Pour trouver des covoitureurs rendez vous sur [BlaBlaCar](https://www.blablacar.fr/)
     
+transport . voiture . loisir:
+  formule: impact usage loisir / voyageurs
+  unité: kgCO2e
+transport . voiture . loisir . 1 covoitureur supplémentaire:
+  formule: impact usage loisir / (voyageurs + 1)
+  unité: kgCO2e
+transport . voiture . loisir . 2 covoitureur supplémentaire:
+  formule: impact usage loisir / (voyageurs + 2)
+  unité: kgCO2e
+
+transport . voiture . impact usage loisir:
+  formule: (km - boulot . distance . année - voiture 5km . distance totale) * empreinte au kilomètre
+  unité: kgCO2e
+
 transport . boulot:
 transport . boulot . covoiturage:
   titre: Aller au travail en covoiturage
