@@ -8,7 +8,7 @@ logement . baisse 1 degré:
     Baisser la température d'un ou deux degrés peut être un moyen de réduire son empreinte.
     
     Source : ADEME - [40 trucs et astuces pour économiser l'eau et l'énergie](https://www.ademe.fr/40-trucs-astuces-economiser-leau-lenergie)
-  formule: gains 1 degré * empreinte chauffage
+  formule: (gains 1 degré * empreinte chauffage) / habitants
   note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
 
 logement . baisse 1 degré . gains 1 degré:
@@ -97,7 +97,7 @@ logement . remplacer fioul par bois:
   applicable si: fioul . chauffage au fioul
   effort: conséquent
   icônes: 🛢️🪵
-  formule: fioul - alternative
+  formule: (fioul - alternative) / habitants
   description: |
     Les chaudières au fuel sont les plus polluantes. Les remplacer par des alternatives moins carbonnées comme ici le bois en granulés est un geste fort pour réduire votre empreinte carbone.
   inactive: non
@@ -109,7 +109,7 @@ logement . éclairage . LED:
   titre: Remplacer ses ampoules par des LED
   effort: faible
   icônes: 💡🔄
-  formule: consommation de l'éclairage - avec LED
+  formule: (consommation de l'éclairage - avec LED) / habitants
   description: |
     Remplacer les ampoules classiques par des ampoules basse consommation de type LED permet de diviser par 6 sa consommation électrique liée à l’éclairage. 
 
@@ -138,7 +138,7 @@ logement . remplacer gaz par PAC:
   applicable si: gaz . chauffage au gaz
   effort: conséquent
   icônes: 🔥🔄
-  formule: gaz - pompe à chaleur
+  formule: (gaz - pompe à chaleur) / habitants
   description: |
     Les chaudières au gaz sont parmi les plus émissives de CO₂. Les remplacer par des alternatives moins carbonnées comme des pompes à chaleur est un geste fort pour réduire votre empreinte carbone.
 
@@ -180,7 +180,7 @@ logement . séchage air libre:
   icônes: 💨👗
   description: |
     Faire sécher son linge à l'air libre c'est de l'énergie économisée et des habits préservés qui durent ainsi plus longtemps.
-  formule: 400 kWh * électricité . intensité carbone
+  formule: (400 kWh * électricité . intensité carbone) / habitants
   note: |
     400 kWh est une valeur choisie sur la base des kWh annuels donnés par différents constructeurs, les valeurs allant de 300 à 500+ kWh annum, 400 kWh a été retenu.
  
@@ -194,7 +194,7 @@ logement . climatisation . réduction:
 logement . rénovation énergétique:
   titre: Rénover mon logement
   icônes: 🏚️✨
-  formule: logement . empreinte chauffage * gain rénovation
+  formule: (logement . empreinte chauffage * gain rénovation) / habitants
   effort: conséquent
   applicable si: propriétaire
   inactive: non
@@ -222,7 +222,7 @@ logement . propriétaire:
 logement . rénovation énergétique BBC:
   titre: Rénover mon logement en BBC
   icônes: 🏠✨
-  formule: logement . empreinte chauffage * gain rénovation
+  formule: (logement . empreinte chauffage * gain rénovation) / habitants
   effort: conséquent
   applicable si: propriétaire
   description: |
