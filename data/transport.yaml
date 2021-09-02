@@ -1,4 +1,7 @@
-transport:
+transport: 
+  formule: oui
+  couleur: '#b71540'
+  icônes: 🚦
 
 transport . empreinte:
 
@@ -7,8 +10,6 @@ transport . empreinte:
     
     Sans surprise, le transport et avant tout le transport basé sur le pétrole constitue une part très importante de notre empreinte.
 
-  couleur: '#b71540'
-  icônes: 🚦
   formule: 
     somme: 
       - voiture . empreinte
@@ -21,6 +22,7 @@ transport . empreinte:
         
 
 transport . voiture:
+  formule: oui
   icônes: 🚗
   description: |
     ![](https://images.unsplash.com/photo-1572312284222-ecf6d70f1907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
@@ -36,12 +38,8 @@ transport . voiture:
     Notons finalement qu'il est important de prendre en compte à la fois l'usage (les km parcourus) et la construction de ce véhicule de plus d'une tonne de matériaux divers.
 
 transport . voiture . empreinte:
-    
-  formule: # Ici nous pourrions utiliser un "non applicable si: km = 0" mais un bug fait que la question km deviendra booléenne Oui/Non. Voir https://github.com/betagouv/mon-entreprise/issues/1367
-    variations: 
-      - si: km = 0
-        alors: 0
-      - sinon: (construction amortie + usage) / voyageurs
+  non applicable si: km = 0
+  formule: (construction amortie + usage) / voyageurs
   unité: kgCO2e
 
 transport . voiture . voyageurs:
@@ -62,8 +60,8 @@ transport . voiture . voyageurs:
   unité: voyageurs
   suggestions:  
     seul: 1
-    à deux: 2
-    à cinq: 5
+    deux: 2
+    cinq: 5
 
 transport . voiture . km:
   titre: Km en voiture
@@ -389,7 +387,7 @@ transport . voiture . notif proprio:
       - propriétaire = non
       - km > 0
   description: | 
-    Vous n'êtes pas propriétaire d'une voiture, mais vous faites quand même des km : les questions suivantes concernont donc les voitures que vous empruntez en tant que passager ou conducteur (voiture de location, voiture d'amis).
+    Vous n'êtes pas propriétaire d'une voiture, mais vous faites quand même des km : nous devons donc vous demander les caractéristiques des voitures que vous empruntez en tant que passager ou conducteur (voiture de location, voiture d'amis).
 
 
 transport . avion:

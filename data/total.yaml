@@ -17,7 +17,7 @@ bilan:
   formule: 
     somme: 
       - logement
-      - transport
+      - transport . empreinte
       - alimentation
       - numérique
       - divers
