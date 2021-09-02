@@ -1,4 +1,7 @@
 transport:
+
+transport . empreinte:
+
   description: |
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Correspondances_Pey_Berland_août_2016.jpg/640px-Correspondances_Pey_Berland_août_2016.jpg)
     
@@ -8,7 +11,7 @@ transport:
   icônes: 🚦
   formule: 
     somme: 
-      - voiture
+      - voiture . empreinte
       - avion
       - deux roues thermique
       - bus
@@ -31,12 +34,14 @@ transport . voiture:
     ou que nous décidions de chauffer tout le pâté de maison plutôt que l'intérieur de chacune des 10 maisons.
     
     Notons finalement qu'il est important de prendre en compte à la fois l'usage (les km parcourus) et la construction de ce véhicule de plus d'une tonne de matériaux divers.
+
+transport . voiture . empreinte:
     
   formule: # Ici nous pourrions utiliser un "non applicable si: km = 0" mais un bug fait que la question km deviendra booléenne Oui/Non. Voir https://github.com/betagouv/mon-entreprise/issues/1367
     variations: 
       - si: km = 0
         alors: 0
-      - sinon: (construction amortie + impact usage) / voyageurs
+      - sinon: (construction amortie + usage) / voyageurs
   unité: kgCO2e
 
 transport . voiture . voyageurs:
@@ -173,17 +178,17 @@ transport . voiture . électrique . empreinte au kilomètre:
     bilan-GES: https://www.bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element?recherche=voiture
 
 
-transport . voiture . impact usage:
-  formule: km * empreinte au kilomètre
+transport . voiture . empreinte . usage:
+  formule: km * au kilomètre
   unité: kgCO2e
 
-transport . voiture . empreinte par km personne:
-  formule: empreinte au kilomètre / voyageurs
+transport . voiture . empreinte . par km personne:
+  formule: au kilomètre / voyageurs
 
-transport . voiture . empreinte au kilomètre: 
+transport . voiture . empreinte . au kilomètre: 
   formule: 
     variations: 
-      - si: motorisation = 'thermique'
+      - si:  motorisation = 'thermique'
         alors: thermique . empreinte au kilomètre
       - si: motorisation = 'hybride'
         alors: thermique . empreinte au kilomètre * 0.85
@@ -210,7 +215,7 @@ transport . voiture . thermique . empreinte au litre:
   formule: 2.9
   unité: kgCO2e/l
 
-transport . voiture . construction:
+transport . voiture . empreinte . construction:
   formule: 
     variations: 
       - si: motorisation = 'thermique'
@@ -247,7 +252,7 @@ transport . voiture . construction:
     ![](https://user-images.githubusercontent.com/1177762/107265071-1eae6c80-6a44-11eb-9b51-c2aee3bfcf3c.png)
     ![](https://user-images.githubusercontent.com/1177762/107265098-2706a780-6a44-11eb-8681-7901f00e057b.png)
 
-transport . voiture . construction . barème thermique:
+transport . voiture . empreinte . construction . barème thermique:
   formule: 
     variations:
       - si:
@@ -262,7 +267,7 @@ transport . voiture . construction . barème thermique:
         alors: 7600 - 1300
   unité: kgCO2e
 
-transport . voiture . construction . barème électrique:
+transport . voiture . empreinte . construction . barème électrique:
   formule: 
     variations:
       - si:
@@ -277,7 +282,7 @@ transport . voiture . construction . barème électrique:
         alors: 20200 - 6600
   unité: kgCO2e
 
-transport . voiture . construction . barème hybride:
+transport . voiture . empreinte . construction . barème hybride:
   formule: 
     variations:
       - si:
@@ -316,7 +321,7 @@ transport . voiture . âge:
     1 an et demi: 1.5
     5 ans: 5
     10 ans: 10
-transport . voiture . construction amortie:
+transport . voiture . empreinte . construction amortie:
   formule: 
     variations: 
       - si: propriétaire
@@ -360,7 +365,7 @@ transport . voiture . durée de vie:
 
     En effet, bon nombre de voitures sont par exemple achetées neuves par des entreprises de location, et seront ensuite aquises par un particulier d'occasion.
 
-transport . voiture . construction amortie . facteur location: 
+transport . voiture . facteur location: 
   formule: km / 16300
   note: |
     On attribue à l'utilisateur l'impact de la construction au pro rata de son utilisation par rapport au km parcourus par la voiture sur une année.  

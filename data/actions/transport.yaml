@@ -57,7 +57,7 @@ transport . éco-conduite:
   titre: Adopter une éco-conduite
   effort: faible
   icônes: 🚗☮
-  formule: transport . voiture . impact usage * 15%
+  formule: transport . voiture . empreinte . usage * 15%
   description: |
     L’éco-conduite est une action simple et efficace qui se tient à la portée de tous.  
     
@@ -78,7 +78,7 @@ transport . boulot . covoiturage:
   applicable si: voiture . propriétaire
   non applicable si: voiture . km = 0
   icônes: 🚗👥
-  formule: distance . année * voiture . empreinte au kilomètre * réduction covoiturage
+  formule: distance . année * voiture . empreinte . au kilomètre * réduction covoiturage
   description: |
     Si le covoiturage longue distance est bien connu en France, celui des courtes distances est presque inexistant : aujourd’hui seuls 3 % des déplacements domicile-travail sont réalisés en covoiturage.
 
@@ -153,7 +153,7 @@ transport . boulot . commun:
   non applicable si: voiture . km = 0
   formule: boulot . distance . année * gain empreinte au km
 transport . boulot . commun . gain empreinte au km:
-  formule: voiture . empreinte au kilomètre - empreinte
+  formule: voiture . empreinte . au kilomètre - empreinte
 transport . boulot . commun . empreinte:
   titre: Empreinte transport en commun choisi
   formule:
@@ -234,7 +234,7 @@ transport . boulot . télétravail:
   formule: empreinte jour voiture * jours télétravaillés * 47
 
 transport . boulot . empreinte jour voiture: 
-  formule: (distance * 2) * voiture . empreinte au kilomètre
+  formule: (distance * 2) * voiture . empreinte . au kilomètre
   unité: kgCO2e/jours
 
 transport . boulot . jours télétravaillés:
@@ -257,7 +257,7 @@ transport . boulot . télétravail . compatible:
 transport . voiture 5km: 
   titre: Se passer de voiture pour moins de 5 km 
   icônes: 🚗🚲
-  formule: distance totale * voiture . empreinte au kilomètre
+  formule: distance totale * voiture . empreinte . au kilomètre
   description: |
     En France, 4 trajets en voiture sur 10 font moins de 3 km et ce n’est pas moins de 177 millions de trajets de moins de 5km qui sont réalisés seuls 
     en voiture chaque semaine (hors trajets domicile-travail). 
