@@ -123,6 +123,41 @@ alimentation . gaspillage alimentaire:
     - https://www.ademe.fr/operation-foyers-temoins-estimer-impacts-gaspillage-alimentaire-menages
 
 
+alimentation . bannir produits surgelés:
+  non applicable si: surgelé = 'jamais'
+  titre: Se passer de produits surgelés
+  effort: faible
+  formule: (déjeuner et dîner - déjeuner et dîner . sans surgelé) * coefficient surgelé
+  icônes: 🥕🧊
+  description: |
+    Même s'ils permettent parfois d'écouler des stocks et d'éviter les invendus et le gaspillage, les produits surgelés demande de mobiliser plus d'énergie 
+    car ils doivent être congelés et maintenu à température. Cette demande supérieure en énergie contribue ainsi à émettre plus de gaz à effet de serre et 
+    à majorer l'empreinte carbone de notre alimentation.
+    
+alimentation . surgelé:
+  question: Consommez vous des aliments surgelés ? #A quelle fréquence achetez vous des produits surgelés ?
+  par défaut: parfois
+  une possibilité: 
+      choix obligatoire: oui
+      possibilités:
+        - toujours
+        - parfois
+        - jamais  
+
+alimentation . coefficient surgelé:
+  formule:
+    variations:
+      - si: surgelé = 'toujours'
+         alors: 1
+      - sinon: 0.5
+      
+alimentation . déjeuner et dîner . sans surgelé:
+  formule: déjeuner et dîner / 1.86
+  note: |
+    Pour estimer l'impact de notre alimentation sans produits surgelés on utilise un ratio calculé en faisant la moyenne des ratios d'impact entre produits surgelés
+    et non surgelés du groupe d'aliment "fruits, légumes, légumineuse" de la base de donnée Agrybalise.
+    Ce ratio est légèrement sous-estimé car le procédé de surgélation en lui-même n'est pas pris en compte, seul l'est le maintien en température de congélation
+
 alimentation . déchets . action: 
   titre: Passer au zéro déchet
   icônes: 📦🚯
