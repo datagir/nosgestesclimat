@@ -23,7 +23,18 @@ divers . textile . seconde main:
   inactive: oui
 divers . publicité:
   titre: Ignorer pubs et soldes
+  effort: faible
   icônes: 🏬🛒
+  Description: |
+    Par les désirs qu’ils créent en nous, la publicité et le marketing nous incite à la surconsommation et aux renouvellements précoces de nos équipements alors que ces derniers sont
+    souvent encore en état. Ces promotions servent à maximiser les taux de renouvellement et les volumes de marchandises écoulées, volumes très souvent disproportionnés
+    par rapport à la demande réelle.
+    Ne pas renouveler trop tôt ses appareils et équipements et les faire durer au maximum est donc un geste fort pour le climat. A titre d'exemple :
+      - ne pas renouveler de manière précoce son smartphone (au bout de 2 ans) c'est 16 kgCO2eq évités
+      - ne pas renouveler de manière précoce sa télévision (au bout de 4 ans) c'est 170 kgCO2eq évités
+      
+  Notes: |
+    Source : https://librairie.ademe.fr/dechets-economie-circulaire/325-biens-d-equipement-benefices-environnementaux-d-allonger-leur-duree-de-vie.html
   inactive: oui
 
 divers . électroménager . allongement:
