@@ -25,7 +25,7 @@ logement . empreinte chauffage:
     somme: 
       - électricité * part chauffage . électricité
       - gaz * part chauffage . gaz
-      - bois * part chauffage . bois
+      - bois * part chauffage . bois 
       - fioul * part chauffage . fioul
   note: |
     Ici, nous proposons ce calcul simplifié. Il est assez théorique, car on peut chauffer son logement au bois, tout en ayant une consommation d'électricité sans chauffage. C'est une 1ère estimation.
