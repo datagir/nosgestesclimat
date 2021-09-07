@@ -128,6 +128,60 @@ alimentation . déchets . action:
   icônes: 📦🚯
   inactive: oui
   
+alimentation . manger de saison:
+  non applicable si: saison = 'jamais'
+  titre: Manger en respectant les saisons
+  icônes: 🍅🌞
+  effort: modéré
+  formule: (déjeuner et dîner - déjeuner et dîner saison) * coefficient saison
+  description: |
+    Blabla
+    
+alimentation . saison:
+  question: Consommez vous des aliments en dehors de leur saison de production ?
+  par défaut: parfois
+  une possibilité: 
+      choix obligatoire: oui
+      possibilités:
+        - je ne fais pas attention à la saison
+        - parfois
+        - jamais  
+
+alimentation . coefficient saison:
+  formule:
+    variations:
+      - si: saison = 'je ne fais pas attention à la saison'
+         alors: 1
+      - sinon: 0.5
+
+#alimentation . plats . végétalien saison . empreinte:
+#  formule: alimentation . plats . végétalien . empreinte / 2,42
+#  unité: kgCO2e
+#  note: |
+#    Ce coefficient de 2,42 est issu d'Agribalyse en réalisant la moyenne des ratios d'un même produit considéré "de saison" et "hors saison".
+#    Ce coefficient est sujet à une forte incertitude étant donné que l'approche de saison ne concernce que 2 produits dans Agribalyse (la tomate et la fraise).
+
+#alimentation . plats . végétarien saison . empreinte:
+#  formule: alimentation . plats . végétarien . empreinte / 2,42
+#  unité: kgCO2e
+
+alimentation . plats saison:
+  formule: 
+    somme:
+      - alimentation . plats . viande 1
+      - alimentation . plats . viande 2
+      - alimentation . plats . végétarien / 2,42
+      - alimentation . plats . végétalien / 2,42
+  note: |
+    Ce coefficient de 2,42 est issu d'Agribalyse en réalisant la moyenne des ratios d'un même produit considéré "de saison" et "hors saison".
+    Ce coefficient est sujet à une forte incertitude étant donné que la donnée de saison/hors saison ne concerne que 2 produits dans Agribalyse (la tomate et la fraise).
+
+alimentation . déjeuner et dîner saison:
+  formule: par semaine * 52
+alimentation . déjeuner et dîner saison . par semaine:
+  formule: plats saison
+
+
 alimentation . boisson . eau en bouteille . arrêter:
   applicable si: affirmatif
   titre: Arrêter l'eau en bouteille
