@@ -27,10 +27,75 @@ divers . publicité:
   inactive: oui
 
 divers . électroménager . allongement:
-  titre: Faire durer mon électroménager
-  icônes: 💪🔌
-  inactive: oui
+  titre: Allonger la durée de vie de mon électroménager
+  non applicable si: préservation = 'oui'
+  icônes: 💪🔌 
+  effort: modéré
+  formule: électroménager - électroménager . préservé
+  description: |
+    Augmenter la durée de vie de ses équipements électroménager (en en prenant soin ou en les réparant lorsqu'ils tombent en panne) permet de limiter son impact
+    sur le climat. Renouveler de manière prématurée ses équipements, à l'inverse, c'est contribuer à produire plus d'équipements pour un même service rendu. 
+    Et produire ces équipements n'est pas sans impact, bien au contraire !
+  # Description à retravailler 
 
+divers . électroménager . préservé:
+  formule: réfrigérateur . préservé + mini réfrigérateur . préservé + lave linge . préservé + sèche linge . préservé + lave vaiselle . préservé + four . préservé + micro onde . préservé + plaques . préservé + bouilloire . préservé + cafetière . préservé + aspirateur . préservé 
+
+divers . réfrigérateur . préservé:
+  applicable si: réfrigérateur . présent
+  formule: 257  / (durée * 2)
+  unité: kgCO2e
+
+divers . mini réfrigérateur . préservé:
+  applicable si: mini réfrigérateur . présent
+  formule: 87.6  / (durée * 2)
+  unité: kgCO2e
+
+divers . lave linge . préservé:
+  applicable si: lave linge . présent
+  formule: 342  / (durée * 2)
+  unité: kgCO2e
+
+divers . sèche linge . préservé:
+  applicable si: sèche linge . présent
+  formule: 266  / (durée * 2)
+  unité: kgCO2e
+
+divers . lave vaisselle . préservé:
+  applicable si: lave vaisselle . présent
+  formule: 271  / (durée * 2)
+  unité: kgCO2e
+
+divers . four . préservé:
+  applicable si: four . présent
+  formule: 217  / (durée * 2)
+  unité: kgCO2e
+
+divers . micro onde . préservé:
+  applicable si: micro onde . présent
+  formule: 98.4  / (durée * 2)
+  unité: kgCO2e
+
+divers . plaques . préservé:
+  applicable si: plaques . présent
+  formule: 65.3  / (durée * 2)
+  unité: kgCO2e
+  
+divers . bouilloire . préservé:
+  applicable si: bouilloire . présent
+  formule: 9.9  / (durée * 2)
+  unité: kgCO2e
+
+divers . cafetière . préservé:
+  applicable si: cafetière . présent
+  formule: 31.9  / (durée * 2)
+  unité: kgCO2e
+  
+divers . aspirateur . préservé:
+  applicable si: aspirateur . présent
+  formule: 52.4  / (durée * 2)
+  unité: kgCO2e
+  
 divers . électroménager . seconde main:
   titre: Acheter d'occasion mon électroménager
   icônes: 🤝🔌
