@@ -11,7 +11,7 @@ logement . baisse 1 degré:
   formule: gains 1 degré * empreinte chauffage
   note: Pour une prochaine version, on pourrait poser la question de la température actuelle de son logement à l'utilisateur. Puis proposer une réduction de la température si > 20.
 
-logement . baisse 1 degré . gains 1 degré:
+logement . baisse 1 degr.é  gains 1 degré:
   formule: 7%
   description: |
     C'est la baisse estimée de dépense d'énergie quand on baisse la température de notre foyer chauffé de 1°C dans la gamme de température usuelle (autour de 20°).
@@ -46,6 +46,49 @@ logement . part chauffage . bois:
 logement . part chauffage . fioul:
   formule: 37.8 / 43.3
 
+logement . cuisson:
+  titre: Couvrir les casserole pour faire chauffer l'eau
+  formule: 
+    variations: 
+      - si: type = 'électricité'
+        alors: (électricité * part cuisson . électricité)/5 - alternative 
+      - si: type = 'gaz'
+        alors: (gaz * part cuisson . gaz)/5 - alternative 
+  effort: faible
+  description: |
+    Mettre un couvercle sur sa casserole pour chauffer de l’eau c’est 4 x moins d’énergie consommée
+  note : |
+  En première approximation, on considère qu'1/5 de l'énergie consommée sur le poste cuisson l'est pour faire chauffer l'eau
+
+logement . part cuisson . électricité:
+  formule: 11.2 / 143
+logement . part cuisson . gaz:
+  formule: 8.9 / 144.8
+  note: |
+    Source : CEREN - https://www.statistiques.developpement-durable.gouv.fr/consommation-denergie-par-usage-du-residentiel
+    
+logement . cuisson . alternative:
+  formule:
+    variations:
+      - si: type = 'électricité'
+        alors: ((électricité * part cuisson . électricité)/5) /4 
+      - si: type = 'gaz'
+        alors: ((gaz * part cuisson . gaz)/5) /4 
+  note: |
+    Couvrir les casseroles c'est 4x moins d'énergie consommée ; source : 40 trucs et astuces pour économiser l'eau et l'énergie, ADEME, août 2019 
+
+logemeent . cuisson . type:
+  question: Comment fonctionne vos plaques de cuisson ?
+  par défaut: "'électricité'"
+  formule: 
+    une possibilité: 
+      choix obligatoire: oui    
+      possibilités: 
+        - électricité
+        - gaz 
+
+logemeent . cuisson . type . électricité:
+logemeent . cuisson . type . gaz:
 
 logement . éteindre appareils: 
   formule: empreinte du foyer / habitants
