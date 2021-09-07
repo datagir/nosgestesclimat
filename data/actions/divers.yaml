@@ -34,8 +34,86 @@ divers . électroménager . allongement:
 divers . électroménager . seconde main:
   titre: Acheter d'occasion mon électroménager
   icônes: 🤝🔌
-  inactive: oui
+  effort: modéré
+  formule: électroménager - électroménager . occasion
+  description: |
+    Nos foyers sont maintenant équipés d'une multitude d'équipements électroménager. Mais leur production n'est pas sans impact, loins de là. La phase de 
+    production représente souvent plus de la moitié de l’impact GES d'un produit. C'est pourquoi acheter d'occasion et/ou reconditionné est un bon moyen de 
+    réduire son empreinte carbone. On vous affiche ici la réduction d'émissions de gaz à effet de serre qu'aurait impliqué l'achat d'équipements électroménager
+    d'occasion
+  inactive: non
 
+divers . électroménager:
+  formule: réfrigérateur + mini réfrigérateur + lave-linge + sèche-linge + lave-vaisselle + four + micro-ondes + plaques + bouilloire + cafetière + aspirateur
+
+divers . électroménager . occasion:
+  formule: réfrigérateur . occasion + mini réfrigérateur . occasion + lave-linge . occasion + sèche-linge . occasion + lave-vaisselle . occasion + four . occasion + micro-ondes . occasion + plaques . occasion + bouilloire . occasion + cafetière . occasion + aspirateur . occasion
+
+divers . réfrigérateur . occasion:
+  applicable si: réfrigérateur . présent
+  formule: 60.8 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+  
+divers . mini réfrigérateur . occasion:
+  applicable si: mini réfrigérateur . présent
+  formule: 18.4 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+  
+divers . lave-linge . occasion:
+  applicable si: lave-linge . présent
+  formule: 66.3 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . sèche-linge . occasion:
+  applicable si: sèche-linge . présent
+  formule: 33.7 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . lave-vaisselle . occasion:
+  applicable si: lave-vaisselle . présent
+  formule: 51.3 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . four . occasion:
+  applicable si: four . présent
+  formule: 29.9 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . micro-ondes . occasion:
+  applicable si: micro-ondes . présent
+  formule: 19 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . plaques . occasion:
+  applicable si: plaques . présent
+  formule: 9.6 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . bouilloire . occasion:
+  applicable si: bouilloire . présent
+  formule: 1.13 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . cafetière . occasion:
+  applicable si: cafetière . présent
+  formule: 3.9 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
+
+divers . aspirateur . occasion:
+  applicable si: aspirateur . présent
+  formule: 9.83 / (durée * coefficent préservation)
+  unité: kgCO2e
+  note: | On ne garde que la partie "Distribution" du FE pour une première approximation de l'impact GES de l'occasion
 
 divers . déchets: 
 divers . déchets . recyclage:
