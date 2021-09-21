@@ -123,6 +123,32 @@ alimentation . gaspillage alimentaire:
     - https://www.ademe.fr/operation-foyers-temoins-estimer-impacts-gaspillage-alimentaire-menages
 
 
+alimentation . gaspillage alimentaire:
+  inapplicable si: fréquence = 'jamais'
+  icônes: 🍲🚯
+  titre: Réduire mon gaspillage alimentaire
+  effort: modéré
+  formule:
+    variations:
+      - si: fréquence = 'souvent'
+         alors: 31 #60 - 29
+       - si: fréquence = 'parfois'
+         alors: 16 #45 - 29
+  description: |
+    En France le gaspillage alimentaire moyen est évalué à 32 kg par personne et par an dont 7 kg d’aliments encore emballés ! Si l’on élargi l'échelle et que l'on considère
+    l’ensemble de la chaîne de valeur (c'est-à-dire du champ à l’assiette) c’est environ 10 millions de tonnes d'aliments qui sont gaspillées par an, soit 150 kg par habitant.
+    
+    Réduire le gaspillage alimentaire est donc essentiel afin d'éviter de produire pour jeter !
+    
+    Vous trouverez des conseils et des pratiques utiles [ici](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture)
+    
+  note: |
+    Dans le document en référence, page 7 pour l'empreinte du gaspillage et page 36 pour la réduction moyenne.
+  références: 
+    - https://www.ademe.fr/operation-foyers-temoins-estimer-impacts-gaspillage-alimentaire-menages
+
+
+
 alimentation . déchets . action: 
   titre: Passer au zéro déchet
   icônes: 📦🚯
