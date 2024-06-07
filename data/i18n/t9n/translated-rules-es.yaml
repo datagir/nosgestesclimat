@@ -10,9 +10,9 @@ alimentation . déchets . quantité jetée . réduction:
   titre.auto: Limito mis residuos
   titre.lock: Je limite mes déchets
   description: |
-    Aún le queda camino por recorrer para llegar a cero residuos.
+    Aún te queda camino por recorrer para llegar a cero residuos.
     Pero, ¿estás aplicando gestos ecológicos para reducir tu impacto?
-    Seleccione esta respuesta y pase a la siguiente pregunta
+    Selecciona esta respuesta y pasa a la siguiente pregunta
   description.auto: |
     Aún le queda camino por recorrer para llegar a cero residuos.
     Pero, ¿estás aplicando gestos ecológicos para reducir tu impacto?
@@ -69,7 +69,7 @@ alimentation . déchets . gestes:
     Un mosaico para gestos ecológicos de cero residuos.
   note.lock: |
     Une mosaïque pour les éco-gestes zéro-déchets.
-  question: ¿Qué medidas ecológicas adopta para reducir sus residuos?
+  question: ¿Qué medidas ecológicas adoptas para reducir tus residuos?
   question.auto: ¿Qué medidas ecológicas adopta para reducir sus residuos?
   question.lock: Quels éco-gestes mettez-vous en place pour réduire vos déchets ?
   description: Cosas que ya puedes hacer para reducir la huella de tu cubo de basura.
@@ -80,7 +80,7 @@ alimentation . boisson . chaude . chicorée:
   titre.auto: Achicoria
   titre.lock: Chicorée
 alimentation . boisson . sucrées . litres:
-  question: ¿Cuál es su consumo semanal de refrescos, zumos de fruta, etc.?
+  question: ¿Cuál es tu consumo semanal de refrescos, zumos de fruta, etc.?
   question.auto: ¿Cuál es su consumo semanal de refrescos, zumos de fruta, etc.?
   question.lock: Quelle est votre consommation par semaine de sodas, jus de fruits, etc. ?
   titre: Consumo de bebidas azucaradas
@@ -155,7 +155,7 @@ alimentation . plats:
   titre: Huella de 14 comidas
   titre.auto: Huella de 14 comidas
   titre.lock: Empreinte de 14 repas
-  question: Elija sus platos de comida y cena para una semana normal
+  question: Elige los platos de tus comidas y cenas para una semana normal
   question.auto: Elija sus platos de comida y cena para una semana normal
   question.lock: Choisissez les plats de vos déjeuners et dîners pour une semaine type
   description: |
@@ -262,7 +262,7 @@ alimentation . déchets . quantité jetée:
 
     Para saber más sobre estilos de vida de residuo cero, visite la web de <a href="https://www.zerowastefrance.org/passer-a-laction/adopter-zero-dechet/">Residuo Cero Francia</a>.
 
-    > Tenga en cuenta que, en el caso de un compromiso de "residuo cero", seguimos considerando las emisiones de gases de efecto invernadero (aunque muy reducidas), ya que es muy difícil, si no imposible, no generar ningún residuo
+    > Ten en cuenta que, en el caso de un compromiso de "residuo cero", seguimos considerando las emisiones de gases de efecto invernadero (aunque muy reducidas), ya que 
     es muy difícil, si no imposible, generar cero residuos, algunos de los cuales son invisibles e inevitables.
   description.auto: |
     > Responde "Residuo Cero" sólo si rastreas hasta el último desecho.
@@ -296,7 +296,7 @@ alimentation . boisson . alcool . litres:
   titre: Consumo de alcohol
   titre.auto: Consumo de alcohol
   titre.lock: Consommation d'alcool
-  question: ¿Cuál es su consumo semanal de alcohol (vino, cerveza, etc.)?
+  question: ¿Cuál es tu consumo semanal de alcohol (vino, cerveza, etc.)?
   question.auto: ¿Cuál es su consumo semanal de alcohol (vino, cerveza, etc.)?
   question.lock: Quelle est votre consommation par semaine d'alcool (vin, bière, etc.) ?
   suggestions:
@@ -426,7 +426,7 @@ alimentation . déchets . notif zéro déchet:
   titre.auto: notificación de residuo cero
   titre.lock: notif zéro déchet
   description: |
-    Ha indicado un estilo de vida con cero residuos. Tenga en cuenta que este nivel de compromiso
+    Has indicado un estilo de vida con cero residuos. Ten en cuenta que este nivel de compromiso
     corresponde a una persona que está **100% comprometida con la reducción de sus residuos**.
     Comprar a granel no es suficiente para ser residuo cero.
   description.auto: |
@@ -513,7 +513,7 @@ alimentation . de saison . ratio:
   titre.auto: relación
   titre.lock: ratio
   note: |
-    Este método de cálculo es imperfecto: lo ideal sería poder hacer la diferencia estacional/inestacional para cada plato de la dieta personalizada del usuario. Pero Agribalyse todavía no da el desglose estacional/inestacional para cada alimento.
+    Este método de cálculo es imperfecto: lo ideal sería poder hacer la diferencia entre fuera o dentro de temporada para cada plato de la dieta personalizada del usuario. Pero Agribalyse todavía no da este desglose para cada alimento.
 
     Sin embargo, tiene el mérito de dar un primer orden de magnitud.
 
@@ -657,9 +657,9 @@ alimentation . boisson . chaude:
   titre.auto: caliente
   titre.lock: chaude
   description: |
-    Su consumo de bebidas calientes en una semana normal. ¿Un café al día? ¿Té todas las tardes? ¿Chocolate caliente para desayunar?
+    Tu consumo de bebidas calientes en una semana normal. ¿Un café al día? ¿Té todas las tardes? ¿Chocolate caliente para desayunar?
 
-    Tenga en cuenta que puede seleccionar el tipo de leche que bebe en otra pregunta
+    Ten en cuenta que puedes seleccionar el tipo de leche que bebes en otra pregunta
 
     > ¡El café o té que tomas para desayunar también se tiene en cuenta aquí!
   description.auto: |
@@ -674,7 +674,7 @@ alimentation . boisson . chaude:
     A noter que vous pourrez sélectionner le type de lait que vous consommez dans une autre question !
 
     > Le café ou thé que vous consommez au petit déjeuner est à prendre en compte ici !
-  question: ¿Cuál es su consumo de bebidas calientes en una semana normal (número de tazas por semana)?
+  question: ¿Cuál es tu consumo de bebidas calientes en una semana normal (número de tazas por semana)?
   question.auto: ¿Cuál es su consumo de bebidas calientes en una semana normal (número de tazas por semana)?
   question.lock: Quelle est votre consommation de boissons chaudes pour une semaine type (nombre de tasses par semaine) ?
 alimentation . déchets . gestes . gaspillage alimentaire . présent:
@@ -847,7 +847,7 @@ alimentation . déchets . omr . putrescibles . réduction compost:
   titre.auto: reducción del compost
   titre.lock: réduction compost
 alimentation . de saison . facteur de saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur de saison
 alimentation . boisson . sucrées . facteur jus de fruits:
@@ -868,7 +868,7 @@ alimentation . local . consommation:
   question.auto: ¿Consume productos locales?
   question.lock: Consommez-vous des produits locaux ?
   description: |
-    Esta pregunta nos permite ajustar la huella de su dieta en función de sus hábitos sobre el carácter local de sus compras.
+    Esta pregunta nos permite ajustar la huella de tu dieta en función de tus hábitos sobre el carácter local de tus compras.
 
     Consideramos "locales" los alimentos que proceden de la región donde vives o de regiones cercanas.
 
@@ -898,7 +898,7 @@ alimentation . local . consommation:
 
     > ⚠️ Attention, si vous faites vos courses en voiture à plusieurs km de chez vous chaque semaine, il est possible que l'empreinte du dernier km dépasse les gains d'une alimentation locale !
 alimentation . de saison:
-  titre: estacional
+  titre: de temporada
   titre.auto: estacional
   titre.lock: de saison
 alimentation . déchets . gestes . bonus acheter en vrac . empreinte carton:
@@ -1038,7 +1038,7 @@ alimentation . boisson . eau en bouteille . consommateur:
 
     Nous avons considéré que la valeur par défaut était donc "non".
   description: |
-    Si bebe principalmente agua del grifo y su consumo de agua embotellada se limita a contadas ocasiones (por ejemplo, una comida rápida en una panadería a la semana, con su famoso menú "bocadillo + postre + bebida en una botella de plástico"), responda que no.
+    Si bebes principalmente agua del grifo y tu consumo de agua embotellada se limita a pocas ocasiones (por ejemplo, una comida rápida en una panadería a la semana, con su famoso menú "bocadillo + postre + bebida en una botella de plástico"), responda que no.
 
     Si compras regularmente paquetes de agua embotellada en el supermercado o compras una botellita cada día en la cantina del trabajo, contesta que sí.
 
@@ -1290,7 +1290,7 @@ alimentation . de saison . part de saison:
     El porcentaje de productos de temporada se aplica a todas las comidas de un individuo.
   description.lock: |
     Le pourcentage de produits de saison est appliqué à l'ensemble des repas d'un individu.
-  titre: cuota estacional
+  titre: proporción de temporada
   titre.auto: cuota estacional
   titre.lock: part de saison
 alimentation . déchets . gestes . bonus acheter en vrac . empreinte emballages évités:
@@ -1307,7 +1307,7 @@ alimentation . déchets . gestes . bonus acheter en vrac . empreinte emballages 
     Source : Page 47 de [l'étude ADEME](https://librairie.ademe.fr/dechets-economie-circulaire/2520-etude-d-evaluation-des-gisements-d-evitement-des-potentiels-de-reduction-de-dechets-et-des-impacts-environnementaux-evites.html)
     Selon le tableau 22% des emballages évités sont en papier/carton, 78% sont en plastique.
 alimentation . de saison . empreinte:
-  titre: Bonificación dietética estacional
+  titre: Bonificación dieta de temporada
   titre.auto: Bonificación dietética estacional
   titre.lock: Bonus régime de saison
 alimentation . boisson . tasse de chocolat chaud . quantité lait par tasse:
@@ -1414,14 +1414,14 @@ alimentation . de saison . consommation:
   note.auto: Consulte <a href="http://nosgestesclimat/documentation/alimentation/de-saison/pourcentage-saisonable">aquí</a> los detalles del método de cálculo
   note.lock: Voir détail de l'approche de calcul [ici](http://nosgestesclimat/documentation/alimentation/de-saison/pourcentage-saisonable)
   description: |
-    Esta pregunta nos permite corregir la huella de su alimentación en función de sus hábitos sobre la estacionalidad de sus compras.
+    Esta pregunta nos permite corregir la huella de tu alimentación en función de tus hábitos sobre la estacionalidad de tus compras.
 
-    Este impacto es relativamente pequeño, ya que los productos de temporada sólo representan el 7% de la dieta del francés medio.
+    Este impacto es relativamente pequeño, ya que los productos de temporada sólo representan en promedio el 7% de la dieta de una persona (datos para Francia).
 
     Pero no deja de ser una ventaja, y los beneficios de comer en temporada no se limitan a la huella climática.
 
     > Pero, ¿cuándo es de temporada una manzana o una coliflor?
-    > Descubra nuestro minisitio <a href="https://mesfruitsetlegumesdesaison.fr">Mi fruta y verdura</a> de temporada.
+    > Descubre nuestro minisitio <a href="https://mesfruitsetlegumesdesaison.fr">Mi fruta y verdura</a> de temporada.
   description.auto: |
     Esta pregunta nos permite corregir la huella de su alimentación en función de sus hábitos sobre la estacionalidad de sus compras.
 
@@ -1456,7 +1456,7 @@ alimentation . déchets . gestes . bonus compostage biodéchets:
   titre.auto: bonificación por compostaje de biorresiduos
   titre.lock: bonus compostage biodéchets
 alimentation . déchets . gestes . stop pub . présent:
-  question: ¿Tiene un stop publicitario en su buzón?
+  question: ¿Tienes una pegatina "stop publicidad" en tu buzón?
   question.auto: ¿Tiene un stop publicitario en su buzón?
   question.lock: Avez-vous un stop pub sur votre boîte aux lettres ?
   titre: presente
@@ -1626,7 +1626,7 @@ alimentation . local . part locale annuelle:
   titre.auto: cuota local anual
   titre.lock: part locale annuelle
 alimentation . déchets . gestes . compostage biodéchets:
-  titre: Yo compost
+  titre: Yo composto
   titre.auto: Yo compost
   titre.lock: Je composte
 alimentation . plats . poisson gras:
@@ -1949,7 +1949,7 @@ alimentation . de saison . pourcentage de saison:
   titre.auto: Porcentaje estacional de la huella de una comida media
   titre.lock: Pourcentage de saison de l'empreinte d'un repas moyen
   note: |
-    Este método de cálculo es imperfecto: lo ideal sería poder diferenciar entre estacional y fuera de temporada en cada plato de la dieta personalizada del usuario. Sin embargo, en una futura versión del cálculo podremos diferenciar el porcentaje para cada elemento de la dieta.
+    Este método de cálculo es imperfecto: lo ideal sería poder diferenciar entre dentro y fuera de temporada en cada plato de la dieta personalizada del usuario. Sin embargo, en una futura versión del cálculo podremos diferenciar el porcentaje para cada elemento de la dieta.
 
     No obstante, tiene el mérito de dar un primer orden de magnitud.
 
@@ -2361,7 +2361,7 @@ alimentation . déchets . collecte separee . putrescibles . méthanisation . pou
   titre.auto: porcentaje
   titre.lock: pourcentage
 alimentation . déchets . dechetterie . deee . fin de vie moyenne DEE:
-  titre: media de RAEE al final de su vida útil
+  titre: eliminación media de RAEE
   titre.auto: media de RAEE al final de su vida útil
   titre.lock: fin de vie moyenne DEE
 alimentation . déchets . collecte separee . autre . incinération:
@@ -2369,7 +2369,7 @@ alimentation . déchets . collecte separee . autre . incinération:
   titre.auto: incineración
   titre.lock: incinération
 alimentation . déchets . dechetterie . deblais et gravats . fin de vie moyenne gravats:
-  titre: escombros medios al final de su vida útil
+  titre: eliminación media escombros
   titre.auto: escombros medios al final de su vida útil
   titre.lock: fin de vie moyenne gravats
 alimentation . déchets . collecte separee . metaux . stockage . pourcentage:
@@ -2730,7 +2730,7 @@ alimentation . déchets . dechetterie . dechets dangereux . incinération . pour
   titre.auto: porcentaje
   titre.lock: pourcentage
 alimentation . déchets . dechetterie . emcombrants et tout-venant . fin de vie moyenne DIB:
-  titre: cIW medio al final de su vida útil
+  titre: eliminación media residuos industriales
   titre.auto: cIW medio al final de su vida útil
   titre.lock: fin de vie moyenne DIB
 alimentation . déchets . dechetterie . papier carton:
@@ -2968,7 +2968,7 @@ alimentation . déchets . dechetterie . deblais et gravats . fin de vie moyenne 
   titre.auto: impacto
   titre.lock: impact
   note: |
-    El EF considerado es: Residuos de construcción - Residuos inertes mezclados (Grava) - Fin de vida medio - Impactos
+    El FE considerado es: Residuos de construcción - Residuos inertes mezclados (Escombros) - Fin de vida medio - Impactos
   note.auto: |
     El EF considerado es: Residuos de construcción - Residuos inertes mezclados (Grava) - Fin de vida medio - Impactos
   note.lock: |
@@ -3004,7 +3004,7 @@ alimentation . déchets . dechetterie . deee . fin de vie moyenne DEE . pourcent
   titre.auto: porcentaje
   titre.lock: pourcentage
   note: |
-    Los residuos de RAEE se consideran al 100% al final de su vida útil.
+    Se considera el 100% de la eliminación de los residuos de RAEE.
   note.auto: |
     Los residuos de RAEE se consideran al 100% al final de su vida útil.
   note.lock: |
@@ -3475,11 +3475,11 @@ transport . avion . usager:
   question.auto: ¿Ha volado al menos una vez en los últimos 3 años?
   question.lock: Avez-vous pris l'avion au moins une fois ces 3 dernières années ?
   description: |
-    Hemos optado por ofrecerle una forma de contabilizar el impacto de sus viajes en avión durante varios años. El impacto sobre el clima es tal que es importante tenerlo en cuenta.
+    Hemos optado por ofrecerte una forma de contabilizar el impacto de tus viajes en avión durante varios años. El impacto sobre el clima es tan importante que hay que tenerlo en cuenta.
 
-    Así que, tanto si vuela todos los años como si no, responda "sí" y tendrá entonces la opción de introducir sus horas de vuelo en los últimos 3 años.
+    Así que, tanto si vuelas todos los años como si no, responda "sí" y tendrás entonces la opción de introducir tus horas de vuelo en los últimos 3 años.
 
-    > Si voló de París a Nueva York en 2021 (aproximadamente 17h ida y vuelta), sus emisiones asociadas (casi 2 toneladas) se repartirán entre los 3 últimos años.
+    > Si has volado de París a Nueva York en 2021 (aproximadamente 17h ida y vuelta), tus emisiones asociadas (casi 2 toneladas) se repartirán entre los 3 últimos años.
   description.auto: |
     Hemos optado por ofrecerle una forma de contabilizar el impacto de sus viajes en avión durante varios años. El impacto sobre el clima es tal que es importante tenerlo en cuenta.
 
@@ -3581,7 +3581,7 @@ transport . deux roues . km:
   titre: km
   titre.auto: km
   titre.lock: km
-  question: ¿Cuántos kilómetros recorre al año en su scooter o moto?
+  question: ¿Cuántos kilómetros recorres al año en tu scooter o moto?
   question.auto: ¿Cuántos kilómetros recorre al año en su scooter o moto?
   question.lock: Combien de km faites-vous à l'année avec votre scooter ou moto ?
   suggestions:
@@ -3685,7 +3685,7 @@ futureco-data . transport . ferry . empreinte par km volume:
     > ℹ️ Esta regla proviene del modelo <a href="https://github.com/laem/futureco-data">`futureco-data`</a>.
 
 
-    Nuestro objetivo es estimar la huella de un pasajero en transbordadores de pasajeros como los que unen Francia continental con Córcega e Inglaterra.
+    Nuestro objetivo es estimar la huella de un pasajero en transbordadores de pasajeros como los que unen España continental con las Islas Baleares.
 
     El transbordador se propone a menudo como una alternativa seria al avión en términos de huella de carbono, pero no existía ninguna estimación de su huella climática por kilómetro (ni ADEME en Francia, ni a escala internacional, ni en la literatura científica) que tenga en cuenta no a un pasajero medio, sino la diversidad de opciones de un billete: 
 
@@ -4205,7 +4205,7 @@ futureco-data . transport . ferry . durée du voyage:
     > ℹ️ Esta regla proviene del modelo <a href="https://github.com/laem/futureco-data">`futureco-data`</a>.
 
 
-    Indique sus horas de salida y llegada, asegurándose de seleccionar el día de llegada.
+    Indica tus horas de salida y llegada, asegurándote de seleccionar el día de llegada.
 
     ⚠️ La velocidad es crucial a la hora de calcular la huella de un viaje, ya que el consumo de combustible varía en función del cubo de la velocidad.
   description.auto: |
@@ -4252,7 +4252,7 @@ transport . mobilité douce . vae . km:
     Consejo: en un VCE, el número total de kilómetros recorridos se muestra en el monitor de a bordo.
   description.lock: |
     Astuce : sur un VAE, le nombre total de kilomètres effectué est affiché sur le moniteur de bord.
-  question: ¿Cuántos kilómetros recorre al año con su bicicleta con asistencia eléctrica (BEA)?
+  question: ¿Cuántos kilómetros recorres al año con tu bicicleta eléctrica (bicilec)?
   question.auto: ¿Cuántos kilómetros recorre al año con su bicicleta con asistencia eléctrica (BEA)?
   question.lock: Combien de kilomètres faites-vous à l'année avec votre Vélo à Assistance Électrique (VAE) ?
 transport . vacances . van . empreinte au litre:
@@ -4830,7 +4830,7 @@ transport . deux roues . type . scooter thermique:
   titre.auto: Scooter de combustión interna (diésel/gasolina)
   titre.lock: Scooter thermique (diesel/essence)
 transport . mobilité douce:
-  question: ¿Cuáles son sus medios de transporte "eficientes"?
+  question: ¿Cuáles son tus medios de transporte "eficientes"?
   question.auto: ¿Cuáles son sus medios de transporte "eficientes"?
   question.lock: Quels sont vos modes de déplacements "efficaces" ?
   titre: Viajes eficientes
@@ -4844,7 +4844,7 @@ transport . mobilité douce:
     suggestions.lock:
       - aucun
   description: |
-    Estos modos de transporte suelen denominarse "blandos". Este adjetivo hace demasiado poco para destacar su formidable eficacia.
+    Estos modos de transporte suelen denominarse "sostenibles" o "activos". Este adjetivo hace demasiado poco para destacar su formidable eficacia.
 
     Con un equipamiento de menos de 20 kg, o de 30 kg para las bicicletas de carga, se puede transportar fácilmente el peso de una persona, o incluso de dos o tres (una bicicleta con dos niños a bordo) en distancias cortas, a veces medias, más raramente largas. ¡Y también la compra!
 
@@ -5094,7 +5094,7 @@ transport . mobilité douce . vélo . construction:
   titre.auto: construcción
   titre.lock: construction
   note: |
-    La base de la huella no ofrece una FE para bicicletas convencionales.
+    La base de la huella no ofrece un FE para bicicletas convencionales.
 
     Sin embargo, en 2021, el fabricante de bicicletas Trek publicó <a href="https://view.publitas.com/trek-bicycle/trek-bicycle-2021-sustainability-report/page/6">un estudio</a>
     que presenta la huella de carbono de la producción de sus bicicletas. 
@@ -5125,7 +5125,7 @@ transport . mobilité douce . vae . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Tienes una bicicleta con asistencia eléctrica (BEA)?
+  question: ¿Tienes una bicicleta con asistencia eléctrica (bicilec)?
   question.auto: ¿Tienes una bicicleta con asistencia eléctrica (BEA)?
   question.lock: Possédez vous un vélo à Assistance Électrique (VAE) ?
 transport . vacances . van . consommation au kilomètre:
@@ -5357,13 +5357,13 @@ transport . vacances:
       - no
     suggestions.lock:
       - aucun
-  question: ¿Qué tiene para sus fines de semana y vacaciones (aparte de su vehículo principal)?
+  question: ¿Qué tienes para tus fines de semana y vacaciones (aparte de tu vehículo principal)?
   question.auto: ¿Qué tiene para sus fines de semana y vacaciones (aparte de su vehículo principal)?
   question.lock: Que possédez-vous pour vos week-ends, vos vacances (hors véhicule principal) ?
   description: |
-    Aquí puede seleccionar lo que necesita para sus vacaciones. La categoría "furgoneta transformada" incluye furgonetas y camiones transformados. 
+    Aquí puedes seleccionar lo que utilizas para tus vacaciones. La categoría "furgoneta transformada" incluye furgonetas y camiones transformados. 
 
-    Si ya ha introducido anteriormente los kilómetros recorridos en una furgoneta transformada, indicando "vehículo comercial ligero" como vehículo principal utilizado para el viaje, puede marcar aquí "ninguno".
+    Si ya has introducido anteriormente los kilómetros recorridos en una furgoneta transformada, indicando "vehículo comercial ligero" como vehículo principal utilizado para el viaje, puedes marcar aquí "ninguno".
 
     💡 Si no tienes autocaravana, caravana o furgoneta transformada, o si las alquilas, puedes hacer clic en "ninguno" justo debajo de esta pregunta, y luego en "Siguiente". El alquiler aún no está disponible en nuestro modelo**.
   description.auto: |
@@ -5529,7 +5529,7 @@ futureco-data . transport . ferry . voiture:
 
     Si vous transportez une moto, répondez non (l'empreinte sera légèrement sous-estimée).
 transport . voiture . entretien pondéré:
-  titre: entrevista ponderada
+  titre: mantenimiento ponderado
   titre.auto: entrevista ponderada
   titre.lock: entretien pondéré
   note: |
@@ -5730,14 +5730,14 @@ futureco-data . transport . ferry . surface . sièges:
   titre.auto: asientos
   titre.lock: sièges
 transport . vacances . van . km:
-  question: ¿Qué distancia recorre al año en furgoneta?
+  question: ¿Qué distancia recorres al año en furgoneta?
   question.auto: ¿Qué distancia recorre al año en furgoneta?
   question.lock: Quelle distance parcourez-vous à l'année en van ?
   titre: km en furgoneta
   titre.auto: km en furgoneta
   titre.lock: km en van
   description: |
-    Tenga en cuenta que estos kilómetros de furgoneta no deben introducirse en los kilómetros de coche (pregunta que probablemente ya haya respondido), ya que son dos cuestiones diferentes.
+    Ten en cuenta que estos kilómetros de furgoneta no deben introducirse en los kilómetros de coche (pregunta que probablemente ya hayas respondido), ya que son dos preguntas diferentes.
   description.auto: |
     Tenga en cuenta que estos kilómetros de furgoneta no deben introducirse en los kilómetros de coche (pregunta que probablemente ya haya respondido), ya que son dos cuestiones diferentes.
   description.lock: |
@@ -5919,7 +5919,7 @@ transport . voiture . électrique . empreinte au kilomètre:
   titre.auto: huella por km eléctrico
   titre.lock: empreinte au km électrique
   note: |
-    Aquí consideramos el mix eléctrico francés medio. La mayoría de los propietarios de coches eléctricos cargan sus vehículos en casa utilizando tarifas valle, que son más ventajosas desde el punto de vista financiero y también corresponden a momentos en los que la demanda de electricidad es menor y el mix eléctrico menos intensivo en carbono (no se utilizan centrales de gas).
+    Aquí consideramos el mix eléctrico medio. La mayoría de los propietarios de coches eléctricos cargan sus vehículos en casa utilizando tarifas valle, que son más ventajosas desde el punto de vista financiero y también corresponden a momentos en los que la demanda de electricidad es menor y el mix eléctrico menos intensivo en carbono (no se utilizan centrales de gas).
   note.auto: |
     Aquí consideramos el mix eléctrico francés medio. La mayoría de los propietarios de coches eléctricos cargan sus vehículos en casa utilizando tarifas valle, que son más ventajosas desde el punto de vista financiero y también corresponden a momentos en los que la demanda de electricidad es menor y el mix eléctrico menos intensivo en carbono (no se utilizan centrales de gas).
   note.lock: |
@@ -5940,7 +5940,7 @@ futureco-data:
   titre.auto: futureco-data
   titre.lock: futureco-data
 transport . train . km:
-  question: ¿Cuántos kilómetros recorre en tren al año?
+  question: ¿Cuántos kilómetros recorres en tren al año?
   question.auto: ¿Cuántos kilómetros recorre en tren al año?
   question.lock: Combien de kilomètres parcourez-vous en train par an ?
   titre: km
@@ -6059,11 +6059,11 @@ transport . vacances . camping car . km:
   titre: km en autocaravana
   titre.auto: km en autocaravana
   titre.lock: km en camping car
-  question: ¿Qué distancia recorre en autocaravana cada año?
+  question: ¿Qué distancia recorres en autocaravana cada año?
   question.auto: ¿Qué distancia recorre en autocaravana cada año?
   question.lock: Quelle distance parcourez-vous à l'année en camping-car ?
   description: |
-    Tenga en cuenta que estos km de autocaravana no deben introducirse en km de coche (pregunta que probablemente ya haya respondido), ya que son dos cuestiones diferentes.
+    Ten en cuenta que estos km de autocaravana no deben introducirse en km de coche (pregunta que probablemente ya haya respondido), ya que son dos preguntas diferentes.
   description.auto: |
     Tenga en cuenta que estos km de autocaravana no deben introducirse en km de coche (pregunta que probablemente ya haya respondido), ya que son dos cuestiones diferentes.
   description.lock: |
@@ -6279,13 +6279,13 @@ transport . voiture . km:
     - 10km / jour
     - 1000km / mois
     - 20 000km / an
-  question: ¿Qué distancia recorre en coche cada año?
+  question: ¿Qué distancia recorres en coche cada año?
   question.auto: ¿Qué distancia recorre en coche cada año?
   question.lock: Quelle distance parcourez-vous à l'année en voiture ?
   description: |
-    Cuente sólo los desplazamientos personales (compras, ocio, familia, etc.) y los desplazamientos a su lugar de trabajo habitual.
+    Cuenta sólo los desplazamientos personales (compras, ocio, familia, etc.) y los desplazamientos a tu lugar de trabajo habitual.
 
-    Por ejemplo, si está en misión de trabajo en otro departamento o en otro país, esto se incluye en la contabilidad de su empresa: no lo cuente aquí.
+    Por ejemplo, si estás en misión de trabajo en otro departamento o en otro país, esto se incluye en la contabilidad de tu empresa: no lo incluyas aquí.
   description.auto: |
     Cuente sólo los desplazamientos personales (compras, ocio, familia, etc.) y los desplazamientos a su lugar de trabajo habitual.
 
@@ -6326,14 +6326,14 @@ transport . vacances . caravane . distance:
   titre: distancia
   titre.auto: distancia
   titre.lock: distance
-  question: ¿Qué distancia recorre en caravana todo el año?
+  question: ¿Qué distancia recorres en caravana todo el año?
   question.auto: ¿Qué distancia recorre en caravana todo el año?
   question.lock: Quelle distance parcourez-vous à l'année en caravane ?
   note: Según la federación francesa de campistas, caravanistas y autocaravanistas, el propietario medio de una autocaravana recorre entre 5.000 y 7.500 km al año <a href="https://ffcc.fr/chiffres-cles/">(fuente</a>)
   note.auto: Según la federación francesa de campistas, caravanistas y autocaravanistas, el propietario medio de una autocaravana recorre entre 5.000 y 7.500 km al año <a href="https://ffcc.fr/chiffres-cles/">(fuente</a>)
   note.lock: D'après la fédération des campeurs, caravaniers et camping-caristes, un camping-cariste fait en moyenne de 5000 à 7500 km par an ([source](https://ffcc.fr/chiffres-cles/))
   description: |
-    Tenga en cuenta que si ha recorrido esos kilómetros en caravana, los ha recorrido en coche: por tanto, debe haberlos incluido en los kilómetros recorridos en coche (pregunta que probablemente ya haya respondido).
+    Ten en cuenta que si has recorrido esos kilómetros en caravana, los has recorrido en coche: por tanto, debes haberlos incluido en los kilómetros recorridos en coche (pregunta que probablemente ya hayas respondido).
 
     💡 Utilizamos esta pregunta para aplicar el consumo extra de remolcar tu caravana a algunos de tus km de coche.
   description.auto: |
@@ -6495,7 +6495,7 @@ transport . voiture . thermique . empreinte au litre:
     Las huellas están disponibles con cierto detalle en <a href="https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element?recherche=diesel">la base de carbono</a>, aquí por ejemplo para "gasóleo". Lo mismo ocurre con la gasolina.
     Para encontrarlas fácilmente, filtre por unidad "kgCO2e/litro" y por geografía "Francia continental".
 
-    Tenga en cuenta que para el gasóleo, el EF elegido es la media entre el gasóleo B7 y el gasóleo B10.
+    Ten en cuenta que para el gasóleo, el FE elegido es la media entre el gasóleo B7 y el gasóleo B10.
   description.auto: |
     Las huellas están disponibles con cierto detalle en <a href="https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element?recherche=diesel">la base de carbono</a>, aquí por ejemplo para "gasóleo". Lo mismo ocurre con la gasolina.
     Para encontrarlas fácilmente, filtre por unidad "kgCO2e/litro" y por geografía "Francia continental".
@@ -6686,11 +6686,11 @@ transport . voiture . thermique . carburant:
   titre.auto: combustible
   titre.lock: carburant
   description: |
-    Para ayudarle a comprender los distintos tipos de combustible, <a href="https://www.francetvinfo.fr/economie/automobile/essence/les-carburants-changent-de-nom-a-la-pompe-voici-comment-vous-y-retrouver_2967013.html">este artículo educativo</a> le resultará muy útil.
+    Para entender los distintos tipos de combustible, <a href="https://www.francetvinfo.fr/economie/automobile/essence/les-carburants-changent-de-nom-a-la-pompe-voici-comment-vous-y-retrouver_2967013.html">este artículo educativo</a> te resultará muy útil.
 
     <a href="https://www.ecologie.gouv.fr/carburants-et-combustibles-autorises-en-france">Este artículo</a> del Ministerio de Ecología explica con más detalle los combustibles legales en Francia.
 
-    > Tenga en cuenta que, aunque el tipo de combustible varía significativamente en términos de huella climática por litro, el consumo en litros por cada 100 km también varía. Asegúrese de introducir un consumo por litro basado en su media real.
+    > Ten en cuenta que, aunque el tipo de combustible varía significativamente en términos de huella climática por litro, el consumo en litros por cada 100 km también varía. Asegúrate de introducir un consumo por litro basado en su media real.
   description.auto: |
     Para ayudarle a comprender los distintos tipos de combustible, <a href="https://www.francetvinfo.fr/economie/automobile/essence/les-carburants-changent-de-nom-a-la-pompe-voici-comment-vous-y-retrouver_2967013.html">este artículo educativo</a> le resultará muy útil.
 
@@ -6954,7 +6954,7 @@ transport . voiture . thermique . consommation estimée . moyenne diesel:
   titre.lock: Consommation moyenne voiture "moyenne" diesel
 transport . voiture . notif carburant:
   description: |
-    Su vehículo funciona con biocarburante: además de la huella de carbono de los biocarburantes, debemos ser conscientes de que también tienen una huella en el suelo: este suelo podría utilizarse para cultivar cereales para alimentarnos o servir como refugio de biodiversidad.
+    Tu vehículo funciona con biocarburante: además de la huella de carbono de los biocarburantes, debemos ser conscientes de que también tienen una huella en el suelo: este suelo podría utilizarse para cultivar cereales para alimentarnos o servir como refugio de biodiversidad.
     Es lo que aquí se conoce como "cambio de uso del suelo", a efectos de la producción de biocarburantes. Por desgracia, el impacto sobre el clima de este cambio de uso es difícil de cuantificar y especialmente incierto.
 
     Hemos optado por incluir esta opción en la prueba, pero hay que señalar que este resultado **no es representativo de las probables consecuencias medioambientales asociadas al uso de biocarburantes**
@@ -7069,10 +7069,10 @@ divers . ameublement . meubles:
     - 3 petits meubles : 2 étagères, une table basse.
     - 5 grands meubles : 2 caissons hauts de cuisine, 3 meubles bas.
   description: |
-    Introduzca aquí el mobiliario utilizado en el interior de su vivienda que tenga menos de 10 años; y sólo los productos comprados nuevos, 
+    Introduce aquí el mobiliario utilizado en el interior de tu vivienda que tenga menos de 10 años; y sólo los productos comprados nuevos, 
     excluimos las compras de segunda mano y los depósitos de venta.
 
-    No olvide los muebles de cocina  
+    No olvidas los muebles de cocina  
 
     Consideramos que todos los muebles son utilizados por el conjunto del hogar, aunque algunos de ellos sólo se utilicen individualmente (las camas, por ejemplo), lo que constituye una limitación de la prueba.
 
@@ -7348,7 +7348,7 @@ divers . électroménager . appareils . petit réfrigérateur . empreinte:
   titre.auto: Refrigerador que ocupa poco espacio
   titre.lock: Empreinte petit réfrigérateur
   note: |
-    Como en la base de datos de Empreinte no hay ningún factor de emisión para un frigorífico pequeño (bajo suelo), hemos optado por considerar que su huella es equivalente a la de un frigorífico combinado de tamaño medio armario. 
+    Como en la base de datos no hay ningún factor de emisión para un frigorífico pequeño, hemos optado por considerar que su huella es equivalente a la de un frigorífico combinado de tamaño medio armario. 
     Un frigorífico bajo suelo tiene una capacidad media de algo más de 100 litros, incluidos 15 litros para congelación, frente a los 200 + 80 litros de un frigorífico combinado. Su peso oscila entre 25 y 35 kg, frente a los 60-70 kg de un frigorífico combinado.
   note.auto: |
     Como en la base de datos de Empreinte no hay ningún factor de emisión para un frigorífico pequeño (bajo suelo), hemos optado por considerar que su huella es equivalente a la de un frigorífico combinado de tamaño medio armario. 
@@ -8032,7 +8032,7 @@ divers . loisirs . culture:
     Por "práctica cultural" entendemos ir al teatro, al ballet, a la ópera o al cine, asistir a un espectáculo callejero, tocar un instrumento o visitar un museo o un parque.
   description.lock: |
     Nous entendons par "pratique culturelle" le fait d'aller au théâtre, au ballet, à l'opéra ou au cinéma, d'assister à du spectacle de rue, de pratiquer d'un instrument ou de visiter un musée ou un parc.
-  question: ¿Cuáles son sus prácticas culturales?
+  question: ¿Cuáles son tus prácticas culturales?
   question.auto: ¿Cuáles son sus prácticas culturales?
   question.lock: Quelles sont vos pratiques culturelles ?
 divers . autres produits macro . autres produits manufacturés:
@@ -8197,7 +8197,7 @@ divers . animaux domestiques . empreinte . chats . alimentation . empreinte nour
     fertilizantes, biocombustibles.
 
     Si bien es cierto que 1 kg de "subproducto" animal no tiene el mismo impacto medioambiental que un kilo de filete, tampoco podemos considerar que el impacto sea nulo.
-    Sin embargo, como se puede imaginar, no hay EF asociados a estos subproductos. La idea de este artículo es
+    Sin embargo, como se puede imaginar, no hay FE asociados a estos subproductos. La idea de este artículo es
     aproximarnos a la huella de estos productos mediante un prorrateo por el precio del producto.
 
     El resultado final es 2,3 veces superior utilizando un método convencional basado en : 1kg de subproductos animales = 1kg de filete = 1 FE en kgco2e/kg.
@@ -8907,7 +8907,7 @@ divers . ameublement . meubles . empreinte meuble par kg:
   titre.lock: Empreinte meuble par kg
   note: |
     Factor muebles - fabricación a partir del Carbono Base (expresado en kgCO2e/kg). 
-    Tenga en cuenta que este factor de emisión data de 2014 y no se basa en los estudios de ACV que se
+    Ten en cuenta que este factor de emisión data de 2014 y no se basa en los estudios de ACV que se
     utilizado para desarrollar los factores específicos de los muebles.
   note.auto: |
     Factor muebles - fabricación a partir del Carbono Base (expresado en kgCO2e/kg). 
@@ -9180,7 +9180,7 @@ divers . animaux domestiques . empreinte:
     Chien ou chat, c'est le moment de prendre en compte nos fidèles compagnons.
 
     > 🦴 L'impact votre animal est en grande partie lié à sa gamelle !
-  question: ¿Cuántas mascotas viven con usted en su hogar?
+  question: ¿Cuántas mascotas viven contigo en tu hogar?
   question.auto: ¿Cuántas mascotas viven con usted en su hogar?
   question.lock: Combien d'animaux vivent avec vous, au sein de votre foyer ?
   titre: Huella anual de los animales domésticos
@@ -9316,7 +9316,7 @@ divers . autres produits . niveau de dépenses:
   note.auto: Los órdenes de magnitud asociados a cada una de las posibilidades se derivan del trabajo descrito en la descripción de la regla "otros productos - factor corrector". Aquí se supone que el nivel de gasto y el nivel de renta están fuertemente correlacionados.
   note.lock: Les ordres de grandeur associés à chacune des possibilités sont issus du travail décrit dans la description de la règle `autres produits . facteur correctif`. On fait l'hypothèse ici que le niveau de dépense et niveau de revenus sont fortement corrélés.
   description: |
-    Para simplificar la interfaz, le ofrecemos una estimación, a través de sus gastos, de la huella de los bienes de consumo que posee y que cree no haber incluido en las preguntas anteriores
+    Para simplificar la interfaz, te proponemos una estimación, a través de tus gastos, de la huella de los bienes de consumo
     que posees y que crees no haber incluido en las preguntas anteriores.
 
     Se trata de: **juegos, decoración, equipamiento de cocina, ropa de hogar, materiales para aficiones creativas o bricolaje, plantas, etc.**
@@ -9620,7 +9620,7 @@ divers . textile . notif débarras surplus:
   description: |
     > ¿Lo sabías? 
 
-    > Según un estudio encargado por la empresa de mudanzas Movinga en 2018, los franceses no se ponen el 68% (!) de su armario. Es decir, más de dos tercios del contenido de nuestros armarios que nunca salen.
+    > Según un estudio encargado por la empresa de mudanzas Movinga en 2018, los franceses no utilizan el 68% (!) de su ropa. Es decir, más de dos tercios del contenido de nuestros armarios que nunca salen.
 
     > Antes de comprar una prenda nueva: ¿y si hicieras un poco de clasificación?
   description.auto: |
@@ -9856,14 +9856,14 @@ divers . loisirs . sports:
     suggestions.lock:
       - aucun sport
 divers . produits consommables . consommation:
-  question: ¿Cómo estimaría su consumo mensual de productos de higiene (jabón, maquillaje, etc.) y de limpieza (detergente, productos domésticos, etc.)?
+  question: ¿Cómo estimarías tu consumo mensual de productos de higiene (jabón, maquillaje, etc.) y de limpieza (detergente, productos domésticos, etc.)?
   question.auto: ¿Cómo estimaría su consumo mensual de productos de higiene (jabón, maquillaje, etc.) y de limpieza (detergente, productos domésticos, etc.)?
   question.lock: Comment estimeriez-vous votre consommation par mois de produits d'hygiène (savon, maquillage...) et d'entretien (lessive, produits ménagers...) ?
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
   description: |
-    Esta pregunta nos permite evaluar *simplemente* la huella climática de su consumo de productos de higiene 
+    Esta pregunta nos permite evaluar *simplemente* la huella climática de tu consumo de productos de higiene 
     (perfumes, geles de ducha, champús, desodorantes, dentífricos, maquillaje, cremas para la piel, cremas solares, etc.) y productos de limpieza 
     (detergente en polvo, detergente para lavavajillas, productos domésticos, etc.) en función de 3 niveles de consumo.
   description.auto: |
@@ -10490,8 +10490,8 @@ divers . tabac . consommation par semaine:
 
     Avec les hypothèses présentées en début de paragraphe, on attribue une moyenne de 7 kgCO2e environ à chacun des Français.
   description: |
-    💡 Introduzca aquí su consumo semanal de cigarrillos. Se considera que un paquete contiene 20 cigarrillos.
-    Si fumas roll-ups, recuerda ajustar el cálculo.
+    💡 Introduce aquí tu consumo semanal de cigarrillos. Se considera que un paquete contiene 20 cigarrillos.
+    Si fumas cigarillos de liar, recuerda ajustar el cálculo.
 
     Ten en cuenta que el impacto del tabaco no es sólo el carbono: ¡también es responsable de la deforestación y del uso extensivo de agua y tierras de cultivo!
 
@@ -10646,7 +10646,7 @@ divers . numérique . appareils . TV:
 
     Como el tamaño varía considerablemente, sería mejor hacer variaciones.
 
-    Tenga en cuenta también :
+    Ten en cuenta también :
       - resolución (¿imagen 8k?)
       - tecnología de visualización (LED, plasma, etc.)
   note.auto: |
@@ -10915,17 +10915,17 @@ logement . appartement:
   titre: Plano
   titre.auto: Plano
   titre.lock: Appartement
-  question: ¿Su casa es un piso?
+  question: ¿Tu casa es un piso?
   question.auto: ¿Su casa es un piso?
   question.lock: Votre logement est-il un appartement ?
   description: |
     A diferencia de una vivienda unifamiliar.
 
-    El aumento del número de viviendas planas puede hacernos olvidar que la casa sigue siendo la vivienda mayoritaria de los hogares franceses en 2018.
+    El aumento del número de viviendas tipo piso puede hacernos olvidar que la casa sigue siendo la mayoria de las viviendas.
 
-    Esto tiene un gran impacto en la huella de la construcción, pero también en el alcance de los trabajos de aislamiento, por ejemplo.
+    Esto tiene un gran impacto en la huella de la construcción, pero también en las oportunidades de aislamiento, por ejemplo.
 
-    > Si vive en un tipo de alojamiento poco habitual, como una autocaravana / camión / barcaza, no hay problema: elija "piso" e introduzca los m² de lo que sigue siendo su vivienda.
+    > Si vives en un tipo de alojamiento poco habitual, como una autocaravana / camión / barcaza, no hay problema: elige "piso" e introduce los m² de su vivienda.
   description.auto: |
     A diferencia de una vivienda unifamiliar.
 
@@ -10958,7 +10958,7 @@ logement . habitants:
   titre: Número de personas en la vivienda
   titre.auto: Número de personas en la vivienda
   titre.lock: Nombre de personnes dans le logement
-  question: ¿Cuántas personas viven en su casa?
+  question: ¿Cuántas personas viven en tu casa?
   question.auto: ¿Cuántas personas viven en su casa?
   question.lock: Combien de personnes vivent chez vous ?
   suggestions:
@@ -10973,11 +10973,11 @@ logement . habitants:
   description: |
     Se trata de averiguar cuántas personas comparten tu vivienda y todos los consumos que ello conlleva (construcción, calefacción, etc.).
 
-    > Si vive solo, responda "1".
+    > Si vives solo, contesta "1".
 
-    > Si vive con su pareja y un hijo, responda "3".
+    > Si vives con tu pareja y un hijo, contesta "3".
 
-    > Si está separado con un hijo que alterna entre su domicilio y otro, puede introducir `1,5`.
+    > Si estás separado con un hijo que alterna entre tu domicilio y otro, puedes introducir `1,5`.
   description.auto: |
     Se trata de averiguar cuántas personas comparten tu vivienda y todos los consumos que ello conlleva (construcción, calefacción, etc.).
 
@@ -10995,11 +10995,11 @@ logement . habitants:
 
     > Si vous êtes séparé avec un enfant qui alterne entre votre logement et un autre, vous pouvez saisir `1,5`.
   avertissement: |
-    El número de residentes no puede ser cero ni inferior a 1. Usted es el primer residente de su vivienda.
+    El número de residentes no puede ser cero ni inferior a 1. Eres es el primer residente de tu vivienda.
 
     Como la huella de la vivienda y otros elementos como los electrodomésticos se dividen por el número de habitantes, debe ser mayor que 1.
 
-    Por lo tanto, no se tienen en cuenta las viviendas vacías de su propiedad ni las viviendas alquiladas en las que no viven ni usted ni nadie.
+    Por lo tanto, no se tienen en cuenta las viviendas vacías de tu propiedad ni las viviendas alquiladas en las que no vive ni tú ni nadie.
   avertissement.auto: |
     El número de residentes no puede ser cero ni inferior a 1. Usted es el primer residente de su vivienda.
 
@@ -11013,7 +11013,7 @@ logement . habitants:
 
     Nous ne prenons donc pas aujourd'hui en compte les logements vides que vous possédez, ou un logement que vous louez dans lequel ni vous ni personne ne vivez.
 logement . surface:
-  question: ¿Cuál es la superficie de su vivienda?
+  question: ¿Cuál es la superficie de tu vivienda?
   question.auto: ¿Cuál es la superficie de su vivienda?
   question.lock: Quelle est la surface de votre logement ?
   suggestions:
@@ -11035,7 +11035,7 @@ logement . surface:
   titre.auto: Superficie
   titre.lock: Surface
   avertissement: |
-    La superficie de su vivienda no puede ser cero.
+    La superficie de tu vivienda no puede ser cero.
   avertissement.auto: |
     La superficie de su vivienda no puede ser cero.
   avertissement.lock: |
@@ -11088,8 +11088,8 @@ logement . notif amortissement:
   titre.auto: notificación de amortización
   titre.lock: notif amortissement
   description: |
-    Si su vivienda tiene menos de **50 años**, le damos una cincuentava parte de la huella de su construcción. **En caso contrario, cero: la vivienda se ha depreciado**
-    No se le harán preguntas sobre las características de su vivienda, ya que se considera que la huella anual de su construcción es cero.
+    Si tu vivienda tiene menos de **50 años**, le damos una cincuentava parte de la huella de su construcción. **En caso contrario, cero: la vivienda se ha depreciado**
+    No se te harán preguntas sobre las características de tu vivienda, ya que se considera que la huella anual de su construcción es cero.
   description.auto: |
     Si su vivienda tiene menos de **50 años**, le damos una cincuentava parte de la huella de su construcción. **En caso contrario, cero: la vivienda se ha depreciado**
     No se le harán preguntas sobre las características de su vivienda, ya que se considera que la huella anual de su construcción es cero.
@@ -11118,7 +11118,7 @@ logement . âge:
     - années 70
     - années 50
     - un siècle
-  question: ¿Qué antigüedad tiene su vivienda?
+  question: ¿Qué antigüedad tiene tu vivienda?
   question.auto: ¿Qué antigüedad tiene su vivienda?
   question.lock: Quel est l'âge de votre logement ?
   note: |
@@ -11137,7 +11137,7 @@ logement . chauffage . bouteille gaz . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es su consumo anual de gas envasado (13 kg)?
+  question: ¿Cuál es tu consumo anual de gas envasado (13 kg)?
   question.auto: ¿Cuál es su consumo anual de gas envasado (13 kg)?
   question.lock: Quelle est votre consommation annuelle en bouteilles de gaz (13 kg) ?
   note: |
@@ -11192,11 +11192,11 @@ logement . chauffage . fioul . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es el consumo anual de gasóleo de calefacción de su hogar?
+  question: ¿Cuál es el consumo anual de gasóleo de calefacción de tu hogar?
   question.auto: ¿Cuál es el consumo anual de gasóleo de calefacción de su hogar?
   question.lock: Quelle est la consommation annuelle de fioul domestique de votre foyer ?
   description: |
-    Consejo: Puede consultar su consumo anual de energía en la factura del gasóleo o en su cuenta online de la página web de su proveedor.
+    Consejo: Puedes consultar tu consumo anual de energía en la factura del gasóleo o en tu cuenta online de la página web de tu proveedor.
   description.auto: |
     Consejo: Puede consultar su consumo anual de energía en la factura del gasóleo o en su cuenta online de la página web de su proveedor.
   description.lock: |
@@ -11295,7 +11295,7 @@ logement . chauffage . notif électrique:
   titre.auto: aviso eléctrico
   titre.lock: notif électrique
   description: |
-    Ha especificado una bomba de calor o un sistema de calefacción eléctrica: su consumo se tiene en cuenta a través de su factura general de electricidad.
+    Ha especificado una bomba de calor o un sistema de calefacción eléctrica: su consumo se tiene en cuenta a través de tu factura general de electricidad.
   description.auto: |
     Ha especificado una bomba de calor o un sistema de calefacción eléctrica: su consumo se tiene en cuenta a través de su factura general de electricidad.
   description.lock: |
@@ -11342,7 +11342,7 @@ logement . chauffage . gaz . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Su casa tiene calefacción de gas?
+  question: ¿Tu casa tiene calefacción de gas?
   question.auto: ¿Su casa tiene calefacción de gas?
   question.lock: Votre logement est-il chauffé au gaz ?
   note: |
@@ -11361,7 +11361,7 @@ logement . chauffage . bois . type . bûches . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es el consumo anual de leña de su hogar?
+  question: ¿Cuál es el consumo anual de leña de tu hogar?
   question.auto: ¿Cuál es el consumo anual de leña de su hogar?
   question.lock: Quelle la consommation annuelle de bois en bûches de votre foyer ?
   description: |
@@ -11413,7 +11413,7 @@ logement . chauffage . citerne propane . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Su casa se calienta con un depósito de propano?
+  question: ¿Tu casa se calienta con un depósito de propano?
   question.auto: ¿Su casa se calienta con un depósito de propano?
   question.lock: Votre logement est-il chauffé via une citerne de propane ?
 logement . chauffage . électricité:
@@ -11424,7 +11424,7 @@ logement . chauffage . PAC . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Su casa se calienta con una bomba de calor?
+  question: ¿Tu casa se calienta con una bomba de calor?
   question.auto: ¿Su casa se calienta con una bomba de calor?
   question.lock: Votre logement est-il chauffé via une pompe à chaleur ?
 logement . chauffage . bois . type:
@@ -11438,14 +11438,14 @@ logement . chauffage . bois . type:
   note.auto: Las estufas de leña representan el <a href="https://www.planetoscope.com/Source-d-energie/1521-.html">70% de las estufas vendidas</a>.
   note.lock: Les poêles à bûches représentent [70% des poêles vendus](https://www.planetoscope.com/Source-d-energie/1521-.html).
 logement . chauffage . électricité . présent:
-  question: ¿La calefacción de su casa es eléctrica?
+  question: ¿La calefacción de tu casa es eléctrica?
   question.auto: ¿La calefacción de su casa es eléctrica?
   question.lock: Votre logement est-il chauffé à l'électricité ?
   titre: presente
   titre.auto: presente
   titre.lock: présent
 logement . chauffage . citerne propane . consommation:
-  question: ¿Cuál es el consumo anual de gas propano en cisternas de su hogar?
+  question: ¿Cuál es el consumo anual de gas propano en cisternas de tu hogar?
   question.auto: ¿Cuál es el consumo anual de gas propano en cisternas de su hogar?
   question.lock: Quelle est la consommation annuelle de gaz propane en citerne de votre foyer ?
   titre: consumo
@@ -11467,13 +11467,13 @@ logement . chauffage . gaz . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es el consumo anual de gas de su hogar?
+  question: ¿Cuál es el consumo anual de gas de tu hogar?
   question.auto: ¿Cuál es el consumo anual de gas de su hogar?
   question.lock: Quelle est la consommation annuelle de gaz de votre foyer ?
   description: |
     Consejo: Puedes consultar tu consumo anual de energía en tus facturas de gas y electricidad o en tu cuenta online de la web de tu proveedor.
 
-    > Cuando la caldera está centralizada, es posible que su comunidad de propietarios no le facilite el consumo en kWh de su vivienda. Sin embargo, deberían facilitarte el importe en €, que puedes introducir a continuación para estimar tus kWh.
+    > Cuando la caldera está centralizada, es posible que tu comunidad de propietarios no te facilite el consumo en kWh de tu vivienda. Sin embargo, deberían facilitarte el importe en €, que puedes introducir a continuación para estimar tus kWh.
   description.auto: |
     Consejo: Puedes consultar tu consumo anual de energía en tus facturas de gas y electricidad o en tu cuenta online de la web de tu proveedor.
 
@@ -11483,10 +11483,10 @@ logement . chauffage . gaz . consommation:
 
     > Il se peut que votre copropriété ne vous communique pas la consommation en kWh de votre logement, quand la chaudière est centralisée. Cela dit, elle doit vous fournir le montant en €, que vous pourrez saisir ci-dessous pour estimer vos kWh.
 logement . chauffage . biogaz . part:
-  question: ¿Qué proporción de biogás garantiza su contrato de gas?
+  question: ¿Qué proporción de biogás garantiza tu contrato de gas?
   question.auto: ¿Qué proporción de biogás garantiza su contrato de gas?
   question.lock: Quelle est la part de biogaz garantie par votre contrat de gaz ?
-  titre: compartir
+  titre: proporción
   titre.auto: compartir
   titre.lock: part
   description: |
@@ -11522,11 +11522,11 @@ logement . chauffage . bois . type . granulés . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es el consumo anual de pellets de madera de su hogar?
+  question: ¿Cuál es el consumo anual de pellets de madera de tu hogar?
   question.auto: ¿Cuál es el consumo anual de pellets de madera de su hogar?
   question.lock: Quelle est la consommation annuelle de bois en granulés de votre foyer ?
   description: |
-    > Consejo: por término medio, 1 kg de pellets produce 4,6 kWh. Por tanto, puede multiplicar su consumo anual (en toneladas) por 4600 kWh.
+    > Consejo: de promedio, 1 kg de pellets produce 4,6 kWh. Por tanto, puedes multiplicar tu consumo anual (en toneladas) por 4600 kWh.
   description.auto: |
     > Consejo: por término medio, 1 kg de pellets produce 4,6 kWh. Por tanto, puede multiplicar su consumo anual (en toneladas) por 4600 kWh.
   description.lock: |
@@ -11550,7 +11550,7 @@ logement . chauffage . fioul . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Su calefacción es de gasóleo?
+  question: ¿Tu calefacción es de gasóleo?
   question.auto: ¿Su calefacción es de gasóleo?
   question.lock: Votre logement est-il chauffé au fioul ?
 logement . chauffage . gaz . avertissement biogaz:
@@ -11575,31 +11575,31 @@ logement . chauffage . bois . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Su casa se calienta con leña?
+  question: ¿Tu casa se calienta con leña?
   question.auto: ¿Su casa se calienta con leña?
   question.lock: Votre logement est-il chauffé au bois ?
 logement . chauffage . réseau de chaleur . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Se calienta su casa con una red de calefacción?
+  question: ¿Se calienta tu casa con una red de calefacción?
   question.auto: ¿Se calienta su casa con una red de calefacción?
   question.lock: Votre logement est-il chauffé via un réseau de chaleur ?
 logement . chauffage . réseau de chaleur . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es su consumo anual de energía a través de la red de calefacción conectada a su vivienda?
+  question: ¿Cuál es tu consumo anual de energía a través de la red de calefacción conectada a tu vivienda?
   question.auto: ¿Cuál es su consumo anual de energía a través de la red de calefacción conectada a su vivienda?
   question.lock: Quelle est votre consommation annuelle d'énergie via le réseau de chaleur raccordé à votre foyer ?
   description: |
     El contenido en carbono de un kWh de calor procedente de una red de calefacción depende mucho de la red a la que esté conectado. 
 
-    Por el momento, nos basamos en un factor de emisión medio: hemos optado por no pedirle su dirección.
+    Por el momento, nos basamos en un factor de emisión medio: hemos optado por no pedirte tu dirección.
 
-    Consejo: Puede consultar su consumo anual de energía en sus facturas o en su cuenta en línea en la página web de su proveedor.
+    Consejo: Puedes consultar tu consumo anual de energía en tus facturas o en tu cuenta en línea en la página web de tu proveedor.
 
-    > Cuando la caldera está centralizada, es posible que su comunidad de propietarios no le facilite el consumo en kWh de su vivienda. Sin embargo, deberían facilitarte el importe en euros, que puedes introducir a continuación para estimar tus kWh.
+    > Cuando la caldera está centralizada, es posible que tu comunidad de propietarios no te facilite el consumo en kWh de tu vivienda. Sin embargo, deberían facilitarte el importe en euros, que puedes introducir a continuación para estimar tus kWh.
   description.auto: |
     El contenido en carbono de un kWh de calor procedente de una red de calefacción depende mucho de la red a la que esté conectado. 
 
@@ -11659,17 +11659,17 @@ logement . chauffage . gaz . biogaz:
   titre: biogás
   titre.auto: biogás
   titre.lock: biogaz
-  question: ¿Tiene un contrato de gas que incluya biogás (o biometano)?
+  question: ¿Tienes un contrato de gas que incluya biogás (o biometano)?
   question.auto: ¿Tiene un contrato de gas que incluya biogás (o biometano)?
   question.lock: Avez-vous souscrit à un contrat gaz incluant du biogaz (ou biométhane) ?
   description: |
     El biogás, o biometano, es un gas producido a partir de residuos orgánicos (desechos domésticos, estiércol, restos de césped, cultivos, etc.), a diferencia del gas fósil, también llamado engañosamente "natural", que se extrae como el petróleo del subsuelo noruego o ruso.
 
-    Desde hace algunos años, es posible suscribir un contrato que garantiza la inyección en la red francesa de gas de la misma cantidad de biometano que su propio consumo. El gas que consuma en su casa será en cualquier caso una mezcla compuesta principalmente por la molécula de metano (CH₄), pero por cada kWh de gas consumido se habrá inyectado 1 kWh de biometano "en su nombre".
+    Desde hace algunos años, es posible suscribir un contrato que garantiza la inyección en la red de gas de la misma cantidad de biometano que tu propio consumo. El gas que consuma en tu casa será en cualquier caso una mezcla compuesta principalmente por la molécula de metano (CH₄), pero por cada kWh de gas consumido se habrá inyectado 1 kWh de biometano "en tu nombre".
 
     > A diferencia del gas, la electricidad *no se puede almacenar*, por eso no ofrecemos una opción de "electricidad verde" en el simulador.
 
-    Tenga en cuenta que hay ofertas con sólo un 10% o 20% de biometano. Si éste es el caso, responda "no".
+    Ten en cuenta que hay ofertas con sólo un 10% o 20% de biometano. Si éste es tu caso, contesta "no".
   description.auto: |
     El biogás, o biometano, es un gas producido a partir de residuos orgánicos (desechos domésticos, estiércol, restos de césped, cultivos, etc.), a diferencia del gas fósil, también llamado engañosamente "natural", que se extrae como el petróleo del subsuelo noruego o ruso.
 
@@ -11722,7 +11722,7 @@ logement . chauffage . biogaz:
 
     En resumen, mientras que una parte de la energía presente en los materiales utilizados por el biometano simplemente se perdió, otra parte simplemente sufre un cambio de asignación, de algo útil para el mundo agrícola a la combustión de gas para calentar viviendas en particular. Por no hablar del efecto de ganancia para las actividades que emiten, que pueden ser sustituidas por otras que emiten menos. De todas formas, el estudio parece muy completo, así que merece la pena echarle un vistazo. Quizás responda a todas estas preguntas que yo no he visto (es complejo). 
 
-    También hay <a href="https://reporterre.net/methanisation-un-digestat-bien-indigeste-pour-les-sols-et-les-eaux">un artículo en</a> Reporterre que se preocupa por la contaminación bacteriana debido a la propagación de digestato y la fuga de metano y óxido nitroso N2O, que están subestimados (porque están presentes y por lo tanto evaluados en el estudio citado por la base de carbono). Pero tenga en cuenta que Reporterre no es una organización de investigación, sino un medio de opinión. 
+    También hay <a href="https://reporterre.net/methanisation-un-digestat-bien-indigeste-pour-les-sols-et-les-eaux">un artículo en</a> Reporterre que se preocupa por la contaminación bacteriana debido a la propagación de digestato y la fuga de metano y óxido nitroso N2O, que están subestimados (porque están presentes y por lo tanto evaluados en el estudio citado por la base de carbono). Pero ten en cuenta que Reporterre no es una organización de investigación, sino un medio de opinión. 
 
     Una investigación muy reciente sobre las plantas de metanización en Bretaña va en la misma línea, catalogando los incidentes que han tenido lugar en la región: https://basta.media/des-methaniseurs-menacent-l-environnement-la-carte-inedite-des-accidents-en-Bretagne-Splann. 
 
@@ -12003,7 +12003,7 @@ logement . piscine . masse de chlore:
     > ℹ️ Esta regla proviene del modelo <a href="https://github.com/laem/futureco-data">`futureco-data`</a>.
 
 
-    > Si opta por el tratamiento con cloro, puede esperar gastar unos 150 € al año en cloro, 20 € en un floculante, 30 € en un producto antical y 30 € en un producto para reequilibrar el pH, lo que supone unos 230 € al año
+    > Si optas por el tratamiento con cloro, puedes esperar gastar unos 150 € al año en cloro, 20 € en un floculante, 30 € en un producto antical y 30 € en un producto para reequilibrar el pH, lo que supone unos 230 € al año
 
     Sobre la base de las hipótesis que figuran en las referencias siguientes, por el momento, para obtener un primer orden de magnitud, se considera que todos los productos químicos utilizados en una piscina son cloro.
 
@@ -12067,7 +12067,7 @@ logement . piscine . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Tiene su propiedad una piscina privada (enterrada o en el suelo)?
+  question: ¿Tiene tu propiedad una piscina privada (enterrada o en el suelo)?
   question.auto: ¿Tiene su propiedad una piscina privada (enterrada o en el suelo)?
   question.lock: Votre logement dispose-t-il d'une piscine privée (enterrée/creusée) ?
   description: |
@@ -12249,7 +12249,7 @@ logement . piscine . construction . divers chantier . gasoil:
   description.auto: '> ℹ️ Esta regla proviene del modelo <a href="https://github.com/laem/futureco-data">`futureco-data`</a>.'
   description.lock: '> ℹ️ Cette règle provient du modèle [`futureco-data`](https://github.com/laem/futureco-data).'
 logement . piscine . surface:
-  question: ¿Qué dimensiones tiene su piscina?
+  question: ¿Qué dimensiones tiene tu piscina?
   question.auto: ¿Qué dimensiones tiene su piscina?
   question.lock: Quelle est la taille de votre piscine ?
   titre: superficie
@@ -12420,7 +12420,7 @@ logement . piscine . empreinte:
 
     Notez que l'aspect consommation d'eau n'est pas traité ici par principe (nos calculs portent sur les émissions de carbone), mais il est évidemment primordial de s'en soucier.
   note: |
-    Para ayudarle a comprender el cálculo de la huella de la piscina, he aquí algunos puntos:
+    Algunos elementos de comprensión del cálculo de la huella de la piscina:
       
       - La huella hídrica depende tanto del suministro como del tratamiento      
       - No se tiene en cuenta la evaporación del agua
@@ -12597,7 +12597,7 @@ logement . piscine . type:
   titre.auto: tipo
   titre.lock: type
 logement . piscine . construction . abri:
-  titre: refugio
+  titre: cobertizo
   titre.auto: refugio
   titre.lock: abri
   description: |-
@@ -12722,7 +12722,7 @@ logement . vacances . résidence secondaire . saison . surtout été:
   titre: Especialmente en verano
   titre.auto: Especialmente en verano
   titre.lock: Surtout l'été
-  description: Visita su segunda residencia sobre todo en verano.
+  description: Visitas tu segunda residencia sobre todo en verano.
   description.auto: Visita su segunda residencia sobre todo en verano.
   description.lock: Vous vous rendez dans votre résidence secondaire majoritairement en été.
 logement . vacances . auberge de jeunesse . nombre de nuitées . moyenne . part mode d'hébergement auberge de jeunesse:
@@ -12852,15 +12852,15 @@ logement . vacances:
   titre.lock: Nuitées week-end ou vacances
   mosaique:
     suggestions:
-      - no
+      - ninguno
     suggestions.auto:
       - no
     suggestions.lock:
       - aucun
   description: |
-    Introduzca aquí los distintos tipos de alojamiento que utiliza para sus viajes (**motivo personal**).
+    Introduce aquí los distintos tipos de alojamiento que utilizas para tus viajes (**motivo personal**).
 
-    > 💡 Si nunca se va de fin de semana o de vacaciones, puede hacer clic en "ninguno" justo debajo de esta pregunta y, a continuación, en "Siguiente".
+    > 💡 Si nunca te vas de fin de semana o de vacaciones, puedes hacer clic en "ninguno" justo debajo de esta pregunta y, a continuación, en "Siguiente".
   description.auto: |
     Introduzca aquí los distintos tipos de alojamiento que utiliza para sus viajes (**motivo personal**).
 
@@ -12949,13 +12949,13 @@ logement . vacances . empreinte auberge de jeunesse:
   titre.auto: Huella del albergue juvenil
   titre.lock: Empreinte auberge de jeunesse
 logement . vacances . résidence secondaire . localisation:
-  question: ¿Dónde se encuentra su segunda residencia?
+  question: ¿Dónde se encuentra tu segunda residencia?
   question.auto: ¿Dónde se encuentra su segunda residencia?
   question.lock: Où se situe votre résidence secondaire ?
   titre: Ubicación
   titre.auto: Ubicación
   titre.lock: Localisation
-  description: Si su segunda residencia está en una ciudad costera, elija "litoral".
+  description: Si tu segunda residencia está en una ciudad costera, elige "litoral".
   description.auto: Si su segunda residencia está en una ciudad costera, elija "litoral".
   description.lock: Si votre résidence secondaire se situe en ville, sur le littoral, privilégiez "littoral".
   note: |
@@ -13134,7 +13134,7 @@ logement . vacances . résidence secondaire . surface:
     Valor por defecto obtenido en <a href="https://www.statistiques.developpement-durable.gouv.fr/consommation-denergie-par-usage-du-residentiel">este conjunto de datos Ceren y SDES</a>.
   note.lock: |
     Valeur par défaut obtenue dans [ce jeu de données du Ceren et SDES](https://www.statistiques.developpement-durable.gouv.fr/consommation-denergie-par-usage-du-residentiel).
-  question: ¿Cuál es la superficie de su segunda vivienda?
+  question: ¿Cuál es la superficie de tu segunda vivienda?
   question.auto: ¿Cuál es la superficie de su segunda vivienda?
   question.lock: Quelle est la surface de votre résidence secondaire ?
   titre: Superficie
@@ -13170,7 +13170,7 @@ logement . vacances . résidence secondaire . saison . hiver:
   description.auto: Sólo visitas tu segunda residencia en invierno.
   description.lock: Vous ne vous rendez dans votre résidence secondaire qu'en hiver.
 logement . vacances . résidence secondaire . durée . nuitées week end . nombre:
-  question: ¿Cuántos fines de semana pasa en su segunda residencia?
+  question: ¿Cuántos fines de semana pasas en tu segunda residencia?
   question.auto: ¿Cuántos fines de semana pasa en su segunda residencia?
   question.lock: Combien de week-ends passez-vous dans votre maison secondaire ?
   titre: número
@@ -13184,11 +13184,11 @@ logement . vacances . résidence secondaire . saison . surtout hiver:
   titre: Especialmente en invierno
   titre.auto: Especialmente en invierno
   titre.lock: Surtout l'hiver
-  description: Visita su segunda residencia sobre todo en invierno.
+  description: Visitas tu segunda residencia sobre todo en invierno.
   description.auto: Visita su segunda residencia sobre todo en invierno.
   description.lock: Vous vous rendez dans votre résidence secondaire majoritairement en hiver.
 logement . vacances . résidence secondaire . localisation . littoral méditerranéen . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . auberge de jeunesse:
@@ -13248,7 +13248,7 @@ logement . vacances . auberge de jeunesse . présent:
   question.auto: ¿Vas a un albergue juvenil?
   question.lock: Allez-vous en auberge de jeunesse ?
 logement . vacances . résidence secondaire . localisation . campagne . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . camping . empreinte par nuit:
@@ -13435,7 +13435,7 @@ logement . vacances . résidence secondaire . chauffage:
   titre.auto: calefacción
   titre.lock: chauffage
   description: |
-    Para calcular los factores estacionales, que dependen tanto de la ubicación de la segunda residencia como de la estación en la que se visita, hemos utilizado los datos de grados-hora disponibles para cada zona climática, 
+    Para calcular los factores de temporada, que dependen tanto de la ubicación de la segunda residencia como de la temporada en la que se visita, hemos utilizado los datos de grados-hora disponibles para cada zona climática, 
     que figuran en <a href="https://docs.google.com/spreadsheets/d/1sQp51C2zgBi3KiKrMCvXNtd26NJGHhE41z_UxsBKU94/edit#gid=0">esta tabla</a>.
     Estos grados-hora pueden consultarse en el anexo de la Orden de 8 de octubre de 2021 por la que se modifica el método de cálculo y los métodos para establecer el diagnóstico de eficiencia energética, <a href="https://www.socotec-certification-international.fr/s3fs-public/2022-10/arrete-8-octobre-2021_compressed.pdf">disponible aquí</a>.
 
@@ -13509,7 +13509,7 @@ logement . vacances . résidence secondaire . présent:
     Pour le moment, nous n'attribuons l'empreinte de la maison secondaire qu'aux propriétaires,
     et non "une partie" de l'empreinte à tous les français.
 logement . vacances . résidence secondaire . localisation . littoral nord ouest . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . camping:
@@ -13533,7 +13533,7 @@ logement . vacances . résidence secondaire . durée . nuitées semaine . nombre
   titre: número
   titre.auto: número
   titre.lock: nombre
-  question: ¿Cuántas semanas pasa en su segunda residencia?
+  question: ¿Cuántas semanas pasa en tu segunda residencia?
   question.auto: ¿Cuántas semanas pasa en su segunda residencia?
   question.lock: Combien de semaines passez-vous dans votre maison secondaire ?
 logement . vacances . résidence secondaire . empreinte moyenne:
@@ -13558,7 +13558,7 @@ logement . vacances . résidence secondaire . durée:
   titre: duración
   titre.auto: duración
   titre.lock: durée
-  question: ¿Cuánto tiempo pasa al año en su segunda residencia?
+  question: ¿Cuánto tiempo pasas al año en tu segunda residencia?
   question.auto: ¿Cuánto tiempo pasa al año en su segunda residencia?
   question.lock: Combien de temps passez-vous dans votre résidence secondaire chaque année ?
   description: Introduzca sólo el tiempo que pasa allí. Si tu segunda vivienda la utilizan otras personas (familia, amigos), la huella asociada a este uso se les imputa a ellos.
@@ -13648,7 +13648,7 @@ logement . vacances . locations . nombre de nuitées . moyenne:
   titre.auto: Número medio de noches por francés
   titre.lock: Nombre de nuitées en moyenne par français
 logement . vacances . résidence secondaire . chauffage . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . échange:
@@ -13659,7 +13659,7 @@ logement . vacances . résidence secondaire . saison:
   titre: temporada
   titre.auto: temporada
   titre.lock: saison
-  question: ¿Qué estación o estaciones visita con más frecuencia su segunda residencia?
+  question: ¿En qué temporada(s) visitas con más frecuencia tu segunda residencia?
   question.auto: ¿Qué estación o estaciones visita con más frecuencia su segunda residencia?
   question.lock: À quelle(s) saison(s) vous rendez-vous majoritairement dans votre résidence secondaire ?
   note: |
@@ -13703,11 +13703,11 @@ logement . vacances . échange . nombre de nuitées:
   description.lock: |
     💡 Déclarez ici les nuits passées en échange de maison (HomeExchange, SwitchHome...)
 logement . vacances . résidence secondaire . localisation . ville . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . résidence secondaire . localisation . montagne . facteur saison:
-  titre: factor estacional
+  titre: factor de temporada
   titre.auto: factor estacional
   titre.lock: facteur saison
 logement . vacances . résidence secondaire . localisation . campagne:
@@ -14665,7 +14665,7 @@ parc français . chauffage . empreinte GPL par m2 . intensité carbone GPL:
   titre.auto: intensidad de carbono del GLP
   titre.lock: intensité carbone GPL
 logement . climatisation . fuite fin de vie:
-  titre: Huella de fugas del aire acondicionado al final de su vida útil
+  titre: Huella de las fugas del aire acondicionado al final de su vida útil
   titre.auto: Huella de fugas del aire acondicionado al final de su vida útil
   titre.lock: Empreinte des fuites de fin de vie du climatiseur
 parc français . chauffage . consommation fioul . chauffage:
@@ -14705,7 +14705,7 @@ logement . climatisation . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Utiliza un sistema de aire acondicionado para refrigerar su casa (aire acondicionado eléctrico, bomba de calor)?
+  question: ¿Utilizas un sistema de aire acondicionado para refrigerar tu casa (aire acondicionado eléctrico, bomba de calor)?
   question.auto: ¿Utiliza un sistema de aire acondicionado para refrigerar su casa (aire acondicionado eléctrico, bomba de calor)?
   question.lock: Utilisez-vous un système de climatisation pour refroidir votre logement (climatiseur électrique, pompe à chaleur) ?
   description: |
@@ -14798,7 +14798,7 @@ parc français . surface . part fioul:
   titre.lock: part fioul
 logement . climatisation . rappel kWh:
   description: |
-    ¿Tiene aire acondicionado? Su consumo eléctrico se incluirá simplemente en su factura de la luz, como el resto de aparatos eléctricos de su hogar. Aquí se tienen en cuenta las fugas de gas refrigerante**.
+    ¿Tienes aire acondicionado? Su consumo eléctrico se incluirá simplemente en tu factura de la luz, como el resto de aparatos eléctricos de tu hogar. Aquí se tienen en cuenta las fugas de gas refrigerante**.
   description.auto: |
     ¿Tiene aire acondicionado? Su consumo eléctrico se incluirá simplemente en su factura de la luz, como el resto de aparatos eléctricos de su hogar. Aquí se tienen en cuenta las fugas de gas refrigerante**.
   description.lock: |
@@ -14807,7 +14807,7 @@ logement . climatisation . rappel kWh:
   titre.auto: recordatorio kWh
   titre.lock: rappel kWh
 logement . climatisation . fuite fin de vie amortie:
-  titre: Huella de fugas del aire acondicionado al final de su vida útil
+  titre: Huella de las fugas del aire acondicionado al final de su vida útil
   titre.auto: Huella de fugas del aire acondicionado al final de su vida útil
   titre.lock: Empreinte des fuites de fin de vie du climatiseur
 logement . extérieur . empreinte salon de jardin résine:
@@ -15140,7 +15140,7 @@ transport . autopartage:
   description: |
     Puedes ser un gran aficionado a los paseos a pie, en bicicleta y en transporte público, y seguir necesitando un coche de vez en cuando: para el ocio, los viajes largos o para ir de compras.
 
-    El car-sharing es una solución, sobre todo si no le ve sentido a tener un vehículo que pasa la mayor parte del tiempo en un aparcamiento. Con el car-sharing, utilizas un vehículo compartido. Eso significa menos gastos (seguro, mantenimiento) y menos problemas de aparcamiento.
+    El car-sharing es una solución, sobre todo si no le ves sentido a tener un vehículo que pasa la mayor parte del tiempo en un aparcamiento. Con el car-sharing, utilizas un vehículo compartido. Eso significa menos gastos (seguro, mantenimiento) y menos problemas de aparcamiento.
   description.auto: |
     Puedes ser un gran aficionado a los paseos a pie, en bicicleta y en transporte público, y seguir necesitando un coche de vez en cuando: para el ocio, los viajes largos o para ir de compras.
 
@@ -15172,7 +15172,7 @@ transport . limitation autoroute . km autoroute:
   titre: km de autopista
   titre.auto: km de autopista
   titre.lock: km autoroute
-  question: ¿Cuántos kilómetros de autopista recorre al año aproximadamente?
+  question: ¿Cuántos kilómetros de autopista recorres al año aproximadamente?
   question.auto: ¿Cuántos kilómetros de autopista recorre al año aproximadamente?
   question.lock: Combien de km à l'année faites-vous sur autoroute (à peu près) ?
   description: |
@@ -15268,7 +15268,7 @@ transport . arrêter ferry:
   titre.auto: Ya no se coge el ferry
   titre.lock: Ne plus prendre le ferry
   description: |
-    La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para sus travesías marítimas.
+    La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para tus travesías marítimas.
     Si estás acostumbrado a hacer cruceros, quizá podrías pensar en sustituir este modo de vacaciones por otro que emita menos gases de efecto invernadero.
   description.auto: |
     La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para sus travesías marítimas.
@@ -15281,9 +15281,9 @@ transport . prendre moins l'avion:
   titre.auto: Volar la mitad
   titre.lock: Prendre deux fois moins l'avion
   description: |
-    Si no le queda más remedio que volar, puede reducir el impacto de carbono de un vuelo optando por la estancia más larga posible, evitando las escalas (el despegue es una fuente importante de emisiones de gases de efecto invernadero) y viajando ligero.
+    Si no te queda más remedio que volar, puedes reducir el impacto de carbono de un vuelo optando por la estancia más larga posible, evitando las escalas (el despegue es una fuente importante de emisiones de gases de efecto invernadero) y viajando ligero.
 
-    Si quiere irse lejos, procure no multiplicar los vuelos con vacaciones más largas. Evite viajar en avión para unas vacaciones cortas de pocos días varias veces al año.
+    Si quieres irte lejos, procura no multiplicar los vuelos con vacaciones más largas. Evita viajar en avión para unas vacaciones cortas de pocos días varias veces al año.
   description.auto: |
     Si no le queda más remedio que volar, puede reducir el impacto de carbono de un vuelo optando por la estancia más larga posible, evitando las escalas (el despegue es una fuente importante de emisiones de gases de efecto invernadero) y viajando ligero.
 
@@ -15315,7 +15315,7 @@ transport . boulot . télétravail . jours télétravaillés:
     - '3'
     - '4'
     - '5'
-  question: ¿Cuántos días a la semana podría teletrabajar?
+  question: ¿Cuántos días a la semana podrías teletrabajar?
   question.auto: ¿Cuántos días a la semana podría teletrabajar?
   question.lock: Combien de jours de télétravail par semaine pourriez-vous faire ?
   titre: días teletrabajados
@@ -15405,7 +15405,7 @@ transport . boulot . distance . km aller:
 
     Source : études INSEE 2004 et 2013, chiffres stables.
 transport . faire durer:
-  titre: Para que su vehículo dure
+  titre: Hacer que tu vehículo dure
   titre.auto: Para que su vehículo dure
   titre.lock: Faire durer son véhicule
   description: |
@@ -15500,7 +15500,7 @@ transport . éco-conduite:
     Ver la <a href="https://expertises.ademe.fr/air-mobilites/mobilite-transports/passer-a-laction/solutions-technologiques/dossier/optimiser-lutilisation-lentretien-vehicule/lecoconduite-attitude-a-adopter">guía de formación en ecoconducción ADEME-LaPoste</a>
   note.lock: |
     Voir le [Guide de formation à l'éco-conduite ADEME-LaPoste](https://expertises.ademe.fr/air-mobilites/mobilite-transports/passer-a-laction/solutions-technologiques/dossier/optimiser-lutilisation-lentretien-vehicule/lecoconduite-attitude-a-adopter)
-  titre: Adoptar la ecoconducción
+  titre: Adoptar técnicas de conducción ecológica
   titre.auto: Adoptar la ecoconducción
   titre.lock: Adopter une éco-conduite
   description: |
@@ -15577,7 +15577,7 @@ transport . voiture 5km . distance totale renseignée:
   titre.auto: distancia total introducida
   titre.lock: distance totale renseignée
 transport . voiture 5km:
-  titre: Prescindir del coche en menos de 5 km
+  titre: Prescindir del coche para trayectos de menos de 5 km
   titre.auto: Prescindir del coche en menos de 5 km
   titre.lock: Se passer de voiture pour moins de 5 km
   note: |
@@ -15611,8 +15611,8 @@ transport . seuil d'activation 5km:
   description: |
     Distancia mínima para activar esta acción. 
 
-    > Si alguien nos dice que sólo recorre 200 km en un año, las probabilidades de que sólo se trate de 
-    > que se trate de trayectos de 5 km.
+    > Si alguien nos dice que sólo recorre 200 km en un año, hay pocas probabilidades de  
+    > que solo se trate de trayectos de 5 km.
 
     Definimos este valor como equivalente a 2 trayectos semanales de ida y vuelta de 5 km.
   description.auto: |
@@ -15678,9 +15678,9 @@ transport . arrêter l'avion court:
   description: |
     Por persona y kilómetro, el tren contamina 14 veces menos que el avión (y el TGV 3 veces menos que un tren convencional).
 
-    Puede utilizarlo para viajar tanto dentro de Francia como al extranjero. Es cierto que el viaje en tren es más largo que en avión, pero es la ocasión de conocer una gran parte del país y, por qué no, de hacer algunas escalas donde le apetezca. No hace falta cruzar el océano para vivir grandes experiencias.
+    Puedes utilizarlo para viajar tanto dentro de España como al extranjero. Es cierto que el viaje en tren es más largo que en avión, pero es la ocasión de conocer una gran parte del país y, porqué no, de hacer algunas escalas donde te apetezca. No hace falta cruzar el océano para vivir grandes experiencias.
 
-    > Para comparar el impacto de CO2 de los distintos medios de transporte, <a href="https://impactco2.fr/transport">utilice nuestro simulador</a>.
+    > Para comparar el impacto de CO2 de los distintos medios de transporte, <a href="https://impactco2.fr/transport">utiliza nuestro simulador</a>.
   description.auto: |
     Por persona y kilómetro, el tren contamina 14 veces menos que el avión (y el TGV 3 veces menos que un tren convencional).
 
@@ -15770,7 +15770,7 @@ transport . autopartage . plafond activation autopartage:
   titre.auto: techo de activación del coche compartido
   titre.lock: plafond activation autopartage
 transport . boulot . télétravail:
-  titre: Teletrabajo
+  titre: Teletrabajar
   titre.auto: Teletrabajo
   titre.lock: Faire du télétravail
   description: |
@@ -15864,7 +15864,7 @@ transport . boulot . covoiturage:
   question: ¿Vas a trabajar solo?
   question.auto: ¿Vas a trabajar solo?
   question.lock: Vous rendez-vous au travail seul ?
-  titre: compartir coche
+  titre: Compartir coche
   titre.auto: compartir coche
   titre.lock: covoiturage
 transport . limitation autoroute . empreinte autoroute:
@@ -15927,7 +15927,7 @@ transport . réduire ferry:
   titre.auto: La mitad de transbordadores
   titre.lock: Prendre deux fois moins le ferry
   description: |
-    La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para sus travesías marítimas.
+    La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para tus travesías marítimas.
     Si estás acostumbrado a hacer cruceros, quizá podrías pensar en sustituir este modo de vacaciones por otro que emita menos gases de efecto invernadero.
   description.auto: |
     La huella de carbono del ferry es menor que la del avión, pero sigue siendo significativa. Una buena idea sería utilizarlo sólo como alternativa al avión, para sus travesías marítimas.
@@ -15952,7 +15952,7 @@ alimentation . viande faible empreinte . différence par semaine:
   titre.auto: diferencia por semana
   titre.lock: différence par semaine
 alimentation . devenir végétalien:
-  titre: hazte vegano
+  titre: hacerse vegano
   titre.auto: hazte vegano
   titre.lock: devenir végétalien
   description: |
@@ -16060,7 +16060,7 @@ alimentation . boisson . eau en bouteille . arrêter:
   note.lock: |
     Sources : [Écobilan de l’eau potable](http://esu-services.ch/fileadmin/download/jungbluth-2015-ecobilan-eau.pdf) et [Ministère de la Transition Ecologique p106](https://www.economie.gouv.fr/files/files/directions_services/cge/filieres-dechets-recyclage.pdf)
 alimentation . déchets . composter:
-  titre: Compost
+  titre: Hacer compost
   titre.auto: Compost
   titre.lock: Composter
   description: |
@@ -16088,9 +16088,9 @@ alimentation . réduire poisson . max 2 par semaine:
   titre.auto: Reducir el pescado a dos comidas por semana
   titre.lock: Réduire le poisson à deux repas par semaine
   description: |
-    ¿Quiere reducir su huella de carbono cambiando sus hábitos alimentarios, comiendo menos productos animales y preservando los recursos marinos?
+    ¿Quieres reducir tu huella de carbono cambiando tus hábitos alimentarios, comiendo menos productos animales y preservando los recursos marinos?
 
-    Si no come pescado más de dos veces por semana, puede reducir considerablemente sus emisiones de gases de efecto invernadero. También es una buena manera de evitar el agotamiento de ciertas especies de peces que se pescan demasiado.
+    Si no comes pescado más de dos veces por semana, puedes reducir considerablemente tus emisiones de gases de efecto invernadero. También es una buena manera de evitar el agotamiento de ciertas especies de peces que se pescan demasiado.
   description.auto: |
     ¿Quiere reducir su huella de carbono cambiando sus hábitos alimentarios, comiendo menos productos animales y preservando los recursos marinos?
 
@@ -16104,7 +16104,7 @@ alimentation . devenir végétarien:
   titre.auto: Hacerse vegetariano
   titre.lock: Devenir végétarien
   description: |
-    Adoptar una dieta vegetariana, sin carne ni pescado pero con huevos, leche, queso y yogur, reducirá significativamente las emisiones de gases de efecto invernadero generadas por su alimentación.
+    Adoptar una dieta vegetariana, sin carne ni pescado pero con huevos, leche, queso y yogur, reducirá significativamente las emisiones de gases de efecto invernadero generadas por tu alimentación.
 
     Incluye más legumbres en tus menús. Te aportarán proteínas vegetales.
 
@@ -16146,11 +16146,11 @@ alimentation . réduire viande . max 1 par jour:
 
     Pour réduire facilement votre consommation de protéines animales, ne consommez de viande qu’une fois par jour et en plus petite quantité. C’est un bon début pour limiter votre empreinte carbone.
 divers . numérique . appareils . allongement:
-  titre: Alarga la vida de todos tus electrodomésticos
+  titre: Alargar la vida de todos los aparatos eléctricos
   titre.auto: Alarga la vida de todos tus electrodomésticos
   titre.lock: Allonger la vie de tous ses appareils
   description: |
-    > Descubra todas las soluciones para alargar la vida de sus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our</a> resources.
+    > Descubre todas las soluciones para alargar la vida de tus aparatos eléctricos y electrónicos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our</a> resources.
   description.auto: |
     > Descubra todas las soluciones para alargar la vida de sus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our</a> resources.
   description.lock: |
@@ -16217,7 +16217,7 @@ logement . installer thermostat:
   note.auto: Hemos optado por una reducción del 12% de la energía de calefacción.
   note.lock: Nous choisissons de partir sur une réduction de 12% de l'énergie liée au chauffage.
   description: |
-    ¿Lo sabía? Instalar un termostato programable puede ahorrarle hasta un 15% en sus facturas de calefacción.
+    ¿Lo sabías? Instalar un termostato programable puede ahorrarte hasta un 15% en tus facturas de calefacción.
 
     > Para saber más sobre cómo funciona el termostato y cómo instalarlo, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/economies-denergie-deau/reduire-facture-chauffage-thermostat-programmable">consulta nuestro artículo</a>.
   description.auto: |
@@ -16249,7 +16249,7 @@ alimentation . devenir végétarien . différence par semaine repas . nombre pla
   titre.auto: número de platos no vegetarianos
   titre.lock: nombre plats non végé
 divers . partage NGC:
-  titre: Promover nuestra acción por el clima
+  titre: Promover la calculadora de huella!
   titre.auto: Promover nuestra acción por el clima
   titre.lock: Promouvoir Nos Gestes Climat !
   description: |
@@ -16281,13 +16281,13 @@ alimentation . réduire café . max deux par jour:
 
     Et si vous commenciez par diminuer votre consommation en ne dépassant pas deux cafés par jour ?
 services sociétaux . pression locale:
-  titre: Presión local
+  titre: Ejercer presión a nivel local
   titre.auto: Presión local
   titre.lock: Faire pression localement
   description: |
-    Las autoridades locales y los representantes electos son sus mejores aliados para desarrollar su entorno vital y tener más en cuenta la transición ecológica.
+    Las autoridades locales y los representantes electos son tus mejores aliados para desarrollar tu entorno vital y tener más en cuenta la transición ecológica.
 
-    Puedes escribirles o reunirte con ellos fácilmente para hacerles partícipes de tus ideas y expectativas.
+    Puedes escribirles o reunirte con ellos fácilmente para trasmitir tus ideas y expectativas.
 
     Cuando se celebren consultas públicas, tómate tu tiempo para asistir. Son un foro importante para el desarrollo de proyectos. 
 
@@ -16309,7 +16309,7 @@ services sociétaux . pression locale:
 
     > Votre parole compte, exprimez-la !
 alimentation . réduire alcool . max un litres par semaine:
-  titre: Limítese a un litro de alcohol a la semana
+  titre: Limitarse a un litro de alcohol a la semana
   titre.auto: Limítese a un litro de alcohol a la semana
   titre.lock: Se limiter à un litre d'alcool par semaine
   description: |
@@ -16351,7 +16351,7 @@ alimentation . réduire boissons sucrées . changer pour sirop:
   description.lock: |
     Les sirops ajoutés dans l’eau ont une empreinte carbone très inférieure aux sodas et aux jus de fruits : autour de 100 g CO2e / litre contre plus de 500 g CO2e / litre pour les sodas, et 900 g CO2e / litre pour les jus de fruits.
 alimentation . réduire café . remplace par chicorée:
-  titre: Sustituye el café por achicoria
+  titre: Sustituir el café por la achicoria
   titre.auto: Sustituye el café por achicoria
   titre.lock: Remplacer le café par de la chicorée
   description: |
@@ -16377,15 +16377,15 @@ divers . publicité:
     ADEME: https://librairie.ademe.fr/dechets-economie-circulaire/325-biens-d-equipement-benefices-environnementaux-d-allonger-leur-duree-de-vie.html
   note.lock: |
     ADEME: https://librairie.ademe.fr/dechets-economie-circulaire/325-biens-d-equipement-benefices-environnementaux-d-allonger-leur-duree-de-vie.html
-  titre: 'Promociones y rebajas: evite caer en la tentación'
-  titre.auto: 'Promociones y rebajas: evite caer en la tentación'
+  titre: 'Promociones y rebajas: evitar caer en la tentación'
+  titre.auto: 'Promociones y rebajas: evitar caer en la tentación'
   titre.lock: 'Promo, soldes : éviter de se laisser tenter'
   description: |
     La publicidad y el marketing nos incitan a menudo a comprar cosas que realmente no necesitamos y a renovar rápidamente nuestros equipos. 
 
     Los periodos de rebajas y las promociones a veces nos incitan a comprar cosas que no necesitamos, para no perdernos una "ganga". 
 
-    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan le ayudará a reducir su impacto sobre el clima. 
+    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan te ayudará a reducir tu impacto sobre el clima. 
 
     > Antes de comprar un artículo nuevo, tómate 5 minutos para pensarlo y <a href="https://mtaterre.fr/ressource/la-methode-bisou/">practica el método BISOU</a>.
   description.auto: |
@@ -16409,7 +16409,7 @@ alimentation . devenir végétalien . différence par semaine chocolat chaud:
   titre.auto: diferencia por semana chocolate caliente
   titre.lock: différence par semaine chocolat chaud
 alimentation . réduire café . max un par jour:
-  titre: Limítese a un café al día
+  titre: Limitarse a un café al día
   titre.auto: Limítese a un café al día
   titre.lock: Se limiter à un café par jour
   description: |
@@ -16429,7 +16429,7 @@ alimentation . devenir végétalien . différence par semaine:
   titre.auto: Diferencia por semana
   titre.lock: Différence par semaine
 alimentation . réduire café . remplace par thé:
-  titre: Sustituya el café por té
+  titre: Sustituir el café por el té
   titre.auto: Sustituya el café por té
   titre.lock: Remplacer le café par du thé
   description: |
@@ -16445,7 +16445,7 @@ alimentation . réduire café . remplace par thé:
 
     Et si vous passiez du café au thé ?
 alimentation . manger de saison:
-  titre: Comer según las estaciones
+  titre: Comer según las temporadas
   titre.auto: Comer según las estaciones
   titre.lock: Manger en respectant les saisons
   description: |
@@ -16523,7 +16523,7 @@ logement . se chauffer au bois . recalcul . consommation:
   titre.auto: consumo
   titre.lock: consommation
 alimentation . réduire café . remplace un café par jour par thé:
-  titre: Sustituir una taza de café por té
+  titre: Sustituir una taza de café por una de té
   titre.auto: Sustituir una taza de café por té
   titre.lock: Remplacer une tasse de café par du thé
   description: |
@@ -16546,11 +16546,11 @@ logement . propriétaire:
   titre: propietario
   titre.auto: propietario
   titre.lock: propriétaire
-  question: ¿Es propietario de su vivienda?
+  question: ¿Eres propietario de tu vivienda?
   question.auto: ¿Es propietario de su vivienda?
   question.lock: Etes-vous propriétaire de votre logement ?
   description: |
-    Como inquilino, es obviamente difícil hacer inversiones que mejoren la huella de la propiedad: el aislamiento, el cambio de fuentes de energía son imposibles a menos que encuentres un casero especialmente complaciente. 
+    Como inquilino, es obviamente difícil hacer inversiones que mejoren la huella de la propiedad: el aislamiento, el cambio de fuentes de energía son imposibles a menos que encuentres un propietario especialmente complaciente. 
 
     Sin embargo, a partir de 2023, la ley podría suponer un gran impulso: <a href="https://www.gouvernement.fr/interdiction-a-la-location-des-logements-avec-une-forte-consommation-d-energie-des-2023">se prohibirá</a> alquilar pisos térmicos, lo que obligará a los propietarios a realizar importantes obras.
   description.auto: |
@@ -16581,7 +16581,7 @@ logement . baisse température . gains 1 degré:
   titre.auto: gana 1 grado
   titre.lock: gains 1 degré
   note: |
-    ¿Cuál es la fuente de este 7%? ¿Puede desglosarse esta cifra para cada tipo de energía (madera, gas, etc.)? ¿Hasta qué punto es sensible esta cifra al tipo de vivienda, su aislamiento, etc.?
+    ¿Cuál es la fuente de este 7%? ¿Puedes desglosarse esta cifra para cada tipo de energía (madera, gas, etc.)? ¿Hasta qué punto es sensible esta cifra al tipo de vivienda, su aislamiento, etc.?
   note.auto: |
     ¿Cuál es la fuente de este 7%? ¿Puede desglosarse esta cifra para cada tipo de energía (madera, gas, etc.)? ¿Hasta qué punto es sensible esta cifra al tipo de vivienda, su aislamiento, etc.?
   note.lock: |
@@ -16615,13 +16615,13 @@ alimentation . devenir végétalien . différence par semaine repas:
   titre.auto: diferencia por semana comida
   titre.lock: différence par semaine repas
 alimentation . déchets . avoir un stop pub:
-  titre: Pega una señal de stop en tu buzón
+  titre: Tener una pegatina "stop publicidad" en el buzón
   titre.auto: Pega una señal de stop en tu buzón
   titre.lock: Coller un stop pub sur sa boîte aux lettres
   description: |
-    Al poner "stop pub" en su buzón, está informando a los distribuidores de publicidad de que rechaza recibir catálogos, promociones, menús de restaurantes y todo tipo de publicidad.
+    Al poner una pegatina "stop pub" en tu buzón, estás informando a los distribuidores de publicidad de que rechazas recibir catálogos, promociones, menús de restaurantes y todo tipo de publicidad.
 
-    De este modo, puede reducir la cantidad de papel que se produce innecesariamente porque no se lee antes de tirarlo a la papelera. Eso supone muchos menos residuos que recoger y procesar. También ahorra agua, energía y gases de efecto invernadero.
+    De este modo, puedes reducir la cantidad de papel que se produce innecesariamente porque no se lee antes de tirarlo a la papelera. Eso supone muchos menos residuos que recoger y procesar. También ahorra agua, energía y gases de efecto invernadero.
   description.auto: |
     Al poner "stop pub" en su buzón, está informando a los distribuidores de publicidad de que rechaza recibir catálogos, promociones, menús de restaurantes y todo tipo de publicidad.
 
@@ -16635,9 +16635,9 @@ divers . aider les autres:
   titre.auto: Invitar a amigos y familiares a reducir su huella
   titre.lock: Inviter ses proches à réduire leur empreinte
   description: |
-    Si su huella es inferior a 4,5 toneladas de CO2e, o si ciertas limitaciones hacen imposible el progreso, aún puede actuar ayudando a quienes le rodean a reducir sus emisiones de gases de efecto invernadero.
+    Si tu huella es inferior a 4,5 toneladas de CO2e, o si ciertas limitaciones hacen imposible el progreso, aún puedes actuar ayudando a tu entorno a reducir tus emisiones de gases de efecto invernadero.
 
-    ¿Cómo puede hacerlo? Difundiendo este simulador, hablando de temas medioambientales con tus amigos y familiares, y organizando talleres en empresas o asociaciones.
+    ¿Cómo? Difundiendo este simulador, hablando de temas medioambientales con tus amigos y familiares, y organizando talleres en empresas o asociaciones.
 
     > Encuentra ideas para la acción cotidiana en <a href="https://agirpourlatransition.ademe.fr/particuliers/">la web de soluciones de ADEME</a>.
   description.auto: |
@@ -16688,7 +16688,7 @@ logement . baisse température . nombre degrés:
   titre: número de títulos
   titre.auto: número de títulos
   titre.lock: nombre degrés
-  question: ¿En cuántos grados estaría dispuesto a reducir la temperatura de su casa?
+  question: ¿En cuántos grados estarías dispuesto a reducir la temperatura de tu casa?
   question.auto: ¿En cuántos grados estaría dispuesto a reducir la temperatura de su casa?
   question.lock: De combien de degrés seriez-vous prêt à diminuer la température de votre logement ?
   suggestions:
@@ -16710,7 +16710,7 @@ logement . baisse température . nombre degrés:
 
     Sin embargo, puede limitarse fácilmente bajando la temperatura de las habitaciones ocupadas sin perder confort térmico ni sensación de frío (siempre que las viviendas estén bien aisladas).
 
-    Por ejemplo, fije la temperatura entre 19° y 21°C en las habitaciones ocupadas durante el día (y 17°C por la noche o en habitaciones poco frecuentadas).
+    Por ejemplo, fijar la temperatura entre 19° y 21°C en las habitaciones ocupadas durante el día (y 17°C por la noche o en habitaciones poco frecuentadas).
 
     Bajar la temperatura de la calefacción 1°C representa un ahorro energético del 7%.
   description.auto: |
@@ -16741,7 +16741,7 @@ logement . rénovation énergétique BBC . gain rénovation:
   titre: ganancia de renovación
   titre.auto: ganancia de renovación
   titre.lock: gain rénovation
-  note: Máximo ahorro energético conseguido tras la renovación de la BBC, fuente por especificar.
+  note: Máximo ahorro energético conseguido tras la renovación tipo nZEB, fuente por especificar.
   note.auto: Máximo ahorro energético conseguido tras la renovación de la BBC, fuente por especificar.
   note.lock: Gain énergétique maximal atteint après une rénovation BBC, source à préciser.
 logement . gain rénovation:
@@ -16758,7 +16758,7 @@ logement . gain rénovation:
     Gain énergétique moyen après rénovation sur un programme de l'ANAH de 13 000 logements ciblant les "passoires thermiques".
     Plus d'informations dans le programme [MaPrimeRénov’ Sérénité](https://france-renov.gouv.fr/aides/mpr/serenite) (ex Habiter Mieux de L’Anah).
 services sociétaux . voter:
-  titre: vote
+  titre: votar
   titre.auto: vote
   titre.lock: voter
   description: |
@@ -16790,7 +16790,7 @@ logement . température:
   description: Esta pregunta simplemente nos permite no sugerir que se baje la temperatura cuando ya es relativamente baja.
   description.auto: Esta pregunta simplemente nos permite no sugerir que se baje la temperatura cuando ya es relativamente baja.
   description.lock: Cette question nous permet simplement de ne pas vous proposer de baisser la température quand elle est déjà relativement faible.
-  question: ¿A qué temperatura calienta su casa?
+  question: ¿A qué temperatura calientas tu casa?
   question.auto: ¿A qué temperatura calienta su casa?
   question.lock: À quelle température chauffez-vous votre logement ?
 logement . énergie de veille . temps d'absence . journalier:
@@ -16804,7 +16804,7 @@ logement . chauffage collectif:
   titre: calefacción urbana
   titre.auto: calefacción urbana
   titre.lock: chauffage collectif
-  question: ¿Su sistema de calefacción es colectivo o individual?
+  question: ¿Tu sistema de calefacción es colectivo o individual?
   question.auto: ¿Su sistema de calefacción es colectivo o individual?
   question.lock: Votre chauffage est-il collectif ou individuel ?
   note: |
@@ -16827,7 +16827,7 @@ alimentation . réduire viande . max 2 par semaine:
   titre.auto: Reducir la carne a dos comidas por semana
   titre.lock: Réduire la viande à deux repas par semaine
   description: |
-    ¿Quiere reducir su huella de carbono cambiando sus hábitos alimentarios y consumiendo menos productos animales?
+    ¿Quieres reducir tu huella de carbono cambiando tus hábitos alimentarios y consumiendo menos productos animales?
 
     Si no comes carne más de dos veces por semana, puedes reducir considerablemente tus emisiones de gases de efecto invernadero.
   description.auto: |
@@ -16854,7 +16854,7 @@ divers . autres produits . réduire . recalcul:
   titre.auto: recálculo
   titre.lock: recalcul
 divers . numérique . internet . diminuer:
-  titre: Reduzca el tiempo de retransmisión
+  titre: Reducir el tiempo de streaming
   titre.auto: Reduzca el tiempo de retransmisión
   titre.lock: Réduire son temps de streaming
   description: |
@@ -16891,7 +16891,7 @@ divers . numérique . internet . diminuer:
 
     > Pour estimer l’empreinte carbone de vos usages numériques, [utilisez notre calculateur](https://impactco2.fr/usagenumerique).
 logement . installer chauffe-eau solaire:
-  titre: Instalación de un calentador de agua solar
+  titre: Instalar un calentador de agua solar
   titre.auto: Instalación de un calentador de agua solar
   titre.lock: S’équiper d’un chauffe-eau solaire
   description: |
@@ -16901,7 +16901,7 @@ logement . installer chauffe-eau solaire:
 
     También reducen los costes de agua caliente en un factor de 2 o incluso 3 en comparación con un sistema eléctrico, de gas o de gasóleo.
 
-    > Para saber más sobre esta tecnología, su funcionamiento y los costes de instalación, consulte <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/6136-adopter-le-solaire-thermique.html">nuestra guía "Adoptar la energía solar térmica"</a>.
+    > Para saber más sobre esta tecnología, su funcionamiento y los costes de instalación, consulta <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/6136-adopter-le-solaire-thermique.html">nuestra guía "Adoptar la energía solar térmica"</a>.
   description.auto: |
     Es la solución solar térmica más sencilla de instalar. Puede cubrir gran parte de las necesidades de agua caliente de una vivienda.
 
@@ -16943,17 +16943,17 @@ logement . mutualiser son logement . empreinte partagée . divers . ameublement:
   titre.auto: mobiliario
   titre.lock: ameublement
 logement . rénovation énergétique BBC:
-  titre: Renovar su casa según las normas de la BBC
+  titre: Renovar su casa según las normas nZEB
   titre.auto: Renovar su casa según las normas de la BBC
   titre.lock: Rénover son logement en BBC
   description: |
-    Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² al año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
+    Una renovación de alto rendimiento puede dividir por 6 las necesidades energéticas de tu vivienda. Al consumir menos de 50 kWh por m² al año, la vivienda se clasificará como A en el certificado energético del edificio y alcanzará el nivel exigido para la certificación near Zero Emissions Building (nZEB, edificio de consumo de energía casi nulo).
 
-    Su vivienda apenas consumirá energía para calefacción, sin dejar de ser muy confortable.
+    Tu vivienda apenas consumirá energía para calefacción, sin dejar de ser muy confortable.
 
-    Existen varios incentivos financieros para apoyar su inversión.
+    Existen varios incentivos financieros para apoyar tu inversión.
 
-    > Como la renovación requiere reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">France Rénov'</a>.
+    > Como la renovación requiere reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarte en tu proyecto. Para ponerte en contacto con el asesor más cercano, visita la página web <a href="https://france-renov.gouv.fr/">France Rénov'</a>.
   description.auto: |
     Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² al año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
 
@@ -16975,9 +16975,9 @@ logement . extérieur . privilégier le bois pour le salon de jardin:
   titre.auto: Elegir muebles de jardín de madera
   titre.lock: Choisir un salon de jardin en bois
   note: |
-    Los muebles de jardín de madera ocupan tres veces menos espacio que los de resina o metal.
+    Los muebles de jardín de madera tienen una huella tres veces menor que los de resina o metal.
 
-    Además, es más fácil de mantener, por lo que dura más tiempo (lijado, aceitado o barnizado). Prolongar su vida útil significa reducir aún más su huella ecológica
+    Además, es más fácil de mantener, por lo que dura más tiempo (lijado, aceitado o barnizado). Prolongar su vida útil significa reducir aún más tu huella ecológica
   note.auto: |
     Los muebles de jardín de madera ocupan tres veces menos espacio que los de resina o metal.
 
@@ -16987,13 +16987,13 @@ logement . extérieur . privilégier le bois pour le salon de jardin:
 
     En plus, son entretien est plus accessible, pour le faire durer dans le temps (ponçage, huilage ou vernissage). Allonger sa durée de vie, c'est réduire encore plus son empreinte !
 alimentation . déchets . devenir zéro déchet:
-  titre: Residuos cero
+  titre: Pasarse al "residuo cero"
   titre.auto: Residuos cero
   titre.lock: Passer au "zéro déchet"
   description: |
-    Al igual que algunos hogares que ya han dado el paso, puede embarcarse en un enfoque drástico para reducir sus residuos, hasta que (casi) no tenga cubos que tirar.
+    Al igual que algunos hogares que ya han dado el paso, puedes embarcarte en un enfoque drástico para reducir tus residuos, hasta que (casi) no tengas cubos que tirar.
 
-    > Encontrará consejos para empezar en la web <a href="https://www.zerowastefrance.org/passer-a-laction/adopter-zero-dechet/">de Residuos Cero Francia</a>.
+    > Encontrarás consejos para empezar en la web <a href="https://www.zerowastefrance.org/passer-a-laction/adopter-zero-dechet/">de Residuos Cero Francia</a>.
   description.auto: |
     Al igual que algunos hogares que ya han dado el paso, puede embarcarse en un enfoque drástico para reducir sus residuos, hasta que (casi) no tenga cubos que tirar.
 
@@ -17027,9 +17027,9 @@ logement . baisse température:
 
     Bajar un grado la temperatura ahorra un 7% en costes energéticos.
 
-    > Para controlar mejor la temperatura de su casa, considere la posibilidad de instalar un sistema de regulación y programación.
+    > Para controlar mejor la temperatura de tu casa, considera la posibilidad de instalar un sistema de regulación y programación.
 
-    > Para saber más, consulte <a href="https://librairie.ademe.fr/changement-climatique-et-energie/5100-un-hiver-tout-confort-9791029718984.html">nuestra guía "Un invierno confortable"</a> y <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5099-changer-de-chauffage-9791029718731.html">nuestra guía "Cambiar la calefacción"</a>
+    > Para saber más, consulta <a href="https://librairie.ademe.fr/changement-climatique-et-energie/5100-un-hiver-tout-confort-9791029718984.html">nuestra guía "Un invierno confortable"</a> y <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5099-changer-de-chauffage-9791029718731.html">nuestra guía "Cambiar la calefacción"</a>
   description.auto: |
     La calefacción representa el 66% de la factura energética de un hogar. Muchos hogares siguen equipados con calderas de gas o gasóleo, que emiten grandes cantidades de gases de efecto invernadero. Si ahorras en calefacción, puedes reducir significativamente tu impacto sobre el clima.
 
@@ -17046,16 +17046,16 @@ logement . baisse température:
     > Pour mieux maîtriser la température de votre logement, pensez à installer une régulation et une programmation.
 
     > Pour en savoir plus, consultez [notre guide « Un hiver tout confort »](https://librairie.ademe.fr/changement-climatique-et-energie/5100-un-hiver-tout-confort-9791029718984.html) et [notre guide « Changer de chauffage »](https://librairie.ademe.fr/urbanisme-et-batiment/5099-changer-de-chauffage-9791029718731.html)
-  titre: Reducir la consigna de calefacción
+  titre: Bajar el termostato de la calefacción
   titre.auto: Reducir la consigna de calefacción
   titre.lock: Baisser la consigne de son chauffage
 logement . se chauffer au bois:
   description: |
     Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o de la electricidad para calentarse. Es una forma económica de calentarse.
 
-    > Descubra <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html">nuestros consejos para utilizar su estu</a>fa de leña.
+    > Descubre [nuestros consejos para utilizar tu estufa de leña](https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html).
 
-    Eso sí, procure elegir un aparato moderno y eficiente, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulte nuestra guía</a>.
+    Eso sí, procura elegir un aparato moderno y eficiente, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulta nuestra guía</a>.
   description.auto: |
     Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o de la electricidad para calentarse. Es una forma económica de calentarse.
 
@@ -17068,7 +17068,7 @@ logement . se chauffer au bois:
     > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html).
 
     Attention toutefois à vous équipez d’un appareil moderne et performant car les vieux poêles libèrent des polluants dans l’air. Pour en savoir plus sur les appareils les plus performants, [consultez notre guide](https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html).
-  titre: Calefacción con leña
+  titre: Calentar su hogar con leña
   titre.auto: Calefacción con leña
   titre.lock: Se chauffer au bois
   note: |
@@ -17081,7 +17081,7 @@ logement . se chauffer au bois:
     Nous considérons pour l'instant que le remplacement des kWh dédiés au chauffage par la même quantité de kWh de bois est une bonne approximation de premier ordre. 
     Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 logement . mutualiser son logement:
-  titre: Compartir su casa
+  titre: Compartir tu casa
   titre.auto: Compartir su casa
   titre.lock: Partager son logement
   description: |
@@ -17115,7 +17115,7 @@ logement . énergie de veille . puissance:
   note: |
     Es muy posible que estemos subestimando el número de vatios en espera. En concreto, parece que solo los boxes de internet y televisión consumen más de 50 vatios. 
 
-    > La "caja" es un equipo cada vez más común, que a menudo se deja encendido las 24 horas del día y genera un consumo que puede superar los 200 kWh/año, o tanto como una lavadora. Su consumo total a lo largo de un año oscila entre 150 y 300 kWh*: es tanto como el de un frigorífico grande
+    > La "box" es un equipo cada vez más común, que a menudo se deja encendido las 24 horas del día y genera un consumo que puede superar los 200 kWh/año, o tanto como una lavadora. Su consumo total a lo largo de un año oscila entre 150 y 300 kWh*: es tanto como el de un frigorífico grande
   note.auto: |
     Es muy posible que estemos subestimando el número de vatios en espera. En concreto, parece que solo los boxes de internet y televisión consumen más de 50 vatios. 
 
@@ -17157,7 +17157,7 @@ logement . climatisation . part électricité climatisation:
     D'après l'étude [ADEME Panel ElecDom 2020](https://librairie.ademe.fr/changement-climatique-et-energie/4473-panel-usages-electrodomestiques.html), un climatiseur fixe a une [consommation moyenne "de 100 à 700 kWh/an"](https://agirpourlatransition.ademe.fr/particuliers/maison/economies-denergie-deau/electricite-combien-consomment-appareils-maison).
     Nous partons donc sur une moyenne de 400 kWh/an par climatiseur installé.
 alimentation . viande faible empreinte:
-  titre: Aves de corral o cerdo
+  titre: Favorecer la carne de ave o cerdo
   titre.auto: Aves de corral o cerdo
   titre.lock: Privilégier la volaille ou le porc
   description: |
@@ -17269,9 +17269,9 @@ logement . raccordement réseau de chaleur:
     Sin embargo, conectarse a una red de calefacción no es tan sencillo como suscribir un contrato de electricidad.
     La viabilidad de la conexión depende de una serie <a href="https://france-chaleur-urbaine.beta.gouv.fr/ressources/faisabilite#contenu">de condiciones técnicas</a>.
 
-    En primer lugar, la conexión es para todo un edificio: no es posible conectar sólo su piso.
+    En primer lugar, la conexión es para todo un edificio: no es posible conectar sólo tu piso.
     En segundo lugar, hay que comprobar que hay una red de calefacción cerca del edificio, y luego estudiar
-    la infraestructura de calefacción del edificio (un edificio con un sistema de calefacción comunitario le permitirá conectarse a un coste menor)
+    la infraestructura de calefacción del edificio (un edificio con un sistema de calefacción comunitario te permitirá conectarte a un coste menor)
 
     En cuanto al impacto sobre el clima, es importante saber que, en general, una red de calefacción se abastece de fuentes de energía locales renovables o recuperadas
     (62% de media nacional), es decir, a partir de la incineración de residuos domésticos, la combustión de biomasa, la geotermia, etc. (como muestra la figura siguiente)
@@ -17410,13 +17410,13 @@ logement . raccordement réseau de chaleur . recalcul:
   note.lock: on considère que la consommation de gaz/fioul sera identique suite à un raccordement au réseau de chaleur.
 logement . rénovation énergétique:
   description: |
-    Mejorar el aislamiento, la ventilación y el equipamiento de su casa la hará más confortable y reducirá sus facturas de energía. Una casa más eficiente consumirá menos energía.
+    Mejorar el aislamiento, la ventilación y el equipamiento de tu casa la hará más confortable y reducirá tus facturas de energía. Una casa más eficiente consumirá menos energía.
 
-    Al renovar su casa, contribuye a reducir las emisiones de gases de efecto invernadero.
+    Al renovar tu casa, contribuyes a reducir las emisiones de gases de efecto invernadero.
 
-    Existen varias ayudas financieras para apoyar su inversión.
+    Existen varias ayudas financieras para apoyar tu inversión.
 
-    > Como la renovación de su vivienda requiere mucha reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">de France Rénov'</a>.
+    > Como la renovación de tu vivienda requiere mucha reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarte en tu proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">de France Rénov'</a>.
   description.auto: |
     Mejorar el aislamiento, la ventilación y el equipamiento de su casa la hará más confortable y reducirá sus facturas de energía. Una casa más eficiente consumirá menos energía.
 
@@ -17446,7 +17446,7 @@ logement . séchage air libre:
   note.lock: |
     D'après l'étude [ADEME Panel ElecDom 2020](https://librairie.ademe.fr/changement-climatique-et-energie/4473-panel-usages-electrodomestiques.html),
     un sèche-linge a une [consommation moyenne de 300 kWh/an](https://agirpourlatransition.ademe.fr/particuliers/maison/economies-denergie-deau/electricite-combien-consomment-appareils-maison).
-  titre: Utiliza un tendedero en lugar de una secadora
+  titre: Utilizar un tendedero en lugar de una secadora
   titre.auto: Utiliza un tendedero en lugar de una secadora
   titre.lock: Privilégier l'étendoir au sèche-linge
   description: |
@@ -17472,7 +17472,7 @@ alimentation . poisson faible empreinte:
   titre.auto: Prefiera el pescado azul (atún, salmón...)
   titre.lock: Préférer les poissons gras (thon, saumon...)
 logement . éteindre appareils:
-  titre: Apagado de dispositivos en espera
+  titre: Apagar los dispositivos en espera
   titre.auto: Apagado de dispositivos en espera
   titre.lock: Éteindre ses appareils en veille
   description: |
@@ -17482,7 +17482,7 @@ logement . éteindre appareils:
 
     La potencia en modo de espera ha progresado y consume menos que antes: una directiva europea aplicable desde enero de 2017 limita su potencia a 0,5 W para un determinado número de aparatosPara los aparatos que permanecen conectados a Internet o a redes de datos, sin embargo, la potencia sigue siendo de 3 W.
 
-    > Para saber más sobre las distintas soluciones para reducir su consumo de electricidad, consulte <a href="https://librairie.ademe.fr/consommer-autrement/5696-reduire-sa-facture-d-electricite.html">nuestra guía "Reducir su</a> factura de electricidad".
+    > Para saber más sobre las distintas soluciones para reducir tu consumo de electricidad, consulta <a href="https://librairie.ademe.fr/consommer-autrement/5696-reduire-sa-facture-d-electricite.html">nuestra guía "Reducir su</a> factura de electricidad".
   description.auto: |
     Cada vez más hogares están equipados con aparatos eléctricos y electrónicos, que a menudo se dejan en modo de espera o se encienden innecesariamente.
 
@@ -17512,7 +17512,7 @@ logement . remplacer chauffage électrique par PAC:
   titre.auto: Cambiar la calefacción eléctrica por una bomba de calor
   titre.lock: Passer du chauffage électrique à une pompe à chaleur
   description: |
-    La calefacción eléctrica es bastante sencilla de instalar, pero su funcionamiento es caro. Para reducir la factura de la luz y beneficiarse de un medio de calefacción que utiliza energías renovables, puede instalar una bomba de calor.
+    La calefacción eléctrica es bastante sencilla de instalar, pero su funcionamiento es caro. Para reducir la factura de la luz y beneficiarse de un medio de calefacción que utiliza energías renovables, puedes instalar una bomba de calor.
 
     > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consulta nuestra guía</a>.
   description.auto: |
@@ -17580,7 +17580,7 @@ logement . extérieur . passer à la tondeuse électrique:
   titre.auto: Elegir un cortacésped eléctrico
   titre.lock: Choisir une tondeuse électrique
   note: |
-    Un cortacésped puede funcionar con aceite y emitir CO2, o con electricidad y emitir cero emisiones a la atmósfera. Elige un modelo eléctrico.
+    Un cortacésped puede funcionar con gasolina y emitir CO2, o con electricidad y emitir cero emisiones a la atmósfera. Elige un modelo eléctrico.
   note.auto: |
     Un cortacésped puede funcionar con aceite y emitir CO2, o con electricidad y emitir cero emisiones a la atmósfera. Elige un modelo eléctrico.
   note.lock: |
@@ -17594,7 +17594,7 @@ alimentation . déchets . réduire gaspillage:
 
     Reducir el desperdicio de alimentos es esencial para evitar producir para tirar
 
-    > Puede encontrar más información y consejos para evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
+    > Puedes encontrar más información y consejos para evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
   description.auto: |
     Cada francés tira a la basura unos 30 kg de alimentos al año, de los cuales 7 kg siguen envasados
 
@@ -17614,7 +17614,7 @@ logement . climatisation . réduction:
   description: |
     A medida que las olas de calor se hacen más frecuentes e intensas, es importante adaptar su hogar para mantenerlo lo más fresco y confortable posible durante el verano. Explora todas las soluciones antes de recurrir al aire acondicionado. El aire acondicionado tiene un coste medioambiental.
 
-    > Para saber cómo vivir cómodamente sin aire acondicionado, <a href="https://agirpourlatransition.ademe.fr/particuliers/vacances-loisirs/ete/canicule-comment-garder-logement-frais">lea nuestro artículo</a>.
+    > Para saber cómo vivir cómodamente sin aire acondicionado, <a href="https://agirpourlatransition.ademe.fr/particuliers/vacances-loisirs/ete/canicule-comment-garder-logement-frais">lee nuestro artículo</a>.
   description.auto: |
     A medida que las olas de calor se hacen más frecuentes e intensas, es importante adaptar su hogar para mantenerlo lo más fresco y confortable posible durante el verano. Explora todas las soluciones antes de recurrir al aire acondicionado. El aire acondicionado tiene un coste medioambiental.
 
@@ -17723,7 +17723,7 @@ services sociétaux . question rhétorique:
   titre.lock: Question d'information sur les services communs
   description: |
 
-    Esta categoría no depende de sus respuestas. La huella asociada se calcula utilizando un enfoque macroeconómico a escala nacional. Para <a href="/documentation/services-sociétaux">más información</a>, pulse aquí.
+    Esta categoría no depende de tus respuestas. La huella asociada se calcula utilizando un enfoque macroeconómico a escala nacional. Para <a href="/documentation/services-sociétaux">más información</a>, pulsa aquí.
   description.auto: |
 
     Esta categoría no depende de sus respuestas. La huella asociada se calcula utilizando un enfoque macroeconómico a escala nacional. Para <a href="/documentation/services-sociétaux">más información</a>, pulse aquí.
@@ -21335,7 +21335,7 @@ empreinte branche . C30 par hab . services marchands:
     accesible a todos los ciudadanos, y el transporte de mercancías sirve para transportar todos los productos que consumimos.
 
     No hemos incluido el 100% de esta partida para evitar la doble contabilidad. De hecho, la construcción de trenes, autobuses, tranvías, aviones, etc...
-    ya se tiene en cuenta en los factores de emisión utilizados para calcular su huella de viaje en la sección Transporte.
+    ya se tiene en cuenta en los factores de emisión utilizados para calcular tu huella de viaje en la sección Transporte.
 
     Por tanto, consideramos aquí la construcción de barcos y estructuras flotantes (30.11), el 50% de la subdivisión construcción aeronáutica y espacial
     y espacial (30.3, helicópteros, canadair), vehículos militares de combate (30.4, desglose no conocido ya que el volumen de negocio está sujeto al secreto estadístico), 
@@ -25890,7 +25890,7 @@ empreinte branche . J58 par hab:
     	- Édition de jeux électroniques (14%)
     	- Édition d'autres logiciels (86%)
 bilan:
-  titre: Su informe climático personal
+  titre: Tu informe climático personal
   titre.auto: Su informe climático personal
   titre.lock: Votre bilan climat personnel
   description: |
@@ -25900,9 +25900,9 @@ bilan:
 
     Se incluyen las huellas de todas las empresas. Por ejemplo, si conduces un coche 10 km, las emisiones no se atribuyen al país que extrajo el petróleo del suelo, ni a la empresa que lo refinó y distribuyó en las gasolineras, sino al consumidor final en su coche.
 
-    Si sumamos esta huella de cada francés y de cada otro 🌍 terrícola, obtenemos el impacto total de las actividades humanas sobre el clima.
+    Si sumamos esta huella de cada español y de cada otro 🌍 terrícola, obtenemos el impacto total de las actividades humanas sobre el clima.
 
-    *Atención: este simulador da el orden de magnitud de tu huella y la de los franceses: la estimación no debe tomarse a la décima más próxima
+    *Atención: este simulador da el orden de magnitud de tu huella y la de los españoles: la estimación no debe tomarse como extremadamente precisa
 
     Pero, ¿qué significan estas diez toneladas de CO₂ equivalente? ¿Qué importancia tiene? **Te contamos todo sobre la huella climática** y cómo situar esta huella (¿baja, alta?) <a href="https://nosgestesclimat.fr/blog/budget">➡ en este</a> artículo.
     <RavijenChart/>
@@ -26477,7 +26477,7 @@ transport . voiture . utilisateur . propriétaire:
   titre: Sí, y es mío
   titre.auto: Sí, y es mío
   titre.lock: Oui et j'en suis propriétaire
-  description: Realiza la gran mayoría de sus desplazamientos en el mismo vehículo que posee.
+  description: Realizas la gran mayoría de tus desplazamientos en un mismo vehículo, que posees.
   description.auto: Realiza la gran mayoría de sus desplazamientos en el mismo vehículo que posee.
   description.lock: Vous faites la grande majorité de vos trajets avec un même véhicule que vous possédez.
 transport . voiture . barème construction:
@@ -26909,7 +26909,7 @@ logement . chauffage . bouteille gaz . consommation estimée via le poids . sais
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿Utiliza una bombona de otro tamaño? Introduzca su consumo anual en kg.
+  question: ¿Utilizas una bombona de otro tamaño? Introduce tu consumo anual en kg.
   question.auto: ¿Utiliza una bombona de otro tamaño? Introduzca su consumo anual en kg.
   question.lock: Vous utilisez un format de bonbonne différent ? Entrez votre consommation annuelle en kg.
 logement . chauffage . fioul . consommation estimée via le coût . facteur:
@@ -26979,7 +26979,7 @@ logement . chauffage . gaz . consommation estimée via le coût . saisie:
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . gaz . prix . abonnement avec TVA:
@@ -26990,7 +26990,7 @@ logement . chauffage . bois . type . bûches . consommation estimée via le coû
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . bouteille gaz . consommation estimée via le poids . facteur:
@@ -27092,7 +27092,7 @@ logement . chauffage . réseau de chaleur . consommation estimée via le coût .
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . bois . type . bûches . consommation estimée via le coût . facteur:
@@ -27115,21 +27115,21 @@ logement . chauffage . fioul . consommation estimée via le coût . saisie:
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . bois . type . granulés . consommation estimée via le coût . saisie:
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . citerne propane . consommation estimée via le coût . saisie:
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . chauffage . gaz . prix . TICGN avec TVA:
@@ -27188,7 +27188,7 @@ logement . chauffage . gaz . prix:
 
     Esto significa incluir los diversos gravámenes obligatorios, así como el abono que es realmente significativo en el caso del gas. 
 
-    Tenga en cuenta que el mercado del gas se ha liberalizado en gran medida, por lo que la tarifa regulada, que es la base de nuestro cálculo, ya no es exclusiva. Ya no es posible abonarse a ella, pero los clientes actuales seguirán haciéndolo hasta 2023. 
+    Ten en cuenta que el mercado del gas se ha liberalizado en gran medida, por lo que la tarifa regulada, que es la base de nuestro cálculo, ya no es exclusiva. Ya no es posible abonarse a ella, pero los clientes actuales seguirán haciéndolo hasta 2023. 
 
     En 2023, habrá dos tipos de tarifa: una indexada a la tarifa regulada, muy próxima a ella, y tarifas completamente libres, a menudo establecidas por un periodo fijo.
 
@@ -27485,12 +27485,12 @@ ui . pédagogie . sous catégories . transport:
   titre.lock: transport
 transport . infolettre:
   description: |
-    Reciba consejos mensuales sobre cómo reducir el impacto climático de sus viajes.
+    Recibe consejos mensuales sobre cómo reducir el impacto climático de tus viajes.
   description.auto: |
     Reciba consejos mensuales sobre cómo reducir el impacto climático de sus viajes.
   description.lock: |
     Recevez chaque mois des astuces pour réduire votre impact climatique lié à vos déplacements.
-  titre: Suscríbase al boletín de noticias de Nos Gestes Transport
+  titre: Darse de alta a la newsletter Nos Gestes Transport
   titre.auto: Suscríbase al boletín de noticias de Nos Gestes Transport
   titre.lock: S'abonner à l'infolettre Nos Gestes Transport
 ui . pédagogie . empreinte faible:
@@ -27513,9 +27513,9 @@ divers . numérique . appareils . préservation:
   question.auto: ¿Qué esfuerzos haces para conservar tus dispositivos digitales el mayor tiempo posible?
   question.lock: Quel effort faites-vous pour garder vos appareils numériques le plus longtemps possible ?
   description: |
-    Para evitar pedirle que indique la edad exacta de todos los aparatos electrónicos que posee, utilizamos una escala de edad media para cada aparato, que se ajusta en función de sus esfuerzos por conservarlo o no.
+    Para evitar pedirte que indiques la edad exacta de todos los aparatos electrónicos que posees, utilizamos una escala de edad media para cada aparato, que se ajusta en función de tus esfuerzos por conservarlo o no.
 
-    De ti depende juzgar tus esfuerzos para que duren lo máximo posible
+    Depende de ti juzgar los esfuerzos que haces para alargar su vida
 
     > Responder "Ninguna, suelo comprar nuevos" es la respuesta más impactante porque significa que estás sustituyendo tus aparatos antes de tiempo, incluso antes de que estén fuera de uso.
   description.auto: |
@@ -27543,11 +27543,11 @@ divers . électroménager . appareils . coefficient préservation:
   titre.auto: coeficiente de conservación
   titre.lock: coefficient préservation
   note: |
-    Definimos una serie de comportamientos de consumo, desde el nuevo comprador casi compulsivo hasta el que hace un gran esfuerzo por conservar su equipo el mayor tiempo posible.
+    Definimos una serie de comportamientos de consumo, desde el comprador casi compulsivo hasta el que hace un gran esfuerzo para conservar su equipo el mayor tiempo posible.
 
     Partimos de la base de que las personas que dicen comprar nuevos a menudo conservan sus aparatos la mitad de su vida útil media, mientras que los que conservan sus aparatos posponen su vida útil media.
 
-    Esta tabla puede evolucionar si se le añaden nuevas fuentes o estudios.
+    Esta tabla puede evolucionar al aparecer nuevas fuentes o estudios.
   note.auto: |
     Definimos una serie de comportamientos de consumo, desde el nuevo comprador casi compulsivo hasta el que hace un gran esfuerzo por conservar su equipo el mayor tiempo posible.
 
@@ -27565,11 +27565,11 @@ divers . numérique . appareils . coefficient préservation:
   titre.auto: coeficiente de conservación
   titre.lock: coefficient préservation
   note: |
-    Definimos una serie de comportamientos de consumo, desde el nuevo comprador casi compulsivo hasta el que hace un gran esfuerzo por conservar su equipo el mayor tiempo posible.
+    Definimos una serie de comportamientos de consumo, desde el comprador casi compulsivo hasta el que hace un gran esfuerzo para conservar su equipo el mayor tiempo posible.
 
     Partimos de la base de que las personas que dicen comprar nuevos a menudo conservan sus aparatos la mitad de su vida útil media, mientras que los que conservan sus aparatos posponen su vida útil media.
 
-    Esta tabla puede evolucionar si se le añaden nuevas fuentes o estudios.
+    Esta tabla puede evolucionar al aparecer nuevas fuentes o estudios.
   note.auto: |
     Definimos una serie de comportamientos de consumo, desde el nuevo comprador casi compulsivo hasta el que hace un gran esfuerzo por conservar su equipo el mayor tiempo posible.
 
@@ -27590,10 +27590,10 @@ divers . ameublement . meubles . préservation:
   question.auto: ¿Qué esfuerzos haces para que tus muebles conserven el mejor aspecto posible durante el mayor tiempo posible?
   question.lock: Quel effort faites-vous pour garder vos meubles le plus longtemps possible ?
   description: |
-    Para evitar pedirle que indique la edad exacta de todos los muebles que posee, hemos definido una edad media para cada artículo (generalmente, 10 años).
+    Para evitar pedirte que indiques la edad exacta de todos los muebles que posees, hemos definido una edad media para cada artículo (generalmente, 10 años).
 
     > Nuestro objetivo aquí no es evaluar la edad de los muebles antes de que queden inservibles, sino la edad en que sus propietarios deciden sustituirlos por muebles nuevos.
-    A usted le corresponde ver en qué punto se encuentra con respecto a la media.
+    A ti te corresponde ver en qué punto te encuentras con respecto a la media.
   description.auto: |
     Para evitar pedirle que indique la edad exacta de todos los muebles que posee, hemos definido una edad media para cada artículo (generalmente, 10 años).
 
@@ -27609,7 +27609,7 @@ divers . ameublement . meubles . nombre total:
   titre.auto: Número de muebles de la vivienda
   titre.lock: Nombre de meubles dans le logement
 divers . ameublement . meubles . allongement:
-  titre: Alarga la vida de tus muebles
+  titre: Alargar la vida de sus muebles
   titre.auto: Alarga la vida de tus muebles
   titre.lock: Allonger la vie de ses meubles
   description: |
@@ -27636,7 +27636,7 @@ divers . électroménager . appareils . préservation:
   question.auto: ¿Qué esfuerzos haces para conservar tus electrodomésticos el mayor tiempo posible?
   question.lock: Quel effort faites-vous pour garder vos appareils électroménagers le plus longtemps possible ?
   description: |
-    Para evitar pedirle que indique la edad exacta de la decena de aparatos que posee, utilizamos una tabla con la edad media de cada aparato.
+    Para evitar pedirte que indiques la edad exacta de la decena de aparatos que posees, utilizamos la edad media de cada aparato.
 
     Por ejemplo, un frigorífico dura una media de 10 años, un horno 12 años y un hervidor 6 años.
 
@@ -27664,7 +27664,7 @@ divers . électroménager . appareils . préservation . moyen:
   titre.auto: Esfuerzo medio
   titre.lock: Effort moyen
 divers . électroménager . appareils . allongement:
-  titre: Para que sus electrodomésticos duren
+  titre: Alargar la vida de los electrodomésticos
   titre.auto: Para que sus electrodomésticos duren
   titre.lock: Faire durer son électroménager
   description: |
@@ -27672,7 +27672,7 @@ divers . électroménager . appareils . allongement:
 
     A la inversa, renovar los aparatos prematuramente contribuye a producir más aparatos para el mismo servicio.
 
-    > Descubra todas las soluciones para alargar la vida de sus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Épargneons nos ressources</a>.
+    > Descubre todas las soluciones para alargar la vida de tus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Épargneons nos ressources</a>.
   description.auto: |
     Aumentar la vida útil de los electrodomésticos (cuidándolos o reparándolos cuando se estropean) contribuye a limitar su impacto ambiental.
 
@@ -27730,7 +27730,7 @@ divers . ameublement . meubles . coefficient préservation:
   titre.auto: coeficiente de conservación
   titre.lock: coefficient préservation
   note: |
-    Definimos una cuadrícula de comportamiento del consumidor, desde el comprador nuevo frecuente hasta la persona que hace un gran esfuerzo por conservar sus muebles el mayor tiempo posible.
+    Definimos una cuadrícula de comportamiento del consumidor, desde el comprador frecuente de objetos nuevos hasta la persona que hace un gran esfuerzo por conservar sus muebles el mayor tiempo posible.
     Suponemos que las personas que dicen comprar muebles nuevos con frecuencia conservan sus muebles la mitad de su vida media, mientras que las que conservan sus muebles posponen su vida media.
     Esta tabla puede evolucionar si se le añaden nuevas fuentes o estudios.
   note.auto: |
@@ -27775,7 +27775,7 @@ logement . électricité . réseau . consommation estimée via le coût . saisie
   titre: entrada
   titre.auto: entrada
   titre.lock: saisie
-  question: ¿No tiene factura? Introduzca su gasto mensual aproximado
+  question: ¿No tienes factura? Introduce tu gasto mensual aproximado
   question.auto: ¿No tiene factura? Introduzca su gasto mensual aproximado
   question.lock: Pas de facture ? Entrez vos dépenses approximatives par mois
 logement . électricité . consommation totale:
@@ -27811,7 +27811,7 @@ logement . électricité . réseau . consommation:
   titre: consumo
   titre.auto: consumo
   titre.lock: consommation
-  question: ¿Cuál es el consumo anual de electricidad de su hogar (red)?
+  question: ¿Cuál es el consumo anual de electricidad (red) de tu hogar?
   question.auto: ¿Cuál es el consumo anual de electricidad de su hogar (red)?
   question.lock: Quelle est la consommation annuelle d'électricité (réseau) de votre foyer ?
   note: consideramos que sólo el consumo de electricidad vinculado a la calefacción depende de la superficie de la vivienda
@@ -27833,7 +27833,7 @@ logement . électricité . photovoltaique . production:
   titre: producción
   titre.auto: producción
   titre.lock: production
-  question: ¿Cuál es la producción anual de electricidad de sus paneles solares fotovoltaicos, ya sea consumida por usted o vertida a la red?
+  question: ¿Cuál es la producción anual de electricidad de tus paneles solares fotovoltaicos, ya sea consumida por ti o vertida a la red?
   question.auto: ¿Cuál es la producción anual de electricidad de sus paneles solares fotovoltaicos, ya sea consumida por usted o vertida a la red?
   question.lock: Quelle est la production annuelle d'électricité de vos panneaux solaires photovoltaïques, qu'elle soit autoconsommée ou réinjectée dans le réseau ?
   description: |
@@ -27883,14 +27883,14 @@ logement . électricité . empreinte:
   description: |
     La huella eléctrica de la vivienda es la suma de las huellas de la electricidad procedente de la red y de la electricidad producida por los paneles fotovoltaicos.
 
-    Si tiene paneles fotovoltaicos La huella de la electricidad producida por estos paneles puede ser hasta 2 veces menor que la de la red. 
+    Si tienes paneles fotovoltaicos. La huella de la electricidad producida por estos paneles puede ser hasta 2 veces menor que la de la red. 
 
     Para calcular tu huella, te damos la huella de la electricidad generada por tus paneles, **hasta la cantidad máxima de energía que consumes en total**.
-    No nos importa si esta electricidad es consumida por usted o devuelta a la red antes de ser retirada posteriormente.
+    No nos importa si esta electricidad es consumida por ti o devuelta a la red antes de ser retirada posteriormente.
 
-    Si tuviéramos que ser exactos, nos habríamos limitado a la parte autoconsumida de la producción. No le habríamos dado nada por los kWh reinyectados en la red (porque es muy difícil imaginar un cálculo justo de su contribución a la descarbonización del mix francés), y le habríamos dado la huella del mix eléctrico francés por todo lo que extrae de la red. De manera más general, la noción de compensación no se tiene en cuenta en la filosofía de esta calculadora.
+    Si tuviéramos que ser exactos, nos habríamos limitado a la parte autoconsumida de la producción. No le habríamos dado nada por los kWh reinyectados en la red (porque es muy difícil imaginar un cálculo justo de tu contribución a la descarbonización del mix español), y te habríamos dado la huella del mix eléctrico español por todo lo que extrae de la red. De manera más general, la noción de compensación no se tiene en cuenta en la filosofía de esta calculadora.
 
-    Pero no nos pareció ni muy justo ni un buen incentivo para instalar paneles fotovoltaicos, aunque contribuyan a mejorar la intensidad de carbono de Francia y, por tanto, deban valorarse.
+    Pero no nos pareció ni muy justo ni un buen incentivo para instalar paneles fotovoltaicos, aunque contribuyan a mejorar la intensidad de carbono de España y, por tanto, deban valorarse.
   description.auto: |
     La huella eléctrica de la vivienda es la suma de las huellas de la electricidad procedente de la red y de la electricidad producida por los paneles fotovoltaicos.
 
@@ -27915,9 +27915,9 @@ logement . électricité . empreinte:
     Mais cela ne nous paraissait pas très juste, ni très incitatif à l'installation de panneaux photovoltaïque, alors que cette dernière contribue effectivement à l'amélioration de l'intensité carbone en France et est donc à valoriser.
 logement . électricité . photovoltaique . production estimée via la puissance installée . saisie:
   question: |
-    ¿No tiene declaración? Introduzca aquí su capacidad instalada.
+    ¿No tienes declaración? Introduce aquí tu capacidad instalada.
 
-    (Por término medio, 1 panel = 400 Wp)_
+    (De promedio, 1 panel = 400 Wc)_
   question.auto: |
     ¿No tiene declaración? Introduzca aquí su capacidad instalada.
 
@@ -27930,7 +27930,7 @@ logement . électricité . photovoltaique . production estimée via la puissance
   titre.auto: entrada
   titre.lock: saisie
 logement . électricité . photovoltaique . part autoconsommation:
-  question: ¿Cuánta electricidad consumes?
+  question: ¿Qué proporción de esta electricidad producida consumes?
   question.auto: ¿Cuánta electricidad consumes?
   question.lock: Quelle part de cette électricité produite consommez-vous ?
   suggestions:
@@ -27948,11 +27948,11 @@ logement . électricité . photovoltaique . part autoconsommation:
     - le quart de ma production
     - la moitié de ma production
     - je consomme 100% de ce que je produis
-  titre: consumo propio
+  titre: proporción de autoconsumo
   titre.auto: consumo propio
   titre.lock: part autoconsommation
   description: |
-    Si consume toda su producción, introduzca 100%. Si vende toda su producción, puede introducir 0. En todos los casos, posteriormente se le preguntará por su consumo de electricidad de la red y su producción se tendrá en cuenta indirectamente en el cálculo de sus emisiones.
+    Si consumes toda tu producción, introduce 100%. Si vendes toda tu producción, puedes introducir 0. En todos los casos, posteriormente se te preguntará por tu consumo de electricidad de la red y tu producción se tendrá en cuenta indirectamente en el cálculo de tus emisiones.
   description.auto: |
     Si consume toda su producción, introduzca 100%. Si vende toda su producción, puede introducir 0. En todos los casos, posteriormente se le preguntará por su consumo de electricidad de la red y su producción se tendrá en cuenta indirectamente en el cálculo de sus emisiones.
   description.lock: |
@@ -27994,7 +27994,7 @@ logement . électricité . photovoltaique . présent:
   titre: presente
   titre.auto: presente
   titre.lock: présent
-  question: ¿Tiene su casa paneles fotovoltaicos?
+  question: ¿Tiene tu casa paneles fotovoltaicos?
   question.auto: ¿Tiene su casa paneles fotovoltaicos?
   question.lock: Votre logement dispose-t-il de panneaux photovoltaïques ?
 logement . électricité . photovoltaique . intensité carbone:
