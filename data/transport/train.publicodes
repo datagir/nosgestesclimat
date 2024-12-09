@@ -83,6 +83,7 @@ transport . train . passagers km intercités:
 transport . train . km:
   question: Combien de kilomètres parcourez-vous en train par an ?
   description: Les suggestions sont basées sur la distance à vol d'oiseau doublée pour considérer un aller-retour.
+  type suggestions: checkbox
   suggestions:
     traversée d'une région: 300
     Paris ⇄ Lyon: 800

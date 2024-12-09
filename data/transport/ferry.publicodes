@@ -103,6 +103,7 @@ transport . ferry . heures:
   par défaut: 8
   plancher: 0
   unité: h
+  type suggestions: multiple
   suggestions:
     Cherbourg ⇄ 🇬🇧 Poole: 8
     Marseille ⇄ 🏝️ Ajaccio: 22

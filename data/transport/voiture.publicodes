@@ -43,6 +43,7 @@ transport . voiture . km:
   par défaut: 8210
   unité: km
   plancher: 0
+  type suggestions: checkbox
   suggestions:
     zéro: 0
     vacances: 2000
