@@ -476,9 +476,13 @@ alimentation . déchets . réduire gaspillage:
   description: |
     Chaque Français jette environ 30 kg d’aliments par an dont 7 kg sont encore emballés !
 
-    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter !
+    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter.
 
     > Vous trouverez plus d’informations et des conseils pour éviter de gaspiller de la nourriture [ici](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture)
+
+    > Et si vous cherchez des recettes et astuces, [ce guide vous sera bien utile](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html) !
+
+    > Enfin, si vous préférez le format infographie, [ça se passe par ici](https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique).
 
 alimentation . déchets . composter:
   titre: Composter
@@ -490,6 +494,8 @@ alimentation . déchets . composter:
     Nos biodéchets (épluchures, restes de repas, entretien du jardin, etc.) sont aujourd’hui faciles à valoriser. Ils peuvent être apportés dans des bornes de collecte, placés dans les espaces publics, apportés en déchèteries ou compostés à la maison ou dans le jardin.
 
     > Découvrez des conseils utiles dans [le guide « Comment réussir son compost »](https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html).
+
+    > Vous souhaitez vous équiper, mais vous ne savez pas comment ? [Ce guide va vous aider](https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique).
 
 # Cette action n'a pas forcément sa place iic mais c'est plus cohérent avec le reste des règles "déchets" dans alimentation
 alimentation . déchets . avoir un stop pub:

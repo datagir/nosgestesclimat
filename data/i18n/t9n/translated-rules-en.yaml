@@ -1135,14 +1135,20 @@ alimentation . déchets . composter:
     Our bio-waste (peelings, leftovers from meals, garden maintenance, etc.) is now easy to recycle. It can be taken to collection points, placed in public spaces, taken to waste collection centres or composted at home or in the garden.
 
     > Discover useful tips in <a href="https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html">the "How to make a success of your compost" guide.</a>
+
+    > You would like to get started, but don't know how? <a href="https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique">This guide will help</a>.
   description.auto: |
     Our bio-waste (peelings, leftovers from meals, garden maintenance, etc.) is now easy to recycle. It can be taken to collection points, placed in public spaces, taken to waste collection centres or composted at home or in the garden.
 
     > Discover useful tips in <a href="https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html">the "How to make a success of your compost" guide.</a>
+
+    > Would you like to get started, but don't know how? <a href="https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique">This guide will help</a>.
   description.lock: |
     Nos biodéchets (épluchures, restes de repas, entretien du jardin, etc.) sont aujourd’hui faciles à valoriser. Ils peuvent être apportés dans des bornes de collecte, placés dans les espaces publics, apportés en déchèteries ou compostés à la maison ou dans le jardin.
 
     > Découvrez des conseils utiles dans [le guide « Comment réussir son compost »](https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html).
+
+    > Vous souhaitez vous équiper, mais vous ne savez pas comment ? [Ce guide va vous aider](https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique).
   titre: Compost
   titre.auto: Compost
   titre.lock: Composter
@@ -2518,21 +2524,33 @@ alimentation . déchets . réduire gaspillage:
   description: |
     Every French person throws away around 30 kg of food every year, 7 kg of which is still packaged!
 
-    Reducing food waste is essential if we are to avoid producing just to throw it away!
+    Reducing food waste is essential if we are to avoid producing to throw away.
 
     > You can find more information and advice on how to avoid wasting food <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">here</a>
+
+    > And if you're looking for recipes and tips, <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html">you'll find this guide very useful</a>!
+
+    > Finally, if you prefer the infographic format, <a href="https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique">it's over here</a>.
   description.auto: |
     Every French person throws away around 30 kg of food every year, 7 kg of which is still packaged!
 
-    Reducing food waste is essential if we are to avoid producing just to throw it away!
+    Reducing food waste is essential if we are to avoid producing to throw away.
 
     > You can find more information and advice on how to avoid wasting food <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">here</a>
+
+    > And if you're looking for recipes and tips, <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html">you'll find this guide very useful</a>!
+
+    > Finally, if you prefer the infographic format, <a href="https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique">it's over here</a>.
   description.lock: |
     Chaque Français jette environ 30 kg d’aliments par an dont 7 kg sont encore emballés !
 
-    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter !
+    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter.
 
     > Vous trouverez plus d’informations et des conseils pour éviter de gaspiller de la nourriture [ici](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture)
+
+    > Et si vous cherchez des recettes et astuces, [ce guide vous sera bien utile](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html) !
+
+    > Enfin, si vous préférez le format infographie, [ça se passe par ici](https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique).
   titre: Reduce food waste
   titre.auto: Reduce food waste
   titre.lock: Réduire le gaspillage alimentaire
@@ -4294,10 +4312,22 @@ divers . numérique . appareils . TV . nombre:
   titre.lock: Nombre de TV
 divers . numérique . appareils . allongement:
   description: |
-    > Discover all the solutions for extending the life of your appliances and saving the planet's resources on the <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a> website.
+    We renew our digital equipment far too quickly.
+
+    > If you're wondering how to keep your smartphone going, <a href="https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html">this guide is for you</a>
+
+    > Discover all the solutions for extending the life of your equipment and saving the planet's resources on the <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a> website.
   description.auto: |
-    > Discover all the solutions for extending the life of your appliances and saving the planet's resources on the <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a> website.
+    We renew our digital equipment far too quickly.
+
+    > If you're wondering how to keep your smartphone going for longer, <a href="https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html">this guide is for you</a>
+
+    > Discover all the solutions for extending the life of your equipment and saving the planet's resources on the <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a> website.
   description.lock: |
+    Nous renouvelons bien trop rapidement nos équipements numériques.
+
+    > Si vous vous demandez comment conserver son smartphone plus longtemps, [ce guide devrait vous plaire](https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html)
+
     > Découvrez toutes les solutions pour prolonger la vie de vos appareils et pour économiser les ressources de la planète sur le site [Épargnons nos ressources](https://epargnonsnosressources.gouv.fr/).
   titre: Extending the life of all your appliances
   titre.auto: Extending the life of all your appliances
@@ -4597,6 +4627,8 @@ divers . numérique . internet . diminuer:
 
     But the best thing, of course, is to reduce the amount of time you spend watching videos.
 
+    > More content on our guide <a href="https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html">"How to adopt digital sobriety"</a>.
+
     > To estimate the carbon footprint of your digital uses, <a href="https://impactco2.fr/usagenumerique">use our calculator</a>.
   description.auto: |
     Online video accounts for 60% of global data flows and is responsible for almost 1% of global CO2 emissions.
@@ -4608,6 +4640,8 @@ divers . numérique . internet . diminuer:
 
     But the best thing, of course, is to reduce the amount of time you spend watching videos.
 
+    > More content on our guide <a href="https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html">"How to adopt digital sobriety"</a>.
+
     > To estimate the carbon footprint of your digital uses, <a href="https://impactco2.fr/usagenumerique">use our calculator</a>.
   description.lock: |
     Les vidéos en ligne représentent 60 % du flux mondial de données et sont responsables de près de 1 % des émissions mondiales de CO2.
@@ -4618,6 +4652,8 @@ divers . numérique . internet . diminuer:
       - choisissant de regarder des vidéos en moins bonne résolution (en basse définition plutôt qu'en haute définition)
 
     Mais le mieux, c'est bien entendu de réduire le temps passé à regarder des vidéos.
+
+    > Plus de contenus sur notre guide ["Comment adopter la sobriété numérique"](https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html).
 
     > Pour estimer l’empreinte carbone de vos usages numériques, [utilisez notre calculateur](https://impactco2.fr/usagenumerique).
   titre: Reduce your streaming time
@@ -4852,22 +4888,28 @@ divers . produits consommables . shampoing:
   titre.auto: Shampoo Footprint
   titre.lock: Empreinte shampoing
 divers . publicité:
-  description: |
+  description: |-
     Advertising and marketing often encourage us to buy things we don't really need and to renew our equipment quickly.
 
     Sales periods and promotions sometimes encourage us to buy things we don't need, so as not to miss out on a "bargain".
 
-    Avoiding these large-scale purchases and not renewing items that still work will help reduce your impact on the climate.
+    Avoiding these large-scale purchases and not renewing items that still work will help to reduce your impact on the climate.
 
     > Before buying a new item, give yourself 5 minutes to think about it and <a href="https://mtaterre.fr/ressource/la-methode-bisou/">practise the BISOU method</a>.
-  description.auto: |
+
+    > Learn everything on clothing with this dossier on <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">the impact of fashion and fast-fashion
+    </a>
+  description.auto: |-
     Advertising and marketing often encourage us to buy things we don't really need and to renew our equipment quickly.
 
     Sales periods and promotions sometimes encourage us to buy things we don't need, so as not to miss out on a "bargain".
 
-    Avoiding these large-scale purchases and not renewing items that still work will help reduce your impact on the climate.
+    Avoiding these large-scale purchases and not renewing items that still work will help to reduce your impact on the climate.
 
     > Before buying a new item, give yourself 5 minutes to think about it and <a href="https://mtaterre.fr/ressource/la-methode-bisou/">practise the BISOU method</a>.
+
+    > Focus on clothing with this dossier on <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">the impact of fashion and fast-fashion
+    </a>
   description.lock: |
     La publicité et le marketing nous incitent souvent à acheter des objets dont nous n’avons pas réellement besoin et à renouveler rapidement nos équipements.
 
@@ -4876,6 +4918,8 @@ divers . publicité:
     Éviter ces achats nombreux et ne pas renouveler des objets qui fonctionnent encore permet de réduire votre empreinte sur le climat.
 
     > Avant d’acheter un nouvel objet, accordez-vous 5 minutes de réflexion et [pratiquez la méthode BISOU](https://mtaterre.fr/ressource/la-methode-bisou/).
+
+    > Focus sur l'habillement avec ce dossier sur [les impacts de la mode et de la fast-fashion](https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html)
   titre: 'Promotions and sales: avoid being tempted'
   titre.auto: 'Promotions and sales: avoid being tempted'
   titre.lock: 'Promo, soldes : éviter de se laisser tenter'
@@ -14774,19 +14818,19 @@ logement . habitants:
   note.auto: default value according to https://www.insee.fr/fr/statistiques/2381486.
   note.lock: valeur par défaut d'après https://www.insee.fr/fr/statistiques/2381486.
   avertissement: |
-    The number of residents cannot be zero or less than 1. You are the first resident of your home. 
+    The number of residents cannot be zero or less than 1. You are the first resident of your home.
 
     We therefore do not currently take into account empty homes that you own, or a home that you rent and in which neither you nor anyone else lives.
 
     What's more, if there are more than 30 of you in your home, you're an exception - just enter 30!
   avertissement.auto: |
-    The number of residents cannot be zero or less than 1. You are the first resident of your home. 
+    The number of residents cannot be zero or less than 1. You are the first resident of your home.
 
     We therefore do not currently take into account empty homes that you own, or a home that you rent and in which neither you nor anyone else lives.
 
     What's more, if there are more than 30 of you in your home, you're an exception - just enter 30!
   avertissement.lock: |
-    Le nombre d'habitants ne peut pas être nul ni inférieur à 1. Vous êtes le premier habitant de votre logement. 
+    Le nombre d'habitants ne peut pas être nul ni inférieur à 1. Vous êtes le premier habitant de votre logement.
 
     Nous ne prenons donc pas aujourd'hui en compte les logements vides que vous possédez, ou un logement que vous louez dans lequel ni vous ni personne ne vivez.
 
@@ -14912,33 +14956,33 @@ logement . chauffage . remplacer gaz par PAC:
   description: |
     Replacing a heating system that uses fossil fuels (such as gas) with one that uses renewable energy can significantly reduce greenhouse gas emissions.
 
-    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consult our guide</a>.
+    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consult our guide</a>.
   description.auto: |
     Replacing a heating system that uses fossil fuels (such as gas) with one that uses renewable energy can significantly reduce greenhouse gas emissions.
 
-    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consult our guide</a>.
+    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consult our guide</a>.
   description.lock: |
     Remplacer un système de chauffage fonctionnant avec une énergie fossile (comme le gaz) par un système fonctionnant grâce à une énergie renouvelable permet de limiter de façon importante ses émissions de gaz à effet de serre.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
   note: |
-    For the time being, we consider the replacement of gas kWh by the same amount of electricity kWh to be a good first-order approximation. We can then adapt it to the performance of residential installations.
+    For the moment, we consider that replacing kWh of gas with the same amount of kWh of electricity is a good first-order approximation. We can then adapt this to the performance of residential installations.
 
-    If you also heat your water with gas, you'll need to choose a heat pump that can also heat water.
+    If you also heat your water with gas, you will need to choose a heat pump that can also heat water.
 
-    See <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">ADEME PAC Guide</a>
+    See <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">the ADEME guide to heat pumps</a>
   note.auto: |
-    For the time being, we consider the replacement of gas kWh by the same amount of electricity kWh to be a good first-order approximation. We can then adapt it to the performance of residential installations.
+    For the moment, we consider that replacing kWh of gas with the same amount of kWh of electricity is a good first-order approximation. We can then adapt this to the performance of residential installations.
 
-    If you also heat your water with gas, you'll need to choose a heat pump that can also heat water.
+    If you also heat your water with gas, you will need to choose a heat pump that can also heat water.
 
-    See <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">ADEME PAC Guide</a>
+    See <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">the ADEME guide to heat pumps</a>
   note.lock: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière gaz, si vous chauffez aussi votre eau au gaz il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [le guide ADEME sur les pompes à chaleur](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
   titre: Replacing a gas boiler with a heat pump
   titre.auto: Replacing a gas boiler with a heat pump
   titre.lock: Remplacer une chaudière gaz par une pompe à chaleur
@@ -14946,21 +14990,27 @@ logement . chauffage . rénovation énergétique:
   description: |
     Improving the insulation, ventilation and equipment in your home will make it more comfortable and reduce your energy bills. A more efficient home will consume less energy.
 
-    By renovating your home, you are helping to reduce greenhouse gas emissions.
+    > Wondering how to insulate your home? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consult our guide</a>!
 
-    A number of financial aids are available to support your investment.
+    By renovating your home, you're helping to reduce greenhouse gas emissions.
+
+    There are a number of financial aids available to support your investment.
 
     > Because renovating your home requires a great deal of thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
   description.auto: |
     Improving the insulation, ventilation and equipment in your home will make it more comfortable and reduce your energy bills. A more efficient home will consume less energy.
 
-    By renovating your home, you are helping to reduce greenhouse gas emissions.
+    > Wondering how to insulate your home? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consult our guide</a>!
 
-    A number of financial aids are available to support your investment.
+    By renovating your home, you're helping to reduce greenhouse gas emissions.
+
+    There are a number of financial aids available to support your investment.
 
     > Because renovating your home requires a great deal of thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
   description.lock: |
     Mieux isoler, ventiler et équiper son logement permet de vivre dans un logement plus confortable et de diminuer ses factures d’énergie. Plus efficace, le logement sera moins gourmand en énergie.
+
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
 
     En rénovant votre logement vous participez à réduire les émissions de gaz à effet de serre.
 
@@ -14976,21 +15026,27 @@ logement . chauffage . rénovation énergétique BBC:
 
     Your home will consume almost no energy for heating, while remaining very comfortable.
 
-    A number of financial incentives are available to support your investment.
+    > Wondering how to insulate your home? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consult our guide</a>!
 
-    > Because renovation requires thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
+    A number of financial aids are available to support your investment.
+
+    > Because renovation requires a great deal of thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
   description.auto: |
     High-performance renovation can cut your home's energy requirements by a factor of 6. By consuming less than 50 kWh per m² per year, the home will be classified as A on the energy label of the Energy Performance Diagnostic and will reach the level required for Bâtiment Basse Consommation (BBC) certification.
 
     Your home will consume almost no energy for heating, while remaining very comfortable.
 
-    A number of financial incentives are available to support your investment.
+    > Wondering how to insulate your home? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consult our guide</a>!
 
-    > Because renovation requires thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
+    A number of financial aids are available to support your investment.
+
+    > Because renovation requires a great deal of thought and technical and financial knowledge, the government has set up a public renovation service to help you with your project. To contact your nearest advisor, visit the <a href="https://france-renov.gouv.fr/">France Rénov'</a> website.
   description.lock: |
     Une rénovation très performante peut mettre de diviser par 6 les besoins énergétiques de son logement. En consommant moins de 50 kWh par m² par an, le logement sera classé en A sur l’étiquette énergie du Diagnostic de Performance Energétique et atteindra le niveau exigé par la certification Bâtiment Basse Consommation (BBC).
 
     Votre logement ne consommera presque plus d’énergie pour le chauffage tout en restant très confortable.
+
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
 
     Plusieurs aides financières sont disponibles pour soutenir votre investissement.
 
@@ -17424,15 +17480,15 @@ transport . voiture . voyageurs:
   avertissement.lock: |
     Le nombre de voyageurs est compris entre 1 (vous) et 9 (8 passagers au plus).
   note: |
-    The maximum number of passengers is assumed to be 9 (B licence limit). 
+    The maximum number of passengers is assumed to be 9 (B licence limit).
 
     However, this question is often incorrectly answered because users do not consider the average number of passengers: they will answer 3 if they are taking their children to school without taking into account that they are alone in their car most of the time.
   note.auto: |
-    The maximum number of passengers is assumed to be 9 (B licence limit). 
+    The maximum number of passengers is assumed to be 9 (B licence limit).
 
     However, this question is often incorrectly answered because users do not consider the average number of passengers: they will answer 3 if they are taking their children to school without taking into account that they are alone in their car most of the time.
   note.lock: |
-    On considère que le nombre maximal de voyageurs est de 9 (limite du permis B). 
+    On considère que le nombre maximal de voyageurs est de 9 (limite du permis B).
 
     Néanmoins, cette question est souvent mal répondue car les utilisateurs.rices ne considèrent pas le nombre de voyageurs moyen : ils répondront 3 s'ils emmènent leurs enfants à l'école sans prendre en compte qu'ils sont seuls dans leur voiture la majorité du temps.
 transport . voiture . électrique:
@@ -24468,26 +24524,31 @@ divers . textile . réduire neuf . diviser par deux achats:
   titre: Buy half as many clothes
   titre.auto: Buy half as many clothes
   titre.lock: Acheter deux fois moins de vêtements
-  description: |
-    Every year in France, nearly 3.3 billion items of clothing, footwear and household linen are put on the market, more than twice as many as in the 1980s. Clothes are sold at attractive prices, so people are buying more of them than a few years ago and keeping them for less time. And that's not without its problems.
+  description: |-
+    Every year in France, almost 3.3 billion items of clothing, footwear and household linen are put on the market, more than twice as many as in the 1980s. Clothes are sold at attractive prices, so people are buying more of them than a few years ago and keeping them for less time. And that's not without its problems.
 
     Their manufacture involves numerous stages and processes that sometimes harm the environment and the people who make and wear them.
 
-    Jeans, for example, are made from cotton grown in India or Africa, which has a huge environmental and social impact. The cotton is dyed in another country, sent back to Asia for manufacture, and then sold in France and all over the world! It can then be sold all over the world. In each of these countries, at each stage of its life cycle, this garment has major environmental and social consequences.
+    Jeans, for example, are made from cotton grown in India or Africa, which has a huge environmental and social impact. The cotton is dyed in another country, sent back to Asia for manufacture, and then sold in France and all over the world! In this way, it can make its way around the planet. In each of these countries, at each stage of its life cycle, this garment has major environmental and social consequences.
 
     To limit the impact of your clothes, make them last, buy less and buy second-hand more often.
 
     > Find out the carbon footprint of your clothes <a href="https://impactco2.fr/habillement">with this simulator</a>.
-  description.auto: |
-    Every year in France, nearly 3.3 billion items of clothing, footwear and household linen are put on the market, more than twice as many as in the 1980s. Clothes are sold at attractive prices, so people are buying more of them than a few years ago and keeping them for less time. And that's not without its problems.
+
+    > Dive behind the scenes of fashion and fast-fashion with <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">this guide</a>
+  description.auto: |-
+    Every year in France, almost 3.3 billion items of clothing, footwear and household linen are put on the market, more than twice as many as in the 1980s. Clothes are sold at attractive prices, so people are buying more of them than a few years ago and keeping them for less time. And that's not without its problems.
 
     Their manufacture involves numerous stages and processes that sometimes harm the environment and the people who make and wear them.
 
-    Jeans, for example, are made from cotton grown in India or Africa, which has a huge environmental and social impact. The cotton is dyed in another country, sent back to Asia for manufacture, and then sold in France and all over the world! It can then be sold all over the world. In each of these countries, at each stage of its life cycle, this garment has major environmental and social consequences.
+    Jeans, for example, are made from cotton grown in India or Africa, which has a huge environmental and social impact. The cotton is dyed in another country, sent back to Asia for manufacture, and then sold in France and all over the world! In this way, it can make its way around the planet. In each of these countries, at each stage of its life cycle, this garment has major environmental and social consequences.
 
     To limit the impact of your clothes, make them last, buy less and buy second-hand more often.
 
     > Find out the carbon footprint of your clothes <a href="https://impactco2.fr/habillement">with this simulator</a>.
+
+    > Dive behind the scenes of fashion and fast-fashion with <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">this guide to everything you need to know
+    </a>
   description.lock: |
     Chaque année en France, près de 3,3 milliards de vêtements, chaussures, linge de maison sont mis sur le marché, soit plus de deux fois plus que dans les années 80. Les vêtements sont vendus à des prix attractifs ; on en achète donc plus qu’il y a quelques années et on les garde moins longtemps. Et cela n’est pas sans poser de problèmes.
 
@@ -24498,6 +24559,8 @@ divers . textile . réduire neuf . diviser par deux achats:
     Pour limiter les impacts des vêtements, faites-les durer, acheter moins et plus souvent d’occasion.
 
     > Découvrez l’empreinte carbone de ses vêtements [sur ce simulateur](https://impactco2.fr/habillement).
+
+    > Plongez dans l'envers du décor de la mode et de la fast-fashion avec [ce guide pour tout comprendre](https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html)
 divers . autres produits . réduire:
   titre: Favouring second-hand goods
   titre.auto: Favouring second-hand goods
@@ -24530,32 +24593,34 @@ divers . produits consommables . réduire:
   titre: Using environmentally-friendly products for the household
   titre.auto: Using environmentally-friendly products for the household
   titre.lock: Utiliser des produits écologiques pour le ménage
-  description: |
+  description: |-
     While we want to make our homes healthier by cleaning, the opposite is often true. Cleaning products can emit numerous pollutants into the air.
 
-    There's no point in using too many products. Here are some useful natural products for cleaning your home:
+    There's no need to use too many products. Here are some useful natural products for cleaning your home:
 
     - Baking soda absorbs odours, cleans surfaces and unblocks drains, for example.
     - Black soap cleans and removes grease: a tablespoon of black soap in a bucket of water cleans floors perfectly.
     - White vinegar can be used to clean saucepans, coffee makers, silverware, microwaves, bathrooms and so on. However, this product is acidic, so don't pour large quantities down your toilets or sinks. Never mix it with bleach.
     - Lemon cleans, disinfects and deodorises: if you put half a lemon in your fridge door, it will absorb bad smells. Otherwise, opt for mechanical solutions to unblock drains, such as plungers, ferrets and hot water, before using household products.
-    - Steam dissolves grease and cleans thoroughly. It's fragrance-free, so it doesn't affect air quality. But ventilate systematically to avoid increasing the humidity in your home.
+    - Steam dissolves grease and cleans thoroughly. As it is fragrance-free, it does not affect air quality. But ventilate systematically to avoid increasing the humidity in your home.
     - As far as possible, use cleaning solutions that do not emit toxic substances: steam cleaning, microfibre cloths, damp cloths, etc.
 
-    > For even more advice, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">see our article</a>.
-  description.auto: |
+    > For even more advice, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">see our article</a> or <a href="https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html">our guide "How to clean more ecologically"
+    </a>
+  description.auto: |-
     While we want to make our homes healthier by cleaning, the opposite is often true. Cleaning products can emit numerous pollutants into the air.
 
-    There's no point in using too many products. Here are some useful natural products for cleaning your home:
+    There's no need to use too many products. Here are some useful natural products for cleaning your home:
 
     - Baking soda absorbs odours, cleans surfaces and unblocks drains, for example.
     - Black soap cleans and removes grease: a tablespoon of black soap in a bucket of water cleans floors perfectly.
     - White vinegar can be used to clean saucepans, coffee makers, silverware, microwaves, bathrooms and so on. However, this product is acidic, so don't pour large quantities down your toilets or sinks. Never mix it with bleach.
     - Lemon cleans, disinfects and deodorises: if you put half a lemon in your fridge door, it will absorb bad smells. Otherwise, opt for mechanical solutions to unblock drains, such as plungers, ferrets and hot water, before using household products.
-    - Steam dissolves grease and cleans thoroughly. It's fragrance-free, so it doesn't affect air quality. But ventilate systematically to avoid increasing the humidity in your home.
+    - Steam dissolves grease and cleans thoroughly. As it is fragrance-free, it does not affect air quality. But ventilate systematically to avoid increasing the humidity in your home.
     - As far as possible, use cleaning solutions that do not emit toxic substances: steam cleaning, microfibre cloths, damp cloths, etc.
 
-    > For even more advice, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">see our article</a>.
+    > For even more advice, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">see our article</a> or <a href="https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html">our guide "How to clean more ecologically"
+    </a>
   description.lock: |
     Alors qu’on veut rendre la maison plus saine en faisant le ménage, c’est souvent l’inverse qui se passe. Les produits d’entretien peuvent émettre de nombreux polluants dans l’air.
 
@@ -24568,7 +24633,7 @@ divers . produits consommables . réduire:
     - La vapeur dissout les graisses et nettoie en profondeur. Sans parfum, elle ne détériore pas la qualité de l’air. Mais aérez systématiquement pour ne pas augmenter l’humidité dans votre logement.
     - Utilisez le plus possible des solutions de nettoyage qui n’émettent pas de substances toxiques : nettoyage vapeur, chiffons microfibres, chiffon humide, etc.
 
-    > Pour encore plus de conseils, [consultez notre article](https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique).
+    > Pour encore plus de conseils, [consultez notre article](https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique) ou [notre guide "Comment faire le ménage de façon plus écologique"](https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html)
 divers . textile . notif débarras surplus:
   titre: notice of surplus storage
   titre.auto: notice of surplus storage
@@ -25694,19 +25759,25 @@ logement . chauffage . se chauffer au bois:
   description: |
     Installing a wood-burning stove or boiler means you are no longer dependent on fossil fuels (oil, gas) or electricity for heating. It's an economical way of heating.
 
-    > Discover <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html">our advice on how to use your wood-burning stove</a>.
+    > Discover <a href="https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html">our advice on how to use your wood-burning stove</a>.
 
-    Be careful, however, to choose a modern, efficient appliance, as old stoves release pollutants into the air. To find out more about the most efficient stoves, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consult our guide</a>.
+    > And if you're wondering how wood resources are managed, here's our <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html">"10 questions about the French forest"</a> guide.
+
+    However, make sure you choose a modern, efficient appliance, as old stoves release pollutants into the air. To find out more about the most efficient stoves, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">see our guide</a>.
   description.auto: |
     Installing a wood-burning stove or boiler means you are no longer dependent on fossil fuels (oil, gas) or electricity for heating. It's an economical way of heating.
 
-    > Discover <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html">our advice on how to use your wood-burning stove</a>.
+    > Discover <a href="https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html">our advice on how to use your wood-burning stove</a>.
 
-    Be careful, however, to choose a modern, efficient appliance, as old stoves release pollutants into the air. To find out more about the most efficient stoves, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consult our guide</a>.
+    > And if you're wondering how wood resources are managed, here's our <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html">"10 questions about the French forest"</a> guide.
+
+    However, make sure you choose a modern, efficient appliance, as old stoves release pollutants into the air. To find out more about the most efficient stoves, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">see our guide</a>.
   description.lock: |
     S’équiper d’un poêle ou d’une chaudière à bois permet de ne plus dépendre des énergies fossiles (fuel, gaz) ou de l’électricité pour se chauffer. C’est un mode de chauffage économique.
 
-    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html).
+    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html).
+
+    > Par ailleurs, si vous vous demandez comment est gérée la ressource en bois, voici notre guide ["La forêt française en 10 questions"](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html).
 
     Attention toutefois à vous équipez d’un appareil moderne et performant car les vieux poêles libèrent des polluants dans l’air. Pour en savoir plus sur les appareils les plus performants, [consultez notre guide](https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html).
 parc français . chauffage . part ecs gaz:
@@ -25765,33 +25836,33 @@ logement . chauffage . remplacer chauffage électrique par PAC:
   description: |
     Electric heating is fairly simple to install, but expensive to run. To reduce your electricity bills and benefit from a means of heating that uses renewable energy, you can install a heat pump.
 
-    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consult our guide</a>.
+    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consult our guide</a>.
   description.auto: |
     Electric heating is fairly simple to install, but expensive to run. To reduce your electricity bills and benefit from a means of heating that uses renewable energy, you can install a heat pump.
 
-    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consult our guide</a>.
+    > To find out more about the different heat pumps, their advantages and disadvantages, and to find out more about their costs, installation and maintenance, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consult our guide</a>.
   description.lock: |
     Le chauffage électrique est assez simple à installer mais il est cher à l’usage. Pour diminuer ses factures d’électricité et bénéficier d’un moyen de chauffage fonctionnant grâce aux énergies renouvelables, vous pouvez vous équiper d’une pompe à chaleur.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
   note: |
     For the moment, we consider that replacing kWh of gas with the same amount of kWh of electricity is a good first-order approximation. We can then adapt this to the performance of residential installations.
 
     If you also heat your water via a water heater, you will need to choose a heat pump that can also heat the water.
 
-    See the <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">ADEME heat pump guide</a>
+    See <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">the ADEME heat pump guide</a>
   note.auto: |
     For the moment, we consider that replacing kWh of gas with the same amount of kWh of electricity is a good first-order approximation. We can then adapt this to the performance of residential installations.
 
     If you also heat your water via a water heater, you will need to choose a heat pump that can also heat the water.
 
-    See the <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">ADEME heat pump guide</a>
+    See <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">the ADEME heat pump guide</a>
   note.lock: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière électrique, si vous chauffez aussi votre eau via un chauffe-eau il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [Guide ADEME PAC](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
 logement . chauffage . remplacer chauffage électrique par PAC . part consommation remplacable:
   titre: replaceable consumption
   titre.auto: replaceable consumption
@@ -31172,7 +31243,7 @@ logement . électricité verte:
   titre: Choosing a committed electricity offer
   titre.auto: Choosing a committed electricity offer
   titre.lock: Choisir une offre d'électricité engagée
-  description: |
+  description: |-
     Although it is not really possible to estimate the impact in terms of carbon footprint of subscribing to a green electricity offer, it is fair to say that certain offers help to reduce the carbon footprint of the French electricity mix, by encouraging the emergence and growth of renewable energy offers in France.
 
     ### Here are a few explanations to make things clearer
@@ -31184,8 +31255,11 @@ logement . électricité verte:
 
     To bring greater transparency to so-called "green" offers, ADEME has created the **VertVolt** label. This label rewards offers from suppliers who buy at least as much renewable electricity from producers as they sell to their customers who have subscribed to a "green" offer. These offers are described as "committed". If, in addition, at least 25% of this electricity comes from installations without state support or with shared governance (i.e. citizens are involved in the management or financing of the power stations), the offer is qualified as "very committed", because it encourages the financing of new renewable energy installations.
 
-    <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">All the information on the VertVolt label and the "committed" or "very committed" energy offers can be found here</a>.
-  description.auto: |
+    > All the information on the VertVolt label and committed or very committed energy offers <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">can be found here</a>.
+
+    > And if you want to find out more about each type of energy, <a href="https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html">look here for wind power</a> and <a href="https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html">here for photovoltaics
+    </a>
+  description.auto: |-
     Although it is not really possible to estimate the impact in terms of carbon footprint of subscribing to a green electricity offer, it is fair to say that certain offers help to reduce the carbon footprint of the French electricity mix, by encouraging the emergence and growth of renewable energy offers in France.
 
     ### Here are a few explanations to make things clearer
@@ -31197,7 +31271,10 @@ logement . électricité verte:
 
     To bring greater transparency to so-called "green" offers, ADEME has created the **VertVolt** label. This label rewards offers from suppliers who buy at least as much renewable electricity from producers as they sell to their customers who have subscribed to a "green" offer. These offers are described as "committed". If, in addition, at least 25% of this electricity comes from installations without state support or with shared governance (i.e. citizens are involved in the management or financing of the power stations), the offer is qualified as "very committed", because it encourages the financing of new renewable energy installations.
 
-    <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">All the information on the VertVolt label and the "committed" or "very committed" energy offers can be found here</a>.
+    > All the information on the VertVolt label and committed or very committed energy offers <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">can be found here</a>.
+
+    > And if you want to find out more about each type of energy, <a href="https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html">look here for wind power</a> and <a href="https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html">here for photovoltaics
+    </a>
   description.lock: |
     Sans qu'il soit réellement possible d'estimer l'impact en termes d'empreinte carbone de la souscription à une offre d'électricité verte, il est tout à fait légitime d'affirmer que certaines offres contribuent à réduire l'empreinte carbone du mix électrique français, en favorisant l'émergence et la croissance d'offres d'énergies renouvelables sur notre territoire.
 
@@ -31210,7 +31287,9 @@ logement . électricité verte:
 
     Pour apporter davantage de transparence sur les offres dites "vertes", l'ADEME a créé le label **VertVolt**. Ce label récompense les offres de fournisseurs qui achètent au moins autant d'électricité renouvelable à des producteurs, que ce qu'ils vendent à leurs clients ayant souscrit une offre "verte". Ces offres sont qualifiées d' "engagées". Si, en plus, au moins 25% de cette électricité provient d'installations sans soutien de l'État ou avec une gouvernance partagée (c’est-à-dire que des citoyens sont impliqués dans la gestion ou le financement des centrales), l'offre est qualifiée de "très engagée", car elle permet d’encourager le financement de nouvelles installations d’énergie renouvelable.
 
-    [Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+    > Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées [sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+
+    > Et si vous voulez creuser chaque type d'énergie, ça se passe [ici pour l'éolien](https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html) ou [là pour le photovoltaïque](https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html)
 logement . installer photovoltaique . zone climatique . bretagne et nord de la france:
   titre: Brittany and Northern France
   titre.auto: Brittany and Northern France

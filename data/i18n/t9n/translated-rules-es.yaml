@@ -15833,14 +15833,20 @@ alimentation . déchets . composter:
     Nuestros biorresiduos (peladuras, restos de comidas, mantenimiento del jardín, etc.) son ahora fáciles de reciclar. Se pueden llevar a puntos de recogida, depositar en espacios públicos, llevar a centros de recogida de residuos o compostar en casa o en el jardín.
 
     > Descubra consejos útiles en <a href="https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html">la guía "Cómo hacer compost con éxito".</a>
+
+    > ¿Le gustaría empezar, pero no sabe cómo? <a href="https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique">Esta guía le ayudará</a>.
   description.auto: |
     Nuestros biorresiduos (peladuras, restos de comidas, mantenimiento del jardín, etc.) son ahora fáciles de reciclar. Se pueden llevar a puntos de recogida, depositar en espacios públicos, llevar a centros de recogida de residuos o compostar en casa o en el jardín.
 
     > Descubra consejos útiles en <a href="https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html">la guía "Cómo hacer compost con éxito".</a>
+
+    > ¿Le gustaría empezar, pero no sabe cómo? <a href="https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique">Esta guía le ayudará</a>.
   description.lock: |
     Nos biodéchets (épluchures, restes de repas, entretien du jardin, etc.) sont aujourd’hui faciles à valoriser. Ils peuvent être apportés dans des bornes de collecte, placés dans les espaces publics, apportés en déchèteries ou compostés à la maison ou dans le jardin.
 
     > Découvrez des conseils utiles dans [le guide « Comment réussir son compost »](https://librairie.ademe.fr/dechets-economie-circulaire/5487-comment-reussir-son-compost--9791029719325.html).
+
+    > Vous souhaitez vous équiper, mais vous ne savez pas comment ? [Ce guide va vous aider](https://librairie.ademe.fr/7245-quel-equipement-pour-faire-son-compost-.html#/44-type_de_produit-format_electronique).
 alimentation . bonus . manger de saison . recalcul:
   titre: recálculo
   titre.auto: recálculo
@@ -15912,10 +15918,22 @@ divers . numérique . appareils . allongement:
   titre.auto: Alarga la vida de todos tus electrodomésticos
   titre.lock: Allonger la vie de tous ses appareils
   description: |
-    > Descubra todas las soluciones para alargar la vida de sus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our</a> resources.
+    Renovamos nuestros equipos digitales con demasiada rapidez.
+
+    > Si te preguntas cómo mantener tu smartphone en funcionamiento durante más tiempo, <a href="https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html">esta guía es para ti</a>
+
+    > Descubre todas las soluciones para alargar la vida de tus equipos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a>.
   description.auto: |
-    > Descubra todas las soluciones para alargar la vida de sus electrodomésticos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our</a> resources.
+    Renovamos nuestros equipos digitales con demasiada rapidez.
+
+    > Si te preguntas cómo mantener tu smartphone en funcionamiento durante más tiempo, <a href="https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html">esta guía es para ti</a>
+
+    > Descubre todas las soluciones para alargar la vida de tus equipos y ahorrar recursos del planeta en la web <a href="https://epargnonsnosressources.gouv.fr/">Saving our resources</a>.
   description.lock: |
+    Nous renouvelons bien trop rapidement nos équipements numériques.
+
+    > Si vous vous demandez comment conserver son smartphone plus longtemps, [ce guide devrait vous plaire](https://librairie.ademe.fr/consommer-autrement/7574-comment-conserver-son-smartphone-plus-longtemps--9791029724268.html)
+
     > Découvrez toutes les solutions pour prolonger la vie de vos appareils et pour économiser les ressources de la planète sur le site [Épargnons nos ressources](https://epargnonsnosressources.gouv.fr/).
 alimentation . repas . réduire viande . max 2 par semaine . différence par semaine:
   titre: diferencia por semana
@@ -16138,22 +16156,28 @@ divers . publicité:
   titre: 'Promociones y rebajas: evite caer en la tentación'
   titre.auto: 'Promociones y rebajas: evite caer en la tentación'
   titre.lock: 'Promo, soldes : éviter de se laisser tenter'
-  description: |
+  description: |-
     La publicidad y el marketing nos incitan a menudo a comprar cosas que realmente no necesitamos y a renovar rápidamente nuestros equipos.
 
     Los periodos de rebajas y las promociones a veces nos incitan a comprar cosas que no necesitamos, para no perdernos una "ganga".
 
-    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan le ayudará a reducir su impacto sobre el clima.
+    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan contribuirá a reducir su impacto sobre el clima.
 
     > Antes de comprar un artículo nuevo, tómate 5 minutos para pensarlo y <a href="https://mtaterre.fr/ressource/la-methode-bisou/">practica el método BISOU</a>.
-  description.auto: |
+
+    > Céntrate en la ropa con este dossier sobre <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">el impacto de la moda y el fast-fashion
+    </a>
+  description.auto: |-
     La publicidad y el marketing nos incitan a menudo a comprar cosas que realmente no necesitamos y a renovar rápidamente nuestros equipos.
 
     Los periodos de rebajas y las promociones a veces nos incitan a comprar cosas que no necesitamos, para no perdernos una "ganga".
 
-    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan le ayudará a reducir su impacto sobre el clima.
+    Evitar estas compras a gran escala y no renovar los artículos que aún funcionan contribuirá a reducir su impacto sobre el clima.
 
     > Antes de comprar un artículo nuevo, tómate 5 minutos para pensarlo y <a href="https://mtaterre.fr/ressource/la-methode-bisou/">practica el método BISOU</a>.
+
+    > Céntrate en la ropa con este dossier sobre <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">el impacto de la moda y el fast-fashion
+    </a>
   description.lock: |
     La publicité et le marketing nous incitent souvent à acheter des objets dont nous n’avons pas réellement besoin et à renouveler rapidement nos équipements.
 
@@ -16162,6 +16186,8 @@ divers . publicité:
     Éviter ces achats nombreux et ne pas renouveler des objets qui fonctionnent encore permet de réduire votre empreinte sur le climat.
 
     > Avant d’acheter un nouvel objet, accordez-vous 5 minutes de réflexion et [pratiquez la méthode BISOU](https://mtaterre.fr/ressource/la-methode-bisou/).
+
+    > Focus sur l'habillement avec ce dossier sur [les impacts de la mode et de la fast-fashion](https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html)
 alimentation . devenir végétalien . différence par semaine chocolat chaud:
   titre: diferencia por semana chocolate caliente
   titre.auto: diferencia por semana chocolate caliente
@@ -16237,32 +16263,34 @@ divers . produits consommables . réduire:
   titre: Utilizar productos ecológicos para el hogar
   titre.auto: Utilizar productos ecológicos para el hogar
   titre.lock: Utiliser des produits écologiques pour le ménage
-  description: |
+  description: |-
     Aunque queremos que nuestros hogares sean más sanos limpiando, a menudo ocurre lo contrario. Los productos de limpieza pueden emitir numerosos contaminantes al aire.
 
-    No tiene sentido utilizar demasiados productos. Aquí tienes algunos productos naturales útiles para limpiar tu casa:
+    No es necesario utilizar demasiados productos. Aquí tienes algunos productos naturales útiles para limpiar tu casa:
 
     - El bicarbonato absorbe los olores, limpia las superficies y desatasca los desagües, por ejemplo.
     - El jabón negro limpia y elimina la grasa: una cucharada de jabón negro en un cubo de agua limpia perfectamente los suelos.
     - El vinagre blanco puede utilizarse para limpiar cacerolas, cafeteras, cubiertos, microondas, baños, etcétera. Sin embargo, este producto es ácido, así que no viertas grandes cantidades por los inodoros o fregaderos. Nunca lo mezcle con lejía.
     - El limón limpia, desinfecta y desodoriza: si pones medio limón en la puerta de la nevera, absorberá los malos olores. En caso contrario, opta por soluciones mecánicas para desatascar los desagües, como desatascadores, hurones y agua caliente, antes de utilizar productos domésticos.
-    - El vapor disuelve la grasa y limpia a fondo. No tiene perfume, así que no afecta a la calidad del aire. Pero ventila sistemáticamente para evitar que aumente la humedad en tu casa.
+    - El vapor disuelve la grasa y limpia a fondo. Al no tener perfume, no afecta a la calidad del aire. Pero ventile sistemáticamente para evitar que aumente la humedad en su hogar.
     - En la medida de lo posible, utiliza soluciones de limpieza que no emitan sustancias tóxicas: limpieza a vapor, bayetas de microfibra, paños húmedos, etc.
 
-    > Para más consejos, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">consulte nuestro artículo</a>.
-  description.auto: |
+    > Para más consejos, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">consulte nuestro artículo</a> o <a href="https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html">nuestra guía "Cómo limpiar de forma más ecológica"
+    </a>
+  description.auto: |-
     Aunque queremos que nuestros hogares sean más sanos limpiando, a menudo ocurre lo contrario. Los productos de limpieza pueden emitir numerosos contaminantes al aire.
 
-    No tiene sentido utilizar demasiados productos. Aquí tienes algunos productos naturales útiles para limpiar tu casa:
+    No es necesario utilizar demasiados productos. Aquí tienes algunos productos naturales útiles para limpiar tu casa:
 
     - El bicarbonato absorbe los olores, limpia las superficies y desatasca los desagües, por ejemplo.
     - El jabón negro limpia y elimina la grasa: una cucharada de jabón negro en un cubo de agua limpia perfectamente los suelos.
     - El vinagre blanco puede utilizarse para limpiar cacerolas, cafeteras, cubiertos, microondas, baños, etcétera. Sin embargo, este producto es ácido, así que no viertas grandes cantidades por los inodoros o fregaderos. Nunca lo mezcle con lejía.
     - El limón limpia, desinfecta y desodoriza: si pones medio limón en la puerta de la nevera, absorberá los malos olores. En caso contrario, opta por soluciones mecánicas para desatascar los desagües, como desatascadores, hurones y agua caliente, antes de utilizar productos domésticos.
-    - El vapor disuelve la grasa y limpia a fondo. No tiene perfume, así que no afecta a la calidad del aire. Pero ventila sistemáticamente para evitar que aumente la humedad en tu casa.
+    - El vapor disuelve la grasa y limpia a fondo. Al no tener perfume, no afecta a la calidad del aire. Pero ventile sistemáticamente para evitar que aumente la humedad en su hogar.
     - En la medida de lo posible, utiliza soluciones de limpieza que no emitan sustancias tóxicas: limpieza a vapor, bayetas de microfibra, paños húmedos, etc.
 
-    > Para más consejos, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">consulte nuestro artículo</a>.
+    > Para más consejos, <a href="https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique">consulte nuestro artículo</a> o <a href="https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html">nuestra guía "Cómo limpiar de forma más ecológica"
+    </a>
   description.lock: |
     Alors qu’on veut rendre la maison plus saine en faisant le ménage, c’est souvent l’inverse qui se passe. Les produits d’entretien peuvent émettre de nombreux polluants dans l’air.
 
@@ -16275,7 +16303,7 @@ divers . produits consommables . réduire:
     - La vapeur dissout les graisses et nettoie en profondeur. Sans parfum, elle ne détériore pas la qualité de l’air. Mais aérez systématiquement pour ne pas augmenter l’humidité dans votre logement.
     - Utilisez le plus possible des solutions de nettoyage qui n’émettent pas de substances toxiques : nettoyage vapeur, chiffons microfibres, chiffon humide, etc.
 
-    > Pour encore plus de conseils, [consultez notre article](https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique).
+    > Pour encore plus de conseils, [consultez notre article](https://agirpourlatransition.ademe.fr/particuliers/maison/menage/faire-menage-facon-plus-ecologique) ou [notre guide "Comment faire le ménage de façon plus écologique"](https://librairie.ademe.fr/consommer-autrement/7878-comment-faire-le-menage-de-facon-plus-ecologique--9791029721427.html)
 logement . chauffage . se chauffer au bois . recalcul . consommation:
   titre: consumo
   titre.auto: consumo
@@ -16625,7 +16653,9 @@ divers . numérique . internet . diminuer:
 
     Pero lo mejor, por supuesto, es reducir el tiempo que pasas viendo vídeos.
 
-    > Para calcular la huella de carbono de tus usos digitales, <a href="https://impactco2.fr/usagenumerique">utiliza nuestra calculadora</a>.
+    > Más contenido en nuestra guía <a href="https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html">"Cómo adoptar la sobriedad digital"</a>.
+
+    > Para estimar la huella de carbono de tus usos digitales, <a href="https://impactco2.fr/usagenumerique">utiliza nuestra calculadora</a>.
   description.auto: |
     El vídeo en línea representa el 60% de los flujos mundiales de datos y es responsable de casi el 1% de las emisiones mundiales de CO2.
 
@@ -16636,7 +16666,9 @@ divers . numérique . internet . diminuer:
 
     Pero lo mejor, por supuesto, es reducir el tiempo que pasas viendo vídeos.
 
-    > Para calcular la huella de carbono de tus usos digitales, <a href="https://impactco2.fr/usagenumerique">utiliza nuestra calculadora</a>.
+    > Más contenido en nuestra guía <a href="https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html">"Cómo adoptar la sobriedad digital"</a>.
+
+    > Para estimar la huella de carbono de tus usos digitales, <a href="https://impactco2.fr/usagenumerique">utiliza nuestra calculadora</a>.
   description.lock: |
     Les vidéos en ligne représentent 60 % du flux mondial de données et sont responsables de près de 1 % des émissions mondiales de CO2.
 
@@ -16646,6 +16678,8 @@ divers . numérique . internet . diminuer:
       - choisissant de regarder des vidéos en moins bonne résolution (en basse définition plutôt qu'en haute définition)
 
     Mais le mieux, c'est bien entendu de réduire le temps passé à regarder des vidéos.
+
+    > Plus de contenus sur notre guide ["Comment adopter la sobriété numérique"](https://librairie.ademe.fr/consommer-autrement/7575-comment-adopter-la-sobriete-numerique--9791029724237.html).
 
     > Pour estimer l’empreinte carbone de vos usages numériques, [utilisez notre calculateur](https://impactco2.fr/usagenumerique).
 logement . chauffage . installer chauffe-eau solaire:
@@ -16701,25 +16735,31 @@ logement . chauffage . rénovation énergétique BBC:
   titre.auto: Renovar su casa según las normas de la BBC
   titre.lock: Rénover son logement en BBC
   description: |
-    Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² al año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
+    Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² y año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
 
     Su vivienda apenas consumirá energía para calefacción, sin dejar de ser muy confortable.
 
-    Existen varios incentivos financieros para apoyar su inversión.
+    > ¿Se pregunta cómo aislar su vivienda? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consulte nuestra guía</a> 
 
-    > Como la renovación requiere reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">France Rénov'</a>.
+    Existen varias ayudas financieras para apoyar su inversión.
+
+    > Como la renovación requiere mucha reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">de France Rénov'</a>.
   description.auto: |
-    Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² al año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
+    Una renovación de alto rendimiento puede multiplicar por 6 las necesidades energéticas de su vivienda. Al consumir menos de 50 kWh por m² y año, la vivienda se clasificará como A en la etiqueta energética del Diagnóstico de Rendimiento Energético y alcanzará el nivel exigido para la certificación Bâtiment Basse Consommation (BBC).
 
     Su vivienda apenas consumirá energía para calefacción, sin dejar de ser muy confortable.
 
-    Existen varios incentivos financieros para apoyar su inversión.
+    > ¿Se pregunta cómo aislar su vivienda? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consulte nuestra guía</a> 
 
-    > Como la renovación requiere reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">France Rénov'</a>.
+    Existen varias ayudas financieras para apoyar su inversión.
+
+    > Como la renovación requiere mucha reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">de France Rénov'</a>.
   description.lock: |
     Une rénovation très performante peut mettre de diviser par 6 les besoins énergétiques de son logement. En consommant moins de 50 kWh par m² par an, le logement sera classé en A sur l’étiquette énergie du Diagnostic de Performance Energétique et atteindra le niveau exigé par la certification Bâtiment Basse Consommation (BBC).
 
     Votre logement ne consommera presque plus d’énergie pour le chauffage tout en restant très confortable.
+
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
 
     Plusieurs aides financières sont disponibles pour soutenir votre investissement.
 
@@ -16805,21 +16845,27 @@ logement . chauffage . baisse température:
   titre.lock: Baisser la consigne de son chauffage
 logement . chauffage . se chauffer au bois:
   description: |
-    Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o de la electricidad para calentarse. Es una forma económica de calentarse.
+    Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o la electricidad para calentarse. Es una forma económica de calentarse.
 
-    > Descubra <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html">nuestros consejos para utilizar su estu</a>fa de leña.
+    > Descubra <a href="https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html">nuestros consejos para utilizar su estufa de</a> leña.
 
-    Eso sí, procure elegir un aparato moderno y eficiente, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulte nuestra guía</a>.
+    > Y si se pregunta cómo se gestionan los recursos madereros, aquí tiene nuestra guía <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html">"10 preguntas sobre el bosque francés</a>".
+
+    No obstante, asegúrese de elegir un aparato moderno y eficaz, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulte nuestra guía</a>.
   description.auto: |
-    Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o de la electricidad para calentarse. Es una forma económica de calentarse.
+    Instalar una estufa o caldera de leña significa dejar de depender de los combustibles fósiles (petróleo, gas) o la electricidad para calentarse. Es una forma económica de calentarse.
 
-    > Descubra <a href="https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html">nuestros consejos para utilizar su estu</a>fa de leña.
+    > Descubra <a href="https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html">nuestros consejos para utilizar su estufa de</a> leña.
 
-    Eso sí, procure elegir un aparato moderno y eficiente, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulte nuestra guía</a>.
+    > Y si se pregunta cómo se gestionan los recursos madereros, aquí tiene nuestra guía <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html">"10 preguntas sobre el bosque francés</a>".
+
+    No obstante, asegúrese de elegir un aparato moderno y eficaz, ya que las estufas antiguas emiten sustancias contaminantes al aire. Para saber más sobre las estufas más eficientes, <a href="https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html">consulte nuestra guía</a>.
   description.lock: |
     S’équiper d’un poêle ou d’une chaudière à bois permet de ne plus dépendre des énergies fossiles (fuel, gaz) ou de l’électricité pour se chauffer. C’est un mode de chauffage économique.
 
-    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html).
+    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html).
+
+    > Par ailleurs, si vous vous demandez comment est gérée la ressource en bois, voici notre guide ["La forêt française en 10 questions"](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html).
 
     Attention toutefois à vous équipez d’un appareil moderne et performant car les vieux poêles libèrent des polluants dans l’air. Pour en savoir plus sur les appareils les plus performants, [consultez notre guide](https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html).
   titre: Calefacción con leña
@@ -16957,26 +17003,32 @@ divers . textile . réduire neuf . diviser par deux achats:
   titre: Comprar la mitad de ropa
   titre.auto: Comprar la mitad de ropa
   titre.lock: Acheter deux fois moins de vêtements
-  description: |
-    Cada año se ponen en el mercado en Francia cerca de 3.300 millones de prendas de vestir, calzado y ropa de hogar, más del doble que en los años ochenta. La ropa se vende a precios atractivos, por lo que la gente compra más que hace unos años y la conserva menos tiempo. Y eso no está exento de problemas.
+  description: |-
+    Cada año se ponen en el mercado en Francia casi 3.300 millones de prendas de vestir, calzado y ropa de hogar, más del doble que en los años ochenta. La ropa se vende a precios atractivos, por lo que la gente compra más que hace unos años y la conserva menos tiempo. Y eso no está exento de problemas.
 
     Su fabricación implica numerosas etapas y procesos que a veces perjudican al medio ambiente y a las personas que las confeccionan y visten.
 
-    Los vaqueros, por ejemplo, se fabrican con algodón cultivado en India o África, lo que tiene un enorme impacto medioambiental y social. El algodón se tiñe en otro país, se envía a Asia para su fabricación y luego se vende en Francia y en todo el mundo A continuación, se vende en todo el mundo. En cada uno de estos países, en cada etapa de su ciclo de vida, esta prenda tiene importantes consecuencias medioambientales y sociales.
+    Los vaqueros, por ejemplo, se fabrican con algodón cultivado en la India o África, lo que tiene un enorme impacto medioambiental y social. El algodón se tiñe en otro país, se devuelve a Asia para su fabricación y luego se vende en Francia y en todo el mundo De este modo, puede dar la vuelta al planeta. En cada uno de estos países, en cada etapa de su ciclo de vida, esta prenda tiene importantes consecuencias medioambientales y sociales.
 
     Para limitar el impacto de tu ropa, haz que dure, compra menos y compra de segunda mano más a menudo.
 
     > Averigua la huella de carbono de tu ropa <a href="https://impactco2.fr/habillement">con este simulador</a>.
-  description.auto: |
-    Cada año se ponen en el mercado en Francia cerca de 3.300 millones de prendas de vestir, calzado y ropa de hogar, más del doble que en los años ochenta. La ropa se vende a precios atractivos, por lo que la gente compra más que hace unos años y la conserva menos tiempo. Y eso no está exento de problemas.
+
+    > Sumérgete entre los bastidores de la moda y el fast-fashion con <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">esta guía sobre todo lo que necesitas saber
+    </a>
+  description.auto: |-
+    Cada año se ponen en el mercado en Francia casi 3.300 millones de prendas de vestir, calzado y ropa de hogar, más del doble que en los años ochenta. La ropa se vende a precios atractivos, por lo que la gente compra más que hace unos años y la conserva menos tiempo. Y eso no está exento de problemas.
 
     Su fabricación implica numerosas etapas y procesos que a veces perjudican al medio ambiente y a las personas que las confeccionan y visten.
 
-    Los vaqueros, por ejemplo, se fabrican con algodón cultivado en India o África, lo que tiene un enorme impacto medioambiental y social. El algodón se tiñe en otro país, se envía a Asia para su fabricación y luego se vende en Francia y en todo el mundo A continuación, se vende en todo el mundo. En cada uno de estos países, en cada etapa de su ciclo de vida, esta prenda tiene importantes consecuencias medioambientales y sociales.
+    Los vaqueros, por ejemplo, se fabrican con algodón cultivado en la India o África, lo que tiene un enorme impacto medioambiental y social. El algodón se tiñe en otro país, se devuelve a Asia para su fabricación y luego se vende en Francia y en todo el mundo De este modo, puede dar la vuelta al planeta. En cada uno de estos países, en cada etapa de su ciclo de vida, esta prenda tiene importantes consecuencias medioambientales y sociales.
 
     Para limitar el impacto de tu ropa, haz que dure, compra menos y compra de segunda mano más a menudo.
 
     > Averigua la huella de carbono de tu ropa <a href="https://impactco2.fr/habillement">con este simulador</a>.
+
+    > Sumérgete entre los bastidores de la moda y el fast-fashion con <a href="https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html">esta guía sobre todo lo que necesitas saber
+    </a>
   description.lock: |
     Chaque année en France, près de 3,3 milliards de vêtements, chaussures, linge de maison sont mis sur le marché, soit plus de deux fois plus que dans les années 80. Les vêtements sont vendus à des prix attractifs ; on en achète donc plus qu’il y a quelques années et on les garde moins longtemps. Et cela n’est pas sans poser de problèmes.
 
@@ -16987,6 +17039,8 @@ divers . textile . réduire neuf . diviser par deux achats:
     Pour limiter les impacts des vêtements, faites-les durer, acheter moins et plus souvent d’occasion.
 
     > Découvrez l’empreinte carbone de ses vêtements [sur ce simulateur](https://impactco2.fr/habillement).
+
+    > Plongez dans l'envers du décor de la mode et de la fast-fashion avec [ce guide pour tout comprendre](https://librairie.ademe.fr/consommer-autrement/7747-tout-comprendre-les-impacts-de-la-mode-et-de-la-fast-fashion-9791029724602.html)
 logement . chauffage . raccordement réseau de chaleur:
   titre: Conexión a una red de calefacción
   titre.auto: Conexión a una red de calefacción
@@ -17143,6 +17197,8 @@ logement . chauffage . rénovation énergétique:
   description: |
     Mejorar el aislamiento, la ventilación y el equipamiento de su casa la hará más confortable y reducirá sus facturas de energía. Una casa más eficiente consumirá menos energía.
 
+    > ¿Se pregunta cómo aislar su casa? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consulte nuestra guía</a> 
+
     Al renovar su casa, contribuye a reducir las emisiones de gases de efecto invernadero.
 
     Existen varias ayudas financieras para apoyar su inversión.
@@ -17151,6 +17207,8 @@ logement . chauffage . rénovation énergétique:
   description.auto: |
     Mejorar el aislamiento, la ventilación y el equipamiento de su casa la hará más confortable y reducirá sus facturas de energía. Una casa más eficiente consumirá menos energía.
 
+    > ¿Se pregunta cómo aislar su casa? <a href="https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html">Consulte nuestra guía</a> 
+
     Al renovar su casa, contribuye a reducir las emisiones de gases de efecto invernadero.
 
     Existen varias ayudas financieras para apoyar su inversión.
@@ -17158,6 +17216,8 @@ logement . chauffage . rénovation énergétique:
     > Como la renovación de su vivienda requiere mucha reflexión y conocimientos técnicos y financieros, el Gobierno ha creado un servicio público de renovación para ayudarle en su proyecto. Para ponerse en contacto con el asesor más cercano, visite la página web <a href="https://france-renov.gouv.fr/">de France Rénov'</a>.
   description.lock: |
     Mieux isoler, ventiler et équiper son logement permet de vivre dans un logement plus confortable et de diminuer ses factures d’énergie. Plus efficace, le logement sera moins gourmand en énergie.
+
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
 
     En rénovant votre logement vous participez à réduire les émissions de gaz à effet de serre.
 
@@ -17245,33 +17305,33 @@ logement . chauffage . remplacer chauffage électrique par PAC:
   description: |
     La calefacción eléctrica es bastante sencilla de instalar, pero su funcionamiento es caro. Para reducir la factura de la luz y beneficiarse de un medio de calefacción que utiliza energías renovables, puede instalar una bomba de calor.
 
-    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consulta nuestra guía</a>.
+    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consulta nuestra guía</a>.
   description.auto: |
     La calefacción eléctrica es bastante sencilla de instalar, pero su funcionamiento es caro. Para reducir la factura de la luz y beneficiarse de un medio de calefacción que utiliza energías renovables, puede instalar una bomba de calor.
 
-    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consulta nuestra guía</a>.
+    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consulta nuestra guía</a>.
   description.lock: |
     Le chauffage électrique est assez simple à installer mais il est cher à l’usage. Pour diminuer ses factures d’électricité et bénéficier d’un moyen de chauffage fonctionnant grâce aux énergies renouvelables, vous pouvez vous équiper d’une pompe à chaleur.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
   note: |
     De momento, consideramos que sustituir kWh de gas por la misma cantidad de kWh de electricidad es una buena aproximación de primer orden. Después podremos adaptarla al rendimiento de las instalaciones residenciales.
 
     Si también calienta el agua mediante un calentador de agua, tendrá que elegir una bomba de calor que también pueda calentar el agua.
 
-    Consulte la <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">guía de bombas de calor de ADEME</a>
+    Consulte <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">la guía de bombas de calor de ADEME</a>
   note.auto: |
     De momento, consideramos que sustituir kWh de gas por la misma cantidad de kWh de electricidad es una buena aproximación de primer orden. Después podremos adaptarla al rendimiento de las instalaciones residenciales.
 
     Si también calienta el agua mediante un calentador de agua, tendrá que elegir una bomba de calor que también pueda calentar el agua.
 
-    Consulte la <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">guía de bombas de calor de ADEME</a>
+    Consulte <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">la guía de bombas de calor de ADEME</a>
   note.lock: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière électrique, si vous chauffez aussi votre eau via un chauffe-eau il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [Guide ADEME PAC](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
 logement . chauffage . remplacer gaz par PAC:
   titre: Sustituir una caldera de gas por una bomba de calor
   titre.auto: Sustituir una caldera de gas por una bomba de calor
@@ -17281,31 +17341,31 @@ logement . chauffage . remplacer gaz par PAC:
 
     Si también calienta el agua con gas, tendrá que elegir una bomba de calor que también pueda calentar agua.
 
-    Consulte la <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">guía de bombas de calor de ADEME</a>
+    Consulte <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">la guía de bombas de calor de la ADEME</a>
   note.auto: |
     De momento, consideramos que sustituir kWh de gas por la misma cantidad de kWh de electricidad es una buena aproximación de primer orden. Después podremos adaptarla al rendimiento de las instalaciones residenciales.
 
     Si también calienta el agua con gas, tendrá que elegir una bomba de calor que también pueda calentar agua.
 
-    Consulte la <a href="https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf">guía de bombas de calor de ADEME</a>
+    Consulte <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">la guía de bombas de calor de la ADEME</a>
   note.lock: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière gaz, si vous chauffez aussi votre eau au gaz il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [le guide ADEME sur les pompes à chaleur](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
   description: |
     Sustituir un sistema de calefacción que utiliza combustibles fósiles (como el gas) por otro que utilice energías renovables puede reducir considerablemente las emisiones de gases de efecto invernadero.
 
-    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consulta nuestra guía</a>.
+    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consulta nuestra guía</a>.
   description.auto: |
     Sustituir un sistema de calefacción que utiliza combustibles fósiles (como el gas) por otro que utilice energías renovables puede reducir considerablemente las emisiones de gases de efecto invernadero.
 
-    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html">consulta nuestra guía</a>.
+    > Para saber más sobre las distintas bombas de calor, sus ventajas e inconvenientes, y conocer mejor sus costes, instalación y mantenimiento, <a href="https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html">consulta nuestra guía</a>.
   description.lock: |
     Remplacer un système de chauffage fonctionnant avec une énergie fossile (comme le gaz) par un système fonctionnant grâce à une énergie renouvelable permet de limiter de façon importante ses émissions de gaz à effet de serre.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
 logement . extérieur . passer à la tondeuse électrique:
   titre: Elegir un cortacésped eléctrico
   titre.auto: Elegir un cortacésped eléctrico
@@ -17323,21 +17383,33 @@ alimentation . déchets . réduire gaspillage:
   description: |
     Cada francés tira a la basura unos 30 kg de alimentos al año, de los cuales 7 kg siguen envasados
 
-    Reducir el desperdicio de alimentos es esencial para evitar producir para tirar
+    Reducir el desperdicio de alimentos es esencial si queremos evitar producir para tirar.
 
-    > Puede encontrar más información y consejos para evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
+    > Puede encontrar más información y consejos sobre cómo evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
+
+    > Y si busca recetas y consejos, <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html">¡esta guía le resultará muy útil</a>!
+
+    > Por último, si prefieres el formato infográfico, lo tienes <a href="https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique">aquí</a>.
   description.auto: |
     Cada francés tira a la basura unos 30 kg de alimentos al año, de los cuales 7 kg siguen envasados
 
-    Reducir el desperdicio de alimentos es esencial para evitar producir para tirar
+    Reducir el desperdicio de alimentos es esencial si queremos evitar producir para tirar.
 
-    > Puede encontrar más información y consejos para evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
+    > Puede encontrar más información y consejos sobre cómo evitar el desperdicio de alimentos <a href="https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture">aquí</a>
+
+    > Y si busca recetas y consejos, <a href="https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html">¡esta guía le resultará muy útil</a>!
+
+    > Por último, si prefieres el formato infográfico, lo tienes <a href="https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique">aquí</a>.
   description.lock: |
     Chaque Français jette environ 30 kg d’aliments par an dont 7 kg sont encore emballés !
 
-    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter !
+    Réduire le gaspillage alimentaire est essentiel afin d'éviter de produire pour jeter.
 
     > Vous trouverez plus d’informations et des conseils pour éviter de gaspiller de la nourriture [ici](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/pourquoi-gaspillons-autant-nourriture)
+
+    > Et si vous cherchez des recettes et astuces, [ce guide vous sera bien utile](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7595-recettes-et-astuces-anti-gaspi.html) !
+
+    > Enfin, si vous préférez le format infographie, [ça se passe par ici](https://librairie.ademe.fr/consommer-autrement/1885-mieux-manger-moins-gaspiller-moins-polluer-.html#/44-type_de_produit-format_electronique).
 logement . climatisation . réduction:
   titre: Prescindir del aire acondicionado
   titre.auto: Prescindir del aire acondicionado
@@ -30893,7 +30965,7 @@ logement . électricité verte:
   titre: Elegir una oferta de electricidad comprometida
   titre.auto: Elegir una oferta de electricidad comprometida
   titre.lock: Choisir une offre d'électricité engagée
-  description: |
+  description: |-
     Aunque no es realmente posible estimar el impacto en términos de huella de carbono de la suscripción a una oferta de electricidad verde, es justo decir que ciertas ofertas contribuyen a reducir la huella de carbono del mix eléctrico francés, al favorecer la aparición y el crecimiento de ofertas de energías renovables en Francia.
 
     ### He aquí algunas explicaciones para aclarar las cosas
@@ -30905,8 +30977,11 @@ logement . électricité verte:
 
     Para aportar mayor transparencia a las ofertas denominadas "verdes", la ADEME ha creado la etiqueta **VertVolt**. Esta etiqueta recompensa las ofertas de los proveedores que compran al menos tanta electricidad renovable a los productores como la que venden a sus clientes suscritos a una oferta "verde". Estas ofertas se califican de "comprometidas". Si, además, al menos el 25% de esta electricidad procede de instalaciones sin apoyo estatal o con gobernanza compartida (es decir, los ciudadanos participan en la gestión o financiación de las centrales), la oferta se califica de "muy comprometida", porque fomenta la financiación de nuevas instalaciones de energías renovables.
 
-    <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">Toda la información sobre la etiqueta VertVolt y las ofertas energéticas "comprometidas" o "muy comprometidas" puede encontrarse aquí</a>.
-  description.auto: |
+    > Toda la información sobre la etiqueta VertVolt y las ofertas energéticas comprometidas o muy comprometidas <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">puede encontrarse aquí</a>.
+
+    > Y si quieres saber más sobre cada tipo de energía, <a href="https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html">mira aquí para la eólica</a> y <a href="https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html">aquí para la fotovoltaica
+    </a>
+  description.auto: |-
     Aunque no es realmente posible estimar el impacto en términos de huella de carbono de la suscripción a una oferta de electricidad verde, es justo decir que ciertas ofertas contribuyen a reducir la huella de carbono del mix eléctrico francés, al favorecer la aparición y el crecimiento de ofertas de energías renovables en Francia.
 
     ### He aquí algunas explicaciones para aclarar las cosas
@@ -30918,7 +30993,10 @@ logement . électricité verte:
 
     Para aportar mayor transparencia a las ofertas denominadas "verdes", la ADEME ha creado la etiqueta **VertVolt**. Esta etiqueta recompensa las ofertas de los proveedores que compran al menos tanta electricidad renovable a los productores como la que venden a sus clientes suscritos a una oferta "verde". Estas ofertas se califican de "comprometidas". Si, además, al menos el 25% de esta electricidad procede de instalaciones sin apoyo estatal o con gobernanza compartida (es decir, los ciudadanos participan en la gestión o financiación de las centrales), la oferta se califica de "muy comprometida", porque fomenta la financiación de nuevas instalaciones de energías renovables.
 
-    <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">Toda la información sobre la etiqueta VertVolt y las ofertas energéticas "comprometidas" o "muy comprometidas" puede encontrarse aquí</a>.
+    > Toda la información sobre la etiqueta VertVolt y las ofertas energéticas comprometidas o muy comprometidas <a href="https://agirpourlatransition.ademe.fr/particuliers/vertvolt">puede encontrarse aquí</a>.
+
+    > Y si quieres saber más sobre cada tipo de energía, <a href="https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html">mira aquí para la eólica</a> y <a href="https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html">aquí para la fotovoltaica
+    </a>
   description.lock: |
     Sans qu'il soit réellement possible d'estimer l'impact en termes d'empreinte carbone de la souscription à une offre d'électricité verte, il est tout à fait légitime d'affirmer que certaines offres contribuent à réduire l'empreinte carbone du mix électrique français, en favorisant l'émergence et la croissance d'offres d'énergies renouvelables sur notre territoire.
 
@@ -30931,7 +31009,9 @@ logement . électricité verte:
 
     Pour apporter davantage de transparence sur les offres dites "vertes", l'ADEME a créé le label **VertVolt**. Ce label récompense les offres de fournisseurs qui achètent au moins autant d'électricité renouvelable à des producteurs, que ce qu'ils vendent à leurs clients ayant souscrit une offre "verte". Ces offres sont qualifiées d' "engagées". Si, en plus, au moins 25% de cette électricité provient d'installations sans soutien de l'État ou avec une gouvernance partagée (c’est-à-dire que des citoyens sont impliqués dans la gestion ou le financement des centrales), l'offre est qualifiée de "très engagée", car elle permet d’encourager le financement de nouvelles installations d’énergie renouvelable.
 
-    [Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+    > Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées [sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+
+    > Et si vous voulez creuser chaque type d'énergie, ça se passe [ici pour l'éolien](https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html) ou [là pour le photovoltaïque](https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html)
 logement . installer photovoltaique . zone climatique . bretagne et nord de la france:
   titre: Bretaña y norte de Francia
   titre.auto: Bretaña y norte de Francia

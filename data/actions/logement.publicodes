@@ -182,7 +182,9 @@ logement . chauffage . se chauffer au bois:
   description: |
     S’équiper d’un poêle ou d’une chaudière à bois permet de ne plus dépendre des énergies fossiles (fuel, gaz) ou de l’électricité pour se chauffer. C’est un mode de chauffage économique.
 
-    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5664-comment-bien-se-chauffer-au-bois--9791029719745.html).
+    > Découvrez [nos conseils pour bien utiliser votre poêle](https://librairie.ademe.fr/energies/7322-comment-bien-se-chauffer-au-bois--9791029723209.html).
+
+    > Par ailleurs, si vous vous demandez comment est gérée la ressource en bois, voici notre guide ["La forêt française en 10 questions"](https://librairie.ademe.fr/agriculture-alimentation-foret-bioeconomie/7440-la-foret-francaise-en-10-questions-9791029722660.html).
 
     Attention toutefois à vous équipez d’un appareil moderne et performant car les vieux poêles libèrent des polluants dans l’air. Pour en savoir plus sur les appareils les plus performants, [consultez notre guide](https://librairie.ademe.fr/urbanisme-et-batiment/5667-adopter-le-chauffage-au-bois-9791029719769.html).
   note: |
@@ -225,14 +227,14 @@ logement . chauffage . remplacer gaz par PAC:
   description: |
     Remplacer un système de chauffage fonctionnant avec une énergie fossile (comme le gaz) par un système fonctionnant grâce à une énergie renouvelable permet de limiter de façon importante ses émissions de gaz à effet de serre.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
 
   note: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière gaz, si vous chauffez aussi votre eau au gaz il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [le guide ADEME sur les pompes à chaleur](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
 
 logement . chauffage . remplacer gaz par PAC . PAC:
   formule: (chauffage . gaz . consommation / coefficient COP) * logement . électricité . empreinte au kWh
@@ -267,13 +269,13 @@ logement . chauffage . remplacer chauffage électrique par PAC:
   description: |
     Le chauffage électrique est assez simple à installer mais il est cher à l’usage. Pour diminuer ses factures d’électricité et bénéficier d’un moyen de chauffage fonctionnant grâce aux énergies renouvelables, vous pouvez vous équiper d’une pompe à chaleur.
 
-    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/changement-climatique-et-energie/6714-s-equiper-d-une-pompe-a-chaleur.html).
+    > Pour découvrir les différentes pompes à chaleur, leurs avantages et leurs inconvénients, en savoir plus sur leurs coûts, leur installation et leur entretien, [consultez notre guide](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html).
   note: |
     Nous considérons pour l'instant que le remplacement des kWh de gaz par la même quantité de kWh électrique est une bonne approximation de premier ordre. Nous pourrons par la suite l'adapter en fonction du rendement des installations résidentielles.
 
     Cette action chiffre le remplacement de la chaudière électrique, si vous chauffez aussi votre eau via un chauffe-eau il faudra choisir une PAC qui peut aussi chauffer l'eau.
 
-    Voir [Guide ADEME PAC](https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-installer-une-pompe-a-chaleur.pdf)
+    Voir [Guide ADEME PAC](https://librairie.ademe.fr/energies/7749-tout-comprendre-les-pompes-a-chaleur-9791029724145.html)
 
 logement . chauffage . remplacer chauffage électrique par PAC . part consommation remplacable:
   formule: parc français . chauffage . part chauffage air électricité + parc français . chauffage . part ecs électricité
@@ -335,6 +337,8 @@ logement . chauffage . rénovation énergétique:
   description: |
     Mieux isoler, ventiler et équiper son logement permet de vivre dans un logement plus confortable et de diminuer ses factures d’énergie. Plus efficace, le logement sera moins gourmand en énergie.
 
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
+
     En rénovant votre logement vous participez à réduire les émissions de gaz à effet de serre.
 
     Plusieurs aides financières sont disponibles pour soutenir votre investissement.
@@ -372,6 +376,8 @@ logement . chauffage . rénovation énergétique BBC:
     Une rénovation très performante peut mettre de diviser par 6 les besoins énergétiques de son logement. En consommant moins de 50 kWh par m² par an, le logement sera classé en A sur l’étiquette énergie du Diagnostic de Performance Energétique et atteindra le niveau exigé par la certification Bâtiment Basse Consommation (BBC).
 
     Votre logement ne consommera presque plus d’énergie pour le chauffage tout en restant très confortable.
+
+    > Vous vous demandez comment isoler votre maison ? [Consultez notre guide](https://librairie.ademe.fr/batiment/7724-comment-isoler-sa-maison--9791029724183.html) !
 
     Plusieurs aides financières sont disponibles pour soutenir votre investissement.
 
@@ -635,7 +641,9 @@ logement . électricité verte:
 
     Pour apporter davantage de transparence sur les offres dites "vertes", l'ADEME a créé le label **VertVolt**. Ce label récompense les offres de fournisseurs qui achètent au moins autant d'électricité renouvelable à des producteurs, que ce qu'ils vendent à leurs clients ayant souscrit une offre "verte". Ces offres sont qualifiées d' "engagées". Si, en plus, au moins 25% de cette électricité provient d'installations sans soutien de l'État ou avec une gouvernance partagée (c’est-à-dire que des citoyens sont impliqués dans la gestion ou le financement des centrales), l'offre est qualifiée de "très engagée", car elle permet d’encourager le financement de nouvelles installations d’énergie renouvelable.
 
-    [Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+    > Toutes les infos sur le label VertVolt et les offres d'énergie engagées ou très engagées [sont à retrouver ici](https://agirpourlatransition.ademe.fr/particuliers/vertvolt).
+
+    > Et si vous voulez creuser chaque type d'énergie, ça se passe [ici pour l'éolien](https://librairie.ademe.fr/energies/7345-tout-comprendre-l-eolien-9791029723247.html) ou [là pour le photovoltaïque](https://librairie.ademe.fr/energies/7545-l-electricite-photovoltaique-en-10-questions-9791029721465.html)
 
 #
 # logement . eau domestique . bains et douches . réduire:
