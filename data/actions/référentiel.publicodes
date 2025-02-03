@@ -1,0 +1,208 @@
+référentiel:
+  titre: Référentiel d'action
+  description: >
+    Début de modélisation de l'impact des actions proposées sur
+    [J'agis](https://jagis.beta.gouv.fr), ayant pour objectif d'être regroupées
+    à terme avec celles de Nos Gestes Climat pour créer un référentiel commun.
+
+
+    Pour l'instant, les règles ne sont pas exposées sur Nos Gestes Climat et
+    seront uniquement liées à des actions de J'agis. Une future étape sera
+    nécessaire pour concevoir un référentiel commun.
+  note: >
+    ### Sur le choix des unités
+
+
+    Pour l'instant, nous explicitons l'unité `kgCO2e/...` afin de faciliter la
+    compréhension et l'intention du calcul. Cependant, il faudra trouver à
+    terme un moyen de prendre en compte l'empreinte en eau pour les actions
+    concernées.
+
+
+    ### Points de vigilances sur les calculs
+
+
+    Il est important de noter que la plus part des actions préalablement
+    modélisées dans NGC, et reprises ici, possèdes des conditions
+    d'applications qui ne pourraient ne pas être pertinentes dans le câdre de
+    ce référentiel. **Il faudra donc rester vigilant au moment de l'intégration
+    de ces actions dans J'agis et le cas échéant, revoir le calcul pour séparer
+    le calcul de l'impact des actions de la condition d'application.**
+
+
+    ### Sur le découpage des _namespaces_
+
+
+    Actuellement, nous avons choisi de regrouper les actions par _namespace_
+    correspondants aux catégories de NGC (alimentation, transport, etc.).
+    **Est-ce que ce découpage est pertinent ou devrions-nous utiliser découpage
+    plus précis (ex: `transport . avion/voiture`) ?**
+
+#########################################################################################
+##                                    ALIMENTATION                                     ##
+#########################################################################################
+
+référentiel . alimentation:
+
+référentiel . alimentation . remplacer viande rouge par viande blanche:
+  titre: Remplacer la viande rouge par une viande blanche dans un repas
+  valeur: alimentation . plats . viande rouge . empreinte - alimentation . plats . viande blanche . empreinte
+  unité: kgCO2e/repas
+
+référentiel . alimentation . recette de saison:
+  titre: Cuisiner une recette avec des fruits et légumes de saison
+  valeur: alimentation . bonus . manger de saison / (14 repas/semaine * commun . semaines par an)
+  unité: kgCO2e/repas
+  description: >
+    L'impact carbone liée à la saisonnalité est faible, il serait donc
+    pertinent de mettre en avant l'impact sur la biodiversité et sur la justice
+    sociale.
+
+référentiel . alimentation . recette locale:
+  titre: Cuisiner une recette avec des aliments locaux
+  valeur: alimentation . bonus . manger local / (14 repas/semaine * commun . semaines par an)
+  unité: kgCO2e/repas
+  description: >
+    L'impact carbone liée à la localité est faible, il serait donc pertinent de
+    mettre en avant l'impact sur la biodiversité et sur la justice sociale.
+
+référentiel . alimentation . recette anti-gaspi:
+  titre: Cuisiner une recette anti-gasipillage
+  valeur: alimentation . déchets . réduire gaspillage / (14 repas/semaine * commun . semaines par an)
+  unité: kgCO2e/repas
+
+# TODO: impact suréstimé, à revoir
+référentiel . alimentation . acheter en vrac:
+  titre: Faire ses courses en vrac pendant une semaine
+  valeur: alimentation . déchets . devenir zéro déchet / commun . semaines par an
+  unité: kgCO2e/semaine
+  note: >
+    Par simplicité, nous utilisons ici là règle `alimentation . déchets .
+    devenir zéro déchet` qui englobe la réduction du gaspillage alimentaire, de
+    composter, et d'avoir un stop pub, ce qui ne correspond pas exactement à
+    l'achat en vrac. Il faudrait donc à terme détailler le calcul pour être
+    correct.
+
+#########################################################################################
+##                                     TRANSPORT                                       ##
+#########################################################################################
+
+référentiel . transport:
+
+# TODO: calcul à revoir
+référentiel . transport . pas d'avion pour les prochaines vacances:
+  titre: Choisir une alternative à l'avion pour les prochaines vacances
+  valeur: transport . avion . arrêter l'avion court
+  unité: kgCO2e/an
+  note: >
+    Pour l'instant nous réutilisons la règle `transport . avion . arrêter
+    l'avion` qui calcul les économies réalisées en privilégiant l'utilisation
+    du train au vols court-courriers.
+
+
+    Il faudra à terme reprendre le calcul pour prendre en compte les moyens et
+    long-courriers. En effet, dans le cas où une personne n'a effectué que des
+    vols moyens voir long-courrier, l'impact serait nul ici. Peut-être que la
+    règle `transport . avion . prendre moins l'avion` serait plus pertinente
+    pour une première modélisation.
+
+# TODO: calcul à revoir
+référentiel . transport . mettre sa voiture à disposition:
+  titre: Mettre sa voiture à disposition quand on s'en sert pas
+  valeur: transport . voiture . autopartage
+  unité: kgCO2e/an
+  note: >
+    Pour l'instant nous réutilisons la règle `transport . voiture .
+    autopartage` qui calcul les économies réalisées en mettant sa voiture à
+    disposition quand on ne s'en sert pas. Il faudra peut-être revoir le calcul
+    à terme pour être plus précis et vérifier les conditions d'applications
+    (cf. la note de la page `référentiel`).
+
+# TODO: calcul à revoir
+référentiel . transport . trajet voiture une personne en plus:
+  titre: Faire un trajet avec 1 personne de plus dans la voiture
+  valeur: (transport . voiture - avec une personne de plus) / (commun . jours par an * 2 trajet/jour)
+  unité: kgCO2e/trajet
+  note: >
+    Par simplicité, nous divisons le gain réalisé en faisant un trajet avec une
+    personne de plus par le nombre de jours dans l'année.
+
+
+    **Le choix de faire l'hypothèse qu'une personne effectue tous les jours le
+    même trajet est assez fort et ne correspond probablement pas à la majorité
+    des cas**. Il faudra donc trouver un moyen pour déterminer le nombre de
+    trajets effectués par une personne dans l'année.
+
+
+    Une solution pourrait être de calculer l'impact à l'année (en divisant par
+    `1 an`) et de laisser ainsi la possibilité au moment de l'évaluation de
+    préciser l'unité souhaitée (kgCO2e/jour, kgCO2e/semaine, etc.).
+  avec:
+    avec une personne de plus:
+      valeur: transport . voiture
+      contexte:
+        transport . voiture . voyageurs: transport . voiture . voyageurs + 1
+
+référentiel . transport . trajet en TEC au lieu de la voiture:
+  titre: Faire un trajet en transport en commun plutôt qu’en voiture
+  valeur: économies par km * hypothèses . km par trajet en voiture
+  unité: kgCO2e/trajet
+  avec:
+    # FIXME: erreur d'unité dans le calcul
+    économies par km:
+      valeur: empreinte voiture au km - empreinte TEC au km
+
+    empreinte voiture au km:
+      valeur: transport . voiture / transport . voiture . km
+
+    # TODO: calcul à revoir
+    empreinte TEC au km:
+      valeur:
+        somme:
+          - transport . transports commun . bus . impact par km * 39%
+          - transport . transports commun . métro ou tram . impact par km * 61%
+          # - transport . transports commun . car . impact par km * 10%
+      note: >
+        La répartition des types de transports en commun est calculée à partir
+        de l'étude réalisée en 2022 [L'utilisation des transports en commun en
+        France - Faits et chiffres, Sofinco et OpinionWay
+        ](https://fr.statista.com/themes/6121/l-utilisation-des-transports-en-commun-en-france/#topicOverview).
+
+
+        Part des répondant:es utilisant le plus souvent les moyens de transport
+        suivants pour leurs trajets quotidiens :
+        - 14% métro/RER
+        - 14% bus
+        - 8% tramway
+
+        Ce qui nous donne :
+        - ((14 + 8) * 100) / (14 + 14 + 8) = 61% pour le métro ou tram
+        - (14 * 100) / (14 + 14 + 8) = 39% pour le bus
+
+référentiel . transport . trajet en vélo au lieu de la voiture:
+  titre: Faire un trajet en vélo plutôt qu’en voiture
+  valeur: transport . voiture . empreinte au kilomètre * hypothèses . km par trajet en voiture
+  unité: kgCO2e/trajet
+
+# NOTE: potentiel doublon avec `référentiel . transport . trajet en vélo au lieu de la voiture`
+référentiel . transport . trajet à pied au lieu de la voiture:
+  titre: Faire un trajet à pied plutôt qu’en voiture
+  valeur: transport . voiture . empreinte au kilomètre * hypothèses . km par trajet en voiture
+  unité: kgCO2e/trajet
+
+#########################################################################################
+##                                     HYPOTHÈSE                                       ##
+#########################################################################################
+
+référentiel . transport . hypothèses:
+  titre: Hypothèses utilisées dans les différents calculs du référentiel
+
+# TODO: calcul à revoir
+référentiel . transport . hypothèses . km par trajet en voiture:
+  titre: Estimation de la distance d'un trajet en voiture
+  valeur: (transport . voiture . km / commun . jours par an) / 2 trajet/jour
+  unité: km/trajet
+  note: >
+    Calcul arbitraire pour l'instant pour estimer la distance moyenne d'un
+    trajet en voiture à partir des km annuels. Il faudra à terme revoir ce
+    calcul pour être plus précis.
