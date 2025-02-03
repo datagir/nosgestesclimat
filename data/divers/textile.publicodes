@@ -22,7 +22,7 @@ divers . textile . empreinte:
       - petit article . nombre
       - gros article . nombre
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         t-shirt . nombre: 0
         pantalon . nombre: 0
         short . nombre: 0

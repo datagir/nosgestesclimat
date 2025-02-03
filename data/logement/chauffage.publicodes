@@ -13,7 +13,7 @@ logement . chauffage:
       - fioul . présent
       - bois . présent
     suggestions:
-      pas de chauffage:
+      pas de chauffage 🙅‍♂️:
         PAC . présent: non
         électricité . présent: non
         gaz . présent: non

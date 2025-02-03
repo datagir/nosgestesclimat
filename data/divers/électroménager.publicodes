@@ -32,7 +32,7 @@ divers . électroménager . appareils:
       - aspirateur . nombre
       - robot cuisine . nombre
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         réfrigérateur . nombre: 0
         petit réfrigérateur . nombre: 0
         congélateur . nombre: 0

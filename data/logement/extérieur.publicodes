@@ -15,7 +15,7 @@ logement . extérieur:
       - barbecue électrique ou gaz . présent
       - barbecue charbon . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         salon de jardin bois . présent: non
         salon de jardin résine ou métal . présent: non
         tondeuse électrique ou robot . présent: non

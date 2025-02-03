@@ -8,7 +8,7 @@ transport . mobilité douce:
       - vae . présent
       - autres véhicules à moteur . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         marche . présent: non
         vélo . présent: non
         vae . présent: non

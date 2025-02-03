@@ -13,7 +13,7 @@ logement . vacances:
       - résidence secondaire . présent
       - bateau croisière . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         hotel . présent: non
         camping . présent: non
         auberge de jeunesse . présent: non

@@ -83,7 +83,7 @@ transport . avion . court courrier . heures de vol:
     💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
     Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
   suggestions:
-    Aucun: 0
+    aucun 🙅‍♂️: 0
     Paris ⇄ Lyon: 2
     Paris ⇄ Toulouse: 2.6
     Paris ⇄ Nice: 2.8
@@ -147,7 +147,7 @@ transport . avion . moyen courrier . heures de vol:
     💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
     Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
   suggestions:
-    Aucun: 0
+    aucun 🙅‍♂️: 0
     Paris ⇄ Copenhague: 4
     Paris ⇄ Alger: 5
     Paris ⇄ Athènes: 6
@@ -213,7 +213,7 @@ transport . avion . long courrier . heures de vol:
     💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
     Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
   suggestions:
-    Aucun: 0
+    aucun 🙅‍♂️: 0
     Paris ⇄ Kinshasa: 16
     Paris ⇄ New York: 17
     Paris ⇄ Tokyo: 24

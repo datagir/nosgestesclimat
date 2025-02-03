@@ -28,7 +28,7 @@ divers . ameublement . meubles:
       - petit meuble . nombre
       - grand meuble . nombre
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         armoire . nombre: 0
         canapé . nombre: 0
         matelas . nombre: 0

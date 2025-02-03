@@ -8,7 +8,7 @@ transport . vacances:
       - van . propriétaire
       - bateau plaisance . propriétaire
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         caravane . propriétaire: non
         camping car . propriétaire: non
         van . propriétaire: non

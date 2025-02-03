@@ -127,7 +127,7 @@ divers . numérique . appareils:
       - console portable . nombre
       - imprimante . nombre
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         téléphone . nombre: 0
         TV . nombre: 0
         ordinateur portable . nombre: 0

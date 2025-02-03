@@ -110,7 +110,7 @@ logement . construction . rénovation . travaux:
       - chauffage . présent
       - extension . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         rénovation . présent: non
         isolation . présent: non
         chauffage . présent: non

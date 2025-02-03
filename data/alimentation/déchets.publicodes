@@ -93,7 +93,7 @@ alimentation . déchets . gestes:
       - stop pub . présent
       - acheter en vrac . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         compostage biodéchets . présent: non
         gaspillage alimentaire: non
         stop pub . présent: non

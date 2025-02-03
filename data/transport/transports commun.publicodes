@@ -7,7 +7,7 @@ transport . transports commun:
       - car . présent
       - métro ou tram . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         bus . présent: non
         car . présent: non
         métro ou tram . présent: non

@@ -22,7 +22,7 @@ divers . loisirs . culture:
       - édition . présent
       - pratique de la musique . présent
     suggestions:
-      aucun:
+      aucun 🙅‍♂️:
         concerts et spectacles . présent: non
         musées et monuments . présent: non
         édition . présent: non
@@ -379,7 +379,7 @@ divers . loisirs . sports:
       - sports énergivores . présent
       - autres sports . présent
     suggestions:
-      aucun sport:
+      aucun sport 🙅‍♂️:
         individuel extérieur . présent: non
         balle ou ballon . présent: non
         aquatique . présent: non

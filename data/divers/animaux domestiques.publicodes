@@ -48,7 +48,7 @@ divers . animaux domestiques . empreinte:
       - gros chien . nombre
       - chats . nombre
     suggestions:
-      aucun animal:
+      aucun animal 🙅‍♂️:
         petit chien . nombre: 0
         chien moyen . nombre: 0
         gros chien . nombre: 0
