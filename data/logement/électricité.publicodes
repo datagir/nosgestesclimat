@@ -7,7 +7,7 @@ logement . électricité . empreinte:
   description: |
     L'empreinte de l'électricité du logement est la somme des empreintes de l'électricité du réseau et de l'électricité produite par les panneaux photovoltaïques.
 
-    Si vous disposez de panneaux photovoltaïques. L'empreinte de l'électricité produite par ces panneaux peut être jusqu'à 2 fois plus faible que celle du réseau. 
+    Si vous disposez de panneaux photovoltaïques. L'empreinte de l'électricité produite par ces panneaux peut être jusqu'à 2 fois plus faible que celle du réseau.
 
     Pour calculer votre empreinte, nous vous attribuons l'empreinte de l'électricité liée à la productuion de vos panneaux, **à hauteur maximum de ce que vous consommez comme énergie au total**.
     Nous n'attachons pas d'importance au fait que cette électricité soit consommée, ou non, par vous ou réinjectée dans le réseau avant d'être retirée plus tard.
@@ -59,9 +59,6 @@ logement . électricité . réseau . consommation:
   note: on considère que seule la consommation d'électricité liée au chauffage est dépendante de la surface du logement
   description: |
     Astuce : vous trouverez la consommation annuelle d'électricité sur vos factures ou sur votre compte en ligne sur le site de votre fournisseur.
-
-    Pour rappel, si vous vivez dans plusieurs logements (par exemple, si vous avez une résidence secondaire), essayez de "ramener" ces consommations dans celles du logement principal afin d'avoir l'estimation la plus juste possible.
-
 logement . électricité . réseau . consommation par défaut:
   titre: Consommation par défaut électricité
   note: |
@@ -182,7 +179,7 @@ logement . électricité . photovoltaique . production:
   aide: logement . électricité . photovoltaique . production estimée via la puissance installée . saisie
   description: |
     Nous parlons bien ici de toute l'énergie produite par vos panneaux, que vous la consommiez ou non.
-    La façon de disposer de ce chiffre varie selon votre installation. La plupart des installations présentes disposent d'une application de suivi de production qui devrait vous fournir cette donnée. 
+    La façon de disposer de ce chiffre varie selon votre installation. La plupart des installations présentes disposent d'une application de suivi de production qui devrait vous fournir cette donnée.
 
     > Nous proposons des suggestions via le nombre de panneaux en considérant que la puissance moyenne d'un panneau solaire est de 400 Wc environ, avec une production de 1300 kWh/kWc.
   note: |
@@ -217,7 +214,9 @@ logement . électricité . photovoltaique . part autoconsommation:
       - photovoltaique . production > 0
   question: Quelle part de cette électricité produite consommez-vous ?
   description: |
-    Si vous consommez toute votre production, renseignez 100%. Si vous revendez toute votre production, vous pouvez mettre 0. Dans tous les cas, il vous sera demandé par la suite votre consommation d'électricité du réseau et votre production sera prise en compte indirectement dans le calcul de vos émissions.
+    Si vous consommez toute votre production (typiquement si vous n'y êtes pas raccordé), renseignez 100%. Si vous revendez toute votre production, mettez 0.
+
+    Les compteurs récents sont en capacité de vous fournir votre part d'auto-consommation.
   par défaut: 30
   plancher: 0
   plafond: 100

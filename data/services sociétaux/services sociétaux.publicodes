@@ -30,7 +30,6 @@ services sociétaux . question rhétorique:
   titre: Question d'information sur les services communs
   question: Nous attribuons l'empreinte des services publics (éducation, santé...) et marchands (télécom, assurance...) à chaque citoyenne et citoyen de façon égale. Cela représente autour de 1,5 tonnes de CO2e par personne.
   description: |
-
     Cette catégorie ne dépend pas de vos réponses. L'empreinte associée est calculée via une approche macro-économique à l'échelle nationale. [En savoir plus](/documentation/services-sociétaux).
 
   par défaut: "'ok'"

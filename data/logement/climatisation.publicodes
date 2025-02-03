@@ -4,8 +4,8 @@ logement . climatisation:
   titre: Climatisation
   formule: empreinte climatiseurs / habitants
   description: |
-    Nous estimons ici l'empreinte de la climatisation. 
-    Son empreinte est quadruple :   
+    Nous estimons ici l'empreinte de la climatisation.
+    Son empreinte est quadruple :
     - la consommation d'électricité (elle est incluse dans la consommation du logement)
     - l'empreinte de la construction du matériel
     - l'empreinte des fuites du liquide caloriporteur
@@ -31,16 +31,12 @@ logement . climatisation . empreinte climatiseurs:
   unité: kgCO2e
 
 logement . climatisation . présent:
-  question: Utilisez-vous un système de climatisation pour refroidir votre logement (climatiseur électrique, pompe à chaleur) ?
-  description: |
-    La climatisation utilise de l'électricité, que vous devez saisir en kWh ou en € dans la question électricité. L'empreinte de l'électricité consommée par le climatiseur est donc déjà calculée. 
-
-    Mais en plus de cela, un climatiseur rejette d'autres gaz à effet de serre : d'où la nécessité de poser cette question.
+  question: Utilisez-vous des climatiseurs pour refroidir votre logement ?
 
 logement . climatisation . rappel kWh:
   type: notification
   description: |
-    Vous avez une climatisation ? Sa consommation d'électricité sera simplement à inclure dans la facture d'électricité, comme tous les appareils électriques du logement. Sont prises en compte ici, **les fuites de gaz frigorigènes**.
+    La consommation d'électricité de votre clim est incluse dans la facture d'électricité, comme tous les appareils électriques du logement. Sont prises en compte ici, **les fuites de gaz frigorigènes**.
   formule: présent
 
 logement . climatisation . nombre par défaut:

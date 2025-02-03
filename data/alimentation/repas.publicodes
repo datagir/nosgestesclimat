@@ -106,11 +106,9 @@ alimentation . plats:
   question: Choisissez les 14 repas (déjeuners et dîners) de votre semaine-type
   titre: Empreinte des repas
   description: |
-    Choisissez les plats qui représentent votre semaine type.
+    Choisissez les plats qui représentent votre semaine type. A priori, vous en aurez 14 : 7 déjeuners et 7 dîners. Mais vous pouvez néanmoins en saisir moins, ou plus.
 
-    A priori, vous en aurez 14 : 7 déjeuners et 7 dîners. Mais vous pouvez aussi manger moins, ou plus, c'est tout à fait possible !
-
-    > Aujourd'hui nous travaillons pour que les menus associés à vos repas soient les plus représentatifs de vos habitudes, n'hésitez pas à aller plus loin en parcourant la documentation.
+    Les menus ont été travaillés pour être représentatifs des consommations alimentaires des français.
   formule:
     somme:
       - végétalien
@@ -444,14 +442,11 @@ alimentation . petit déjeuner:
       - sinon: 0
 
 alimentation . petit déjeuner . type:
-  question: Quel petit déjeuner vous correspond le plus ?
+  question: Quel petit-déjeuner vous correspond le plus ?
   description: |
-    Il existe une variété infinie de petits déjeuners. Nous en avons sélectionné quelques-uns pour que vous obteniez une réponse facilement.
+    Si vous hésitez, choisissez celui qui se rapproche le plus de vos habitudes.
 
-    Même si vous ne retrouvez pas exactement votre petit déjeuner, choisissez celui qui s'en rapproche !
-
-    > À noter que votre consommation de jus de fruits / café / thé / chocolat chaud est comptabilisée dans la question dédiée aux boissons chaudes.
-
+    Votre consommation de jus de fruits / café / thé / chocolat chaud sera comptabilisée dans les questions dédiées aux boissons.
   par défaut: "'continental'"
   formule:
     une possibilité:
@@ -712,18 +707,9 @@ alimentation . local . empreinte:
   unité: kgCO2e
 
 alimentation . local . consommation:
-  question: Consommez-vous des produits locaux ?
+  question: À quelle fréquence consommez-vous des produits locaux ?
   description: |
-    Cette question nous permet de corriger l'empreinte de votre régime alimentaire en fonction de votre habitude sur le caractère local de vos achats.
-
-    Nous considérons "locaux" les aliments qui sont issus de la région où vous vivez ou de régions proches.
-
-    Ce critère a un impact relativement faible, car la part du transport dans l'empreinte carbone des produits que nous consommons est faible devant les émissions liées à la production, la transformation ou l'emballage, surtout quand votre régime est carné.
-
-    Mais c'est toujours ça de gagné, et les avantages d'une consommation locale ne s'arrêtent pas à l'empreinte climat.
-
-    > ⚠️ Attention, si vous faites vos courses en voiture à plusieurs km de chez vous chaque semaine, il est possible que l'empreinte du dernier km dépasse les gains d'une alimentation locale !
-
+    Les produits locaux se trouvent plus aisément dans votre potager, en direct producteur, sur votre marché, en magasin de producteurs... ou dans le rayon "produits locaux" de votre supermarché.
   note: Voir détail de l'approche de calcul [ici](http://nosgestesclimat/documentation/alimentation/local/part-locale)
   par défaut: "'jamais'"
   formule:
@@ -742,7 +728,7 @@ alimentation . local . consommation . parfois:
 alimentation . local . consommation . souvent:
   titre: Souvent
 alimentation . local . consommation . oui toujours:
-  titre: Oui toujours
+  titre: Toujours
 
 alimentation . local . niveau:
   formule:
@@ -796,16 +782,7 @@ alimentation . de saison . facteur de saison:
   formule: (-1) * niveau / ratio
 
 alimentation . de saison . consommation:
-  question: Consommez-vous des produits de saison ?
-  description: |
-    Cette question nous permet de corriger l'empreinte de votre régime alimentaire en fonction de votre habitude sur le caractère de saison de vos achats.
-
-    Cet impact est relativement faible, car la part de produits de saison représente seulement 7% de l'alimentation moyenne d'un Français.
-
-    Mais c'est toujours ça de gagné, et les avantages d'une consommation de saison ne s'arrêtent pas à l'empreinte climat.
-
-    > Mais quelle est la saison d'une pomme, d'un chou-fleur ?
-    > Découvrez notre mini-site [Mes fruits et légumes de saison](https://mesfruitsetlegumesdesaison.fr).
+  question: Faites-vous attention à consommer des fruits et légumes de saison ?
   note: Voir détail de l'approche de calcul [ici](http://nosgestesclimat/documentation/alimentation/de-saison/pourcentage-saisonable)
   par défaut: "'jamais'"
   formule:
@@ -824,7 +801,7 @@ alimentation . de saison . consommation . parfois:
 alimentation . de saison . consommation . souvent:
   titre: Souvent
 alimentation . de saison . consommation . oui toujours:
-  titre: Oui toujours
+  titre: Toujours
 
 alimentation . de saison . niveau:
   formule:

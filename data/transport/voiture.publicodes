@@ -36,9 +36,9 @@ transport . voiture . km:
   titre: Km en voiture
   question: Quelle distance parcourez-vous à l'année en voiture ?
   description: |
-    Ne comptez que les kilomètres de déplacement personnel (courses, loisirs, famille, etc.) et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
+    Ne comptez que les kilomètres de déplacement personnel (courses, loisirs, famille, etc.) et de déplacement domicile-travail.
 
-    Par exemple, si vous êtes en mission professionnelle dans un autre département ou un autre pays, cela rentre dans la comptabilité de votre entreprise : ne le comptez pas ici.
+    Si une mission professionnelle vous amène à vous déplacer plus loin que votre lieu de travail habituel, ne comptez pas ici les km concernés.
   # It seems that there is a [publicodes bug](https://github.com/publicodes/publicodes/issues/517). For now, we can't use `km annuels moyen réel` directly here, until the problem is fixed.
   par défaut: 8210
   unité: km
@@ -122,7 +122,7 @@ transport . voiture . utilisateur:
         - propriétaire
         - régulier non propriétaire
         - non régulier
-  description: |
+  note: |
     Deux données sont importantes dans le cadre du calcul de l'empreinte liée à la construction :
 
     - L'usage ou non d'un même véhicule pour tous les kilomètres parcourus (si non : on vous attribue un véhicule "moyen")
@@ -194,22 +194,15 @@ transport . voiture . voyageurs:
   question: Quel est le nombre moyen de voyageurs dans la voiture ?
   applicable si: km > 0
   description: |
-    Une voiture consomme à peu près autant qu'elle ait 1, 2 ou 5 voyageurs à bord. Voyager à plusieurs, c'est donc potentiellement diviser par 5 l'empreinte individuelle !
+    🤔 Il est fort probable que vos trajets ne se ressemblent pas, et que vous rouliez parfois seul, parfois à plusieurs.
 
-    🤔 Mais cette question n'est pas facile : il est probable que dans une année vous soyez parti en vacances à 3, ayez pris la voiture quotidiennement tout seul, etc.
-
-    Essayez d'estimer une moyenne approximative : si tous les jours vous prenez la voiture tout seul, mettez 1 ou 1,2.
-    Si vous ne la prenez qu'en famille ou entre amis, mettez 3.
-
-    > Dans une prochaine évolution du simulateur, nous pourrons séparer les questions par type de trajets : vacances, domicile-travail, quotidiens avec un nombre de voyageurs personnalisable.
-
-    Bien sûr, si vous vous faites conduire ou si vous prenez le taxi, le chauffeur ne compte pas, car il est au service de votre déplacement.
+    Sachez qu'en moyenne en France, le taux de remplissage d'une voiture est de 1,4 personnes sur des trajets courts, et 2,25 personnes sur des trajets longs. Ce taux augmente légèrement pour les familles, particulièrement les foyers monoparentaux.
   plancher: 1
   plafond: 9
   avertissement: |
     Le nombre de voyageurs est compris entre 1 (vous) et 9 (8 passagers au plus).
   note: |
-    On considère que le nombre maximal de voyageurs est de 9 (limite du permis B). 
+    On considère que le nombre maximal de voyageurs est de 9 (limite du permis B).
 
     Néanmoins, cette question est souvent mal répondue car les utilisateurs.rices ne considèrent pas le nombre de voyageurs moyen : ils répondront 3 s'ils emmènent leurs enfants à l'école sans prendre en compte qu'ils sont seuls dans leur voiture la majorité du temps.
   par défaut: 1.2
@@ -564,10 +557,6 @@ transport . voiture . thermique . carburant:
           - motorisation = 'hybride'
       - km > 0
   description: |
-    Pour comprendre les différents types de carburants, [cet article pédagogique](https://www.francetvinfo.fr/economie/automobile/essence/les-carburants-changent-de-nom-a-la-pompe-voici-comment-vous-y-retrouver_2967013.html) est très utile.
-
-    [Cet article](https://www.ecologie.gouv.fr/carburants-et-combustibles-autorises-en-france) du ministère de l'Écologie explique plus en détail les carburants légaux en France.
-
     > Attention, si le type de carburant fait varier de façon significative l'empreinte climat au litre, la consommation en litre par 100km elle aussi varie. Veillez à saisir une consommation au litre basée sur votre moyenne réelle.
 
   par défaut: "'essence E5 ou E10'"
@@ -591,6 +580,10 @@ transport . voiture . thermique . carburant:
     Le GPL (Gaz de Pétrole Liquéfiés) est un [résidu de l'extraction du pétrole qui était autrefois brûlé](https://fr.wikipedia.org/wiki/Gaz_de_p%C3%A9trole_liqu%C3%A9fi%C3%A9).
     Il a une empreinte carbone par litre moins importante que les véhicules essence ou diesel, par contre sa consommation est légèrement supérieure, ce qui compense légèrement le gain.
     Mais si les rejets de CO2e sont au final presque équivalents entre le GPL et les autres carburants, c'est [du côté de l'émission de particules nocives](https://agirpourlatransition.ademe.fr/particuliers/conso/conso-responsable/comment-choisir-voiture-deux-roues-moins-polluant) que le GPL est un bien meilleur élève que les autres carburants thermiques.
+
+    Pour comprendre les différents types de carburants, [cet article pédagogique](https://www.francetvinfo.fr/economie/automobile/essence/les-carburants-changent-de-nom-a-la-pompe-voici-comment-vous-y-retrouver_2967013.html) est très utile.
+
+    [Cet article](https://www.ecologie.gouv.fr/carburants-et-combustibles-autorises-en-france) du ministère de l'Écologie explique plus en détail les carburants légaux en France.
 
 transport . voiture . thermique . carburant . gazole B7 ou B10:
   titre: Gazole (B7 ou B10)
@@ -668,8 +661,6 @@ transport . voiture . gabarit:
       - km > 0
   description: |
     **💡 Si vous utilisez plusieurs voitures (par exemple dans le cas où vous n'en possédez pas une), choisissez la réponse la plus représentative de votre usage.**
-
-    Plus une voiture est lourde et haute donc avec une forte prise au vent, plus elle consomme donc plus elle pollue !
   par défaut: "'berline'"
   note: |
     Nous considérons que la voiture par défaut est une "Berline", en témoigne [une étude menée par AAA Data](https://www.alphabet.com/fr-fr/parc-automobile-roulant-les-donnees-cles)

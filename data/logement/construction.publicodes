@@ -100,8 +100,6 @@ logement . construction . rénovation . amortissement:
 logement . construction . rénovation . travaux:
   applicable si: logement . âge > seuil
   question: Des travaux de rénovation ont-ils été réalisés dans votre logement (hors rafraîchissement) depuis 2000 ?
-  description: |
-    Votre logement n'est pas récent, il est donc fort possible qu'il ait subi des travaux d'entretien et rénovation, que vous pouvez renseigner ici si vous les connaissez.
   mosaique:
     type: selection
     options:

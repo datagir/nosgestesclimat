@@ -16,13 +16,9 @@ transport . mobilité douce:
   question: Parmi ces modes de déplacement, lesquels utilisez-vous ?
   titre: Déplacements efficaces
   description: |
-    Ces modes de transport sont souvent qualifiés de modes "doux". Cet adjectif ne met que trop peu en avant leur redoutable efficacité.
+    💡 La catégorie "Petit véhicule électrique" inclut la trottinette électrique, mais également gyropode, monocycle électrique, hoverboard...
 
-    Avec un matériel de moins de 20 kg, 30 kg pour les vélos-cargos, on transporte aisément le poids d'une, voire deux ou trois personnes (un vélo avec deux enfants embarqués) sur de courtes, parfois moyennes, plus rarement longues distances. Et les courses avec !
-
-    > 💡 La catégorie "Petit véhicule électrique" inclut la trottinette électrique, mais également gyropode, monocycle électrique, hoverboard...
-
-    > Note : Si votre vélo-cargo dispose d'une assistance électrique, classez-le dans la catégorie VAE ! Sinon, il est du côté des vélos "classiques".
+    Note : Si votre vélo-cargo dispose d'une assistance électrique, classez-le dans la catégorie VAE ! Sinon, il est du côté des vélos "classiques".
   formule:
     somme:
       - marche
@@ -124,7 +120,7 @@ transport . mobilité douce . vae . km:
     10km / jour: 3600
     100km / semaine: 5000
   description: |
-    Astuce : sur un VAE, le nombre total de kilomètres effectué est affiché sur le moniteur de bord.
+    Astuce : sur la plupart des VAE, le nombre total de kilomètres effectué est affiché sur le moniteur de bord.
 
 transport . mobilité douce . vae . construction amortie:
   titre: Construction amortie

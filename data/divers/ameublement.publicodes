@@ -2,9 +2,9 @@ divers . ameublement:
   non applicable si: métrique != "carbone"
   icônes: 🛋️
   note: |
-    Nous ne comptons ici que l'empreinte de la fabrication et la distribution des meubles. Attention donc à ne pas confondre les données de l'ACV ADEME 
-    (qui prennent en compte tous le cycle de vie : du berceau à la tombe) et les FE de la Base Carbone qui donnent uniquement 
-    l'impact de la fabrication d'un produit (en intégrant la phase "distribution" dans le FE, toutefois). 
+    Nous ne comptons ici que l'empreinte de la fabrication et la distribution des meubles. Attention donc à ne pas confondre les données de l'ACV ADEME
+    (qui prennent en compte tous le cycle de vie : du berceau à la tombe) et les FE de la Base Carbone qui donnent uniquement
+    l'impact de la fabrication d'un produit (en intégrant la phase "distribution" dans le FE, toutefois).
 
     Ces FE ne considèrent donc pas la "fin de vie" qui est prise en compte via [le modèle déchets de NGC](https://nosgestesclimat.fr/documentation/alimentation/d%C3%A9chets) (qui prend en compte les quantités de déchets amenés en déchetterie, là ou sont (théoriquement) amenés les meubles en fin de vie).
 
@@ -68,15 +68,9 @@ divers . ameublement . meubles:
       - grand meuble
   unité: kgCO2e
   description: |
-    Renseignez ici les biens d'ameublement de moins de 10 ans qui composent l'intérieur de votre ; et seulement les produits achetés neufs, 
-    nous excluons ici l'achat d'occasion et en dépôt vente.
+    Renseignez ici tout le mobilier que l'on retrouve dans votre logement.
 
-    N'oubliez pas vos meubles de cuisine !  
-
-    Nous considérons que tous les meubles sont utilisés par l'ensemble du foyer, même si potentiellement, certains ne le sont qu'à titre individuel (les lits par exemple), c'est une limitation du test.
-
-    N'hésitez pas à utiliser les catégories petit meuble (inférieur à 10 kg comme un petit buffet ou une table basse par 
-    exemple) ou grand meuble (supérieur à 10 kg comme un grand bureau par exemple) dans le cas où vous ne parvenez pas à catégoriser ce que vous possédez dans le reste des propositions.
+    L'empreinte du mobilier est **divisée par le nombre d'habitants** du logement pour obtenir une **empreinte individuelle**.
   note: |
     Les données sont toutes issues de la Base Carbone (achats de biens). Voir https://bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Mobilier.
 
@@ -101,7 +95,7 @@ divers . ameublement . meubles . armoire . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche armoire (page 181) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche armoire (page 181) une durée de vie
     pouvant aller de 5 à 15 ans. Nous choisissons de considérer de vie de 10 ans.
 
 divers . ameublement . meubles . armoire . nombre:
@@ -152,7 +146,7 @@ divers . ameublement . meubles . canapé . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche canapé (page 179) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche canapé (page 179) une durée de vie
     pouvant aller de 5 à 20 ans. Nous choisissons de considérer de vie de 10 ans.
 
 divers . ameublement . meubles . canapé . nombre:
@@ -197,7 +191,7 @@ divers . ameublement . meubles . matelas . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche matelas (page 184) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche matelas (page 184) une durée de vie
     pouvant aller de 5 à 20 ans. Nous choisissons de considérer une durée de vie de 10 ans.
 
 divers . ameublement . meubles . matelas . nombre:
@@ -249,7 +243,7 @@ divers . ameublement . meubles . lit . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche lit (page 182) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 15 ans, il est écrit dans la fiche lit (page 182) une durée de vie
     pouvant aller de 5 à 20 ans. Nous choisissons de considérer une durée de vie de 10 ans.
 
 divers . ameublement . meubles . lit . nombre:
@@ -281,7 +275,7 @@ divers . ameublement . meubles . table . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche table (page 178) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche table (page 178) une durée de vie
     pouvant aller de 5 à 20 ans. Nous choisissons de considérer une durée de vie de 10 ans.
 
 divers . ameublement . meubles . table . nombre:
@@ -332,7 +326,7 @@ divers . ameublement . meubles . chaise . durée:
   formule: 10
   note: |
     Dans cette [étude](https://librairie.ademe.fr/consommer-autrement/1190-modelisation-et-evaluation-du-poids-carbone-de-produits-de-consommation-et-biens-d-equipement.html)
-    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche chaise (page 176) une durée de vie 
+    même si les résultats en kgCO2e/an prennent comme hypothèse une durée de vie de 10 ans, il est écrit dans la fiche chaise (page 176) une durée de vie
     pouvant aller de 5 à 20 ans. Nous choisissons de considérer une durée de vie de 10 ans.
 
 divers . ameublement . meubles . chaise . nombre:
@@ -353,7 +347,7 @@ divers . ameublement . meubles . empreinte meuble par kg:
   formule: 1.833
   unité: kgCO2e/kg
   note: |
-    Facteur Mobilier - fabrication  de la Base Carbone (exprimé en kgCO2e/kg). 
+    Facteur Mobilier - fabrication  de la Base Carbone (exprimé en kgCO2e/kg).
     Attention ce facteur d'émission date de 2014 et n'est pas construit à partir des études ACV ayant
     permis l'élaboration des facteurs propres aux biens d'ameublement.
 
@@ -456,7 +450,7 @@ divers . ameublement . déforestation:
       - sinon: 0
   unité: kgCO2e
   note: |
-    L'étude [Pendril & al.](https://iopscience.iop.org/article/10.1088/1748-9326/ab0d41) montre que l'empreinte de la déforestation importée est de 81 kgCO2e en moyenne par français. 
+    L'étude [Pendril & al.](https://iopscience.iop.org/article/10.1088/1748-9326/ab0d41) montre que l'empreinte de la déforestation importée est de 81 kgCO2e en moyenne par français.
     Nous considérons qu'en moyenne, un foyer français possède de 5 à 15 meubles de moins de 10 ans. Si l'utilisateur en possède moins, nous réduisons la part de déforestation, et inversement s'il en possède plus.
 
 divers . ameublement . déforestation . facteur meubles:

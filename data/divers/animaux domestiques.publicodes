@@ -4,15 +4,15 @@ divers . animaux domestiques:
   icônes: 🐶
   formule: empreinte / logement . habitants
   description: |
-    On parle ici d'animaux domestiques, dont l'augmentation de la population (environ 10 millions de chats en France en 2000 
-    contre 15 millions actuellement (2020)) est liée aux êtres humains (à l'inverse des animaux sauvages, dont l'Histoire semble 
+    On parle ici d'animaux domestiques, dont l'augmentation de la population (environ 10 millions de chats en France en 2000
+    contre 15 millions actuellement (2020)) est liée aux êtres humains (à l'inverse des animaux sauvages, dont l'Histoire semble
     montrer un équilibre GES stable).
 
     D'après [le rapport annuel FACCO (Chambre Syndicale des Fabricants d'Aliments pour Chiens, Chats, Oiseaux et autres animaux familiers) 2022](https://www.facco.fr/wp-content/uploads/2022/05/rapport-annuel-facco-2022pdf.pdf),
     43.5% des foyers français possèdent au moins un chat ou un chien. Près d’1 foyer français sur 3 possède un chat et 1 foyer sur 5 possède un chien.
 
-    Il est donc clair que nous ne pouvons ignorer l'empreinte de nos animaux de compagnie et 
-    ces émissions sont, par définition, d'origine anthropique. 
+    Il est donc clair que nous ne pouvons ignorer l'empreinte de nos animaux de compagnie et
+    ces émissions sont, par définition, d'origine anthropique.
 
     La vie domestique de nos bêtes entraine bien des émissions supplémentaires à attribuer à un individu humain (celui qui détient l'animal).
 
@@ -29,7 +29,7 @@ divers . animaux domestiques:
 
     Certaines questions pourraient être approfondies :
       - Est-ce pertinent d'associer une empreinte "de base" par animal liée à l'achat d'équipements ou autres ?
-      - Le facteur d'émission sélectionné pour notre calcul résulte d'une étude présentant une approche méthodologique spécifique (entendons ici un  choix d'hypothèses propre au travail mené pour cet article). 
+      - Le facteur d'émission sélectionné pour notre calcul résulte d'une étude présentant une approche méthodologique spécifique (entendons ici un  choix d'hypothèses propre au travail mené pour cet article).
         Il sera nécessaire de continuer à suivre les évolutions pour approfondir le cycle de vie de ce type de nourriture (prise en compte des emballages ?).
 
 divers . animaux domestiques . empreinte:
@@ -37,9 +37,9 @@ divers . animaux domestiques . empreinte:
   icônes: 😺🐶
   question: Combien d'animaux vivent avec vous, au sein de votre foyer ?
   description: |
-    Chien ou chat, c'est le moment de prendre en compte nos fidèles compagnons.
+    Vous avez d'autres types d'animaux domestiques ? Nous considérerons que leur empreinte est négligeable.
 
-    > 🦴 L'impact votre animal est en grande partie lié à sa gamelle !
+    L'empreinte des animaux domestiques est **divisée par le nombre d'habitants* du foyer pour obtenir une **empreinte individuelle**.
   mosaique:
     type: nombre
     options:
@@ -109,9 +109,9 @@ divers . animaux domestiques . empreinte . chats . alimentation . empreinte nour
 
     Le résultat final est 2.3 fois supérieur en adoptant une méthode classique sur la base de : 1kg de sous-produits animaux = 1 kg de steak = 1 FE en kgco2e/kg.
 
-    En ce qui concerne la "qualité" de la nourriture, deux types de nourriture sont considérés : 
+    En ce qui concerne la "qualité" de la nourriture, deux types de nourriture sont considérés :
 
-    Deux types de nourritures sont considérés : 
+    Deux types de nourritures sont considérés :
     - Nourriture Chat "classique" (type croquettes): 1.5 kgCO2e/kg, composant la nourriture moyenne des chats à hauteur de 2/3.
     - Nourriture Chat "Premium" (plus proche des patées semble-t-il): 4.5 kgCO2e/kg, composant la nourriture moyenne des chats à hauteur de 1/3.
 
@@ -121,12 +121,12 @@ divers . animaux domestiques . empreinte . chats . alimentation . empreinte nour
 
     Enfin, concernant le périmètre géographique, cette étude s'appuie sur des données à l'échelle des États-Unis, qui semble-t-il, au vu de la similitude des marchés avec l'Europe sont légitimement applicables à la France.
 
-    Par ailleurs, l'étude [Environmental impact of diets for dogs and cats, 20222](https://www.nature.com/articles/s41598-022-22631-0#MOESM1) donne des résultats bien plus élevés notamment pour la "nourriture humide". 
+    Par ailleurs, l'étude [Environmental impact of diets for dogs and cats, 20222](https://www.nature.com/articles/s41598-022-22631-0#MOESM1) donne des résultats bien plus élevés notamment pour la "nourriture humide".
 
-    > If a 10 kg dog with an average caloric intake of 534 kcal per day15 is considered, we can estimate the yearly consumption of calories and, 
-    therefore, can estimate the annual environmental impact. If we consider the results of the present study, the median of CO2eq of a dry diet 
-    per 1000 kcal is 4.25 kg and a wet diet of 33.56 kg. This average dog would be responsible for 828.37 kg of CO2eq per year if consuming dry 
-    diets or 6,541 kg of CO2eq per year if consuming wet diets. 
+    > If a 10 kg dog with an average caloric intake of 534 kcal per day15 is considered, we can estimate the yearly consumption of calories and,
+    therefore, can estimate the annual environmental impact. If we consider the results of the present study, the median of CO2eq of a dry diet
+    per 1000 kcal is 4.25 kg and a wet diet of 33.56 kg. This average dog would be responsible for 828.37 kg of CO2eq per year if consuming dry
+    diets or 6,541 kg of CO2eq per year if consuming wet diets.
 
     Au vu des chiffres particulièrement élevés, et dans l'attente d'approfondir cette étude, nous avons préféré utiliser les chiffres de l'étude mentionnée plus haut qui semble adopter une méthodologie cohérente.
 divers . animaux domestiques . empreinte . chats . alimentation . besoin journalier nourriture:
@@ -299,7 +299,7 @@ divers . animaux domestiques . empreinte . chiens . alimentation . empreinte nou
 
     Le résultat final est 2.3 fois supérieur en adoptant une méthode classique sur la base de : 1kg de sous-produits animaux = 1 kg de steak = 1 FE en kgco2e/kg.
 
-    En ce qui concerne la "qualité" de la nourriture, deux types de nourriture sont considérés : 
+    En ce qui concerne la "qualité" de la nourriture, deux types de nourriture sont considérés :
 
     - Nourriture Chien "classique" (type croquettes): 3 kgCO2e/kg, composant la nourriture moyenne des chiens à hauteur de 2/3.
     - Nourriture Chien "Premium" (plus proche des patées semble-t-il): 7 kgCO2e/kg, composant la nourriture moyenne des chiens à hauteur de 1/3.
@@ -310,12 +310,12 @@ divers . animaux domestiques . empreinte . chiens . alimentation . empreinte nou
 
     Enfin, concernant le périmètre géographique, cette étude s'appuie sur des données à l'échelle des États-Unis, qui semble-t-il, au vu de la similitude des marchés avec l'Europe sont légitimement applicable à la France.
 
-    Par ailleurs, l'étude [Environmental impact of diets for dogs and cats, 20222](https://www.nature.com/articles/s41598-022-22631-0#MOESM1) donne des résultats bien plus élevés notamment pour la "nourriture humide". 
+    Par ailleurs, l'étude [Environmental impact of diets for dogs and cats, 20222](https://www.nature.com/articles/s41598-022-22631-0#MOESM1) donne des résultats bien plus élevés notamment pour la "nourriture humide".
 
-    > If a 10 kg dog with an average caloric intake of 534 kcal per day15 is considered, we can estimate the yearly consumption of calories and, 
-    therefore, can estimate the annual environmental impact. If we consider the results of the present study, the median of CO2eq of a dry diet 
-    per 1000 kcal is 4.25 kg and a wet diet of 33.56 kg. This average dog would be responsible for 828.37 kg of CO2eq per year if consuming dry 
-    diets or 6,541 kg of CO2eq per year if consuming wet diets. 
+    > If a 10 kg dog with an average caloric intake of 534 kcal per day15 is considered, we can estimate the yearly consumption of calories and,
+    therefore, can estimate the annual environmental impact. If we consider the results of the present study, the median of CO2eq of a dry diet
+    per 1000 kcal is 4.25 kg and a wet diet of 33.56 kg. This average dog would be responsible for 828.37 kg of CO2eq per year if consuming dry
+    diets or 6,541 kg of CO2eq per year if consuming wet diets.
 
     Au vu des chiffres particulièrement élevés, et dans l'attente d'approfondir cette étude, nous avons préféré utiliser les chiffres de l'étude mentionnée plus haut qui semble adopter une méthodologie cohérente.
 divers . animaux domestiques . empreinte . chiens . alimentation . besoin journalier nourriture:

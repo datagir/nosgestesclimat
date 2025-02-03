@@ -30,9 +30,7 @@ divers . ameublement . préservation:
       - numérique . appareils . nombre total > 0
   question: Quelle relation entretenez-vous à vos objets, vos appareils, vos meubles ?
   description: |
-    Pour éviter de vous demander de renseigner l'âge précis de tous les biens que vous possédez, nous avons défini un âge moyen pour chacun de vos objets(généralement autour 10 ans). Vous allongez ou réduisez cet âge moyen ici !
-
-    > Nous cherchons ici à évaluer, non pas l'âge de vos objets avant que ces derniers deviennent inutilisables, mais leur âge quand leurs propriétaires décident de les remplacer par du neuf.
+    Le but de cette question est de saisir si vous êtes dans une démarche de prolongation de la vie de vos objets, au-delà de leur durée de vie "classique".
   note: |
     La règle `préservation` est intégrée ici dans l'espace nom `ameublement` même si elle s'applique à tous les objets de la catégorie `divers`. C'est un hack pour gérer l'ordre d'affichage en profitant de l'affichage dans l'ordre des catégories. De manière logique, cette question s'appliquant à plusieurs catégories devrait être à la racine, dans `divers . préservation` directement. On pourrait également imaginer un espace nom dédié aux sous-catégories concernées à savoir `ameublement`, `électroménager` et `numérique`. Pour des raisons de simplicité, il est décidé de laisser cette question dans `ameublement`.
   par défaut: "'moyen'"

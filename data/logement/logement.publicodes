@@ -22,19 +22,16 @@ logement . habitants:
   titre: Nombre de personnes dans le logement
   question: Combien de personnes vivent chez vous ?
   description: |
-    Il s'agit de savoir combien de personnes partagent votre logement et toutes les consommations qu'il entraîne (construction, chauffage, etc).
+    Cette question nous permettra de rapporter au niveau individuel les consommations collectives du foyer (mobilier, chauffage, etc).
 
     > Si vous vivez seul, répondez `1`.
-
-    > Si vous vivez avec votre conjoint et un enfant, répondez `3`.
-
-    > Si vous êtes séparé avec un enfant qui alterne entre votre logement et un autre, vous pouvez saisir `1,5`.
+    > Si un membre de votre foyer n'y habite pas tous les jours, vous pouvez rentrer quelque-chose comme `1,5`.
 
   par défaut: habitants . moyen
   plancher: 1
   plafond: 30
   avertissement: |
-    Le nombre d'habitants ne peut pas être nul ni inférieur à 1. Vous êtes le premier habitant de votre logement. 
+    Le nombre d'habitants ne peut pas être nul ni inférieur à 1. Vous êtes le premier habitant de votre logement.
 
     Nous ne prenons donc pas aujourd'hui en compte les logements vides que vous possédez, ou un logement que vous louez dans lequel ni vous ni personne ne vivez.
 

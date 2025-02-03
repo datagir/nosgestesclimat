@@ -4,7 +4,7 @@ divers . électroménager:
   note: |
     Nous ne comptons ici que l'empreinte de la construction des biens électroménager, car leur usage implique surtout de l'électricité, déjà comptée via la facture en kWh.
 
-    Attention donc à ne pas confondre les données de l'ACV ADEME (qui prennent en compte tout le cycle de vie : du berceau à la tombe) et les FE de la Base Carbone qui donnent uniquement l'impact de la fabrication d'un produit (en intégrant la phase "distribution" dans le FE, toutefois). Ces FE ne considèrent donc pas la phase "utilisation" et "fin de vie" mais ce sont bien les mêmes données. L'utilisation de ces FE par NGC est cohérente, car la consommation d'électricité liée à la phase "utilisation" du produit est prise en compte par NGC via les questions sur la consommation. 
+    Attention donc à ne pas confondre les données de l'ACV ADEME (qui prennent en compte tout le cycle de vie : du berceau à la tombe) et les FE de la Base Carbone qui donnent uniquement l'impact de la fabrication d'un produit (en intégrant la phase "distribution" dans le FE, toutefois). Ces FE ne considèrent donc pas la phase "utilisation" et "fin de vie" mais ce sont bien les mêmes données. L'utilisation de ces FE par NGC est cohérente, car la consommation d'électricité liée à la phase "utilisation" du produit est prise en compte par NGC via les questions sur la consommation.
 
     Idem avec la phase "fin de vie", qui est pris en compte via [le modèle déchets de NGC](https://nosgestesclimat.fr/documentation/alimentation/d%C3%A9chets) (qui prend en compte les quantités de déchets amenés en déchetterie, là ou sont (théoriquement) amenés les produits électroménagers en fin de vie).
 
@@ -94,11 +94,9 @@ divers . électroménager . appareils:
         robot cuisine . nombre: 0
   question: Quels appareils électroménagers possédez-vous ?
   description: |
-    L'essentiel de l'empreinte de l'électroménager réside dans les appareils que nous achetons.
+    Cette liste permet de comptabiliser les empreintes de construction de ces objets. L'empreinte d'usage, elle, est indirectement comprise dans votre facture d'électricité.
 
-    > ✨️ Par simplicité, ne renseignez que les appareils récents : un réfrigérateur âgé de 10 ans a déjà été bien amorti.
-
-    Si tous vos appareils ne sont pas proposés dans cette liste, ce n'est pas grave, ce test ne se veut pas exhaustif.
+    Comptez tous vos objets de moins de 10 ans, dont ceux qui dorment dans les placards.
   formule:
     somme:
       - réfrigérateur
@@ -151,7 +149,7 @@ divers . électroménager . appareils . petit réfrigérateur . empreinte:
   formule: réfrigérateur . empreinte / 2
   unité: kgCO2e
   note: |
-    Ne disposant pas de facteur d'émission pour un petit réfrigérateur (sous-plan) dans la base Empreinte, nous avons fait le choix de considérer que son empreinte était équivalente à celle d'un demi réfrigérateur combiné, format armoire. 
+    Ne disposant pas de facteur d'émission pour un petit réfrigérateur (sous-plan) dans la base Empreinte, nous avons fait le choix de considérer que son empreinte était équivalente à celle d'un demi réfrigérateur combiné, format armoire.
     En effet, un frigo sous-plan a une capacité moyenne d'un peu plus de 100 litres, dont 15 en congélation, contre 200 + 80 côté réfrigérateur combiné. Son poids varie entre 25 et 35 kg, pour 60 à 70 du côté du réfrigérateur combiné.
 divers . électroménager . appareils . petit réfrigérateur . durée:
   titre: Durée de vie petit réfrigérateur

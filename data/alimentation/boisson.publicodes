@@ -42,12 +42,9 @@ alimentation . boisson . chaude:
   question: Quelle est votre consommation de boissons chaudes par jour (en nombre de tasses) ?
   icônes: ☕️🫖
   description: |
-    Vos consommations de boissons chaudes pour une journée type. Un café par jour ? Un thé tous les soirs ? Un chocolat chaud au petit déjeuner ?
-    Les consommations plus ponctuelles sont considérées comme négligeables.
+    Renseignez ici ce que vous consommez lors d'une journée type (dont le petit-déjeuner). Vos consommations occasionnelles sont considérées comme négligeables.
 
-    A noter que vous pourrez sélectionner le type de lait que vous consommez dans une autre question !
-
-    > Le café ou thé que vous consommez au petit déjeuner est à prendre en compte ici !
+    Si vous buvez du chocolat chaud, nous vous demanderons le type de lait dans une autre question !
   formule: par jour * commun . jours par an
 
 alimentation . boisson . chaude . par jour:
@@ -348,11 +345,9 @@ alimentation . boisson . eau en bouteille:
 alimentation . boisson . eau en bouteille . consommateur:
   question: Buvez-vous votre eau en bouteille ?
   description: |
-    Si vous buvez principalement de l'eau du robinet et que votre consommation d'eau en bouteille se réduit à de rares occasions (par exemple un repas sur le pouce en boulangerie par semaine, avec leur fameux menu "sandwich + dessert + boisson en bouteille plastique"), répondez non.
+    Nous cherchons à capter ici si votre consommation d'eau en bouteille est très régulière : cochez oui seulement si vous buvez de l'eau en bouteille chaque jour.
 
-    Si vous achetez régulièrement des packs d'eau en bouteille au supermarché ou si vous achetez une petite bouteille chaque jour à la cantine du boulot, répondez oui.
-
-    > Sachez que la consommation d'eau du robinet a une empreinte climat si faible que nous ne vous poserons pas la question de votre consommation alimentaire d'eau.
+    > La consommation d'eau du robinet (pour tous usages) a une empreinte climat négligeable. Nous ne posons donc pas la question !
   note: |
     Les français boivent en moyenne entre 100 et 150 litres d'eau en bouteille par an [source](https://www.planetoscope.com/consommation-eau/854-litres-d-eau-en-bouteille-vendus-en-france.html), soit environ un tiers de nos besoins de 1-1,5l par jour [source](https://www.mangerbouger.fr/Le-Mag/Bien-etre/L-eau-indispensable-a-notre-bonne-sante).
 
@@ -391,7 +386,9 @@ alimentation . boisson . eau en bouteille . consommation annuelle:
 
 alimentation . boisson . sucrées:
   description: |
-    Notons que des alternatives au soda, très simples à préparer maison, sont possibles : c'est le cas du [kéfir](https://fr.wikipedia.org/wiki/K%C3%A9fir) ou [Kombucha](https://fr.wikipedia.org/wiki/Kombucha). Nous n'avons pas encore évalué les gains d'empreinte offerts par ces alternatives.
+    Des alternatives au soda, très simples à préparer maison, sont possibles : c'est le cas du [kéfir](https://fr.wikipedia.org/wiki/K%C3%A9fir) ou [Kombucha](https://fr.wikipedia.org/wiki/Kombucha).
+
+    Nous n'avons pas encore évalué les gains d'empreinte offerts par ces solutions.
   formule: litres * commun . semaines par an * facteur
 
 alimentation . boisson . sucrées . facteur:

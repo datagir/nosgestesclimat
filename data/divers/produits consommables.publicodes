@@ -4,7 +4,7 @@ divers . produits consommables:
   formule: empreinte par mois * commun . mois par an
   description: |
     L'objectif ici est de sortir de la question "dépenses" les produits consommables, qui ne sont donc pas amortis,
-    au même titre que les achats "long terme" comme un instrument de musique. 
+    au même titre que les achats "long terme" comme un instrument de musique.
     Le deuxième enjeu est de permettre de quantifier l'empreinte climat des produits d'hygiène et d'entretien via une approche
     "consommation" : les facteurs d'émission existent pour ces produits.
     En revanche, la difficulté de ce sujet réside dans la question posée à l'utilisateur : qui est en mesure de répondre facilement
@@ -25,8 +25,8 @@ divers . produits consommables . empreinte par mois:
   note: |
     Pour cette question et afin de faciliter la réponse, nous avons décidé de proposer un choix prédéfini (arbitrairement) parmi 3 niveaux de réponse,
     en considérant qu'un produit fait environ 500 grammes.
-      
-      - Une consommation faible à raison de 1 kg de produits par mois 
+
+      - Une consommation faible à raison de 1 kg de produits par mois
       - Une consommation normale à raison de 2 kg par mois
       - Une consommation élevée à raison de 5 kg par mois
 
@@ -51,10 +51,6 @@ divers . produits consommables . empreinte par mois:
 
 divers . produits consommables . consommation:
   question: Comment estimeriez-vous votre consommation de produits d'hygiène (savon, maquillage...) et d'entretien (lessive, produits ménagers...) par mois ?
-  description: |
-    Cette question nous permet d'évaluer *simplement* l'empreinte climat de vos consommations en produits d'hygiène 
-    (parfumerie, gels douche, shampoings, déodorants, dentifrices, maquillage, crèmes de soin, crèmes solaires...) et en produits d'entretien 
-    (lessives, produits pour le lave-vaisselle, produits ménagers...) sur la base de 3 niveaux de consommation.
   par défaut: "'normale'"
   formule:
     une possibilité:

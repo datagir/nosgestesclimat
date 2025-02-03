@@ -49,12 +49,6 @@ transport . avion . empreinte:
 
 transport . avion . usager:
   question: Avez-vous pris l'avion au moins une fois ces 3 dernières années ?
-  description: |
-    Nous faisons ici le choix de vous proposer de compter l'impact de vos déplacements en avion sur plusieurs années. L'empreinte sur le climat est telle qu'il est important de prendre cela en compte.
-
-    Ainsi, que vous preniez l'avion tous les ans ou non, répondez "oui" et vous aurez l'option par la suite de saisir vos temps de vol des 3 dernières années.
-
-    > 💡 Si vous avez pris l'avion pour faire Paris-New York en 2021 (environ 17h A/R), vos émissions associées (près de 2 tonnes) seront échelonnées sur les 3 dernières années.
 
 transport . avion . court courrier:
   formule: heures de vol * vitesse moyenne * empreinte par km
@@ -75,13 +69,11 @@ transport . avion . court courrier . heures de vol:
   applicable si: usager
   question: Sur une année, combien d'heures voyagez-vous sur des vols de moins de 2h (court-courrier) ?
   description: |
-    Comptez les heures que vous avez passées dans un avion pour des trajets de moins de 2h (ce qui correspond à des vols d'une distance inférieure à 1000km environ). Si vous faites des escales, additionnez simplement les durées de chaque vol.
+    Comptez les heures que vous avez passées dans un avion pour des vols de moins de 2h (pour une distance inférieure à 1000km environ).
 
+    Si vous avez fait Nice-Tokyo *via Paris*, le Nice-Paris est à inclure ici (et le Paris-Tokyo dans les vols longs-courriers).
 
-    Les suggestions sont basées sur la durée minimum arrondie de vol constatée dans les moteurs de recherche, doublée pour considérer un aller-retour.
-
-    💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
-    Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
+    💡 Ne comptez que les km de déplacement personnel.
   suggestions:
     Aucun: 0
     Paris ⇄ Lyon: 2
@@ -140,12 +132,11 @@ transport . avion . moyen courrier . heures de vol:
   applicable si: usager
   question: Sur une année, combien d'heures voyagez-vous sur des vols entre 2 et 6h (moyen-courrier) ?
   description: |
-    Comptez les heures que vous avez passées dans un avion pour des trajets entre 2h et 6h (ce qui correspond à des vols d'une distance comprise entre 1000km et 3500km environ). Si vous faites des escales, additionnez simplement les durées de chaque vol.
+    Comptez les heures que vous avez passées dans un avion pour des trajets entre 2h et 6h.
 
-    Les suggestions sont basées sur la durée minimum arrondie de vol constatée dans les moteurs de recherche, doublée pour considérer un aller-retour.
+    Si vous avez fait un trajet de 8h en deux vols de 4h, ils sont bien à comptabiliser ici.
 
-    💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
-    Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
+    💡 Ne comptez que les km de déplacement personnel.
   suggestions:
     Aucun: 0
     Paris ⇄ Copenhague: 4
@@ -204,14 +195,9 @@ transport . avion . long courrier . heures de vol:
   applicable si: usager
   question: Sur une année, combien d'heures voyagez-vous sur des vols de plus de 6h (long-courrier) ?
   description: |
-    Comptez les heures que vous avez passées dans un avion pour des trajets de plus de 6h (ce qui correspond à des vols d'une distance supérieure à 3500km environ). Si vous faites des escales, additionnez simplement les durées de chaque vol.
+    Pour rappel, si vous avez fait un Nice-Tokyo *via Paris*, renseignez ici le Paris-Tokyo, et dans la partie "court-courrier" le Nice-Paris. Ou si vous avez été à Tokyo en 3 vols de 5h chacun, ils sont à renseigner dans la partie "moyen-courrier".
 
-    A noter que si vous avez voyagé vers une destination lointaine en plusieurs trajets "courts", ils sont à prendre en compte dans les questions précédentes.
-
-    Les suggestions sont basées sur la durée minimum arrondie de vol constatée dans les moteurs de recherche, doublée pour considérer un aller-retour.
-
-    💡 Ne comptez que les km de déplacement personnel et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
-    Par exemple, si vous êtes en mission professionnelle dans un autre pays, cela rentre dans la comptabilité de votre entreprise.
+    💡 Ne comptez que les km de déplacement personnel.
   suggestions:
     Aucun: 0
     Paris ⇄ Kinshasa: 16

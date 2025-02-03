@@ -2,7 +2,7 @@ alimentation . déchets:
   non applicable si: métrique = 'eau'
   icônes: 🚮
   description: |
-    Nous avons rangé ce poste dans la catégorie "Alimentation" car une grande partie de nos déchets ont une origine alimentaire (85% des emballages jetés par 
+    Nous avons rangé ce poste dans la catégorie "Alimentation" car une grande partie de nos déchets ont une origine alimentaire (85% des emballages jetés par
     les ménages sont des emballages alimentaires)
   formule:
     variations:
@@ -16,12 +16,7 @@ alimentation . déchets:
 alimentation . déchets . quantité jetée:
   question: Comment estimeriez-vous la quantité de déchets que vous jetez ?
   description: |
-    > Répondez 'Zéro Déchet' uniquement si vous traquez le moindre déchet.
-
-    Pour en savoir plus sur les modes de vie zéro déchets, visitez le site [Zero Waste France](https://www.zerowastefrance.org/passer-a-laction/adopter-zero-dechet/).
-
-    > Sachez qu'en cas d'engagement "zéro déchet", nous considérons tout de même des émissions de gaz à effet (mais largement réduites) car il est très difficile
-    voire impossible de ne générer aucun déchet, certains étant invisibles et inévitables.
+    Répondez 'Zéro Déchet' uniquement si vous traquez le moindre déchet et ne sortez (quasiment) jamais vos poubelles, et "je limite" sinon (nous vous questionnerons alors sur les actions que vous avez mises en œuvre).
   par défaut: "'base'"
   formule:
     une possibilité:
@@ -215,7 +210,7 @@ alimentation . déchets . gestes . acheter en vrac . présent:
     il s'agira d'approfondir le chiffre issu de [l'étude ADEME sur les gisements d'évitement](https://librairie.ademe.fr/dechets-economie-circulaire/2520-etude-d-evaluation-des-gisements-d-evitement-des-potentiels-de-reduction-de-dechets-et-des-impacts-environnementaux-evites.html)
     donna un potentiel de réduction de 2.4kg/hab/an en consommant en vrac.
 
-    [Une autre étude ADEME](https://librairie.ademe.fr/consommer-autrement/5064-panorama-et-evaluation-environnementale-du-vrac-en-france.html) 
+    [Une autre étude ADEME](https://librairie.ademe.fr/consommer-autrement/5064-panorama-et-evaluation-environnementale-du-vrac-en-france.html)
     plus récente et plus complète est à investiguer pour précisier cet impact.
 
     On pourrait aussi agir directement sur les quantité d'emballages, carton et plastique, des sous postes déchets. (ex alimentation . déchets . gestes . omr . plastiques . quantité)
@@ -247,7 +242,7 @@ alimentation . déchets . gestes . bonus acheter en vrac . gisement réduction:
   unité: kg
   note: |
     Source : Page 47 de [l'étude ADEME](https://librairie.ademe.fr/dechets-economie-circulaire/2520-etude-d-evaluation-des-gisements-d-evitement-des-potentiels-de-reduction-de-dechets-et-des-impacts-environnementaux-evites.html)
-    Basé 11 catégories de produits détaillées ci-dessus, le gisement d’évitement d’emballages visé par l’alternative de la vente en vrac peut être estimé à 2.4 kg/hab./an en 2012 au niveau national. Ces résultats ne concernent qu’un nombre limité de produits, 
+    Basé 11 catégories de produits détaillées ci-dessus, le gisement d’évitement d’emballages visé par l’alternative de la vente en vrac peut être estimé à 2.4 kg/hab./an en 2012 au niveau national. Ces résultats ne concernent qu’un nombre limité de produits,
     mais ce sont ceux qui sont souvent proposés à la vente en vrac. Ces données prennent en compte la suppression de l’emballage du produit par le dispositif de vrac, mais ne prennent pas en compte les contenants proposés aux clients pour cet achat, l’évitement réel de l’action est donc moindre.
 
 alimentation . déchets . gestes . bonus acheter en vrac . empreinte plastique:

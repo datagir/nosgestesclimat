@@ -44,8 +44,6 @@ logement . extérieur:
         barbecue électrique ou gaz . présent: non
         barbecue charbon . présent: oui
   question: Que possédez-vous dans votre extérieur (jardin, balcon) ?
-  description: |
-    Nous essayons ici de couvrir les éléments principaux d'un jardin individuel type. Il manque encore des éléments, qui seront ajoutés progressivement.
   formule:
     variations:
       - si: choix utilisateur
@@ -201,8 +199,8 @@ logement . extérieur . empreinte tondeuse électrique:
 logement . extérieur . part propriétaires tondeuse électrique ou robot:
   formule: 0.5 * 0.5
   note: |
-    Il se vend 700 000 tondeuses chaque année, pour la moitié thermiques. 66% des français vivent en maison, 
-    soit à peu près 20 millions de foyers. Nous pouvons donc supposer que 50% des foyers habitant en maison possède une tondeuse, 
+    Il se vend 700 000 tondeuses chaque année, pour la moitié thermiques. 66% des français vivent en maison,
+    soit à peu près 20 millions de foyers. Nous pouvons donc supposer que 50% des foyers habitant en maison possède une tondeuse,
     dont la durée de vie est de 10 ans.
 
 logement . extérieur . empreinte tondeuse robot:
@@ -261,7 +259,7 @@ logement . extérieur . tondeuse thermique . empreinte au litre:
   unité: kgCO2e/litre
   note: |
     L'essence utilisée dans une tondeuse est généralement du E5 ou E10.
-    Nous utilisons le facteur d'émission de la Base Empreinte. 
+    Nous utilisons le facteur d'émission de la Base Empreinte.
     Pour garder l'indépendance entre les modèles, nous n'appelons pas ici la variable associée à la voiture.
 
 logement . extérieur . empreinte tondeuse thermique:
@@ -312,7 +310,7 @@ logement . extérieur . part propriétaires barbecue électrique ou gaz:
   formule: 0.85 * (1 - 0.37)
   note: |
     D'après [cette source](https://www.esprit-barbecue.fr/blog/des-chiffres-fous-pour-le-marche-du-barbecue/), nous savons que 85% des français possédant un jardin ont un barbecue.
-    Par ailleurs, [cette source[(http://www.bva-xsight.com/wp-content/uploads/2023/03/Weber_Les-Francais-et-le-barbecue_Infographie-2023.pdf)] nous donne la répartition des types de barbecue possédés. 
+    Par ailleurs, [cette source[(http://www.bva-xsight.com/wp-content/uploads/2023/03/Weber_Les-Francais-et-le-barbecue_Infographie-2023.pdf)] nous donne la répartition des types de barbecue possédés.
     Nous comptons ici tous les barbecues sauf ceux au charbon.
 
 logement . extérieur . barbecue charbon:
@@ -335,7 +333,7 @@ logement . extérieur . empreinte moyenne barbecue charbon:
 logement . extérieur . empreinte barbecue charbon:
   formule: empreinte usage barbecue charbon * nombre moyen barbecues par an + empreinte construction barbecue charbon / durée de vie barbecue
   note: |
-    À la différence des barbecues électrique et au gaz, le barbecue au charbon a une empreinte importante liée à l'usage : brûler du charbon pour cuire des aliments rejette une quantité importante de gaz à effet de serre. 
+    À la différence des barbecues électrique et au gaz, le barbecue au charbon a une empreinte importante liée à l'usage : brûler du charbon pour cuire des aliments rejette une quantité importante de gaz à effet de serre.
     Nous comptabilisons donc les deux empreintes, de constrution et d'usage.
   unité: kgCO2e
 

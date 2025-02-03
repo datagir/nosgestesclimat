@@ -16,11 +16,11 @@ transport . vacances:
   question: Quels véhicules possédez-vous pour vos loisirs (hors véhicule principal) ?
   icônes: 🏖
   description: |
-    On vous propose ici de sélectionner ce que vous possédez pour vos vacances. La catégorie "van aménagé" comprend les fourgons et camionettes aménagés.
+    La catégorie "van aménagé" comprend les fourgons et camionettes aménagés.
 
     Si vous avez déjà renseigné les kilomètres parcourus en van aménagé précédemment, en indiquant "véhicule utilitaire léger" comme véhicule principal de déplacement, alors vous pouvez ici cocher "aucun".
 
-    💡 Si vous ne possédez ni camping car, ni caravane, ni van aménagé ou bien si vous les louez, vous pouvez cliquer sur "aucun" juste en dessous de cette question, puis "Suivant". La location n'est pas encore disponible dans notre modèle**.
+    💡 Si vous avez loué un de ces équipements, cochez "aucun". La location n'est pas encore prise en compte dans le calculateur.
   formule:
     somme:
       - caravane
@@ -83,9 +83,9 @@ transport . vacances . caravane . distance:
   question: Quelle distance parcourez-vous à l'année en caravane ?
   par défaut: 6250
   description: |
-    Attention, pour faire ces km en caravane, vous les avez faits avec une voiture : vous devez donc les avoir inclus dans les km voiture (une question à laquelle vous avez probablement déjà répondu).
+    Ces km ont normalement déjà été comptabilisés dans vos km parcourus en voiture.
 
-    💡 Cette question nous sert à appliquer la surconsommation du tractage de votre caravane à une partie de vos km en voiture.
+    💡 Cette question nous sert à appliquer la surconsommation du tractage de votre caravane à ces trajets.
   note: D'après la fédération des campeurs, caravaniers et camping-caristes, un camping-cariste fait en moyenne de 5000 à 7500 km par an ([source](https://ffcc.fr/chiffres-cles/))
   unité: km
 
@@ -159,7 +159,9 @@ transport . vacances . camping car . km:
   applicable si: propriétaire
   question: Quelle distance parcourez-vous à l'année en camping-car ?
   description: |
-    Attention, ces km de camping car ne doivent pas être renseignés dans les km voiture (une question à laquelle vous avez probablement déjà répondu), ce sont deux questions différentes.
+    Attention, ces km de camping car ne doivent pas être renseignés dans les km voiture, ils seraient sinon comptés deux fois.
+
+    Si vous les aviez renseignés côté voiture, vous pouvez revenir en arrière, ou revenir sur cette question à la fin du test via la page Profil.
   par défaut: 8869
   plancher: 0
   plafond: 99999
@@ -220,7 +222,9 @@ transport . vacances . van . km:
   applicable si: propriétaire
   question: Quelle distance parcourez-vous à l'année en van ?
   description: |
-    Attention, ces km en van ne doivent pas être renseignés dans les km voiture (une question à laquelle vous avez probablement déjà répondu), ce sont deux questions différentes.
+    Attention, ces km en van ne doivent pas être renseignés dans les km voiture, ils seraient sinon comptés deux fois.
+
+    Si vous les aviez renseignés côté voiture, vous pouvez revenir en arrière, ou revenir sur cette question à la fin du test via la page Profil.
   par défaut: 9310
   unité: km
   plancher: 0

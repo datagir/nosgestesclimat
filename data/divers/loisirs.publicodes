@@ -29,8 +29,6 @@ divers . loisirs . culture:
         pratique de la musique . présent: non
   question: Quelles sont vos pratiques culturelles ?
   titre: Pratiques culturelles
-  description: |
-    Nous entendons par "pratique culturelle" le fait d'aller au théâtre, au ballet, à l'opéra ou au cinéma, d'assister à du spectacle de rue, de pratiquer d'un instrument ou de visiter un musée ou un parc.
   formule:
     variations:
       - si: choix utilisateur

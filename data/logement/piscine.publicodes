@@ -10,8 +10,6 @@ importer!:
     - piscine . surface:
         applicable si: piscine . type = 'creusée'
         question: Quelle est la taille de votre piscine ?
-        description: |
-          💡 Pensez à prendre en compte **les consommations d'énergie de la piscine dans celles de votre logement**. Votre facture devrait d'ailleurs être fortement impactée si votre piscine est chauffée !
         unité: m2
         suggestions:
           3 x 5 mètres: 15

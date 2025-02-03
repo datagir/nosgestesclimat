@@ -86,11 +86,9 @@ divers . textile . empreinte:
       - petit article
       - gros article
   description: |
-    À vous de nous dire ce que vous avez mis dans vos sacs de shopping cette année, ou dans une année représentative si vous faites rarement les magasins.
+    À ce stade, nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
 
-    > Si vous achetez un pull tous 2 ans, arrondissez à `1`. Si vous achetez un pull tous les 3 ans, arrondissez à `0`.
-
-    Ne renseignez que les produits neufs. Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
+    Les achats dont la fréquence est supérieure à 2 ans sont jugés comme négligeables.
 
   note: |
     Les données d'empreinte carbone et eau sont issues du [simulateur Ecobalyse](https://ecobalyse.beta.gouv.fr/), de l'ADEME.

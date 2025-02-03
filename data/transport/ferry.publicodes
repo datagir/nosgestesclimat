@@ -60,15 +60,9 @@ transport . ferry . empreinte:
       - Modèle de ferry considéré (plan, vitesse moyenne) : [Méga Express Four](https://www.greenferries.org/ships/mega-express-four-9086590/)
 
 transport . ferry . usager:
-  question: Prenez-vous le ferry ?
+  question: Avez-vous pris le ferry cette année ?
   description: |
-    Répondez oui si vous prenez le ferry par exemple pour vous rendre sur les îles ou continents voisins (Corse, Royaume-Uni, Maghreb...).
-
-    Si vous faites des croisières (de longs voyages où vous habitez sur le bateau), répondez également oui : dans un premier temps, nous comptabilisons de la même façon les heures de ferry et de croisière.
-
-    Si vous ne prenez pas le ferry tous les ans, mais que vous comptez continuer à le prendre, répondez "oui" et estimez grossièrement le nombre d'heures ramené à l'année.
-
-    Par exemple pour une traversée de 9h (une nuit) tous les 3 ans, répondez `3`.
+    Répondez également oui si vous êtes part en croisière (de longs voyages où vous habitez sur le bateau) : dans un premier temps, nous comptabilisons de la même façon les heures de ferry et de croisière.
 
 transport . ferry . empreinte moyenne:
   valeur: ferry . empreinte
@@ -91,15 +85,11 @@ transport . ferry . empreinte moyenne . durée moyenne par français:
 
 transport . ferry . heures:
   titre: Heures de ferry dans l'année
-  question: Combien d'heures par an voyagez-vous en ferry ou croisière ?
+  question: Combien d'heures avez-vous passé sur un ferry ?
   description: |
-    Pour l'instant, nous ne prenons pas en compte les options qui peuvent augmenter ou diminuer l'empreinte d'une traversée en ferry : 
-      - voiture embarquée à bord
-      - remplissage de la cabine ou réservation d'un siège
-      - utilisation des services à bord (restaurant, boutiques)
-      - et bien sûr la vitesse du bateau (plus un bateau est rapide, plus il consomme).
+    Pour un usage plutôt de type "croisière", estimez le nombre d'heures passées à vous déplacer au cours de la croisière (la plupart du temps, ces déplacements se déroulent la nuit).
 
-    Le calcul est donc fait pour une traversée type.
+    Si vous connaissez plutôt la distance parcourue, sachez qu'en moyenne, un bateau de croisière avance à une vitesse qui avoisine les 20 nœuds, ou presque 40 km/h. Mettez donc 10h pour 200 milles nautiques, ou 400 km parcourus.
   par défaut: 8
   plancher: 0
   plafond: 800
@@ -109,5 +99,13 @@ transport . ferry . heures:
     Marseille ⇄ 🏝️ Ajaccio: 22
     Marseille ⇄ 🇩🇿 Alger: 50
   note: |
+    Pour l'instant, nous ne prenons pas en compte les options qui peuvent augmenter ou diminuer l'empreinte d'une traversée en ferry :
+      - voiture embarquée à bord
+      - remplissage de la cabine ou réservation d'un siège
+      - utilisation des services à bord (restaurant, boutiques)
+      - et bien sûr la vitesse du bateau (plus un bateau est rapide, plus il consomme).
+
+    Le calcul est donc fait pour une traversée type.
+
     Selon les chiffres du [SDES](https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transport-2021/17-transport-maritime-de-voyageurs),
     les trajets en ferry sont majoritairement effectués sur la Manche / mer du Nord, que l'on peut approximer à des voyages "Cherbourg-Poole" (8h aller-retour).

@@ -27,10 +27,6 @@ logement . chauffage:
   description: |
     > Cette question couvre l'ensemble des sources d'énergie qui vous permet d'alimenter vos chauffages, votre chauffe-eau, vos plaques de cuisson, etc.
 
-    Certains logements utilisent uniquement de l'électricité, d'autres sont entièrement chauffés au gaz, et plus rarement au bois ou au fioul.
-    Dans d'autres situations encore, un logement peut être chauffé principalement via des chauffages électriques ou une pompe à chaleur,
-    mais avec un appoint bois, par exemple. Enfin, il est possible de prendre en compte également vos consommations de gaz pour votre van ou camping-car.
-
     Cochez tous les modes que vous utilisez.
   formule:
     variations:
@@ -154,13 +150,7 @@ logement . chauffage . gaz . biogaz:
   question: Avez-vous souscrit à un contrat gaz incluant du biogaz (ou biométhane) ?
   par défaut: non
   description: |
-    Le biogaz ou biométhane, est un gaz fabriqué à partir de déchets organiques (déchets ménagers, fumier, déchets de pelouse, cultures, etc.), contrairement au gaz fossile aussi appelé de façon trompeuse "naturel", qui lui est extrait comme le pétrole depuis le sous-sol norvégien, russe, etc.
-
-    Depuis quelques années, il est possible de souscrire à un contrat qui garantit l'injection sur le réseau de gaz français de la même quantité de biométhane que sa propre consommation. Le gaz que vous consommez dans votre logement sera de toute façon un mélange principalement composé de la molécule de méthane (CH₄), mais pour chaque kWh de gaz consommé, il aura été injecté "en votre nom" 1 kWh de biométhane.
-
-    > Contrairement au gaz, l'électricité *ne se stocke pas*, c'est pourquoi nous ne proposons pas d'option "électricité verte" dans le simulateur.
-
-    Attention, il existe des offres à 10%, 20% de biométhane seulement, si c'est le cas répondez "non".
+    Attention, il existe des offres à 10%, 20% de biométhane seulement. Si c'est le cas de votre contrat, répondez "non".
 
 logement . chauffage . gaz . avertissement biogaz:
   formule: biogaz
@@ -255,8 +245,7 @@ logement . chauffage . biogaz . part:
   plancher: 0
   plafond: 100
   description: |
-    Il existe peu de vendeurs de gaz proposant des contrats 100% biogaz, mais il en existe (en septembre 2022).
-    Par contre, le premier vendeur de gaz français propose à ses clients une option biogaz avec une proportion reglable moyennant un coût supplémentaire (significatif mais qui ne fait pas non plus doubler la facture). N'hésitez pas à en parler à un conseiller.
+    Vous trouverez certainement cette information dans votre contrat, ou sur l'une de vos factures.
   par défaut: 20%
   unité: '%'
 
@@ -286,8 +275,7 @@ logement . chauffage . bouteille gaz . consommation:
   par défaut: parc français . chauffage . consommation moyenne gaz cuisson / énergie par bouteille
   unité: bouteille
   description: |
-    Pour simplifier la réponse à cette question, nous vous proposons de rentrer directement le nombre de bouteilles de gaz que vous consommez.
-    On considère ici une capacité de 13kg, modèle le plus répandu et généralement utilisé pour le gaz de cuisson.
+    Nous considérons ici que les bouteilles renseignées ont une capacité de 13kg, modèle le plus répandu et généralement utilisé pour le gaz de cuisson.
 
     Si vous souhaitez répondre en kilogrammes, car la taille de la bouteille ne vous correspond pas, n'hésitez pas à utiliser l'aide à la conversion.
   note: |
@@ -646,11 +634,7 @@ logement . chauffage . réseau de chaleur . consommation:
   par défaut: parc français . chauffage . consommation réseau de chaleur par m2 * surface
   unité: kWh
   description: |
-    Le contenu carbone du kWh de chaleur issu d'un réseau de chaleur dépend fortement du réseau auquel vous êtes raccordé.
-
-    Pour le moment, nous nous basons sur un facteur d'émission moyen : nous avons fait le choix de ne pas vous demander votre adresse.
-
-    Astuce : Vous trouverez vos consommations annuelles d'énergie sur vos factures ou sur votre compte en ligne sur le site de votre fournisseur.
+    Vous trouverez vos consommations annuelles d'énergie sur vos factures ou sur votre compte en ligne sur le site de votre fournisseur.
 
     > Il se peut que votre copropriété ne vous communique pas la consommation en kWh de votre logement, quand la chaudière est centralisée. Cela dit, elle doit vous fournir le montant en €, que vous pourrez saisir ci-dessous pour estimer vos kWh.
 

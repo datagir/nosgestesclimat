@@ -14,7 +14,7 @@ transport . transports commun:
   question: Quels transports en commun utilisez-vous régulièrement (au moins une fois par mois) ?
   icônes: 🚋
   description: |
-    S'il vous est arrivé de faire un trajet en bus pendant vos vacances cette année, nous le considérerons comme négligeable.
+    Les trajets plus ponctuels sont considérés comme négligeables.
   formule:
     somme:
       - bus

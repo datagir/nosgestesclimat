@@ -25,7 +25,7 @@ logement . vacances:
   question: Comment êtes-vous hébergé pour vos week-ends, vos vacances ?
   icônes: 🏖
   description: |
-    Renseignez ici les différents types de logement que vous occupez pour vos voyages (**motif personnel**).
+    Renseignez ici les différents types de logement que vous occupez pour vos voyages (à motif **personnel**).
 
     > 💡 Si vous ne partez jamais en week-end ou en vacances, vous pouvez cliquer sur "aucun" juste en dessous de cette question, puis "Suivant".
   note: |
@@ -204,10 +204,8 @@ logement . vacances . empreinte hotel par nuit:
 
 logement . vacances . hotel . nombre de nuitées:
   non applicable si: hotel . présent = non
-  question: Combien de nuits passez-vous à l'hôtel ou chambre d'hôtes par an ?
+  question: Combien de nuits passez-vous à l'hôtel ou en chambre d'hôtes par an ?
   unité: nuit
-  description: |
-    💡 Déclarez ici les nuits passées dans un hôtel, une chambre privée ou chambre d'hôtes.
   plancher: 0
   plafond: 365
   par défaut: moyenne
@@ -258,8 +256,6 @@ logement . vacances . camping . nombre de nuitées:
   non applicable si: camping . présent = non
   question: Combien de nuits passez-vous en camping par an ?
   unité: nuit
-  description: |
-    💡 Déclarez ici les nuits passées en camping (tente, hamac, bungalow...).
   plancher: 0
   plafond: 365
   par défaut: moyenne
@@ -313,8 +309,6 @@ logement . vacances . auberge de jeunesse . nombre de nuitées:
   non applicable si: auberge de jeunesse . présent = non
   question: Combien de nuits passez-vous en auberge de jeunesse par an ?
   unité: nuit
-  description: |
-    💡 Déclarez ici les nuits passées en auberge de jeunesse (dortoir).
   plancher: 0
   plafond: 365
   par défaut: moyenne
@@ -371,7 +365,7 @@ logement . vacances . locations . nombre de nuitées:
   question: Combien de nuits passez-vous en locations meublées par an ?
   unité: nuit
   description: |
-    💡 Déclarez ici les nuits passées en location meublée (Airbnb, Abritel...).
+    💡 Déclarez ici les nuits réservées via des platerformes de type Airbnb, Abritel...
   plancher: 0
   plafond: 365
   par défaut: moyenne
@@ -409,8 +403,6 @@ logement . vacances . échange:
 
 logement . vacances . échange . présent:
   question: Pratiquez-vous l'échange de maison ?
-  description: |
-    💡 Déclarez ici les nuits passées en échange de maison (HomeExchange, SwitchHome...).
 
 logement . vacances . échange . empreinte par nuit:
   formule: 3.52
@@ -423,7 +415,7 @@ logement . vacances . échange . nombre de nuitées:
   question: Combien de nuits passez-vous en échange de maison par an ?
   unité: nuit
   description: |
-    💡 Déclarez ici les nuits passées en échange de maison (HomeExchange, SwitchHome...)
+    💡 Comptez toutes les nuits, même si les échanges ne sont pas simultanés.
   plancher: 0
   plafond: 365
   par défaut: moyenne
@@ -489,7 +481,7 @@ logement . vacances . résidence secondaire . présent:
   question: Possédez-vous une résidence secondaire ?
   note: |
     Pour le moment, nous n'attribuons l'empreinte de la maison secondaire qu'aux propriétaires,
-    et non "une partie" de l'empreinte à tous les français.
+    et non "une partie" de l'empreinte à tous les usagers de résidences secondaires.
 
 logement . vacances . résidence secondaire . empreinte moyenne:
   formule: empreinte moyenne construction + empreinte moyenne énergie
@@ -626,7 +618,7 @@ logement . vacances . résidence secondaire . durée:
         nuitées week end . nombre: 0
         nuitées semaine . nombre: 8
   question: Combien de temps passez-vous dans votre résidence secondaire chaque année ?
-  description: Ne renseignez bien que le temps que vous y passez vous. Si votre résidence secondaire est utilisée par d'autres (famille, amis), l'empreinte associée à cet usage leur est imputé.
+  description: Ne renseignez bien que le temps que vous y passez vous.
   formule:
     somme:
       - nuitées week end

@@ -101,8 +101,8 @@ divers . numérique . internet . empreinte horaire:
   note: C'est une hypothèse forte car nous considérons ici les empreintes de mix électrique français.
 
 divers . numérique . internet . durée journalière:
-  question: Combien d'heures passez-vous par jour sur internet hors bureau (envoi de mails, surf Web, streaming vidéo, etc.) ?
-  description: Comptez seulement une estimation à la louche de vos heures d'utilisation personnelle (soir, week-end) car ce que vous faites au travail entre dans la comptabilité de votre entreprise ou organisation.
+  question: Combien d'heures passez-vous par jour sur Internet hors bureau (envoi de mails, surf Web, streaming vidéo, etc.) ?
+  description: Les heures liées à votre activité professionnelle ne doivent pas être comptabilisées.
   unité: h/jour
   plancher: 0
   plafond: 16
@@ -169,12 +169,9 @@ divers . numérique . appareils:
         imprimante . nombre: 0
   question: Quels appareils numériques possédez-vous ?
   description: |
-    Certains appareils sont partagés dans le foyer (TV, ordinateur fixe...), d'autres personnels (téléphone ...): c'est pris en compte dans le calcul !
+    L'empreinte des **appareils partagés** au niveau du foyer (télévision ou ordinateur fixe par exemple) est **divisée par le nombre d'habitants**.
 
-    > ✨️ Par simplicité, ne renseignez que les appareils récents : une TV âgée de plus de 10 ans a déjà été bien amorti.
-
-    > 📡 Nous améliorerons prochainement le modèle pour prendre en compte les appareils reconditionnés.
-    > Pour le moment, nous vous conseillons de les ajouter ici même le bénéfice de cet achat par rapport au neuf ne sera pas visible dans le calcul.
+    L'empreinte des **appareils individuels** (comme le téléphone portable) vous est **attribuée personnellement**.
   note: |
     Cette catégorie est un peu particulière au niveau de l'amortissement. En effet, à l'inverse de l'ameublement ou l'on considère que tout est partagé au sein du foyer,
     ici, certains appareils sont partagés alors que d'autres sont considérés comme étant individuels.

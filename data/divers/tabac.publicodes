@@ -25,9 +25,6 @@ divers . tabac . consommation par semaine:
     💡 Renseignez ici votre consommation de paquets de cigarettes par semaine. On considère qu'un paquet contient 20 cigarettes.
     Si vous fumez des roulées, pensez à adapter votre calcul.
 
-    À noter que l'impact du tabac n'est pas seulement carbone : il est à l'origine de déforestation, de l'utilisation importante d'eau et de terres agricoles !
-
-    > Pour le moment, nous ne considérons que les cigarettes classiques.
     > La cigarette électronique n'est pas encore prise en compte dans nos calculs, faute de données !
   plancher: 0
   plafond: 21
@@ -45,7 +42,7 @@ divers . tabac . consommation par semaine:
     Le prix d'un paquet de cigarettes en 2017 était de [7,05 euros en moyenne](https://www.toutsurmesfinances.com/argent/a/prix-du-tabac-2017-2018-en-france-historique-et-augmentation).
     Pour un ménage de 2,2 personnes (moyenne française), et à raison de 20 cigarettes par paquet, un Français moyen consomme donc environ 520 cigarettes par an, soit 26 paquets par an, soit un demi-paquet par semaine !
 
-    > Autre source de données: d'après [Santé Publique France](https://www.santepubliquefrance.fr/determinants-de-sante/tabac/donnees/#tabs), 
+    > Autre source de données: d'après [Santé Publique France](https://www.santepubliquefrance.fr/determinants-de-sante/tabac/donnees/#tabs),
     un fumeur consomme en moyenne 12,7 cigarettes par jour, soit 4636 cigarettes par jour, ce qui est équivalent à 65 kgCO2e par an. Néanmoins, ce chiffre n'est pas pris en compte dans le calcul.
 
     Avec les hypothèses présentées en début de paragraphe, on attribue une moyenne de 7 kgCO2e environ à chacun des Français.
